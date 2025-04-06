@@ -9,15 +9,15 @@
 
 <hr>
 
-<h1 align="center">Aplicaciones para Dispositivos Móviles</h1>
+<h1 align="center">Desarrollo de Soluciones IOT</h1>
 
-<h2 align="center"><strong>Sección:</strong> SW63 </h2>
+<h2 align="center"><strong>NRC:</strong> 2942 </h2>
 
-<p align="center"><strong>Profesor:</strong> Jorge Luis Mayta Guillermo</p>
+<p align="center"><strong>Profesor:</strong> Marco Antonio Leon Baca</p>
 
-<h2 align="center"><strong>Informe de TB4</strong> </h2>
+<h2 align="center"><strong>Informe de TB1</strong> </h2>
 
-<p align="center"><strong>Nombre del startup:</strong> NinjaCode</p>
+<p align="center"><strong>Nombre del startup:</strong> toIOTa</p>
 
 <p align="center"><strong>Nombre del producto:</strong> HormonalCare</p>
 
@@ -28,14 +28,13 @@
 | Member                            |    Code    |
 | :-------------------------------- | :--------: |
 | Claudio Sandro Quispesivana Torres| U202215099 |
-| Jherson David Astuyauri Calderon  | U202218451 |
 | Estefano Sebastian Lostaunau Pereira | U202211742 |
 | Luis Sebastian Chinchihualpa Saldarriaga | U202212112 |
 
 
-<h3 align="center"><strong>Agosto 2024</strong></h3>
+<h3 align="center"><strong>Marzo 2025</strong></h3>
 
-<p align="center">Github: https://github.com/UPC-SW63-Aplicaciones-moviles-NinjaCode</p>
+<p align="center">Github: https://github.com/upc-pre-202510-1asi0572-2942-toIOTa</p>
 </div>
 
 
