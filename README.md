@@ -49,6 +49,13 @@
 </div>
 
 
+## Project Report Collaboration Insights 
+
+<div>
+
+TB1:
+
+</div>
 
 ## Contenido
 
@@ -948,9 +955,11 @@ El **As Is scenario mapping** es una herramienta que analiza y documenta el esta
 https://miro.com/app/board/uXjVKaoDitI=/
 
 
-### 2.4.      Requirements specification.
+### 2.4.      Ubiquitous Language.
 
-### 2.4.1. To-Be Scenario Mapping.
+## CAPÍTULO III: REQUIREMENTS SPECIFICATION
+
+### 3.1. To-Be Scenario Mapping.
 
 To-Be Scenario Mapping es una técnica que ayuda a visualizar el futuro ideal de un proceso al identificar y planificar mejoras. Permite mapear cómo se resolverán los problemas actuales y cómo se implementarán nuevas soluciones para optimizar la eficiencia y la experiencia de los usuarios.
 
@@ -964,7 +973,7 @@ Nuestro equipo, durante el proceso de elaboración del mapa "To Be" involucró l
 https://miro.com/app/board/uXjVKaoDitI=/
 
 
-### 2.4.2. User Stories.
+### 3.2. User Stories.
 En la siguiente tabla, se presentan las User Stories junto con sus criterios de aceptación correspondientes para nuestro proyecto "HormonalCare". Las User Stories representan las funcionalidades clave que se desean implementar en la aplicación para mejorar la experiencia de los usuarios, tanto pacientes como médicos endocrinólogos. 
 
 
@@ -1042,7 +1051,7 @@ En la siguiente tabla, se presentan las User Stories junto con sus criterios de 
 |**US58|Gestión de Identidad y Acceso|Como desarrollador, necesito implementar el endpoint de gestión de identidad y acceso, para permitir que los usuarios gestionen sus cuentas y permisos.| Escenario 1: Registro de un nuevo usuario<p>Dado que un nuevo usuario desea registrarse en el sistema,</p><p>Cuando envía una solicitud POST con la información de registro al endpoint /identity/register,</p><p>Entonces el sistema guarda la nueva cuenta de usuario en la base de datos y confirma la operación con una respuesta de éxito.</p> Escenario 2: Inicio de sesión de un usuario<p>Dado que un usuario desea iniciar sesión en el sistema,</p><p>Cuando envía una solicitud POST con sus credenciales al endpoint /identity/login,</p><p>Entonces el sistema verifica las credenciales y, si son correctas, devuelve un token de autenticación y una respuesta de éxito.</p> Escenario 3: Obtener la información de perfil del usuario<p>Dado que un usuario desea ver la información de su perfil,</p><p>Cuando envía una solicitud GET al endpoint /identity/profile,</p><p>Entonces el sistema devuelve la información del perfil del usuario autenticado.</p> Escenario 4: Actualizar la información de perfil del usuario<p>Dado que un usuario desea actualizar la información de su perfil,</p><p>Cuando envía una solicitud PUT con los datos actualizados al endpoint /identity/profile,</p><p>Entonces el sistema actualiza la información del perfil del usuario en la base de datos y devuelve una respuesta de éxito.</p> Escenario 5: Cambiar la contraseña del usuario<p>Dado que un usuario desea cambiar su contraseña,</p><p>Cuando envía una solicitud POST con la nueva contraseña al endpoint /identity/changePassword,</p><p>Entonces el sistema actualiza la contraseña del usuario en la base de datos y devuelve una respuesta de éxito.</p> Escenario 6: Eliminar una cuenta de usuario<p>Dado que un usuario desea eliminar su cuenta,</p><p>Cuando envía una solicitud DELETE al endpoint /identity/deleteAccount,</p><p>Entonces el sistema elimina la cuenta de usuario correspondiente de la base de datos y confirma la eliminación con una respuesta de éxito.</p>|Epic005|
 
 
-### 2.4.3. Impact Mapping.
+### 3.3. Impact Mapping.
 
 Impact Mapping es una técnica ágil que ayuda a visualizar cómo las acciones del proyecto contribuyen a los objetivos clave. Permite al equipo alinear su trabajo con los resultados esperados, asegurando que cada tarea tenga un impacto positivo en el éxito del proyecto.
 
@@ -1052,7 +1061,7 @@ Impact Mapping es una técnica ágil que ayuda a visualizar cómo las acciones d
 Enlace Impact Mapping: https://miro.com/welcomeonboard/MVB5ZGxBeFhzREJkNVNFUEI4RDdGbk56RE5uaXFNODcyZFRnYVgxOFpVOFpwbTFyQmhkb2FDUUtmUjRKRHBDWXwzNDU4NzY0NTIzMzkyNDIwOTIzfDI=?share_link_id=582763360215
 
 
-### 2.4.4. Product Backlog.
+### 3.4. Product Backlog.
 
 Para elaborar nuestro **product backlog**, utilizamos la escala Fibonacci (1, 2, 3, 5, ...), donde los **story points** asignados a cada historia de usuario representan la complejidad y el esfuerzo requerido. Las historias están ordenadas por prioridad, asegurando que las tareas más críticas se aborden primero. La historia de usuario base seleccionada por el grupo es la **US016**, ya que consideramos que su nivel de complejidad, frecuencia y riesgo es intermedio, lo que la convierte en una buena referencia para estimar otras historias.
 
@@ -1122,95 +1131,252 @@ Para elaborar nuestro **product backlog**, utilizamos la escala Fibonacci (1, 2,
 <img src="images/product-backlog-new.png" >
 https://trello.com/invite/b/66EkeO8t/ATTI7681f5c932b9217761b0224c0051dd4cC0E965E5/product-backlog-hormonalcare
 
-## CAPÍTULO III: ARCHITECTURE
+## CAPÍTULO IV: SOLUTION SOFTWARE DESIGN
 
-### 3.2. Architecture Overview
-#### 3.2.1. Domain-Driven Software Architecture
-##### 3.2.1.1. Software Architecture Context Level Diagram
-**Diagrama de contexto:**
+### 4.1. Strategic-Level Domain-Driven Design
+
+#### 4.1.1. EventStorming
+
+##### 4.1.1.1. Candidate Context Discovery
+
+_(Contenido por completar)_
+
+##### 4.1.1.2. Domain Message Flows Modeling
+
+_(Contenido por completar)_
+
+##### 4.1.1.3. Bounded Context Canvases
+
+_(Contenido por completar)_
+
+#### 4.1.2. Context Mapping
+
+_(Contenido por completar)_
+
+#### 4.1.3. Software Architecture
+
+##### 4.1.3.2. Software Architecture Context Level Diagrams  
+**Diagrama de contexto:**  
 <img src="images/contextnew.png">
 
-##### 3.2.1.1. Software Architecture Container Level Diagram
-**Diagrama de contenedores:**
-
+##### 4.1.3.3. Software Architecture Container Level Diagrams  
+**Diagrama de contenedores:**  
 <img src="images/containernew.png">
 
-##### 3.2.1.1. Software Architecture Components Diagram
-**API REST component diagram:**
+##### 4.1.3.4. Software Architecture Deployment Diagrams  
+En esta sección se representan los distintos diagramas de despliegue de los Bounded Contexts del sistema, que reemplazan a los antiguos diagramas de componentes.
 
-<img src="images/apirestnew.png">
-
-**Medical Appointment BC Component Diagram:**
-
-<img src="images/medicalappointmentnew.png">
-
-**Calendar BC Component Diagram:**
-
-<img src="images/calendarnew.png">
-
-**History Medical BC Component Diagram:**
-
-<img src="images/History medical component diagram.png">
-
-**Notification BC Component Diagram:**
-
-<img src="images/notificationnew.png">
-
-**Indentity & Access BC Component Diagram:**
-
+**IAM BC Deployment Diagram:**  
 <img src="images/indentity-and-access.png">
 
-**Profile BC Component Diagram:**
-
+**Profile BC Deployment Diagram:**  
 <img src="images/profiles-component.png">
 
-**Communication BC Component Diagram:**
+**Medical Record BC Deployment Diagram:**  
+<img src="images/History medical component diagram.png">
 
-<img src="images/communicationnew.png">
+**Appointment BC Deployment Diagram:**  
+<img src="images/medicalappointmentnew.png">
 
-**Subscription and Payments BC Component Diagram:**
-
+**Payments BC Deployment Diagram:**  
 <img src="images/subscription-and-payments.png">
 
-#### 3.2.2. Software Object-Oriented Design
-##### 3.2.2.1. Class Diagrams
-<div align="center"><img src="images/classDiagram.png"></div>
+**Notification BC Deployment Diagram:**  
+<img src="images/notificationnew.png">
 
+**Communication BC Deployment Diagram:**  
+<img src="images/communicationnew.png">
 
-##### 3.2.2.2. Class Dictionary
+---
 
-|Class|Description|
-| :- | :- |
-|Doctor|The Doctor class represents physicians specialized in endocrinology who use the "HormonalCare" application. Doctors can access the platform to manage patient treatment, schedule appointments, review medical records, and communicate with other doctors and patients.|
-|User|The User class represents users of the "HormonalCare" application. This class encapsulates common characteristics and behaviors shared by both patients and doctors within the system.|
-|Patient|This class represents patients within the "HormonalCare" application system. This class inherits from the User class and adds properties and methods specific to managing patient information and interactions.|
-|Request|This class contains requests made by patients within the application. This class stores detailed information about each request, including the requested date and time for the appointment, the reason for the medical appointment, the current status of the request, etc. |
-|Calendar|This class provides functionalities for managing medical appointments and events within the application. This class allows for scheduling, viewing, and managing events related to patient healthcare.|
-|Disease|This class represents different types of diseases, such as flu, diabetes, or hypertension. Each disease has a unique identifier and name. Medical consultations are related to diseases, meaning that when you visit the doctor for a disease, that disease is recorded.|
-|Result|This class handles the results of your medical tests, such as blood tests or X-rays. Each result has a unique number, a date, and the result of the examination. Results are related to your medical consultations. It provides the option to view and add the result.|
-|Laboratory|Here, medical laboratories where your tests are performed are registered. Each laboratory has an identifying number and a name. Test results come from these laboratories.	|
-|Treatment|Represents the treatments you receive for a disease. For example, if you are diagnosed with diabetes, treatment could include diet changes and medication. Each treatment has a unique number and type. Treatments that the doctor deems appropriate can be recorded.|
-|Medication|This includes the medications that are part of your treatment. Each medication has an identifying number, a generic name, and a brand. Medications are associated with the treatments you receive and can be recorded depending on the doctor's needs.|
-|Reminder|The Reminder class manages reminders within the system. It contains a unique identifier and descriptive content specifying the task or event to be remembered. It offers functionalities to set and receive reminder notifications.|
-|MedicalConsultation|The Medical_Consultation class records medical consultations performed in the application. Each consultation has a unique identifier and an associated date. This class allows displaying relevant information about the consultation and adding additional details about the medical encounter.|
-|Prescription|Here, medical prescriptions generated for patients are managed. It includes information such as the type of prescription, the name, the price, and associated benefits. It allows viewing, recording, and deleting medical prescriptions within the system.|
-|MedicationReminder|The Medication_Reminder class manages reminders related to patient medication. It contains details such as reminder days, daily frequency, and instructions. It offers functionalities to record reminders and send notifications related to medication.|
+### 4.2. Tactical-Level Domain-Driven Design
 
+#### 4.2.1. Bounded Context: IAM
 
+##### 4.2.1.1. Domain Layer  
+_(Contenido por completar)_
 
-##### 3.2.2.1. Database Design
-##### 3.2.2.1. Database Diagram
-Profile Diagram
-<div align="center"><img src="images/profileclassdiagram.png"></div>
+##### 4.2.1.2. Interface Layer  
+_(Contenido por completar)_
 
-Appointment Diagram
-<div align="center"><img src="images/appointmentClassDiagram.png"></div>
+##### 4.2.1.3. Application Layer  
+_(Contenido por completar)_
 
-Medical Record Diagram
-<div align="center"><img src="images/medicalRecordClassDiagram.png"></div>
+##### 4.2.1.4. Infrastructure Layer  
+_(Contenido por completar)_
 
-Database Diagram
-<div align="center"><img src="images/databaseDiagram.png"></div>
+##### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams  
+_(Contenido por completar)_
+
+##### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams  
+
+###### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams  
+_(Contenido por completar)_
+
+###### 4.2.1.6.2. Bounded Context Database Design Diagram  
+_(Contenido por completar)_
+
+---
+
+#### 4.2.2. Bounded Context: Profile
+
+##### 4.2.2.1. Domain Layer  
+_(Contenido por completar)_
+
+##### 4.2.2.2. Interface Layer  
+_(Contenido por completar)_
+
+##### 4.2.2.3. Application Layer  
+_(Contenido por completar)_
+
+##### 4.2.2.4. Infrastructure Layer  
+_(Contenido por completar)_
+
+##### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams  
+_(Contenido por completar)_
+
+##### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams  
+
+###### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams  
+_(Contenido por completar)_
+
+###### 4.2.2.6.2. Bounded Context Database Design Diagram  
+_(Contenido por completar)_
+
+---
+
+#### 4.2.3. Bounded Context: MedicalRecord
+
+##### 4.2.3.1. Domain Layer  
+_(Contenido por completar)_
+
+##### 4.2.3.2. Interface Layer  
+_(Contenido por completar)_
+
+##### 4.2.3.3. Application Layer  
+_(Contenido por completar)_
+
+##### 4.2.3.4. Infrastructure Layer  
+_(Contenido por completar)_
+
+##### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams  
+_(Contenido por completar)_
+
+##### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams  
+
+###### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams  
+_(Contenido por completar)_
+
+###### 4.2.3.6.2. Bounded Context Database Design Diagram  
+_(Contenido por completar)_
+
+---
+
+#### 4.2.4. Bounded Context: Appointment
+
+##### 4.2.4.1. Domain Layer  
+_(Contenido por completar)_
+
+##### 4.2.4.2. Interface Layer  
+_(Contenido por completar)_
+
+##### 4.2.4.3. Application Layer  
+_(Contenido por completar)_
+
+##### 4.2.4.4. Infrastructure Layer  
+_(Contenido por completar)_
+
+##### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams  
+_(Contenido por completar)_
+
+##### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams  
+
+###### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams  
+_(Contenido por completar)_
+
+###### 4.2.4.6.2. Bounded Context Database Design Diagram  
+_(Contenido por completar)_
+
+---
+
+#### 4.2.5. Bounded Context: Payments
+
+##### 4.2.5.1. Domain Layer  
+_(Contenido por completar)_
+
+##### 4.2.5.2. Interface Layer  
+_(Contenido por completar)_
+
+##### 4.2.5.3. Application Layer  
+_(Contenido por completar)_
+
+##### 4.2.5.4. Infrastructure Layer  
+_(Contenido por completar)_
+
+##### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams  
+_(Contenido por completar)_
+
+##### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams  
+
+###### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams  
+_(Contenido por completar)_
+
+###### 4.2.5.6.2. Bounded Context Database Design Diagram  
+_(Contenido por completar)_
+
+---
+
+#### 4.2.6. Bounded Context: Notification
+
+##### 4.2.6.1. Domain Layer  
+_(Contenido por completar)_
+
+##### 4.2.6.2. Interface Layer  
+_(Contenido por completar)_
+
+##### 4.2.6.3. Application Layer  
+_(Contenido por completar)_
+
+##### 4.2.6.4. Infrastructure Layer  
+_(Contenido por completar)_
+
+##### 4.2.6.5. Bounded Context Software Architecture Component Level Diagrams  
+_(Contenido por completar)_
+
+##### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams  
+
+###### 4.2.6.6.1. Bounded Context Domain Layer Class Diagrams  
+_(Contenido por completar)_
+
+###### 4.2.6.6.2. Bounded Context Database Design Diagram  
+_(Contenido por completar)_
+
+---
+
+#### 4.2.7. Bounded Context: Communication
+
+##### 4.2.7.1. Domain Layer  
+_(Contenido por completar)_
+
+##### 4.2.7.2. Interface Layer  
+_(Contenido por completar)_
+
+##### 4.2.7.3. Application Layer  
+_(Contenido por completar)_
+
+##### 4.2.7.4. Infrastructure Layer  
+_(Contenido por completar)_
+
+##### 4.2.7.5. Bounded Context Software Architecture Component Level Diagrams  
+_(Contenido por completar)_
+
+##### 4.2.7.6. Bounded Context Software Architecture Code Level Diagrams  
+
+###### 4.2.7.6.1. Bounded Context Domain Layer Class Diagrams  
+_(Contenido por completar)_
+
+###### 4.2.7.6.2. Bounded Context Database Design Diagram  
+_(Contenido por completar)_
 
 
 ## Conclusiones
