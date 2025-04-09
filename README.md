@@ -1189,6 +1189,10 @@ _(Contenido por completar)_
 
 #### 4.1.3. Software Architecture
 
+##### 4.1.3.1. Software Architecture  System Landscape Diagram  
+**Diagrama de contexto:**  
+<img src="images/contextnew.png">
+
 ##### 4.1.3.2. Software Architecture Context Level Diagrams  
 **Diagrama de contexto:**  
 <img src="images/contextnew.png">
