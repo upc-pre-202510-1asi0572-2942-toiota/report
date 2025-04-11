@@ -1185,7 +1185,9 @@ _(Contenido por completar)_
 
 #### 4.1.2. Context Mapping
 
-_(Contenido por completar)_
+<img src="images/context mapping.png">
+
+https://miro.com/app/board/uXjVIERm9g8=/?share_link_id=539637623176
 
 #### 4.1.3. Software Architecture
 
