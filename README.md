@@ -361,7 +361,7 @@ Logo del Producto:
 | **CLAUDIO SANDRO QUISPESIVANA TORRES** | <img src="images/perfilsandero.png" alt="Sandro Quispesivana" width="1000" height="170">                                                    |
 | **INGENIERIA DE SOFTWARE**  |                                                              |
 | **U202215099**              |                                                              |
-| Hola, soy Sandro Quispesivana. Tengo 19 años, actualmente estoy cursando el sexto ciclo de la carrera de Ingeniería de Software. Podría decir que los conocimientos que mejor se me dan son la programación orientada a objetos para muchos tipos de lenguajes, mi agilidad en la creación de base de datos, el uso de herramientas para el desarrollo de FrontEnd como lo puede ser HTML, CSS y un poco de JavaScript, y capaz mi enfoque empresarial de querer nutrir en una gran variedad de mercados y marcar un antes y un después. Las habilidades que me más me representan son la responsabilidad y el ingenio que me nace en problemas serios.| 
+| Hola, soy Sandro Quispesivana. Tengo 20 años, actualmente estoy cursando el sexto ciclo de la carrera de Ingeniería de Software. Podría decir que los conocimientos que mejor se me dan son la programación orientada a objetos para muchos tipos de lenguajes, mi agilidad en la creación de base de datos, el uso de herramientas para el desarrollo de FrontEnd como lo puede ser HTML, CSS y un poco de JavaScript, y capaz mi enfoque empresarial de querer nutrir en una gran variedad de mercados y marcar un antes y un después. Las habilidades que me más me representan son la responsabilidad y el ingenio que me nace en problemas serios.| 
 
 |                             |                                                              |
 |-----------------------------|--------------------------------------------------------------|
@@ -375,7 +375,7 @@ Logo del Producto:
 | **ESTÉFANO SEBASTIÁN LOSTAUNAU PEREIRA** | <img src="images/EstefanoLostaunau.png"  width="800" height="140" alt="Estefano Lostaunau">                                                    |
 | **INGENIERIA DE SOFTWARE**  |                                                              |
 | **U202211742**              |                                                              |
-| Hola, soy Estéfano Lostaunau. Tengo 19 años, actualmente curso el sexto ciclo de la carrera de Ingeniería de Software. Estudié esta carrera por sus diversos enfoques con los que cuenta. Me gusta la programación y se programar en C++, Python y WEB. Mis conocimientos contribuirán al equipo para desarrollar las actividades propuestas. Me considero una persona responsable, colaborativa y perfeccionista.  |
+| Hola, soy Estéfano Lostaunau. Tengo 20 años, actualmente curso el sexto ciclo de la carrera de Ingeniería de Software. Estudié esta carrera por sus diversos enfoques con los que cuenta. Me gusta la programación y se programar en C++, Python y WEB. Mis conocimientos contribuirán al equipo para desarrollar las actividades propuestas. Me considero una persona responsable, colaborativa y perfeccionista.  |
 
 
    
