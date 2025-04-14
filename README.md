@@ -1173,7 +1173,8 @@ https://trello.com/invite/b/66EkeO8t/ATTI7681f5c932b9217761b0224c0051dd4cC0E965E
 ## CAPÍTULO IV: SOLUTION SOFTWARE DESIGN
 
 ### 4.1. Strategic-Level Domain-Driven Design
-
+![image](https://github.com/user-attachments/assets/47a55acd-37f6-41eb-b4bc-c717d1b70b22)
+https://miro.com/app/board/uXjVICCoJ1Y=/?share_link_id=374839324168
 #### 4.1.1. EventStorming
 
 ##### 4.1.1.1. Candidate Context Discovery
