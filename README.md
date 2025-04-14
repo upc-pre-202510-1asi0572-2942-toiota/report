@@ -362,7 +362,12 @@ Logo del Producto:
 | **INGENIERIA DE SOFTWARE**  |                                                              |
 | **U202215099**              |                                                              |
 | Hola, soy Sandro Quispesivana. Tengo 20 años, actualmente estoy cursando el sexto ciclo de la carrera de Ingeniería de Software. Podría decir que los conocimientos que mejor se me dan son la programación orientada a objetos para muchos tipos de lenguajes, mi agilidad en la creación de base de datos, el uso de herramientas para el desarrollo de FrontEnd como lo puede ser HTML, CSS y un poco de JavaScript, y capaz mi enfoque empresarial de querer nutrir en una gran variedad de mercados y marcar un antes y un después. Las habilidades que me más me representan son la responsabilidad y el ingenio que me nace en problemas serios.| 
-
+|                             |                                                              |
+|-----------------------------|--------------------------------------------------------------|
+| **Sergio Joel Pecan Pariona** | <img src="images/perfilSergio.jpg" width="700" height="150" alt="Sergio">                                                 |
+| **INGENIERIA DE SOFTWARE**  |                                                              |
+| **U202212112**              |                                                              |
+| Mi nombre es Sergio y estudio Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Me gusta mucho la tecnología y cómo se puede usar para resolver problemas del mundo real. A lo largo de la carrera he aprendido varios lenguajes de programación como Python, Java, C++, JavaScript y SQL, que me han permitido desarrollar diferentes tipos de proyectos. Me interesa especialmente el desarrollo web y la arquitectura de software, y en el futuro me gustaría trabajar en proyectos innovadores que mejoren la vida de las personas.| 
 |                             |                                                              |
 |-----------------------------|--------------------------------------------------------------|
 | **LUIS SEBASTIAN CHINCHIHUALPA SALDARRIAGA** | <img src="images/perfilLuis.jpg" width="700" height="150" alt="Luis Chinchihualpa">                                                 |
