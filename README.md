@@ -30,7 +30,7 @@
 | Claudio Sandro Quispesivana Torres| U202215099 |
 | Estefano Sebastian Lostaunau Pereira | U202211742 |
 | Luis Sebastian Chinchihualpa Saldarriaga | U202212112 |
-
+| Sergio Joel Pecan Pariona | U202212112 |
 
 <h3 align="center"><strong>Marzo 2025</strong></h3>
 
