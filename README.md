@@ -382,6 +382,12 @@ Logo del Producto:
 | **U202211742**              |                                                              |
 | Hola, soy Estéfano Lostaunau. Tengo 20 años, actualmente curso el sexto ciclo de la carrera de Ingeniería de Software. Estudié esta carrera por sus diversos enfoques con los que cuenta. Me gusta la programación y se programar en C++, Python y WEB. Mis conocimientos contribuirán al equipo para desarrollar las actividades propuestas. Me considero una persona responsable, colaborativa y perfeccionista.  |
 
+|                             |                                                              |
+|-----------------------------|--------------------------------------------------------------|
+| **André Sebastian La torre Soto** | <img src="images/"  width="800" height="140" alt="Andre Sebastian">                                                    |
+| **INGENIERIA DE SOFTWARE**  |                                                              |
+| **U202217772**              |                                                              |
+| Hola soy André Sebastián La torre Soto, actualmente me encuentro en el séptimo ciclo de la carrera de Ingeniería de Software. Durante mi transcurso en la universidad he logrado aprender acerca de varios lenguajes y herramientas como pueden ser Python, C++, JavaScript, SQL, desarrollo web y móvil. Elegí esta carrera por mi afinidad con las matemáticas y las nuevas tecnologías. Soy alguien que disfruta el aprender y mejorar lo aprendido, a pesar de que esto a veces resulte difícil. Espero poder aportar de manera positiva en este grupo para que juntos todos podamos alcanzar nuestras metas.|
 
    
 ### 1.2. Solution Profile
