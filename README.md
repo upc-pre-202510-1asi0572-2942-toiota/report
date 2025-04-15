@@ -381,7 +381,6 @@ Logo del Producto:
 | **INGENIERIA DE SOFTWARE**  |                                                              |
 | **U202211742**              |                                                              |
 | Hola, soy Estéfano Lostaunau. Tengo 20 años, actualmente curso el sexto ciclo de la carrera de Ingeniería de Software. Estudié esta carrera por sus diversos enfoques con los que cuenta. Me gusta la programación y se programar en C++, Python y WEB. Mis conocimientos contribuirán al equipo para desarrollar las actividades propuestas. Me considero una persona responsable, colaborativa y perfeccionista.  |
-
 |                             |                                                              |
 |-----------------------------|--------------------------------------------------------------|
 | **André Sebastian La torre Soto** | <img src="images/"  width="800" height="140" alt="Andre Sebastian">                                                    |
