@@ -213,7 +213,7 @@ TB1:
 
 [4.2.3.6.2. Bounded Context Database Design Diagram](#42362-database-design-diagram)  
 
-[4.2.4. Bounded Context: Appointment](#424-bounded-context-appointment)  
+[4.2.4. Bounded Context: Payments](#424-bounded-context-payments)  
 
 [4.2.4.1. Domain Layer](#4241-domain-layer)  
 
@@ -231,7 +231,7 @@ TB1:
 
 [4.2.4.6.2. Bounded Context Database Design Diagram](#42462-database-design-diagram)  
 
-[4.2.5. Bounded Context: Payments](#425-bounded-context-payments)  
+[4.2.5. Bounded Context: Notification](#425-bounded-context-notification)  
 
 [4.2.5.1. Domain Layer](#4251-domain-layer)  
 
@@ -249,7 +249,7 @@ TB1:
 
 [4.2.5.6.2. Bounded Context Database Design Diagram](#42562-database-design-diagram)  
 
-[4.2.6. Bounded Context: Notification](#426-bounded-context-notification)  
+[4.2.6. Bounded Context: Communication](#426-bounded-context-communication)  
 
 [4.2.6.1. Domain Layer](#4261-domain-layer)  
 
@@ -267,23 +267,6 @@ TB1:
 
 [4.2.6.6.2. Bounded Context Database Design Diagram](#42662-database-design-diagram)  
 
-[4.2.7. Bounded Context: Communication](#427-bounded-context-communication)  
-
-[4.2.7.1. Domain Layer](#4271-domain-layer)  
-
-[4.2.7.2. Interface Layer](#4272-interface-layer)  
-
-[4.2.7.3. Application Layer](#4273-application-layer)  
-
-[4.2.7.4. Infrastructure Layer](#4274-infrastructure-layer)  
-
-[4.2.7.5. Bounded Context Software Architecture Component Level Diagrams](#4275-component-level-diagrams)  
-
-[4.2.7.6. Bounded Context Software Architecture Code Level Diagrams](#4276-code-level-diagrams)  
-
-[4.2.7.6.1. Bounded Context Domain Layer Class Diagrams](#42761-domain-layer-class-diagrams)  
-
-[4.2.7.6.2. Bounded Context Database Design Diagram](#42762-database-design-diagram)  
 
 
 
@@ -1345,7 +1328,7 @@ _(Contenido por completar)_
 
 ---
 
-#### 4.2.4. Bounded Context: Appointment
+#### 4.2.4. Bounded Context: Payments
 
 ##### 4.2.4.1. Domain Layer  
 _(Contenido por completar)_
@@ -1372,7 +1355,7 @@ _(Contenido por completar)_
 
 ---
 
-#### 4.2.5. Bounded Context: Payments
+#### 4.2.5. Bounded Context: Notification
 
 ##### 4.2.5.1. Domain Layer  
 _(Contenido por completar)_
@@ -1399,7 +1382,7 @@ _(Contenido por completar)_
 
 ---
 
-#### 4.2.6. Bounded Context: Notification
+#### 4.2.6. Bounded Context: Communication
 
 ##### 4.2.6.1. Domain Layer  
 _(Contenido por completar)_
@@ -1424,32 +1407,6 @@ _(Contenido por completar)_
 ###### 4.2.6.6.2. Bounded Context Database Design Diagram  
 _(Contenido por completar)_
 
----
-
-#### 4.2.7. Bounded Context: Communication
-
-##### 4.2.7.1. Domain Layer  
-_(Contenido por completar)_
-
-##### 4.2.7.2. Interface Layer  
-_(Contenido por completar)_
-
-##### 4.2.7.3. Application Layer  
-_(Contenido por completar)_
-
-##### 4.2.7.4. Infrastructure Layer  
-_(Contenido por completar)_
-
-##### 4.2.7.5. Bounded Context Software Architecture Component Level Diagrams  
-_(Contenido por completar)_
-
-##### 4.2.7.6. Bounded Context Software Architecture Code Level Diagrams  
-
-###### 4.2.7.6.1. Bounded Context Domain Layer Class Diagrams  
-_(Contenido por completar)_
-
-###### 4.2.7.6.2. Bounded Context Database Design Diagram  
-_(Contenido por completar)_
 
 
 ## Conclusiones
