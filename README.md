@@ -1209,39 +1209,19 @@ https://miro.com/app/board/uXjVIERm9g8=/?share_link_id=539637623176
 
 ##### 4.1.3.1. Software Architecture  System Landscape Diagram  
 **Diagrama de contexto:**  
-<img src="images/contextnew.png">
+<img src="images/chapter 4 software architecture/system landscape diagram.png">
 
 ##### 4.1.3.2. Software Architecture Context Level Diagrams  
 **Diagrama de contexto:**  
-<img src="images/contextnew.png">
+<img src="images/chapter 4 software architecture/context level diagrams.png">
 
 ##### 4.1.3.3. Software Architecture Container Level Diagrams  
 **Diagrama de contenedores:**  
-<img src="images/containernew.png">
+<img src="images/chapter 4 software architecture/container level diagram.png">
 
 ##### 4.1.3.4. Software Architecture Deployment Diagrams  
-En esta sección se representan los distintos diagramas de despliegue de los Bounded Contexts del sistema, que reemplazan a los antiguos diagramas de componentes.
-
-**IAM BC Deployment Diagram:**  
-<img src="images/indentity-and-access.png">
-
-**Profile BC Deployment Diagram:**  
-<img src="images/profiles-component.png">
-
-**Medical Record BC Deployment Diagram:**  
-<img src="images/History medical component diagram.png">
-
-**Appointment BC Deployment Diagram:**  
-<img src="images/medicalappointmentnew.png">
-
-**Payments BC Deployment Diagram:**  
-<img src="images/subscription-and-payments.png">
-
-**Notification BC Deployment Diagram:**  
-<img src="images/notificationnew.png">
-
-**Communication BC Deployment Diagram:**  
-<img src="images/communicationnew.png">
+**Diagrama deployment:**
+<img src="images/chapter 4 software architecture/deployment diagram.png">
 
 ---
 
@@ -1277,27 +1257,75 @@ _(Contenido por completar)_
 #### 4.2.2. Bounded Context: Profile
 
 ##### 4.2.2.1. Domain Layer  
-_(Contenido por completar)_
+La capa de dominio define los conceptos esenciales del perfil de usuario, las reglas de negocio y los objetos de valor que rigen su comportamiento.
+
+- Entidad Profile: Representa el núcleo del perfil de un usuario, encapsulando datos personales como nombre, género, fecha de nacimiento, número de teléfono, imagen y una referencia al usuario. Sus atributos están modelados mediante objetos de valor que aseguran integridad y consistencia de datos.
+
+- Value Objects:
+
+   - PersonName: Compuesto por firstName y lastName, encapsula el nombre completo del usuario.
+   - Gender: Representa el género del usuario.
+   - Birthday: Encapsula la fecha de nacimiento.
+   - PhoneNumber: Maneja y valida el número telefónico del perfil.
+
+- Commands: Modelan las intenciones de modificar el estado del perfil.
+
+   - CreateProfileCommand: Solicita la creación de un nuevo perfil.
+   - UpdateProfileCommand: Permite modificar los atributos del perfil.
+   - UpdateProfileImageCommand: Actualiza la imagen del perfil.
+   - UpdateProfilePhoneNumberCommand: Cambia el número telefónico del perfil.
+
+- Queries: Representan las solicitudes de lectura del estado del sistema.
+   - GetAllProfilesQuery, GetProfileByIdQuery, GetProfileByNameQuery, GetProfileByPhoneNumberQuery, GetProfileByUserIdQuery: Consultas específicas para recuperar perfiles usando distintos criterios.
 
 ##### 4.2.2.2. Interface Layer  
-_(Contenido por completar)_
+Coordina la lógica de negocio de alto nivel, orquesta los servicios del dominio y actúa como puente entre la capa de presentación y el dominio.
+
+- Servicios de Comando:
+
+   - ProfileCommandService (y su implementación ProfileCommandServiceImpl): Expone métodos para crear y actualizar perfiles. Utiliza los comandos definidos en la capa de dominio y delega la lógica al agregado Profile.
+
+- Servicios de Consulta:
+
+   - ProfileQueryService (y su implementación ProfileQueryServiceImpl): Maneja todas las operaciones de lectura de información de perfiles, retornando perfiles individuales o listas según las consultas.
 
 ##### 4.2.2.3. Application Layer  
-_(Contenido por completar)_
+Expone la funcionalidad del contexto a través de controladores REST, y traduce las solicitudes HTTP en comandos o queries del dominio. También contiene las clases que transforman entre recursos externos (DTOs) y modelos internos.
+
+- Controlador REST:
+
+   - ProfileController: Gestiona las peticiones entrantes relacionadas con perfiles, y las canaliza hacia los servicios correspondientes.
+
+- Recursos (DTOs):
+
+   - CreateProfileResource, UpdateProfileResource, UpdateProfileImageResource, UpdateProfilePhoneNumberResource: Representan los datos entrantes/salientes que viajan entre el cliente y el servidor.
+
+- Assemblers:
+
+   - Clases como CreateProfileCommandFromResourceAssembler y ProfileResourceFromEntityAssembler convierten entre DTOs y comandos/entidades, encapsulando la lógica de transformación de datos.
+
+- ACL (Anti-Corruption Layer):
+
+   - ProfileContextFacade: Sirve como una fachada para abstraer y proteger la lógica de dominio de posibles efectos colaterales de otros contextos o servicios externos.
 
 ##### 4.2.2.4. Infrastructure Layer  
-_(Contenido por completar)_
+Contiene los componentes técnicos responsables de persistencia, integración y acceso a datos.
+
+- Repositorio:
+
+   - ProfileRepository: Define la interfaz para acceder a datos de perfil, típicamente implementada con JPA. Se encarga de operaciones CRUD sobre la entidad Profile.
+
 
 ##### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams  
-_(Contenido por completar)_
+<img src="images/chapter 4 tactic design/BC Profile Software Architecture Component Level Diagrams .png">
 
 ##### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams  
 
 ###### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams  
-_(Contenido por completar)_
+<img src="images/chapter 4 tactic design/domain PROFILE tactico.png">
 
 ###### 4.2.2.6.2. Bounded Context Database Design Diagram  
-_(Contenido por completar)_
+<img src="images/chapter 4 tactic design/profile db diagram.png">
 
 ---
 
