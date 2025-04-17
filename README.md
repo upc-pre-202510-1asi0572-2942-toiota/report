@@ -1385,54 +1385,167 @@ _(Contenido por completar)_
 #### 4.2.5. Bounded Context: Notification
 
 ##### 4.2.5.1. Domain Layer  
-_(Contenido por completar)_
+La capa de dominio define los conceptos esenciales del sistema de notificaciones, encapsulando la lógica de negocio relacionada con las alertas y mensajes enviados a los usuarios.
+
+-  Aggregates:
+   -  Notification: La agregación principal que representa una notificación enviada a un usuario. Contiene título, mensaje, estado y referencia al destinatario.
+-  Value Objects:
+   -  State: Enumeración que representa el estado de la notificación (UNREAD, READ).
+-  Commands:
+   -  CreateNotificationCommand: Instrucción para crear una nueva notificación con destinatario.
+   -  UpdateNotificationStateCommand: Cambia el estado de una notificación (ej. de no leída a leída).
+   -  DeleteNotificationCommand: Elimina una notificación existente.
+-  Queries: Representan solicitudes para recuperar notificaciones.
+   -  GetNotificationByIdQuery: Obtiene una notificación específica por su identificador.
+   -  GetAllNotificationsByRecipientIdQuery: Recupera todas las notificaciones para un destinatario específico.
 
 ##### 4.2.5.2. Interface Layer  
-_(Contenido por completar)_
+Esta capa implementa los servicios que orquestan las operaciones del dominio de notificaciones.
+
+-  Servicios de Comando:
+   -  NotificationCommandService: Define la interfaz para manipular el estado de las notificaciones.
+   -  NotificationCommandServiceImpl: Implementación que procesa comandos para crear, actualizar estados y eliminar notificaciones.
+-  Servicios de Consulta:
+   -  NotificationQueryService: Define la interfaz para recuperar notificaciones.
+   -  NotificationQueryServiceImpl: Implementación que maneja consultas para obtener notificaciones por ID o por destinatario.
 
 ##### 4.2.5.3. Application Layer  
-_(Contenido por completar)_
+Provee puntos de entrada externos para el sistema de notificaciones, exponiendo la funcionalidad a través de REST.
+
+-  Controlador REST:
+   -  NotificationController: Expone endpoints para crear, consultar, actualizar estado y eliminar notificaciones.
+-  Recursos (DTOs):
+   -  CreateNotificationResource: Datos para crear una notificación.
+   -  NotificationResource: Representación externa de una notificación.
+   -  UpdateNotificationStateResource: Datos para actualizar el estado de una notificación.
+-  Assemblers:
+   -  CreateNotificationCommandFromResourceAssembler: Convierte DTOs en comandos de creación.
+   -  UpdateNotificationStateCommandFromResourceAssembler: Transforma DTOs en comandos de actualización.
+   -  NotificationResourceFromEntityAssembler: Transforma entidades de dominio en DTOs para la respuesta.
 
 ##### 4.2.5.4. Infrastructure Layer  
-_(Contenido por completar)_
+Implementa los mecanismos de persistencia y acceso a datos específicos para el sistema de notificaciones.
+
+-  Repositorios:
+   -  NotificationRepository: Interfaz JPA que define operaciones de persistencia para notificaciones, incluyendo métodos específicos como findByRecipientId para recuperar notificaciones por destinatario.
+-  Persistencia:
+   -  La entidad Notification se persiste como una tabla relacional en MySQL, utilizando JPA y Hibernate como ORM.
+   -  La tabla contiene campos para título, mensaje, estado (representado como enumeración almacenada como String) y el ID del destinatario.
+   -  Los estados temporales y de auditoría como fechas de creación y modificación son heredados de la clase base AuditableAbstractAggregateRoot.
+-  Integración con Eventos:
+   -  El sistema de notificaciones actúa como receptor de eventos generados por otros bounded contexts (por ejemplo, cuando se envían mensajes o se crean citas).
+   -  Los manejadores de eventos crean notificaciones automáticamente en respuesta a eventos del negocio.
 
 ##### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams  
-_(Contenido por completar)_
+<img src="images/chapter 4 tactic design/notification-softwarearchitecture.png">
 
 ##### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams  
 
 ###### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams  
-_(Contenido por completar)_
+<img src="images/chapter 4 tactic design/notification-domainlayerclass.svg">
+Link: https://www.mermaidchart.com/raw/81696949-e02b-4eae-8366-e0235bb72c99?theme=light&version=v0.1&format=svg
 
 ###### 4.2.5.6.2. Bounded Context Database Design Diagram  
-_(Contenido por completar)_
+<img src="images/chapter 4 tactic design/notification-designdiagram.png">
 
 ---
 
 #### 4.2.6. Bounded Context: Communication
 
 ##### 4.2.6.1. Domain Layer  
-_(Contenido por completar)_
+La capa de dominio de Communication define las entidades centrales, reglas y eventos para el manejo de mensajes entre usuarios del sistema.
+
+- Aggregates:
+   -  Conversation: Representa una conversación entre dos participantes. Contiene un conjunto de IDs de participantes, un registro del último mensaje y marcas temporales. Implementa métodos para actualizar el estado del último mensaje y verificar participantes.
+   -  Message: Encapsula un mensaje individual dentro de una conversación. Contiene el ID de la conversación, remitente, destinatario, contenido y estado del mensaje. Implementa métodos para cambiar estados como markAsDelivered(), markAsRead() y markAsDeleted().
+- Value Objects:
+   -  MessageStatus: Enumeración que representa los posibles estados de un mensaje.
+   -  ProfileId: Encapsula y valida el ID del perfil de un usuario, proporcionando seguridad de tipos.
+-  Commands:
+   -  CreateConversationCommand: Solicita la creación de una nueva conversación entre dos perfiles.
+   -  SendMessageCommand: Solicita el envío de un mensaje en una conversación existente.
+   -  UpdateMessageStatusCommand: Actualiza el estado de un mensaje.
+   -  DeleteMessageCommand: Marca un mensaje como eliminado.
+-  Queries:
+   -  GetConversationByIdQuery: Obtiene una conversación por su ID.
+   -  GetConversationsByProfileIdQuery: Obtiene todas las conversaciones de un perfil.
+   -  GetMessagesByConversationIdQuery: Obtiene todos los mensajes de una conversación.
+   -  GetMessageByIdQuery: Obtiene un mensaje específico por su ID.
+-  Events:
+   -  MessageSentEvent: Se publica cuando un mensaje es enviado, capturando el ID del mensaje, remitente, destinatario y conversación.
+   -  MessageReadEvent: Se publica cuando un mensaje es marcado como leído.
+-  Domain Services:
+   -  ConversationCommandService: Define operaciones para crear y modificar conversaciones.
+   -  ConversationQueryService: Define operaciones de consulta sobre conversaciones.
+   -  MessageCommandService: Define operaciones para enviar, actualizar estado y eliminar mensajes.
+   -  MessageQueryService: Define operaciones de consulta sobre mensajes.
+
 
 ##### 4.2.6.2. Interface Layer  
-_(Contenido por completar)_
+La capa de interfaz coordina las operaciones del dominio y proporciona implementaciones concretas de los servicios.
+
+-  Command Services:
+   -  ConversationCommandServiceImpl: Implementa ConversationCommandService, realizando validaciones sobre los participantes y manteniendo la consistencia de las conversaciones.
+   -  MessageCommandServiceImpl: Implementa MessageCommandService, gestionando el envío de mensajes, actualizaciones de estado, y publicación de eventos de notificación.
+-  Query Services:
+   -  ConversationQueryServiceImpl: Implementa ConversationQueryService, recuperando conversaciones del repositorio por diferentes criterios.
+   -  MessageQueryServiceImpl: Implementa MessageQueryService, recuperando mensajes y aplicando filtros para excluir mensajes eliminados.
+-  Enrichment Services:
+   -  ConversationEnricherService: Enriquece los datos de conversaciones con información de perfil de los participantes.
+   -  MessageEnricherService: Enriquece los mensajes con información de perfil del remitente y destinatario.
 
 ##### 4.2.6.3. Application Layer  
-_(Contenido por completar)_
+La capa de aplicación expone la funcionalidad a través de APIs REST y gestiona transformaciones de datos.
+
+-  Controllers:
+   -  ConversationController: Gestiona endpoints para creación y consulta de conversaciones, devolviendo datos enriquecidos con información de perfil.
+   -  MessageController: Gestiona endpoints para mensajes, incluyendo envío, consulta y cambios de estado.
+-  Resources:
+   -  ConversationResource: Representa datos básicos de conversación en respuestas API.
+   -  EnrichedConversationResource: Versión enriquecida con datos de perfil de participantes.
+   -  MessageResource: Representa datos básicos de mensaje en respuestas API.
+   -  EnrichedMessageResource: Versión enriquecida con datos de perfil de remitente y destinatario.
+   CreateConversationResource: Captura datos para crear conversación.
+   -  SendMessageResource: Captura datos para enviar mensaje.
+   -  UpdateMessageStatusResource: Captura nuevo estado para mensaje.
+   -  ParticipantResource: Representa datos de participante con nombre e imagen.
+-  Transformers:
+   -  ConversationResourceFromEntityAssembler: Convierte entidades de conversación a recursos.
+   -  MessageResourceFromEntityAssembler: Convierte entidades de mensaje a recursos.
+   CreateConversationCommandFromResourceAssembler: Convierte solicitudes de creación a comandos.
+   -  SendMessageCommandFromResourceAssembler: Convierte solicitudes de envío a comandos.
+   -  UpdateMessageStatusCommandFromResourceAssembler: Convierte solicitudes de actualización a comandos.
+-  Anti-Corruption Layer (ACL):
+   -  CommunicationExternalProfileService: Sirve como capa anticorrupción para acceder al contexto de perfil, proporcionando:
+-  Event Handlers:
+   -  NotificationCreatorOnMessageSent: Escucha eventos MessageSentEvent y crea notificaciones para el destinatario, integrando con el contexto de notificaciones.
 
 ##### 4.2.6.4. Infrastructure Layer  
-_(Contenido por completar)_
+La capa de infraestructura proporciona implementaciones concretas para persistencia y configuración, adaptada específicamente para el almacenamiento NoSQL de mensajería.
+
+-  Repositories:
+   -  ConversationRepository: Extiende MongoRepository para la persistencia de conversaciones en MongoDB.
+   -  MessageRepository: Gestiona la persistencia de mensajes.
+
+-  Configuración MongoDB:
+   - MongoConfig: Clase de configuración que establece:
+      -  Conexión a la base de datos MongoDB.
+      -  Auditoría automática.
+      -  Conversión personalizada para tipos específicos del dominio.
+      -  Creación y gestión de índices automática.
+
 
 ##### 4.2.6.5. Bounded Context Software Architecture Component Level Diagrams  
-_(Contenido por completar)_
+<img src="images/chapter 4 tactic design/communication-softwarearchitecture.png">
 
 ##### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams  
 
 ###### 4.2.6.6.1. Bounded Context Domain Layer Class Diagrams  
-_(Contenido por completar)_
+<img src="images/chapter 4 tactic design/communication_domainlayerclass.svg">
+Link: https://www.mermaidchart.com/raw/920dbbea-c482-47bf-88b1-fc08576fb622?theme=light&version=v0.1&format=svg
 
 ###### 4.2.6.6.2. Bounded Context Database Design Diagram  
-_(Contenido por completar)_
+<img src="images/chapter 4 tactic design/communication-designdiagram.png">
 
 
 
