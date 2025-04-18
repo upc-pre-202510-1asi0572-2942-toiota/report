@@ -1541,7 +1541,7 @@ La capa de infraestructura proporciona implementaciones concretas para persisten
 ##### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams  
 
 ###### 4.2.6.6.1. Bounded Context Domain Layer Class Diagrams  
-<img src="images/chapter 4 tactic design/communication_domainlayerclass.svg">
+<img src="images/chapter 4 tactic design/communication-domainlayerclass.svg">
 Link: https://www.mermaidchart.com/raw/920dbbea-c482-47bf-88b1-fc08576fb622?theme=light&version=v0.1&format=svg
 
 ###### 4.2.6.6.2. Bounded Context Database Design Diagram  
