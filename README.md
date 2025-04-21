@@ -1238,22 +1238,38 @@ https://miro.com/app/board/uXjVIERm9g8=/?share_link_id=539637623176
 
 ### 4.2. Tactical-Level Domain-Driven Design
 
-#### 4.2.1. Bounded Context: IAM
+#### 4.2.1. Bounded Context: IAM (Identity & Access Management)
 
-##### 4.2.1.1. Domain Layer  
-_(Contenido por completar)_
+##### 4.2.1.1. Domain Layer
+| Clase                  | Propósito                                                                 | Atributos                                                                 | Métodos                                                                 | Relaciones                     |
+|------------------------|---------------------------------------------------------------------------|---------------------------------------------------------------------------|-------------------------------------------------------------------------|--------------------------------|
+| **Usuario** (Entity)   | Representa la identidad de usuarios (pacientes, médicos, admins).        | `- id: UUID`<br>`- email: String`<br>`- passwordHash: String`<br>`- rol: Enum[Rol]`<br>`- activo: boolean` | `+ cambiarPassword()`<br>`+ asignarRol()` | Asociación con `Rol` y `Sesion` |
+| **Rol** (Value Object) | Define permisos asociados a roles.                                       | `- nombre: String`<br>`- permisos: List<Permiso>`                        | `+ tienePermiso()`                                                     | Usado por `Usuario`            |
+| **AutenticacionService** | Coordina lógica de autenticación/autorización.                          | *Sin atributos*                                                          | `+ autenticar()`<br>`+ autorizar()`                                    | Usa `UsuarioRepository`        |
 
-##### 4.2.1.2. Interface Layer  
-_(Contenido por completar)_
+##### 4.2.1.2. Interface Layer
+| Clase                  | Propósito                                                                 | Atributos                      | Métodos                                                                 | Relaciones                     |
+|------------------------|---------------------------------------------------------------------------|--------------------------------|-------------------------------------------------------------------------|--------------------------------|
+| **AuthController**     | Expone endpoints REST para IAM.                                          | `- autenticacionService`       | `@PostMapping("/login")`<br>`@PostMapping("/registro")`                | Consume `AutenticacionService` |
+| **JwtTokenFilter**     | Valida tokens JWT en solicitudes HTTP.                                   | `- jwtUtil`                    | `doFilterInternal()`                                                   | Usa `JwtUtil`                 |
 
-##### 4.2.1.3. Application Layer  
-_(Contenido por completar)_
+##### 4.2.1.3. Application Layer
+| Clase                          | Propósito                                                                 | Atributos                      | Métodos                                                                 | Relaciones                     |
+|--------------------------------|---------------------------------------------------------------------------|--------------------------------|-------------------------------------------------------------------------|--------------------------------|
+| **RegistrarUsuarioHandler**    | Maneja el comando `RegistrarUsuarioCommand`.                             | `- usuarioRepository`          | `handle()`                                                             | Publica `UsuarioRegistradoEvent` |
+| **UsuarioRegistradoEventHandler** | Reacciona a eventos de registro (ej: enviar email).                     | `- emailService`               | `onUsuarioRegistrado()`                                               | Suscrito a `UsuarioRegistradoEvent` |
 
-##### 4.2.1.4. Infrastructure Layer  
-_(Contenido por completar)_
+##### 4.2.1.4. Infrastructure Layer
+| Clase                  | Propósito                                                                 | Atributos                      | Métodos                                                                 | Relaciones                     |
+|------------------------|---------------------------------------------------------------------------|--------------------------------|-------------------------------------------------------------------------|--------------------------------|
+| **UsuarioRepositoryImpl** | Implementa `UsuarioRepository` para acceso a DB.                        | `- entityManager`              | `findByEmail()`<br>`guardar()`                                         | Implementa interfaz de Domain Layer |
+| **JwtUtil**            | Genera/valida tokens JWT.                                                | `- secretKey`                  | `generarToken()`<br>`validarToken()`                                   | Usado por `JwtTokenFilter`     |
 
-##### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams  
-_(Contenido por completar)_
+##### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
+
+ <img src="images/levelDiagramIam.png" width="700" height="150" alt="iam">
+
+
 
 ##### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams  
 
