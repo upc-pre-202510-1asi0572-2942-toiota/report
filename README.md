@@ -760,8 +760,9 @@ Propone un seguimiento remoto para reducir la necesidad de citas presenciales, e
 ***Paciente 2:***
 | Datos del paciente: | Entrevista |
 |---|---|
-|  <p>Nombres:   </p> <p>Apellidos: </p> <p> Edad: </p> <p> Localidad: </p> <p> Timing:</p> <p> Duración:  </p> <p style="max-width: 350px;"> Link: <a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201a938_upc_edu_pe/EWOQfe2fRKdBgs7PGz-VsvkB9ZMJdgLD7jOrLKUO2DduDQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=MahkYZ" title="Title">Microsoft Stream</p></p>| <img src="" width=400> |
-| Resumen: <p> El paciente ... </p>| 
+|  <p>Nombres:   </p> <p>Apellidos: Pariona </p> <p> Edad: 43 </p> <p> Localidad:  San Juan de Lurigancho, Lima.
+ </p> <p> Timing:1:50 </p> <p> Duración: 7:38  </p> <p style="max-width: 350px;"> Link: <a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201a938_upc_edu_pe/EWOQfe2fRKdBgs7PGz-VsvkB9ZMJdgLD7jOrLKUO2DduDQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=MahkYZ" title="Title">Microsoft Stream</p></p>| <img src="images/paciente2png.png" width=400> |
+| Resumen: <p> Yudi, de 43 años, vive en San Juan de Lurigancho (Lima) y tiene diabetes tipo 2 desde hace 5 años. Aunque se esfuerza por controlar su condición, enfrenta desafíos como la adherencia a la dieta, el olvido de medicamentos y la irregularidad en sus controles de glucosa. Sus citas médicas suelen retrasarse, y ha tenido experiencias negativas en emergencias por demoras en la atención. </p>| 
 
 
 ***Paciente 3:***
