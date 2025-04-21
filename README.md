@@ -1111,67 +1111,81 @@ Enlace Impact Mapping: https://miro.com/welcomeonboard/MVB5ZGxBeFhzREJkNVNFUEI4R
 
 Para elaborar nuestro **product backlog**, utilizamos la escala Fibonacci (1, 2, 3, 5, ...), donde los **story points** asignados a cada historia de usuario representan la complejidad y el esfuerzo requerido. Las historias están ordenadas por prioridad, asegurando que las tareas más críticas se aborden primero. La historia de usuario base seleccionada por el grupo es la **US016**, ya que consideramos que su nivel de complejidad, frecuencia y riesgo es intermedio, lo que la convierte en una buena referencia para estimar otras historias.
 
-|#Orden|User Story Id|Titulo|Descripción|Story points (1/2/3/5/8)|
-| - | - | - | - | - |
-|01|US01|Visualización del Header.  |Como como visitante deseo observar un header con varias secciones para conocer más sobre el producto.|3|
-|02|US02|Información sobre Planes o Suscripciones.|Como como visitante deseo observar una sección con información de los planes o suscripciones de la app para elegir el que mejor se ajusta a mi situación.|2|
-|03|US03|Visualización del footer en la landing page.|Como visitante, quiero acceder rápidamente a información relevante sobre la aplicación para informarme o revisar información adicional.|1|
-|04|US04|Conocer la misión y visión de la aplicación.|Como visitante deseo conocer más sobre la misión, visión y valores de la empresa detrás de la aplicación.|2|
-|05|US05|Comunicación directa con el equipo de soporte.|Como visitante de la aplicación, deseo poder comunicarme directamente con el equipo de soporte para solucionar problemas técnicos o comentarios sobre la plataforma.|2|
-|06|US47|Visualización de la Historia Clínica del paciente por parte del médico.|Como médico quiero poder visualizar una historia clínica con campos como datos del paciente, motivo de consulta, antecedentes, exámenes médicos, reportes externos y diagnósticos y tratamiento, vinculada al paciente para poder tener un registro del paciente y brindar una mejor atención.|3|
-|07|US48|Ingreso de información y edición de la historia clínica del paciente por parte del médico.|Como médico quiero poder ingresar y editar la información de la historia clínica de mi paciente para poder tener la información actualizada de la historia clínica.|5|
-|08|US23|Ver la medicación del paciente.|Como médico quiero ver la medicación dispuesta a cada paciente para verificar o cambiar la receta médica.|3|
-|09|US49|Diagnóstico y tratamiento.|Como médico quiero poder añadir Diagnósticos y tratamiento a mi paciente para tener un registro detallado de su evolución.|3|
-|10|US29|Ver el historial médico de un paciente.|Como médico deseo ver el historial médico de mi paciente para garantizar un tratamiento óptimo.|3|
-|11|US12|Selección de Rol.|Como usuario de "HormonalCare" deseo poder elegir el rol de paciente o médico para utilizar la app según mis necesidades.|2|
-|12|US10|Registro de usuario|Como usuario de "HormonalCare" quiero poder registrarme en la aplicación para guardar mi cuenta en la plataforma.|2|
-|13|US14|Agendar cita con médico endocrinólogo para usuarios totalmente nuevos.|Como paciente quiero poder agendar una cita con un médico endocrinólogo que me parezca adecuado tanto en precio como en calificación para poder recibir el tratamiento de mi enfermedad hormonal de manera remota.|3|
-|14|US25|Agendar una cita con el paciente.|Como médico quiero agendar una cita médica a un paciente que ya se atiende conmigo para continuar con el tratamiento.|3|
-|15|US31|Asignación de Paciente a Otro Médico con Programación de Cita por parte del Médico.|Como médico, cuando estoy visualizando el perfil de otro médico en la plataforma y deseo asignarle un paciente, quiero tener la capacidad de seleccionar al paciente deseado y luego ver los horarios disponibles del médico para programar una cita con el paciente asignado.|5|
-|16|US37|Agendar cita con el médico especialista	|Como paciente nuevo quiero ver y elegir el horario disponible del médico para poder agendar mi cita|3|
-|17|US43|Ver próximas citas.|Como paciente, quiero poder visualizar mis próximas citas médicas programadas, para poder estar preparado y organizado para mis consultas.|3|
-|18|US44|Enlace de videoconferencias|Como médico quiero poder acceder a la videollamada programada para poder atender a mi paciente.|3|
-|19|US08|Integración de Google Calendar para visualizar citas médicas y medicamentos.|<p>Como desarrollador,</p><p>Necesito integrar Google Calendar en nuestra aplicación médica</p><p>Para permitir que los usuarios visualicen sus citas médicas programadas y los horarios de medicación.</p>|5|
-|20|US11|Inicio de sesión con cuenta de HormonalCare|Como usuario de "HormonalCare" quiero iniciar sesión con mi cuenta registrada para acceder a mis configuraciones de forma rápida y segura.|1|
-|21|US18|Médico asigna a paciente y programa una cita con un colega.|Como medico quiero poder realizar un traslado de paciente a otro médico para que pueda tener un horario más flexible.|3|
-|22|US20|Ver lista de pacientes del día.|Como médico deseo ver los pacientes del día para tener una cita médica más eficiente.|1|
-|23|US27|Visualización y Gestión de Horario por parte del Médico.|Como médico, quiero poder ver mi horario con eventos programados y tener la capacidad de crear nuevos eventos según sea necesario, para organizar eficientemente mis actividades diarias y administrar mi agenda profesional de manera efectiva.|5|
-|24|US41|Ver calendario paciente.|Como paciente, quiero poder ver mi calendario para revisar mis citas programadas y los medicamentes que debo tomar a qué hora.|3|
-|25|US13|Recuperación de contraseña|Como usuario de "HormonalCare" quiero recuperar mi contraseña para mantener mi cuenta.|3|
-|26|` `US15|Subir resultados de exámenes médicos de laboratorio por parte del paciente.|Como paciente quiero poder cargar mis resultados de laboratorio para que mi medico los lea y me recete un determinado tratamiento para mi enfermedad hormonal.|1|
-|27|US19|Ver información detallada de los pacientes.|Como medico quiero poder tener de manera organizada los resultados de mis pacientes para que pueda llevar un registro más detallado de su tratamiento.|3|
-|28|US24|Ver los exámenes a evaluar.|Como médico deseo observar los exámenes que tengo que evaluar de cada paciente para personalizar su tratamiento.	|3|
-|29|US06|Integración de Twilio para comunicación por chat entre pacientes y doctores.|<p>Como desarrollador,</p><p>Necesito integrar Twilio en nuestra aplicación médica</p><p>Para permitir la comunicación por chat entre pacientes y doctores.</p>|5|
-|30|US45|Subir mis exámenes.|Como paciente, quiero poder subir mis resultados de exámenes médicos en la aplicación de manera segura y sencilla para que mi médico pueda acceder a ellos y revisarlos cuando sea necesario.	|3|
-|31|US50|Añadir medicación.|Como médico quiero poder añadir una receta médica vinculada a la medicación para facilitar al paciente la obtención del medicamento.|2|
-|32|US09|Integración de Google Meet para citas médicas virtuales	|<p>Como desarrollador,</p><p>Necesito integrar Google Meet en nuestra aplicación médica</p><p>Para permitir citas médicas virtuales entre pacientes y doctores.</p>|5|
-|33|US40|Paciente accede a su perfil de usuario.|Como paciente, quiero poder ver y editar mi perfil médico en la aplicación, para poder acceder a mi información médica de forma segura y cómoda.	|2|
-|34|US35|Filtrar médicos disponibles.|Como paciente nuevo en la aplicación quiero poder visualizar a todos los médicos disponibles y poder filtrarlos por campos como su sexo, subespecialidad, recomendaciones, experiencia y rango de tarifas para tomar elegir al mejor doctor de acuerdo con mis preferencias.|3|
-|35|US33|Buscador de colegas médicos.|Como médico quiero buscar a mis colegas gestionar un seguimiento conjunto de los pacientes.|2|
-|36|US28|Búsqueda y Visualización de Perfiles de Otros Médicos por parte del Médico.|Como médico, quiero poder buscar a otro médico en la plataforma desde la página principal, para visualizar su perfil con sus datos personales y tener la capacidad de enviar mensajes y asignar pacientes según sea necesario.|3|
-|37|US16|Usuario se registra como paciente con código que un médico le proporcionó.|Como paciente quiero poder registrarme con el código que me proporciono mi medico endocrinólogo para que sea él quien lleve mi tratamiento de manera remota.|3|
-|38|US17|Cambiar plan de suscripción de médico desde su perfil de usuario.|Como medico quiero poder cambiar mi plan de suscripción actual para poder atender a una mayor cartera de clientes.|3|
-|39|US07|Integración de Twilio para notificaciones en la aplicación médica.|<p>Como desarrollador,</p><p>Necesito integrar Twilio en nuestra aplicación médica</p><p>Para enviar notificaciones importantes a pacientes y doctores.</p>|5|
-|40|US21|Comunicación directa con el paciente.|Como médico quiero comunicarme de forma directa con el paciente para resolver consultas.|5|
-|41|US22|Notificaciones a médicos de las citas.	|Como médico deseo recibir notificaciones de las citas para prepárame mejor.|3|
-|42|US26|Edición de Perfil por parte del Médico.|Como médico, quiero poder acceder y editar mi perfil en la plataforma para mantener actualizada mi información profesional.|2|
-|43|US29|Ver el historial médico de un paciente.|Como médico deseo ver el historial médico de mi paciente para garantizar un tratamiento óptimo.|3|
-|44|US30|Acceso al Chat desde el Perfil de Otro Médico por parte del Médico.|Como médico, cuando estoy visualizando el perfil de otro médico en la plataforma, quiero tener la capacidad de iniciar un chat directo con ese médico para enviarle mensajes de forma rápida y directa.|3|
-|45|US32|Cancelación de Plan de Suscripción desde el Perfil por parte del Médico.	|Como médico, cuando estoy en mi perfil en la plataforma, quiero tener la capacidad de gestionar mi plan de suscripción, para cancelar la suscripción si así lo deseo.|2|
-|46|US36|Selección de médico disponible.|Como paciente nuevo quiero poder ver el perfil del médico elegido con campos como su nombre completo, sus años de experiencia, títulos adjuntos e información profesional como su formación de pregrado, postgrado, número de colegio médico, registro nacional de especialista y la tarifa estándar para informarme sobre las bondades de su servicio.|1|
-|47|US38|Pago de cita.|Como paciente quiero poder seleccionar el método de pago como tarjeta de débito/crédito, Yape o Plin para poder pagar y agendar mi cita.|5|
-|48|US39|Comunicación entre el paciente y el médico especialista.|Como paciente, quiero poder comunicarme con mi doctor a través de un chat para poder hacer preguntas sobre mi enfermedad hormonal y su tratamiento.|5|
-|49|US42|Ver recordatorios de hoy.|Como paciente, quiero poder visualizar todos los recordatorios programados para el día de hoy, para estar al tanto de mis compromisos médicos y de salud.|2|
-|50|US46|Ver notificaciones.|Como paciente, quiero poder recibir notificaciones sobre mensajes enviados por mi médico, para mantenerme informado sobre cualquier comunicación relevante relacionada con mi atención médica.|3|
-|51|US51|Gestión de Medicamentos|Como desarrollador, necesito implementar el endpoint de medicamentos, para permitir que los usuarios gestionen sus registros de medicación.|5|
-|52|US52|Gestión de Inscripciones|Como desarrollador, necesito implementar el endpoint de inscripciones, para permitir que los usuarios gestionen sus inscripciones médicas.|5|
-|53|US53|Gestión de Tipos de Medicamentos|Como desarrollador, necesito implementar el endpoint de tipos de medicamentos, para permitir que los usuarios gestionen los tipos de medicamentos disponibles.|5|
-|54|US54|Gestión de Razones de Consulta|Como desarrollador, necesito implementar el endpoint de razones de consulta, para permitir que los usuarios gestionen las razones de sus consultas médicas.|5|
-|55|US55|Gestión de Tratamientos|Como desarrollador, necesito implementar el endpoint de tratamientos, para permitir que los usuarios gestionen sus tratamientos médicos.|5|
-|56|US56|Gestión de Perfiles|Como desarrollador, necesito implementar el endpoint de perfiles, para permitir que los usuarios gestionen la información de los perfiles de pacientes y doctores.|5|
-|57|US57|Gestión de Calendario|Como desarrollador, necesito implementar el endpoint de calendario, para permitir que los usuarios gestionen sus eventos y citas médicas.|5|
-|58|US58|Gestión de Identidad y Acceso|Como desarrollador, necesito implementar el endpoint de gestión de identidad y acceso, para permitir que los usuarios gestionen sus cuentas y permisos.|5|
-
+| #Orden | User Story Id | Título | Descripción | Story points (1/2/3/5/8) |
+|--------|--------------|--------|-------------|---------------------------|
+| 01 | US01 | Visualización del Header | Como visitante deseo observar un header con varias secciones para conocer más sobre el producto. | 3 |
+| 02 | US02 | Información sobre Planes o Suscripciones | Como visitante deseo observar información de planes/suscripciones para elegir el adecuado. | 2 |
+| 03 | US03 | Visualización del footer | Como visitante quiero acceder rápidamente a información relevante en el footer. | 1 |
+| 04 | US04 | Conocer la misión y visión | Como visitante deseo conocer la misión/visión de la empresa. | 2 |
+| 05 | US05 | Comunicación con soporte | Como visitante quiero contactar al equipo de soporte. | 2 |
+| 06 | US06 | Integración de Twilio para chat | Como desarrollador necesito integrar Twilio para chat médico-paciente. | 5 |
+| 07 | US07 | Integración de Twilio para notificaciones | Como desarrollador necesito Twilio para enviar notificaciones. | 5 |
+| 08 | US08 | Integración de Google Calendar | Como desarrollador necesito integrar calendario para citas/medicación. | 5 |
+| 09 | US09 | Integración de Google Meet | Como desarrollador necesito integrar videollamadas. | 5 |
+| 10 | US10 | Registro de usuario | Como usuario quiero registrarme en la plataforma. | 2 |
+| 11 | US11 | Inicio de sesión | Como usuario quiero acceder con mi cuenta. | 1 |
+| 12 | US12 | Selección de rol | Como usuario quiero elegir entre rol médico o paciente. | 2 |
+| 13 | US13 | Recuperar contraseña | Como usuario quiero restablecer mi contraseña. | 3 |
+| 14 | US14 | Agendar cita (nuevos) | Como paciente nuevo quiero agendar con un endocrinólogo. | 3 |
+| 15 | US15 | Subir exámenes | Como paciente quiero cargar resultados de laboratorio. | 1 |
+| 16 | US16 | Registro con código médico | Como paciente quiero registrarme con código de mi doctor. | 3 |
+| 17 | US17 | Cambiar plan de suscripción | Como médico quiero actualizar mi plan. | 3 |
+| 18 | US18 | Transferir pacientes | Como médico quiero asignar pacientes a colegas. | 3 |
+| 19 | US19 | Ver datos de pacientes | Como médico quiero revisar información detallada. | 3 |
+| 20 | US20 | Lista de pacientes diaria | Como médico quiero ver mis citas del día. | 1 |
+| 21 | US21 | Chat con pacientes | Como médico quiero comunicarme con pacientes. | 5 |
+| 22 | US22 | Notificaciones de citas | Como médico quiero recibir recordatorios. | 3 |
+| 23 | US23 | Ver medicación | Como médico quiero revisar recetas de pacientes. | 3 |
+| 24 | US24 | Exámenes pendientes | Como médico quiero evaluar resultados de exámenes. | 3 |
+| 25 | US25 | Agendar cita (existente) | Como médico quiero programar citas a pacientes. | 3 |
+| 26 | US26 | Editar perfil (médico) | Como médico quiero actualizar mi información. | 2 |
+| 27 | US27 | Gestión de horario | Como médico quiero organizar mi agenda. | 5 |
+| 28 | US28 | Buscar colegas | Como médico quiero encontrar otros médicos. | 3 |
+| 29 | US29 | Historial médico | Como médico quiero ver historial del paciente. | 3 |
+| 30 | US30 | Chat entre médicos | Como médico quiero contactar a colegas. | 3 |
+| 31 | US31 | Asignar paciente | Como médico quiero derivar pacientes. | 5 |
+| 32 | US32 | Cancelar suscripción | Como médico quiero dar de baja mi plan. | 2 |
+| 33 | US33 | Buscador de colegas | Como médico quiero buscar por correo. | 2 |
+| 34 | US34 | Ver médicos disponibles | Como paciente quiero comparar especialistas. | 3 |
+| 35 | US35 | Filtrar médicos | Como paciente quiero aplicar filtros avanzados. | 3 |
+| 36 | US36 | Perfil de médico | Como paciente quiero ver credenciales. | 1 |
+| 37 | US37 | Elegir horario | Como paciente quiero seleccionar fecha/hora. | 3 |
+| 38 | US38 | Pagar cita | Como paciente quiero usar tarjeta/Yape/Plin. | 5 |
+| 39 | US39 | Chat con médico | Como paciente quiero consultar dudas. | 5 |
+| 40 | US40 | Editar perfil (paciente) | Como paciente quiero modificar mis datos. | 2 |
+| 41 | US41 | Calendario personal | Como paciente quiero ver mis citas/medicación. | 3 |
+| 42 | US42 | Recordatorios diarios | Como paciente quiero ver alertas para hoy. | 2 |
+| 43 | US43 | Próximas citas | Como paciente quiero ver citas futuras. | 3 |
+| 44 | US44 | Videoconferencia | Como médico quiero iniciar videollamada. | 3 |
+| 45 | US45 | Subir exámenes (paciente) | Como paciente quiero adjuntar resultados. | 3 |
+| 46 | US46 | Notificaciones (paciente) | Como paciente quiero recibir mensajes. | 3 |
+| 47 | US47 | Ver historia clínica | Como médico quiero acceder a registros. | 3 |
+| 48 | US48 | Editar historia clínica | Como médico quiero actualizar datos. | 5 |
+| 49 | US49 | Añadir diagnóstico | Como médico quiero registrar diagnósticos. | 3 |
+| 50 | US50 | Receta médica | Como médico quiero vincular medicación. | 2 |
+| 51 | US51 | Gestión de Medicamentos | Como desarrollador necesito endpoint para medicamentos. | 5 |
+| 52 | US52 | Gestión de Inscripciones | Como desarrollador necesito endpoint para inscripciones. | 5 |
+| 53 | US53 | Gestión de Tipos de Medicamentos | Como desarrollador necesito endpoint para tipos de medicamentos. | 5 |
+| 54 | US54 | Gestión de Razones de Consulta | Como desarrollador necesito endpoint para razones de consulta. | 5 |
+| 55 | US55 | Gestión de Tratamientos | Como desarrollador necesito endpoint para tratamientos. | 5 |
+| 56 | US56 | Gestión de Perfiles | Como desarrollador necesito endpoint para perfiles. | 5 |
+| 57 | US57 | Gestión de Calendario | Como desarrollador necesito endpoint para calendario. | 5 |
+| 58 | US58 | Gestión de Identidad | Como desarrollador necesito endpoint para autenticación. | 5 |
+| 59 | US59 | Medición de glucosa | Como paciente quiero que el parche mida mi glucosa continuamente. | 5 |
+| 60 | US60 | Medición de signos vitales | Como paciente quiero que el parche mida temperatura/ritmo cardíaco. | 5 |
+| 61 | US61 | Registro automático | Como médico quiero ver datos fisiológicos registrados automáticamente. | 5 |
+| 62 | US62 | Cálculo de insulina | Como paciente quiero que el parche calcule dosis automáticamente. | 8 |
+| 63 | US63 | Validación clínica | Como médico quiero validar cálculos de insulina. | 5 |
+| 64 | US64 | Autoadministración | Como paciente quiero que el parche administre insulina automáticamente. | 8 |
+| 65 | US65 | Notificación previa | Como paciente quiero recibir alertas antes de la administración. | 3 |
+| 66 | US66 | Historial de dosis | Como médico quiero ver historial de administraciones. | 5 |
+| 67 | US67 | Sincronización con app | Como paciente quiero ver datos del parche en mi móvil. | 5 |
+| 68 | US68 | Monitoreo remoto | Como médico quiero ver datos de pacientes en la web. | 5 |
+| 69 | US69 | Alertas de emergencia | Como paciente quiero alertas por niveles críticos. | 3 |
+| 70 | US70 | Control manual | Como paciente quiero desactivar el autosuministro. | 3 |
+| 71 | US71 | Configurar alertas | Como médico quiero personalizar umbrales por paciente. | 5 |
+| 72 | US72 | Protección de datos | Como paciente quiero que mis datos estén cifrados. | 5 |
+| 73 | US73 | Cumplimiento legal | Como médico quiero que el sistema cumpla normativas. | 5 |
 
 **Asimismo, se adjunta el enlace del product backlog en la herramienta indicada.**
 <img src="images/product-backlog-new.png" >
