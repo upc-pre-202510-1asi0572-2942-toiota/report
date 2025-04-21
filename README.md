@@ -1267,18 +1267,18 @@ https://miro.com/app/board/uXjVIERm9g8=/?share_link_id=539637623176
 
 ##### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
 
- <img src="images/levelDiagramIam.png" width="700" height="150" alt="iam">
+ <img src="images/levelDiagramIam.png" alt="iam">
 
 
 
 ##### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams  
 
 ###### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams  
-_(Contenido por completar)_
+
+ <img src="images/layerIam.png" alt="iam">
 
 ###### 4.2.1.6.2. Bounded Context Database Design Diagram  
-_(Contenido por completar)_
-
+ <img src="images/contextDatabaseIam.png" alt="iam">
 ---
 
 #### 4.2.2. Bounded Context: Profile
