@@ -1210,7 +1210,25 @@ _(Contenido por completar)_
 
 ##### 4.1.1.3. Bounded Context Canvases
 
-_(Contenido por completar)_
+#IAM:
+<img src="images/iamBoundedContextCanvas.png">
+
+#Profile:
+<img src="images/profileBoundedContextCanvas.png">
+
+#Medical Record
+<img src="images/medicalRecordBoundedContextCanvas.png">
+
+#Payments:
+<img src="images/paymentsBoundedContextCanvas.png">
+
+#Notifications:
+<img src="images/notificationsBoundedContextCanvas.png">
+
+#Communication:
+<img src="images/communicationBoundedContextCanvas.png">
+
+https://miro.com/app/board/uXjVI_u9nsI=/?share_link_id=321741724221
 
 #### 4.1.2. Context Mapping
 
