@@ -1205,8 +1205,14 @@ https://trello.com/invite/b/66EkeO8t/ATTI7681f5c932b9217761b0224c0051dd4cC0E965E
 https://miro.com/app/board/uXjVICCoJ1Y=/?share_link_id=374839324168
 
 ##### 4.1.1.2. Domain Message Flows Modeling
+#Scenario:  Agendamiento de Cita Médica
+<img src="images/Domain_Message_Flow_1.png">
 
-_(Contenido por completar)_
+#Scenario:  Actualización de Historia Clínica
+<img src="images/Domain_Message_Flow_2.png">
+
+#Scenario:  Proceso de Pago
+<img src="images/Domain_Message_Flow_3.png">
 
 ##### 4.1.1.3. Bounded Context Canvases
 
