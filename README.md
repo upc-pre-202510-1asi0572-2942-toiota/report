@@ -1223,7 +1223,7 @@ _(Contenido por completar)_
 <img src="images/paymentsBoundedContextCanvas.png">
 
 #Notifications:
-<img src="images/notificationsBoundedContextCanvas.png">
+<img src="images/notificationBoundedContextCanvas.png">
 
 #Communication:
 <img src="images/communicationBoundedContextCanvas.png">
