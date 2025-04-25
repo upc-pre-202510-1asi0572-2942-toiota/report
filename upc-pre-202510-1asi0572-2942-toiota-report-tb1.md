@@ -1372,7 +1372,43 @@ Contiene los componentes técnicos responsables de persistencia, integración y 
 #### 4.2.3. Bounded Context: MedicalRecord
 
 ##### 4.2.3.1. Domain Layer  
-_(Contenido por completar)_
+
+Entidad Principal:
+* MedicalRecord (Aggregate Root)
+    * Propósito: Representa el historial clínico completo de un paciente, vinculando sus diagnósticos, tratamientos, alergias y medicación crónica.
+    * Atributos:
+        * id: UUID
+        * patientId: UUID
+        * createdAt: LocalDateTime
+        * updatedAt: LocalDateTime
+        * entries: List
+    * Métodos:
+        * addEntry(MedicalRecordEntry entry)
+        * updateEntry(UUID entryId, MedicalRecordEntry updatedEntry)
+        * getEntryById(UUID entryId)
+Entities:
+* MedicalRecordEntry
+    * Propósito: Representa una entrada específica dentro del historial médico: diagnóstico, receta, análisis u observación médica.
+    * Atributos:
+        * id: UUID
+        * date: LocalDateTime
+        * type: Enum[EntryType] (e.g., DIAGNOSIS, PRESCRIPTION, NOTE, EXAM_RESULT)
+        * content: String
+        * physicianId: UUID
+    * Métodos:
+        * updateContent(String newContent)
+Value Objects:
+* EntryType
+    * Enum que encapsula los tipos válidos de entradas dentro de la historia clínica.
+* MedicalHistorySummary
+    * Contiene un resumen calculado de antecedentes médicos relevantes del paciente.
+Domain Events:
+* MedicalRecordEntryAddedEvent
+* MedicalRecordUpdatedEvent
+Services del Dominio:
+* MedicalRecordDomainService
+    * validateEntryConsistency(MedicalRecord, MedicalRecordEntry)
+    * generateMedicalHistorySummary(UUID patientId)
 
 ##### 4.2.3.2. Interface Layer  
 _(Contenido por completar)_
