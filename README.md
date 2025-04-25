@@ -295,7 +295,10 @@ El curso contribuye al cumplimiento del Student Outcome ABET 7:
 
 En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET 7 – EAC - Student Outcome.
 
-
+| Criterios específicos | Acciones realizadas | Conclusiones |
+|-----------------------|---------------------|--------------|
+| **7.c1. Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de ingeniería de software** | **Sergio Joel Pecán Pariona**<br><br>**TB1:** Investigué normativas de protección de datos (HIPAA, GDPR) para el módulo de historias clínicas en HormonalCare, documentando requisitos legales en un repositorio compartido. Adicionalmente, me certifiqué en "UX Research for Health Apps" en Coursera para mejorar el diseño de entrevistas a usuarios. | **TB1:** La investigación legal evitó riesgos de incumplimiento en el manejo de datos sensibles desde etapas tempranas. |
+| **7.c2. Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de tecnologías de ingeniería de software** | **Sergio Joel Pecán Pariona**<br><br>**TB1:** Participé en el webinar "Healthcare API Security" de OWASP, aplicando recomendaciones para proteger endpoints de historias clínicas contra ataques BOLA. | |
 
 |Criterios específicos|Acciones realizadas|Conclusiones|
 | - | - | - |
