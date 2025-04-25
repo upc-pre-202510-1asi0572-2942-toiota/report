@@ -1,40 +1,38 @@
-
-<p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" alt="Logo UPC">
-</p>
-
-<h1 align="center">Universidad Peruana de Ciencias Aplicadas</h1>
-
-<h2 align="center">Ingeniería de Software</h2>
-<h3 align="center">Ciclo 2025-01</h3>
-
-<hr>
-
-<h1 align="center">1ASI0572 Desarrollo de Soluciones IOT</h1>
-
-<h2 align="center"><strong>NRC:</strong> 2942 </h2>
-
-<p align="center"><strong>Profesor:</strong> Marco Antonio Leon Baca</p>
-
-<h2 align="center"><strong>Informe de TB1</strong> </h2>
-
-<p align="center"><strong>Nombre del startup:</strong> toiota</p>
-
-<p align="center"><strong>Nombre del producto:</strong> HormonalCare</p>
-
-<h3 align="center">Team Members:</h3>
-
 <div align="center">
+  
+<img src="./Resources/UPC_logo.png" alt="Logo-UPC" width="150">
 
-| Member                            |    Code    |
-| :-------------------------------- | :--------: |
-| Claudio Sandro Quispesivana Torres| U202215099 |
-| Estefano Sebastian Lostaunau Pereira | U202211742 |
-| Luis Sebastian Chinchihualpa Saldarriaga | U202212112 |
-| Sergio Joel Pecan Pariona | U202212112 |
+## Universidad Peruana de Ciencias Aplicadas
 
-<h3 align="center"><strong>Marzo 2025</strong></h3>
+**Ingeniería de Software**
 
-<p align="center">Github: https://github.com/upc-pre-202510-1asi0572-2942-toiota</p>
+**Ciclo:** Ciclo 2025-01
+
+**Curso:** Desarrollo de Soluciones IOT (1ASI0572)
+
+**Sección(NRC):** 2942
+
+**Profesor:** Marco Antonio Leon Baca
+
+----
+## Informe del Trabajo TB1
+### Nombre del Startup: Toiota
+
+### Nombre del Producto: HormonalCare
+#### Relación de integrantes 
+| Integrante                  | Código         |
+|---------------------------------|----------------|
+| Chinchihualpa Saldarriaga, Luis Sebastian         | u202212112     |
+| La Torre Soto, Andre Sebastian  | u202217772     |
+| Lostaunau Pereira, Estefano Sebastian           | u202211742     |
+| Pecan Pariona, Sergio Joel       | u20201a938     |
+| Quispesivana Torres, Claudio Sandro | u202215099     |
+
+**Marzo 2025**
+
+**<a src="https://github.com/upc-pre-202510-1asi0572-2942-toiota">Github</a>**
+
+
 </div>
 
 
@@ -57,264 +55,271 @@ TB1:
 
 </div>
 
+<div style="page-break-after: always;"></div>
+
+
 ## Contenido
 
-### [Registro de versiones del informe](#registro-de-versiones-del-informe)
-
-### [Project Report Collaboration Insights](#project-report-collaboration-insights)
-
-### [Contenido](#contenido)
-
-### [Student Outcome](#student-outcome-1)
-
-### [Objetivos SMART](#objetivos-smart-1)
-
-### [Capítulo I: Presentación](#capítulo-i-presentación)
-
-[1.1. Startup Profile](#11-startup-profile)
-
-[1.1.1. Descripción de la Startup](#111descripción-de-la-startup)
-
-[1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-
-[1.2. Solution Profile](#12-solution-profile)
-
-[1.2.1. Antecedentes y problemática](#121--antecedentes-y-problemática)
-
-[1.2.2. Lean UX Process](#122lean-ux-process)
-
-[1.2.2.1. Lean UX Problem Statements](#1221lean-ux-problem-statements)
-
-[1.2.2.2. Lean UX Assumptions](#1222lean-ux-assumptions)
-
-[1.2.2.3. Lean UX Hypothesis Statements](#1223lean-ux-hypothesis-statements)
-
-[1.2.2.4. Lean UX Canvas](#1224lean-ux-canvas)
-
-[1.3. Segmentos objetivo](#13segmentos-objetivo)
-
-### [Capítulo II:  Requirements Elicitation & Analysis](#capítulo-ii-needfinding-elicitation-&-analysis-1)
-
-[2.1. Competidores](#21-competidores)
-
-[2.1.1. Análisis competitivo](#211-análisis-competitivo)
-
-[2.1.2. Estrategias y tácticas frente a competidores](#212---estrategias-y-tácticas-frente-a-competidores)
-
-[2.2. Entrevistas](#22-entrevistas)
-
-[2.2.1. Diseño de entrevistas](#221---diseño-de-entrevistas)
-
-[2.2.2. Registro de entrevistas](#222---registro-de-entrevistas)
-
-[2.2.3. Análisis de entrevistas](#223--análisis-de-entrevistas)
-
-[2.3. Needfinding](#23------needfinding)
-
-[2.3.1. User Personas](#231------user-personas)
-
-[2.3.2. User Task Matrix](#232---user-task-matrix)
-
-[2.3.3. User Journey Mapping](#233---user-journey-mapping)
-
-[2.3.4. Empathy Mapping](#234---empathy-mapping)
-
-[2.3.5. As-is Scenario Mapping](#235---as-is-scenario-mapping)
-
-[2.4. Ubiquitous Language](#24------ubiquitous-language)
-
-### [CAPÍTULO III: Requirements Specification](#capítulo-iii-requirements-specification-1)
-
-[3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-
-[3.2. User Stories](#32-user-stories)
-
-[3.3. Impact Mapping](#33-impact-mapping)
-
-[3.4. Product Backlog](#34-product-backlog)
-
-### [CAPÍTULO IV: SOLUTION SOFTWARE DESIGN](#capítulo-iv-solution-software-design)
-
-[4.1. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)  
-
-[4.1.1. EventStorming](#411-eventstorming)  
-
-[4.1.1.1. Candidate Context Discovery](#4111-candidate-context-discovery)  
-
-[4.1.1.2. Domain Message Flows Modeling](#4112-domain-message-flows-modeling)  
-
-[4.1.1.3. Bounded Context Canvases](#4113-bounded-context-canvases)  
-
-[4.1.2. Context Mapping](#412-context-mapping)  
-
-[4.1.3. Software Architecture](#413-software-architecture)  
-
-[4.1.3.1. Software Architecture System Landscape Diagrams](#4131-software-architecture-system-landscape-diagrams)  
-
-[4.1.3.2. Software Architecture Context Level Diagrams](#4132-software-architecture-context-level-diagrams)  
-
-[4.1.3.3. Software Architecture Container Level Diagrams](#4133-software-architecture-container-level-diagrams)  
-
-[4.1.3.4. Software Architecture Deployment Diagrams](#4134-software-architecture-deployment-diagrams)  
-
-[4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)  
-
-[4.2.1. Bounded Context: IAM](#421-bounded-context-iam)  
-
-[4.2.1.1. Domain Layer](#4211-domain-layer)  
-
-[4.2.1.2. Interface Layer](#4212-interface-layer)  
-
-[4.2.1.3. Application Layer](#4213-application-layer)  
-
-[4.2.1.4. Infrastructure Layer](#4214-infrastructure-layer)  
-
-[4.2.1.5. Bounded Context Software Architecture Component Level Diagrams](#4215-component-level-diagrams)  
-
-[4.2.1.6. Bounded Context Software Architecture Code Level Diagrams](#4216-code-level-diagrams)  
-
-[4.2.1.6.1. Bounded Context Domain Layer Class Diagrams](#42161-domain-layer-class-diagrams)  
-
-[4.2.1.6.2. Bounded Context Database Design Diagram](#42162-database-design-diagram)  
-
-[4.2.2. Bounded Context: Profile](#422-bounded-context-profile)  
-
-[4.2.2.1. Domain Layer](#4221-domain-layer)  
-
-[4.2.2.2. Interface Layer](#4222-interface-layer)  
-
-[4.2.2.3. Application Layer](#4223-application-layer)  
-
-[4.2.2.4. Infrastructure Layer](#4224-infrastructure-layer)  
-
-[4.2.2.5. Bounded Context Software Architecture Component Level Diagrams](#4225-component-level-diagrams)  
-
-[4.2.2.6. Bounded Context Software Architecture Code Level Diagrams](#4226-code-level-diagrams)  
-
-[4.2.2.6.1. Bounded Context Domain Layer Class Diagrams](#42261-domain-layer-class-diagrams)  
-
-[4.2.2.6.2. Bounded Context Database Design Diagram](#42262-database-design-diagram)  
-
-[4.2.3. Bounded Context: MedicalRecord](#423-bounded-context-medicalrecord)  
-
-[4.2.3.1. Domain Layer](#4231-domain-layer)  
-
-[4.2.3.2. Interface Layer](#4232-interface-layer)  
-
-[4.2.3.3. Application Layer](#4233-application-layer)  
-
-[4.2.3.4. Infrastructure Layer](#4234-infrastructure-layer)  
-
-[4.2.3.5. Bounded Context Software Architecture Component Level Diagrams](#4235-component-level-diagrams)  
-
-[4.2.3.6. Bounded Context Software Architecture Code Level Diagrams](#4236-code-level-diagrams)  
-
-[4.2.3.6.1. Bounded Context Domain Layer Class Diagrams](#42361-domain-layer-class-diagrams)  
-
-[4.2.3.6.2. Bounded Context Database Design Diagram](#42362-database-design-diagram)  
-
-[4.2.4. Bounded Context: Payments](#424-bounded-context-payments)  
-
-[4.2.4.1. Domain Layer](#4241-domain-layer)  
-
-[4.2.4.2. Interface Layer](#4242-interface-layer)  
-
-[4.2.4.3. Application Layer](#4243-application-layer)  
-
-[4.2.4.4. Infrastructure Layer](#4244-infrastructure-layer)  
-
-[4.2.4.5. Bounded Context Software Architecture Component Level Diagrams](#4245-component-level-diagrams)  
-
-[4.2.4.6. Bounded Context Software Architecture Code Level Diagrams](#4246-code-level-diagrams)  
-
-[4.2.4.6.1. Bounded Context Domain Layer Class Diagrams](#42461-domain-layer-class-diagrams)  
-
-[4.2.4.6.2. Bounded Context Database Design Diagram](#42462-database-design-diagram)  
-
-[4.2.5. Bounded Context: Notification](#425-bounded-context-notification)  
-
-[4.2.5.1. Domain Layer](#4251-domain-layer)  
-
-[4.2.5.2. Interface Layer](#4252-interface-layer)  
-
-[4.2.5.3. Application Layer](#4253-application-layer)  
-
-[4.2.5.4. Infrastructure Layer](#4254-infrastructure-layer)  
-
-[4.2.5.5. Bounded Context Software Architecture Component Level Diagrams](#4255-component-level-diagrams)  
-
-[4.2.5.6. Bounded Context Software Architecture Code Level Diagrams](#4256-code-level-diagrams)  
-
-[4.2.5.6.1. Bounded Context Domain Layer Class Diagrams](#42561-domain-layer-class-diagrams)  
-
-[4.2.5.6.2. Bounded Context Database Design Diagram](#42562-database-design-diagram)  
-
-[4.2.6. Bounded Context: Communication](#426-bounded-context-communication)  
-
-[4.2.6.1. Domain Layer](#4261-domain-layer)  
-
-[4.2.6.2. Interface Layer](#4262-interface-layer)  
-
-[4.2.6.3. Application Layer](#4263-application-layer)  
-
-[4.2.6.4. Infrastructure Layer](#4264-infrastructure-layer)  
-
-[4.2.6.5. Bounded Context Software Architecture Component Level Diagrams](#4265-component-level-diagrams)  
-
-[4.2.6.6. Bounded Context Software Architecture Code Level Diagrams](#4266-code-level-diagrams)  
-
-[4.2.6.6.1. Bounded Context Domain Layer Class Diagrams](#42661-domain-layer-class-diagrams)  
-
-[4.2.6.6.2. Bounded Context Database Design Diagram](#42662-database-design-diagram)  
-
-
-
-
-
-## [Conclusiones](#conclusiones)
-
-[Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
-
-[Video App Validation](#video-app-validation)
-
-[Video About the product](#video-about-the-product)
-
-[Video About the team](#video-about-the-team)
-
-## [Referencias Bibliográficas](#referencias-bibliográficas-1)
-
-
-
-
-## Student Outcome 
-
-El curso contribuye al cumplimiento del Student Outcome ABET 7:
-
-**ABET – EAC - Student Outcome 7**
-**Criterio:** La capacidad de adquirir y aplicar nuevos conocimientos según sea necesario, utilizando estrategias de aprendizaje apropiadas.
-
-En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET 7 – EAC - Student Outcome.
-
-| Criterios específicos | Acciones realizadas | Conclusiones |
-|-----------------------|---------------------|--------------|
-| **7.c1. Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de ingeniería de software** | **Sergio Joel Pecán Pariona**<br><br>**TB1:** Investigué normativas de protección de datos (HIPAA, GDPR) para el módulo de historias clínicas en HormonalCare, documentando requisitos legales en un repositorio compartido. Adicionalmente, me certifiqué en "UX Research for Health Apps" en Coursera para mejorar el diseño de entrevistas a usuarios. | **TB1:** La investigación legal evitó riesgos de incumplimiento en el manejo de datos sensibles desde etapas tempranas. |
-| **7.c2. Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de tecnologías de ingeniería de software** | **Sergio Joel Pecán Pariona**<br><br>**TB1:** Participé en el webinar "Healthcare API Security" de OWASP, aplicando recomendaciones para proteger endpoints de historias clínicas contra ataques BOLA. | |
-
-|Criterios específicos|Acciones realizadas|Conclusiones|
-| - | - | - |
-|7.c1. Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de ingeniería de software|<p>**Astuyauri Calderon Jherson David**	</p><p>TB1:Realicé una investigación exhaustiva sobre la telemedicina y sus normativas, a nivel regional y Nacional. También me encargué de actualizar mis conocimientos sobre las últimas actualizaciones de los software que vamos a utilizar, tendencias en usabilidad y experiencia de usuario (UX) para asegurar que la interfaz de HormonalCare sea intuitiva y fácil de usar, puesto que nuestra aplicación móvil debe ser sencilla para los usuarios. </p><p>TB2: Durante la fase de diseño del proyecto HormonalCare, actualicé mis conocimientos en la creación de arquitecturas de software mediante el uso del modelo C4, una herramienta clave para visualizar los diferentes niveles de abstracción de la arquitectura del sistema. También profundicé en el diseño de bases de datos y la implementación del backend, asegurando que las soluciones propuestas cumplieran con los estándares actuales de la industria y las necesidades específicas del proyecto. </p> <p> TP: Trabajé en el desarrollo del frontend de la aplicación móvil HormonalCare usando Flutter, enfocándome en crear una interfaz intuitiva. También me encargué de la conexión entre el frontend y el backend mediante APIs RESTful, asegurando una integración fluida y segura entre ambos sistemas. </p> <p>TB3: Desarrollé la lista de pacientes del día y el módulo de consulta en Flutter, lo cual implicó el aprendizaje de buenas prácticas para la gestión de listas de datos y el uso de widgets dinámicos en Flutter. Además, optimicé la conexión con el backend, asegurando la correcta consulta y visualización de datos de pacientes, una habilidad fundamental para ofrecer una experiencia de usuario fluida y confiable en aplicaciones de salud.</p> <p>TB4: Mi aporte en esta TB4 fue la implementación de la funcionalidad de *medication* dentro del *medical record*. A lo largo de esta tarea, adquirí nuevos conocimientos sobre cómo gestionar de manera eficiente los datos de medicamentos y cómo optimizar la estructura de la base de datos para asegurar una buena integración con el backend. La implementación me permitió aprender a manejar mejor la información médica de los pacientes, dándome cuenta de la importancia de la precisión y la flexibilidad en el diseño de bases de datos para un sistema de salud.</p> <p>TF: A lo largo de este proyecto, he actualizado mis conocimientos en áreas fundamentales para el desarrollo de aplicaciones de salud. Comencé investigando las normativas de la telemedicina, lo cual me permitió comprender mejor los requisitos legales y las mejores prácticas que aplican en este campo. Además, trabajé en la creación de arquitecturas de software utilizando el modelo C4, lo que me ayudó a estructurar y comprender cómo conectar los diferentes componentes de la aplicación de forma coherente. En el frontend, me concentré en asegurarme de que la interfaz de usuario fuera intuitiva, lo cual se convirtió en uno de los pilares del proyecto. He aprendido mucho sobre la integración del frontend con el backend usando APIs RESTful, lo que me permitió garantizar que los datos se compartieran de manera eficiente entre ambos sistemas, ofreciendo una experiencia fluida al usuario. Al final, mi trabajo en la implementación de la funcionalidad del medication dentro del medical record me permitió profundizar en la gestión de datos médicos y la optimización de bases de datos para su integración con el sistema.   </p><p>**Chinchihualpa Saldarriaga Luis Sebastian**	</p><p>TB1: En esta fase del proyecto, me enfoqué en liderar la creación del Lean UX Canvas y las hipótesis del proyecto, basándome en el análisis de usuarios y competidores. También participé en la definición de User Personas y el mapeo de User Journeys, lo que me permitió aplicar y actualizar conocimientos clave en diseño centrado en el usuario y la creación de historias de usuario. Estas acciones me han ayudado a fortalecer mis habilidades en la gestión de requisitos y a contribuir de manera efectiva al desarrollo del backlog de producto. </p> <p> TB2: Para esta TB2, estuve actualizando mis conocimientos sobre modelado de bases de datos relacionales y no relacionales, así como en el diseño de diagramas de clases para optimizar la estructura del sistema. Esto me permitió profundizar en las mejores prácticas para garantizar un diseño de bases de datos eficiente y adaptable a distintas necesidades de ingeniería de software.</p> <p>TP: Trabajé en el backend del sistema de autenticación de la aplicación HormonalCare utilizando Spring Boot. Mi principal tarea fue implementar el sistema de administración de identidades y accesos (IAM) basado en JWT para asegurar que los usuarios tuvieran un inicio de sesión seguro. Esto incluyó la creación de controladores y servicios para la generación y validación de tokens JWT, así como la protección de las rutas de la API.</p>  <p>TB3: En esta fase, trabajé en la implementación del perfil de usuario y un nuevo sistema de autenticación mediante el módulo de Sign-In en Flutter. Aprendí y apliqué técnicas avanzadas de diseño de interfaz de usuario y seguridad en autenticación. Para ello, me actualicé en patrones modernos de UI/UX para garantizar que la experiencia de acceso fuera intuitiva y segura, fortaleciendo mis habilidades en diseño de interfaces móviles.</p> <p>TB4: Mi tarea principal durante esta TB4 fue la edición del perfil de usuario en Flutter, además de desarrollar el sistema de *sign up* para los tipos de usuario, específicamente para médicos y pacientes. En este proceso, profundicé en la creación de interfaces de usuario amigables y funcionales, prestando atención a la seguridad en el registro y validación de los datos. Fue un desafío importante porque tuve que integrar múltiples funcionalidades en Flutter, pero el resultado ha sido muy satisfactorio al ver cómo mejora la experiencia de los usuarios al interactuar con la aplicación.</p> <p>TF: Durante el desarrollo de HormonalCare, actualicé y profundicé mis conocimientos en varias áreas clave del backend. Lideré la creación del Lean UX Canvas y la definición de las User Personas, lo cual me permitió aportar una visión clara de las necesidades de los usuarios. En cuanto al backend, trabajé en la implementación del sistema de autenticación usando JWT para asegurar un inicio de sesión seguro para los usuarios. Esto me permitió aplicar y afianzar mis conocimientos sobre la gestión de identidades y accesos (IAM). Además, me involucré en la implementación del perfil de usuario en el frontend de Flutter, lo que me permitió mejorar mis habilidades en diseño de interfaces y seguridad en la autenticación. También profundicé en el proceso de sign up para diferentes tipos de usuarios (médicos y pacientes), lo cual fue crucial para que la aplicación cumpliera con los requisitos de seguridad y funcionalidad.     </p> <p>**Lostaunau Pereira Estéfano Sebatián**</p><p>TB1: Contribuí al proyecto actualizando mis conocimientos en la creación de Hypothesis Statements y User Stories. También participé en la presentación de estas estrategias ante el equipo y los stakeholders, destacando cómo nuestras propuestas se posicionarían en el mercado frente a la competencia. </p><p>TB2: En esta fase del proyecto, participé en la configuración del entorno de desarrollo para la implementación backend, aplicando mis conocimientos actualizados en la administración de código fuente y la configuración de despliegue de software. Además, realicé configuraciones avanzadas para las pruebas de sprint, asegurando que el equipo pudiera realizar revisiones continuas de nuestro progreso. Estas tareas me permitieron no solo aplicar conocimientos previos, sino también adquirir nuevas habilidades en la automatización de despliegues y la gestión del ciclo de vida del software, las cuales son fundamentales para el desarrollo y validación de productos backend. </p> <p> TP: Me enfoqué en implementar el sistema de autenticación de usuarios en la aplicación HormonalCare utilizando Flutter. Desarrollé las pantallas de registro (Sign Up) y acceso (Sign In), asegurando una experiencia de usuario fluida e intuitiva. Para la seguridad, me apoyé en la conexión con el backend mediante tokens JWT (JSON Web Tokens), lo que permitió mantener la autenticación de forma segura y eficiente.</p> <p>TB3: Implementé la carga y descarga de archivos PDF en Firebase, donde estudié sobre el manejo de almacenamiento en la nube y la transferencia segura de archivos. Esto me permitió mejorar mi comprensión sobre el uso de Firebase para aplicaciones móviles, optimizando la funcionalidad para que los usuarios puedan gestionar documentos médicos de forma segura.</p> <p>TB4: Mi principal contribución en esta TB4 fue la implementación de la carga de archivos mediante Firebase en el *medical record*. Esto me permitió adentrarme en el uso de Firebase como herramienta para gestionar archivos de manera eficiente en una base de datos en la nube. A lo largo de este proceso, aprendí cómo integrar Firebase con Flutter y cómo manejar de forma segura los documentos médicos, lo que representó un reto interesante y un aprendizaje valioso para mi desarrollo profesional.</p> <p>TF: A lo largo de este proyecto, he adquirido y actualizado mis conocimientos en diversas áreas, tanto en backend como en frontend. Fui responsable de la implementación del sistema de autenticación de usuarios utilizando Flutter y JWT, lo que permitió que los usuarios se autenticaran de manera segura y eficiente. Además, aprendí a integrar el frontend con el backend de manera fluida, utilizando APIs RESTful. También trabajé en la carga y descarga de archivos médicos en Firebase, lo que me permitió explorar nuevas tecnologías para el almacenamiento de documentos en la nube. Este proceso me dio una comprensión más profunda sobre cómo integrar servicios en la nube y gestionar archivos de manera eficiente y segura. Además, mi trabajo en la integración de Firebase con Flutter me ayudó a optimizar la funcionalidad de la aplicación para la gestión de archivos médicos, lo cual es fundamental para garantizar la seguridad y el acceso a la información del paciente.      </p> <p>**Quispesivana Torres Claudio Sandro**</p><p>TB1: Contribuí al desarrollo del proyecto desarrollando y aportando ideas para la seccion de Lean UX Problem Statement y User Stories, ademas de reforzar lo aprendido segun la documentacion ofical de Lean UX como metodologia agil la cual busca dar importancia a la experiencia de usuario al crear nuestro producto HormonalCare. </p> <p> TB2: Para esta TB2, estuve actualizando mis conocimientos en diseño de interfaces de usuario (UI) y experiencia de usuario (UX), enfocándome en las mejores prácticas para el desarrollo de aplicaciones móviles en Android. Esto incluyó la investigación de nuevas tendencias y herramientas para crear Wireframes interactivos y User Flow Diagrams efectivos.</p> <p> TP:Desarrollé el módulo de backend encargado de la gestión de citas médicas en HormonalCare, utilizando Spring Boot. Implementé las funcionalidades para que los usuarios puedan agendar, cancelar y consultar sus citas. Además, diseñé un sistema de notificaciones para recordar a los usuarios sobre sus próximas citas y logré integrar estas funcionalidades con el frontend de la aplicación mediante APIs RESTful.</p> TB3: Me encargué del desarrollo del calendario en Flutter y realicé correcciones en los endpoints de Spring Boot. Esto me ayudó a profundizar en la configuración de endpoints y la integración con el frontend, asegurando una sincronización adecuada entre el sistema y el calendario del usuario. El trabajo en la arquitectura de backend con Spring Boot me permitió fortalecer mis conocimientos en la creación de servicios escalables y en la estructura de APIs RESTful.</p> <p>TB4: Mi aporte en esta TB4 estuvo enfocado en la mejora del calendario de eventos en Flutter, añadiendo colores para diferenciar los tipos de citas. También implementé las funcionalidades *PUT* y *DELETE* para el manejo de citas médicas, lo que permitió que los usuarios pudieran modificar o eliminar sus citas de manera sencilla. A través de este proceso, adquirí una mayor comprensión de cómo gestionar datos en tiempo real y cómo mejorar la interacción del usuario con la aplicación, lo cual es fundamental para garantizar una experiencia de usuario óptima.</p> <p>TF: En este proyecto, actualicé mis conocimientos sobre el desarrollo de interfaces de usuario (UI) y experiencia de usuario (UX) para aplicaciones móviles, específicamente en Flutter. Participé en la creación del Lean UX Problem Statement y en la formulación de las User Stories, lo que me permitió comprender mejor cómo abordar las necesidades del usuario a través de soluciones ágiles y centradas en el diseño. En el backend, fui responsable de desarrollar el módulo para la gestión de citas médicas, asegurando que los usuarios pudieran agendar, cancelar y consultar sus citas de manera eficiente. Implementé un sistema de notificaciones para recordar a los usuarios sobre sus citas próximas, lo que mejoró la funcionalidad y la usabilidad de la aplicación. Además, trabajé en la mejora del calendario de citas en Flutter, añadiendo colores para diferenciar los tipos de citas y mejorando la interacción con el usuario al permitir que modificaran o eliminaran citas fácilmente.      </p>|<br>TB1: En resumen, como equipo, hemos actualizado y ampliado nuestros conocimientos en áreas fundamentales para el desarrollo del proyecto HormonalCare. Nos enfocamos en investigar exhaustivamente la telemedicina y sus normativas a nivel regional y nacional, así como en mantenernos al día con las últimas tendencias en usabilidad y experiencia de usuario (UX). Colaboramos en la creación del Lean UX Canvas, la formulación de hipótesis, y la definición de User Personas y User Journeys, aplicando conceptos actualizados de diseño centrado en el usuario. También fortalecimos nuestras habilidades en la redacción de Hypothesis Statements y User Stories, asegurando que nuestras propuestas se alineen estratégicamente con las necesidades del mercado y los usuarios. Estas acciones han sido clave para nuestro desarrollo profesional y para la efectiva contribución al proyecto.</br><br>TB2: Como grupo, actualizamos nuestros conocimientos en áreas clave como el diseño de arquitecturas con diagramas de clases y bases de datos, junto con la creación de User Flow Diagrams y Wireframes interactivos para Android. También mejoramos la organización del proyecto mediante la gestión del Product Backlog y Sprint Backlog, y aprendimos a configurar entornos de desarrollo y desplegar servicios web RESTful API con documentación, aplicando mejora continua en todo el proceso. </br><br> TP:Cada miembro del equipo actualizó y fortaleció los conceptos clave necesarios para su desarrollo profesional. Los miembros que trabajaron en Flutter profundizaron en sus conocimientos de interfaces móviles y la integración con sistemas backend mediante APIs RESTful, mientras que los miembros encargados del backend en Spring Boot consolidaron su comprensión sobre seguridad y gestión de usuarios con JWT, así como sobre la creación de servicios robustos para la funcionalidad de citas médicas. En conjunto, se ha logrado una arquitectura bien definida y segura para HormonalCare, permitiendo ofrecer una solución de software sólida y efectiva.</br> <br>TB3: En esta fase, todos los miembros del equipo se enfocaron en actualizar y aplicar sus conocimientos en áreas fundamentales para el desarrollo de una aplicación de salud. Cada integrante utilizó tecnologías como Flutter, Firebase y Spring Boot, adaptando sus habilidades para crear soluciones integradas y funcionales. Este proceso de aprendizaje fue clave para ofrecer una experiencia de usuario intuitiva y funcional en cada módulo del proyecto.</br> <br>TB4: En resumen, como equipo, nuestra colaboración en esta TB4 nos permitió aplicar nuestros conocimientos en tecnologías como Firebase y Flutter, aprendiendo nuevas metodologías y mejores prácticas en el desarrollo de software. Cada uno de nosotros asumió un desafío específico que contribuyó de manera directa al avance del proyecto. A medida que desarrollábamos nuevas funcionalidades, nos dimos cuenta de lo esencial que es mantenernos actualizados con las herramientas y las mejores prácticas de la industria, lo cual no solo mejoró nuestro proyecto, sino también nuestra capacidad profesional.</br> <br>TF: En este proyecto, el equipo ha demostrado un excelente nivel de actualización y aplicación de conocimientos en varias áreas críticas para el desarrollo de la aplicación HormonalCare. Cada miembro del equipo ha contribuido al proyecto con sus habilidades y conocimientos renovados, desde el diseño de la arquitectura y la seguridad hasta la implementación de interfaces intuitivas y la gestión eficiente de datos médicos. Hemos trabajado en la integración de sistemas backend y frontend utilizando tecnologías como Spring Boot, Flutter, Firebase y JWT, asegurando que la aplicación sea segura, funcional y fácil de usar. A lo largo de este proceso, no solo hemos aplicado nuestras habilidades técnicas, sino que también hemos actualizado constantemente nuestros conocimientos en diseño centrado en el usuario (UX), arquitectura de software, seguridad y tecnologías emergentes, lo que ha permitido que HormonalCare sea una solución robusta, escalable y alineada con las mejores prácticas de la industria.       </br> |
-|7.c2. Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de tecnologías de ingeniería de software.|<p>**Astuyauri Calderon Jherson David** </p><p>TB1: Me dediqué a mejorar mis habilidades técnicas a lo largo del proyecto, como mis habilidades en figma y vertabelo. Además, de aprender sobre herramientas modernas como Docker y metodologías ágiles. Ayudé a integrar buenas prácticas para fomentar la calidad de la primera versión del informe para el desarrollo de HormonalCare.</p> <p>TB2: El desarrollo del backend y la arquitectura en HormonalCare me hizo reconocer que el aprendizaje continuo es esencial para mantenerse actualizado en las tecnologías cambiantes. Implementar el modelo C4 y diseñar bases de datos robustas requiere mantenerse al día con las mejores prácticas y nuevas herramientas, lo que me motivó a seguir actualizando mis conocimientos para mejorar tanto la calidad de las soluciones como mi desempeño profesional. </p> <p> TP:Reconocí la importancia del aprendizaje continuo al investigar nuevas herramientas como Swagger y Postman para optimizar la conexión entre el frontend y backend, garantizando un rendimiento eficiente y mejorando la calidad de la aplicación móvil.</p> <p>TB3: La implementación de la lista de pacientes del día me hizo ver la necesidad de profundizar en Flutter y en el manejo de datos en tiempo real. También, investigué sobre optimización de interfaz para aplicaciones de salud, entendiendo la importancia de actualizarme constantemente para ofrecer soluciones seguras y prácticas.</p> <p>TB4: Durante esta TB4, me di cuenta de la importancia de seguir aprendiendo y adaptándome a nuevas tecnologías. La implementación de Firebase y la carga de archivos me permitió profundizar en nuevas herramientas para el desarrollo de aplicaciones móviles, lo que me motivó a seguir investigando y mejorando en el uso de la nube y el manejo de bases de datos. Este tipo de retos son los que me impulsan a continuar desarrollándome profesionalmente.</p> <p>TF: A lo largo del desarrollo del proyecto HormonalCare, me di cuenta de la importancia del aprendizaje continuo en mi desarrollo profesional. Durante este proceso, me actualicé en herramientas como Figma y Vertabelo para mejorar mis habilidades de diseño, y aprendí sobre nuevas tecnologías como Docker para la creación de contenedores, lo que me permitió optimizar el flujo de trabajo del equipo. Además, al trabajar en el backend y en la arquitectura del sistema, me di cuenta de que mantenerse al día con las nuevas tecnologías es clave para seguir ofreciendo soluciones eficientes y escalables. La implementación de nuevas herramientas como Swagger y Postman para la optimización de la comunicación entre frontend y backend me permitió aprender sobre buenas prácticas de API, mejorando la calidad de la aplicación móvil.      </p> <p>**Chinchihualpa Saldarriaga Luis Sebastian**	</p> <p>TB1: Durante esta etapa del proyecto, reconocí la importancia del aprendizaje continuo al explorar nuevas metodologías como Lean UX, que no había utilizado previamente. Investigué y me actualicé en técnicas de mapeo de usuarios y análisis competitivo para asegurar que nuestras decisiones estuvieran fundamentadas en las mejores prácticas actuales. Este proceso de aprendizaje constante no solo enriqueció mi comprensión de la gestión de proyectos en ingeniería de software, sino que también me preparó para enfrentar futuros desafíos con una mentalidad de mejora continua y adaptación a nuevas tecnologías y enfoques.</p><p>TB2: Durante esta TB2, trabajé en la creación de diagramas de bases de datos relacionales y no relacionales y en un diagrama de clases. Reconocí la importancia del aprendizaje continuo para poder estar al tanto de las nuevas tecnologías y enfoques, que son esenciales para mantenerme actualizado en el campo del desarrollo de software.</p> <p> TP:Para poder asegurar la autenticación de los usuarios en HormonalCare, me vi en la necesidad de aprender más sobre la implementación de seguridad basada en tokens JWT. Investigando diversas fuentes y documentación de Spring Boot Security, pude mejorar mi comprensión sobre la validación y creación de tokens. También fue importante aprender sobre técnicas de protección de endpoints en APIs RESTful, lo que fortaleció la seguridad de nuestra aplicación.</p> <p>TB3: La creación de un sistema de autenticación y perfil en Flutter me llevó a estudiar nuevas prácticas de seguridad y tendencias en autenticación móvil. Esta experiencia me mostró la importancia de la actualización constante en temas de seguridad y diseño de interfaces, necesarias para proteger los datos de usuario y mejorar la usabilidad de aplicaciones críticas.</p> <p>TB4: Mi experiencia al trabajar en el sistema de *sign up* y la edición del perfil me permitió comprender lo crucial que es el aprendizaje continuo para poder adaptarse a las nuevas demandas del desarrollo móvil. Aprendí sobre la integración de nuevas funciones en Flutter, lo que me impulsó a investigar más sobre cómo mejorar la seguridad y la experiencia de usuario. Este proceso me ha motivado a seguir aprendiendo para aplicar mejores prácticas en mis futuros proyectos.</p> <p>TF: Durante el desarrollo de HormonalCare, entendí la necesidad de aprender de manera continua para mantenerme actualizado en las últimas tendencias y tecnologías. Investigué sobre Lean UX, JWT para la autenticación de usuarios, y la integración de bases de datos. Todo esto me ayudó a mejorar la seguridad y la calidad de la aplicación. La implementación de JWT en el sistema de autenticación me llevó a profundizar mis conocimientos en seguridad y protección de datos. Además, al trabajar con Flutter, investigué sobre nuevas técnicas de diseño de interfaces móviles, lo que me permitió mejorar la experiencia de usuario y mantener la seguridad de la información personal de los usuarios.</p> <p>**Lostaunau Pereira Estéfano Sebatián**</p><p>TB1: Me enfoqué en fortalecer mi desarrollo profesional a través del aprendizaje continuo, lo que me permitió mejorar en la redacción y presentación de documentación técnica. Adapté mis escritos para comunicar con claridad y precisión tanto a audiencias técnicas como no técnicas, asegurando que todos los stakeholders comprendieran los avances y propuestas del proyecto.</p><p>TB2: Durante esta entrega, reconocí la necesidad de actualizarme en herramientas de colaboración y documentación de pruebas para Sprints, como parte del proceso de validación del producto backend. Investigando y aplicando nuevas metodologías de revisión de código y estrategias para la integración continua, adquirí conocimientos que no había implementado en proyectos anteriores. Este aprendizaje fue clave para documentar correctamente las pruebas y la evidencia de ejecución de los sprints. A través de este proceso, fortalecí mis habilidades en la validación continua y me aseguré de que el equipo aplicara las mejores prácticas de la industria, lo que me ayudará a enfrentar proyectos futuros con una base técnica más sólida. </p><p> TP: Durante el desarrollo del sistema de autenticación de la aplicación HormonalCare en Flutter, identifiqué la necesidad de actualizar mis conocimientos sobre estrategias de seguridad móvil. Investigué sobre el uso de JWT y otras tecnologías para asegurar la autenticación, y también estudié mejores prácticas de seguridad en el manejo de credenciales de usuarios, lo que me permitió implementar un sistema de autenticación robusto y seguro.</p> <p>TB3: Al trabajar con la carga y descarga de PDF en Firebase, reconocí la necesidad de actualizarme en la gestión de almacenamiento en la nube. Investigué cómo asegurar la transmisión de archivos y aprendí a integrar Firebase de forma eficiente en Flutter, lo cual fortaleció mis habilidades en manejo de archivos y optimización de datos.</p> <p>TB4: En esta TB4, entendí que el aprendizaje permanente es esencial para seguir desarrollándome como profesional. La implementación de Firebase para la carga de archivos fue una excelente oportunidad para aprender sobre la integración de bases de datos en la nube y cómo mejorar la seguridad en el manejo de datos médicos. Este conocimiento me animó a seguir explorando nuevas tecnologías para mejorar la calidad de mis aplicaciones.</p> <p>TF: Mi enfoque durante el proyecto fue actualizar mis conocimientos en diversas áreas clave, especialmente en el desarrollo seguro de aplicaciones. Me di cuenta de que el aprendizaje continuo es esencial para mantenerme al día con las nuevas herramientas, como JWT para la autenticación y Firebase para la carga de archivos en la nube. La investigación y la aplicación de estas tecnologías me permitió no solo mejorar la seguridad en la autenticación, sino también integrar soluciones de almacenamiento en la nube de manera eficiente. Además, profundicé en herramientas de colaboración y documentación de pruebas, lo que me ayudó a mejorar la calidad del producto y optimizar el proceso de desarrollo, asegurando que todo el equipo estuviera alineado en cada fase del proyecto.      </p> <p>**Quispesivana Torres Claudio Sandro**</p><p>TB1: Para esta entrega tuve que recapitular lo aprendido sobre las metodologias agiles, puesto que el seguir con el aprendizaje de esta nos ayudo a tener mejor desarrollada cada una de nuestras User Stories que contribuiran al desarrollo del Product Backlog y Springs, que al final tendra como consecuencia la buena particion y distribucion de trabajos para la elaboracion cualquier proyecto de software, ya sea en este o en un futuros proyectos.</p><p>TB2: Para esta TB2, estuve trabajando en User Flow Diagrams y Wireframes interactivos de una app móvil en Android, con el fin de mejorar la experiencia del usuario y asegurar una navegación eficiente dentro de la aplicación.</p> <p> TP: Para la creación del módulo de citas médicas, fue crucial investigar y aprender sobre patrones de diseño de microservicios y la optimización del manejo de bases de datos en Spring Boot. Además, estudié nuevas técnicas para la gestión eficiente de notificaciones y recordatorios de citas, lo que me permitió ofrecer una solución más escalable y eficiente dentro del backend.</p> <p>TB3: La integración del calendario y la configuración de endpoints en Spring Boot me hizo investigar sobre microservicios y sincronización de datos en tiempo real. Esto reafirmó la importancia del aprendizaje continuo, ya que trabajar en aplicaciones con múltiples componentes me demanda actualizarme en patrones de arquitectura y desarrollo ágil.</p> <p>TB4: Trabajar en la visualización del calendario y las funcionalidades *PUT* y *DELETE* me permitió profundizar en mis conocimientos sobre la gestión de datos en tiempo real y cómo optimizar la interacción de los usuarios con la aplicación. Cada nuevo reto me mostró la importancia de seguir aprendiendo sobre nuevas herramientas y patrones de diseño para mejorar la calidad del software que desarrollo. Este proceso de constante aprendizaje me anima a seguir mejorando mis habilidades profesionales.</p> <p>TF: En esta fase del proyecto, comprendí la importancia de seguir aprendiendo, ya que el entorno tecnológico siempre está en constante evolución. Trabajé en la implementación de microservicios y la optimización de bases de datos en Spring Boot, lo que me motivó a actualizar mis conocimientos en patrones de diseño y prácticas de seguridad. La integración del sistema de citas médicas y el calendario en Flutter me permitió profundizar en la gestión de datos en tiempo real y aprender nuevas metodologías para mejorar la interacción del usuario. Este proceso me mostró que el aprendizaje constante es crucial para adaptarme a las nuevas demandas del desarrollo de software y ofrecer soluciones eficientes.      </p>|<br>TB1: En conclusion, reconocemos la importancia del aprendizaje permanente para nuestro desempeño profesional y el desarrollo exitoso de proyectos en soluciones de tecnologías de ingeniería de software. A lo largo del proyecto HormonalCare, cada miembro se comprometió a mejorar sus habilidades técnicas y profesionales. Nos dedicamos a profundizar en herramientas y metodologías modernas como Figma, Vertabelo, Docker, y metodologías ágiles, lo que nos permitió integrar buenas prácticas y asegurar la calidad en cada etapa del proyecto. Además, nos enfocamos en mejorar nuestra capacidad para redactar y presentar documentación técnica, adaptando nuestras comunicaciones para que fueran claras y precisas tanto para audiencias técnicas como no técnicas. Este enfoque en el aprendizaje continuo nos ha fortalecido como profesionales y ha sido crucial para la eficiente colaboración y desarrollo del proyecto, sentando una base sólida para futuros desafíos.</br><br>TB2: Como grupo, reconocemos la importancia del aprendizaje continuo para mantenernos al día con las tecnologías de software. A lo largo de la TB2, nos enfocamos en mejorar nuestras habilidades en áreas clave como el diseño de arquitecturas de software, el uso de bases de datos relacionales y no relacionales, y el desarrollo de interfaces móviles con Wireframes interactivos. Además, adoptamos nuevas herramientas para la gestión de proyectos con el Product Backlog y el Sprint Backlog, y aprendimos a implementar y documentar servicios web RESTful API, lo que refuerza nuestra capacidad para adaptarnos y mejorar constantemente en un entorno en evolución. </br> <br>TP: Todo el equipo reconoció la importancia del aprendizaje permanente para el éxito del proyecto y su desarrollo profesional. El avance de la aplicación HormonalCare demandó que cada miembro explorara nuevas herramientas y tecnologías para optimizar la seguridad, la eficiencia del sistema y la experiencia de usuario. Investigaciones sobre JWT, mejores prácticas de seguridad, optimización de bases de datos y diseño de APIs fueron fundamentales para asegurar la calidad de la solución. Este ciclo resaltó cómo el aprendizaje continuo es esencial para mantenerse actualizado y preparado ante los desafíos de un entorno tecnológico en constante evolución.</br> <br>TB3: Todos reconocemos la importancia del aprendizaje permanente en el desarrollo de software. Cada miembro se actualizó en temas específicos, como el manejo de autenticación segura, gestión de archivos en la nube, y sincronización de datos en tiempo real. Esta fase nos mostró cómo adaptarnos a nuevas tecnologías es esencial para desarrollar soluciones robustas y eficientes en proyectos de ingeniería de software.</br> <br>TB4: En resumen, como equipo, esta TB4 nos permitió reflexionar sobre la importancia de mantenernos actualizados y aprender de manera constante. Cada uno de nosotros tuvo que investigar y adaptarse a nuevas herramientas y tecnologías, lo que refuerza nuestro compromiso con el aprendizaje continuo. A través de este proceso, hemos mejorado nuestras habilidades en Flutter, Firebase y en la gestión de aplicaciones móviles en general, lo que nos posiciona mejor para afrontar los desafíos futuros en el desarrollo de software.</br> <br>TF: En el proyecto HormonalCare, el equipo ha demostrado un fuerte compromiso con el aprendizaje continuo, reconociendo la necesidad de actualizar constantemente nuestros conocimientos y habilidades para adaptarnos a las tecnologías cambiantes y mejorar el desempeño profesional. A lo largo del desarrollo, cada miembro del equipo investigó y aplicó nuevas herramientas y tecnologías, como JWT, Firebase, Docker, Postman, Swagger, y Lean UX, que nos permitieron optimizar el diseño, la seguridad, y la experiencia de usuario de la aplicación.       </br>||
-
-
-## Objetivos SMART 
-|                                                |                    |                   |                               | Specific - Específico                                                                 | Measurable - Medible                                                                               | Ambitious - Ambicioso                                                                                 | Relevant - Relevante                                                                                  | Time-bound - Tiempo Límite                                                |
-|--------------------------------------------------|--------------------------|-----------------|----------------------------------|--------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
-| Nombre del estudiante             |          Descripción del objetivo            |     Fecha de inicio      |          Fecha de cumplimiento o esperada           | ¿Qué se va a lograr? El objetivo indica con especificidad, cuál es el proceso, servicio o producto en cuestión, para qué área es relevante, u otro detalle clave que brinde contexto. | ¿Tiene KPI o métrica clara? El enunciado tiene una meta con indicador (KPI) o métrica clara, que determinará si el objetivo se cumplió. Idealmente, describe el impacto (lo que vamos a lograr) más que el entregable (lo que vamos a hacer). | ¿Es retador y va más allá de sus funciones? El objetivo inspira y reta a pensar acciones para dar el salto que se requiere para el logro, no se lograría sin una estrategia y un foco potentes. | ¿Está alineado a la estrategia? Existe una explicación clara respecto a cómo el objetivo impacta sobre los objetivos estratégicos de la Institución o Laureate Perú. Brinda una noción del alcance del objetivo. | ¿Cuándo se cumplirá? En caso que la expectativa de fecha de cumplimiento sea previa al cierre de ciclo académico, el enunciado contiene de forma explícita la fecha límite para alinear el objetivo. 
-| Jherson David Astuyauri Calderon          | Desarrollar la primera versión de la conexión entre la pantalla principal de la aplicación móvil (home) en Flutter y el backend desarrollado en Spring Boot. | 24/08/2024   | 24/10/2024                       | Implementar la primera versión de la aplicación móvil en Flutter, asegurando la conexión entre el frontend y el backend. | Tener una versión funcional de la app con la interfaz de usuario y las APIs del backend integradas y operativas. | Desarrollar e integrar las capas frontend y backend en 2 meses. | Este objetivo es esencial para probar la funcionalidad básica de la app y avanzar hacia el lanzamiento del MVP. | La primera versión debe estar lista en 2 meses. 
-| Estefano Sebastian Lostaunau Pereira          | Desarrollar una pantalla de historial médico que permita a los médicos revisar, registrar y ajustar planes de tratamiento para pacientes con enfermedades hormonales, utilizando un máximo de tres pantallas. | 25/08/2024      | 24/10/2024                       | Implementar una pantalla de historial médico optimizada que permita a los médicos realizar las acciones clave de seguimiento en tres pantallas o menos, mejorando la eficiencia del flujo de trabajo. | Reducir a tres o menos el número de pantallas necesarias para completar las acciones clave, y mejorar la satisfacción del usuario en un 25% según encuestas de usabilidad. | Requiere rediseñar la navegación y agrupar funciones esenciales, demandando un enfoque innovador y centrado en el usuario. | Apoya la estrategia de NinjaCode de mejorar la eficiencia médica y aumentar la adopción de la herramienta entre los profesionales de salud. | 
-Claudio Sandro Quispesivana Torres         | Implementar la funcionalidad de registro (Sign Up) e inicio de sesión (Log In) en la app móvil HormonalCare.  | 26/08/2024	      | 24/10/2024                       | Desarrollar y desplegar las funcionalidades básicas de registro de usuarios y log in en la aplicación móvil. | Tener el sistema de registro y log in funcional, permitiendo a los usuarios crear cuentas y acceder a la app sin problemas. | Este objetivo implica aprender a manejar la autenticación básica y es clave para el acceso de los usuarios a la app. | Este objetivo es crucial para asegurar que los usuarios puedan comenzar a utilizar la app, lo cual es esencial para cualquier aplicación. | El sistema de registro y log in debe estar completamente implementado y funcional dentro de 2 meses. |
-Luis Sebastian Chinchihualpa Saldarriaga        | Realizar el despliegue de la base de datos en un entorno de producción funcional.	  | 01/09/2024	      | 09/09/2024                       | Configurar y desplegar la base de datos en un entorno de producción, asegurando que sea accesible y esté operativa.	| Confirmar que la base de datos esté desplegada y accesible sin errores, con al menos un 99% de disponibilidad.	| Involucra la configuración de servidores y la optimización de la base de datos para producción.	| Es fundamental para que la aplicación esté completamente operativa y accesible para los usuarios finales.	| El despliegue debe estar completado y probado dentro de 1 mes.
-|
+- [Registro de versiones del informe](#registro-de-versiones-del-informe)
+- [Project Report Collaboration Insights](#project-report-collaboration-insights)
+- [Contenido](#contenido)
+- [Student Outcome](#student-outcome-1)
+- [Objetivos SMART](#objetivos-smart-1)
+- [Capítulo I: Presentación](#capítulo-i-presentación)
+  - [1.1. Startup Profile](#11-startup-profile)
+    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [1.2. Solution Profile](#12-solution-profile)
+    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+    - [1.2.2. Lean UX Process](#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+- [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-needfinding-elicitation-&-analysis-1)
+  - [2.1. Competidores](#21-competidores)
+    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+  - [2.2. Entrevistas](#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+  - [2.3. Needfinding](#23-needfinding)
+    - [2.3.1. User Personas](#231-user-personas)
+    - [2.3.2. User Task Matrix](#232-user-task-matrix)
+    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+    - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
+  - [2.4. Ubiquitous Language](#24-ubiquitous-language)
+- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification-1)
+  - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
+  - [3.2. User Stories](#32-user-stories)
+  - [3.3. Impact Mapping](#33-impact-mapping)
+  - [3.4. Product Backlog](#34-product-backlog)
+- [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
+  - [4.1. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)
+    - [4.1.1. EventStorming](#411-eventstorming)
+      - [4.1.1.1. Candidate Context Discovery](#4111-candidate-context-discovery)
+      - [4.1.1.2. Domain Message Flows Modeling](#4112-domain-message-flows-modeling)
+      - [4.1.1.3. Bounded Context Canvases](#4113-bounded-context-canvases)
+    - [4.1.2. Context Mapping](#412-context-mapping)
+    - [4.1.3. Software Architecture](#413-software-architecture)
+      - [4.1.3.1. System Landscape Diagrams](#4131-software-architecture-system-landscape-diagrams)
+      - [4.1.3.2. Context Level Diagrams](#4132-software-architecture-context-level-diagrams)
+      - [4.1.3.3. Container Level Diagrams](#4133-software-architecture-container-level-diagrams)
+      - [4.1.3.4. Deployment Diagrams](#4134-software-architecture-deployment-diagrams)
+  - [4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)
+    - [4.2.1. Bounded Context: IAM](#421-bounded-context-iam)
+      - [4.2.1.1. Domain Layer](#4211-domain-layer)
+      - [4.2.1.2. Interface Layer](#4212-interface-layer)
+      - [4.2.1.3. Application Layer](#4213-application-layer)
+      - [4.2.1.4. Infrastructure Layer](#4214-infrastructure-layer)
+      - [4.2.1.5. Component Level Diagrams](#4215-component-level-diagrams)
+      - [4.2.1.6. Code Level Diagrams](#4216-code-level-diagrams)
+        - [4.2.1.6.1. Domain Layer Class Diagrams](#42161-domain-layer-class-diagrams)
+        - [4.2.1.6.2. Database Design Diagram](#42162-database-design-diagram)
+    - [4.2.2. Bounded Context: Profile](#422-bounded-context-profile)
+      - [4.2.2.1. Domain Layer](#4221-domain-layer)
+      - [4.2.2.2. Interface Layer](#4222-interface-layer)
+      - [4.2.2.3. Application Layer](#4223-application-layer)
+      - [4.2.2.4. Infrastructure Layer](#4224-infrastructure-layer)
+      - [4.2.2.5. Component Level Diagrams](#4225-component-level-diagrams)
+      - [4.2.2.6. Code Level Diagrams](#4226-code-level-diagrams)
+        - [4.2.2.6.1. Domain Layer Class Diagrams](#42261-domain-layer-class-diagrams)
+        - [4.2.2.6.2. Database Design Diagram](#42262-database-design-diagram)
+    - [4.2.3. Bounded Context: MedicalRecord](#423-bounded-context-medicalrecord)
+      - [4.2.3.1. Domain Layer](#4231-domain-layer)
+      - [4.2.3.2. Interface Layer](#4232-interface-layer)
+      - [4.2.3.3. Application Layer](#4233-application-layer)
+      - [4.2.3.4. Infrastructure Layer](#4234-infrastructure-layer)
+      - [4.2.3.5. Component Level Diagrams](#4235-component-level-diagrams)
+      - [4.2.3.6. Code Level Diagrams](#4236-code-level-diagrams)
+        - [4.2.3.6.1. Domain Layer Class Diagrams](#42361-domain-layer-class-diagrams)
+        - [4.2.3.6.2. Database Design Diagram](#42362-database-design-diagram)
+    - [4.2.4. Bounded Context: Payments](#424-bounded-context-payments)
+      - [4.2.4.1. Domain Layer](#4241-domain-layer)
+      - [4.2.4.2. Interface Layer](#4242-interface-layer)
+      - [4.2.4.3. Application Layer](#4243-application-layer)
+      - [4.2.4.4. Infrastructure Layer](#4244-infrastructure-layer)
+      - [4.2.4.5. Component Level Diagrams](#4245-component-level-diagrams)
+      - [4.2.4.6. Code Level Diagrams](#4246-code-level-diagrams)
+        - [4.2.4.6.1. Domain Layer Class Diagrams](#42461-domain-layer-class-diagrams)
+        - [4.2.4.6.2. Database Design Diagram](#42462-database-design-diagram)
+    - [4.2.5. Bounded Context: Notification](#425-bounded-context-notification)
+      - [4.2.5.1. Domain Layer](#4251-domain-layer)
+      - [4.2.5.2. Interface Layer](#4252-interface-layer)
+      - [4.2.5.3. Application Layer](#4253-application-layer)
+      - [4.2.5.4. Infrastructure Layer](#4254-infrastructure-layer)
+      - [4.2.5.5. Component Level Diagrams](#4255-component-level-diagrams)
+      - [4.2.5.6. Code Level Diagrams](#4256-code-level-diagrams)
+        - [4.2.5.6.1. Domain Layer Class Diagrams](#42561-domain-layer-class-diagrams)
+        - [4.2.5.6.2. Database Design Diagram](#42562-database-design-diagram)
+    - [4.2.6. Bounded Context: Communication](#426-bounded-context-communication)
+      - [4.2.6.1. Domain Layer](#4261-domain-layer)
+      - [4.2.6.2. Interface Layer](#4262-interface-layer)
+      - [4.2.6.3. Application Layer](#4263-application-layer)
+      - [4.2.6.4. Infrastructure Layer](#4264-infrastructure-layer)
+      - [4.2.6.5. Component Level Diagrams](#4265-component-level-diagrams)
+      - [4.2.6.6. Code Level Diagrams](#4266-code-level-diagrams)
+        - [4.2.6.6.1. Domain Layer Class Diagrams](#42661-domain-layer-class-diagrams)
+        - [4.2.6.6.2. Database Design Diagram](#42662-database-design-diagram)
+- [Conclusiones](#conclusiones)
+- [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
+- [Video App Validation](#video-app-validation)
+- [Video About the product](#video-about-the-product)
+- [Video About the team](#video-about-the-team)
+- [Referencias Bibliográficas](#referencias-bibliográficas-1)
+
+# Student Outcome
+
+El curso contribuye al cumplimiento del Student Outcome ABET:<br><br>
+**ABET – EAC - Student Outcome 5**<br>
+**Criterio:** La capacidad de funcionar efectivamente en un equipo cuyos miembros
+juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo,
+establecen objetivos, planifican tareas y cumplen objetivos.<br><br>
+En el siguiente cuadro se describe las acciones realizadas y enunciados de
+conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 5.<br><br>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="3"><b>Criterio específico</b></th>
+      <th colspan="3"><b>Acciones realizadas</b></th>
+      <th colspan="3"><b>Conclusiones</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+	<td colspan="3">Trabaja en equipo para
+proporcionar liderazgo en
+forma conjunta</td>
+      <td colspan="3" align = "justify">
+      <h3>Chinchihualpa Saldarriaga, Luis Sebastian</h3> 
+      <b>TB1</b> 
+      <p></p> 
+    <h3>La Torre Soto, Andre Sebastian</h3>
+    <b>TB1</b>
+    <p></p>
+    <h3>Lostaunau Pereira, Estefano Sebastian</h3>
+    <b>TB1</b>
+    <p></p>
+    <h3>Pecan Pariona, Sergio Joel</h3>
+    <b>TB1</b>
+    <p>Investigué normativas de protección de datos (HIPAA, GDPR) para el módulo de historias clínicas en HormonalCare, documentando requisitos legales en un repositorio compartido. Adicionalmente, me certifiqué en "UX Research for Health Apps" en Coursera para mejorar el diseño de entrevistas a usuarios. La investigación legal evitó riesgos de incumplimiento en el manejo de datos sensibles desde etapas tempranas.</p>
+    <h3>Quispesivana Torres, Claudio Sandro</h3>
+    <b>TB1</b>
+    <p></p>
+    <td colspan="3">
+    <b>TB1</b>
+    <p></p>
+  </td>
+    </tr>
+    <tr>
+      <td colspan="3">Crea un entorno colaborativo e
+inclusivo, establece metas,
+planifica tareas y cumple
+objetivos.</td>
+      <td colspan="3" align = "justify">
+      <h3>Chinchihualpa Saldarriaga, Luis Sebastian</h3> 
+      <b>TB1</b> 
+      <p></p> 
+    <h3>La Torre Soto, Andre Sebastian</h3>
+    <b>TB1</b>
+    <p></p>
+    <h3>Lostaunau Pereira, Estefano Sebastian</h3>
+    <b>TB1</b>
+    <p></p>
+    <h3>Pecan Pariona, Sergio Joel</h3>
+    <b>TB1</b>
+    <p>Participé en el webinar "Healthcare API Security" de OWASP, aplicando recomendaciones para proteger endpoints de historias clínicas contra ataques BOLA.</p>
+    <h3>Quispesivana Torres, Claudio Sandro</h3>
+    <b>TB1</b>
+    <p></p>
+    </td>
+      <td colspan="3">
+    <b>TB1</b>
+    <p></p>
+  </td>
+    </tr>
+  </tbody>
+</table>
+
+<div style="page-break-after: always;"></div>
+
+# Objetivos SMART
+
+Los objetivos SMART son una herramienta esencial para establecer metas claras y alcanzables en cualquier proyecto. SMART es un acrónimo que significa Specific (Específico), Measurable (Medible), Achievable (Alcanzable), Relevant (Relevante) y Time-bound (Con un plazo definido). Este enfoque asegura que cada objetivo esté bien definido y sea cuantificable, lo que facilita el seguimiento y la evaluación del progreso. Al ser alcanzables y relevantes, estos objetivos están alineados con las estrategias del proyecto, mientras que el establecimiento de plazos garantiza un enfoque constante y un sentido de urgencia para lograr los resultados deseados.
+
+### Chinchihualpa Saldarriaga, Luis Sebastian 
+| **Campo**                         | **Descripción**                                                                                                                                     |
+|-----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Descripción del objetivo**      |                               |
+| **Fecha de inicio**               | 04/24/25                                                                                                                                              |
+| **Fecha de cumplimiento esperada** | 05/24/25                                                                                                                                              |
+| **S - Specific** |                          |
+| **M - Measurable** |                                              |
+| **A - Achievable** |                                                              |
+| **R - Relevant** |                                    |
+| **T - Time-bound** |                                                            |
+<br>
+
+### La Torre Soto, Andre Sebastian
+| **Campo**                         | **Descripción**                                                                                                                                     |
+|-----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Descripción del objetivo**      |                               |
+| **Fecha de inicio**               | 04/24/25                                                                                                                                              |
+| **Fecha de cumplimiento esperada** | 05/24/25                                                                                                                                              |
+| **S - Specific** |                          |
+| **M - Measurable** |                                              |
+| **A - Achievable** |                                                              |
+| **R - Relevant** |                                    |
+| **T - Time-bound** |                                                            |
+<br>
+
+### Lostaunau Pereira, Estefano Sebastian
+| **Campo**                         | **Descripción**                                                                                                                                     |
+|-----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Descripción del objetivo**      |                               |
+| **Fecha de inicio**               | 04/24/25                                                                                                                                              |
+| **Fecha de cumplimiento esperada** | 05/24/25                                                                                                                                              |
+| **S - Specific** |                          |
+| **M - Measurable** |                                              |
+| **A - Achievable** |                                                              |
+| **R - Relevant** |                                    |
+| **T - Time-bound** |                                                            |
+<br>
+
+### Pecan Pariona, Sergio Joel 
+| **Campo**                         | **Descripción**                                                                                                                                     |
+|-----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Descripción del objetivo**      |                               |
+| **Fecha de inicio**               | 04/24/25                                                                                                                                              |
+| **Fecha de cumplimiento esperada** | 05/24/25                                                                                                                                              |
+| **S - Specific** |                          |
+| **M - Measurable** |                                              |
+| **A - Achievable** |                                                              |
+| **R - Relevant** |                                    |
+| **T - Time-bound** |                                                            |
+
+<br>
+
+### Quispesivana Torres, Claudio Sandro
+| **Campo**                         | **Descripción**                                                                                                                                     |
+|-----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Descripción del objetivo**      | Desarrollar competencias en automatización de pruebas para garantizar la calidad continua de los proyectos de software.                              |
+| **Fecha de inicio**               | 04/24/25                                                                                                                                              |
+| **Fecha de cumplimiento esperada** | 05/24/25                                                                                                                                              |
+| **S - Specific** | Sandro aprenderá a diseñar y ejecutar pruebas automatizadas utilizando herramientas como Selenium y JUnit, para garantizar que el software desarrollado funcione correctamente y mantenga su calidad en cada iteración de desarrollo.                         |
+| **M - Measurable** | Crear y ejecutar 15 casos de pruebas automatizadas en dos proyectos, midiendo el éxito en términos de cobertura de pruebas y reducción de defectos reportados en las etapas finales del ciclo de desarrollo.                                             |
+| **A - Achievable** | Participará en un curso intensivo de pruebas automatizadas y aplicará el conocimiento adquirido en proyectos actuales, mejorando su capacidad para diseñar pruebas eficientes y efectivas.                                                             |
+| **R - Relevant** | La automatización de pruebas es una habilidad crucial para garantizar la calidad continua en proyectos de software, especialmente en entornos ágiles donde las iteraciones rápidas requieren verificaciones constantes.                                   |
+| **T - Time-bound** | Completar el diseño y ejecución de las pruebas automatizadas antes del 29 de septiembre, con revisiones periódicas para ajustar el enfoque de prueba en función de los resultados obtenidos.                                                           |
+
+<br><br>
+
+
+<div style="page-break-after: always;"></div>
 
 
 ## Capítulo-I: Presentación
