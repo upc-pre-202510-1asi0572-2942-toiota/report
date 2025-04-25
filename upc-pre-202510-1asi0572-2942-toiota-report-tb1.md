@@ -1379,58 +1379,58 @@ Representa la historia clínica principal de un paciente, incluyendo antecedente
 
 Value Objects:
 Objetos de valor que encapsulan atributos específicos del historial clínico, asegurando validación, consistencia y evitando ambigüedad en los datos.
-	•	Allergy: Representa una alergia específica del paciente, incluyendo su nombre y gravedad.
-	•	Diagnosis: Encapsula la información de un diagnóstico realizado, incluyendo la condición detectada y su fecha.
-	•	Medication: Contiene detalles de un medicamento prescrito, como nombre, dosis y frecuencia de administración.
-	•	MedicalBackground: Describe antecedentes médicos relevantes, como enfermedades previas o historial familiar.
-	•	TreatmentPlan: Representa un plan de tratamiento indicado para un diagnóstico específico, detallando terapias o procedimientos.
+	- Allergy: Representa una alergia específica del paciente, incluyendo su nombre y gravedad.
+	- Diagnosis: Encapsula la información de un diagnóstico realizado, incluyendo la condición detectada y su fecha.
+	- Medication: Contiene detalles de un medicamento prescrito, como nombre, dosis y frecuencia de administración.
+	- MedicalBackground: Describe antecedentes médicos relevantes, como enfermedades previas o historial familiar.
+	- TreatmentPlan: Representa un plan de tratamiento indicado para un diagnóstico específico, detallando terapias o procedimientos.
 
 Commands:
 Modelan las intenciones explícitas de modificar el estado de una historia clínica, siguiendo los principios de modificación controlada.
-	•	CreateMedicalRecordCommand: Solicita la creación de una nueva historia clínica para un paciente.
-	•	UpdateMedicalRecordCommand: Permite modificar la información existente en la historia clínica, como antecedentes, diagnósticos o tratamientos.
-	•	AddDiagnosisToMedicalRecordCommand: Agrega un nuevo diagnóstico a la historia clínica existente.
-	•	AddMedicationToMedicalRecordCommand: Incorpora un nuevo medicamento al listado de tratamientos actuales.
-	•	AddAllergyToMedicalRecordCommand: Registra una nueva alergia del paciente en su historia clínica.
+	- CreateMedicalRecordCommand: Solicita la creación de una nueva historia clínica para un paciente.
+	- UpdateMedicalRecordCommand: Permite modificar la información existente en la historia clínica, como antecedentes, diagnósticos o tratamientos.
+	- AddDiagnosisToMedicalRecordCommand: Agrega un nuevo diagnóstico a la historia clínica existente.
+	- AddMedicationToMedicalRecordCommand: Incorpora un nuevo medicamento al listado de tratamientos actuales.
+	- AddAllergyToMedicalRecordCommand: Registra una nueva alergia del paciente en su historia clínica.
 
 Queries:
 Representan solicitudes de lectura específicas sobre la información de las historias clínicas.
-	•	GetAllMedicalRecordsQuery: Recupera todas las historias clínicas registradas en el sistema.
-	•	GetMedicalRecordByIdQuery: Obtiene una historia clínica específica a partir de su identificador único.
-	•	GetMedicalRecordsByPatientIdQuery: Recupera todas las historias clínicas asociadas a un paciente determinado.
+	- GetAllMedicalRecordsQuery: Recupera todas las historias clínicas registradas en el sistema.
+	- GetMedicalRecordByIdQuery: Obtiene una historia clínica específica a partir de su identificador único.
+	- GetMedicalRecordsByPatientIdQuery: Recupera todas las historias clínicas asociadas a un paciente determinado.
 
 ##### 4.2.3.2. Interface Layer  
 Coordina la lógica de negocio de alto nivel, orquestando los servicios que operan sobre la historia clínica y actuando como intermediario entre la presentación y el dominio.
 
 Servicios de Comando:
-	•	MedicalRecordCommandService: Define los métodos para crear y actualizar historias clínicas, además de agregar diagnósticos, medicamentos o alergias.
-	•	MedicalRecordCommandServiceImpl: Implementa la lógica definida en el servicio de comando, delegando al agregado MedicalRecord las operaciones pertinentes.
+	- MedicalRecordCommandService: Define los métodos para crear y actualizar historias clínicas, además de agregar diagnósticos, medicamentos o alergias.
+	- MedicalRecordCommandServiceImpl: Implementa la lógica definida en el servicio de comando, delegando al agregado MedicalRecord las operaciones pertinentes.
 
 Servicios de Consulta:
-	•	MedicalRecordQueryService: Define operaciones para consultar la información de historias clínicas de forma estructurada.
-	•	MedicalRecordQueryServiceImpl: Implementa los métodos de consulta, gestionando la recuperación eficiente de datos.
+	- MedicalRecordQueryService: Define operaciones para consultar la información de historias clínicas de forma estructurada.
+	- MedicalRecordQueryServiceImpl: Implementa los métodos de consulta, gestionando la recuperación eficiente de datos.
 
 ##### 4.2.3.3. Application Layer  
 Expone las funcionalidades del contexto a través de controladores y adapta las solicitudes externas al modelo interno, gestionando la interacción del cliente con el sistema.
 
 Controlador REST:
-	•	MedicalRecordController: Gestiona las peticiones HTTP relacionadas con historias clínicas, delegando en los servicios de comando y consulta la ejecución de las operaciones solicitadas.
+	- MedicalRecordController: Gestiona las peticiones HTTP relacionadas con historias clínicas, delegando en los servicios de comando y consulta la ejecución de las operaciones solicitadas.
 
 Recursos (DTOs):
 Representan las estructuras de datos que transportan la información entre cliente y servidor.
-	•	CreateMedicalRecordResource: Estructura de datos para la creación de una nueva historia clínica.
-	•	UpdateMedicalRecordResource: Representa los datos necesarios para modificar una historia clínica existente.
-	•	AddDiagnosisResource: Contiene los datos para agregar un nuevo diagnóstico.
-	•	AddMedicationResource: Encapsula la información de un medicamento a agregar.
-	•	AddAllergyResource: Representa los datos de una nueva alergia que se registrará.
+	- CreateMedicalRecordResource: Estructura de datos para la creación de una nueva historia clínica.
+	- UpdateMedicalRecordResource: Representa los datos necesarios para modificar una historia clínica existente.
+	- AddDiagnosisResource: Contiene los datos para agregar un nuevo diagnóstico.
+	- AddMedicationResource: Encapsula la información de un medicamento a agregar.
+	- AddAllergyResource: Representa los datos de una nueva alergia que se registrará.
 
 Assemblers:
 Clases que se encargan de transformar DTOs en comandos o entidades de dominio y viceversa.
-	•	CreateMedicalRecordCommandFromResourceAssembler: Convierte un recurso de creación en un comando de dominio.
-	•	MedicalRecordResourceFromEntityAssembler: Transforma una entidad MedicalRecord en un recurso apto para respuesta externa.
+	- CreateMedicalRecordCommandFromResourceAssembler: Convierte un recurso de creación en un comando de dominio.
+	- MedicalRecordResourceFromEntityAssembler: Transforma una entidad MedicalRecord en un recurso apto para respuesta externa.
 
 ACL (Anti-Corruption Layer):
-	•	MedicalRecordContextFacade: Proporciona una interfaz de comunicación protegida entre el contexto de historias clínicas y otros contextos o servicios externos, aislando la lógica interna de cambios o inconsistencias externas.
+	- MedicalRecordContextFacade: Proporciona una interfaz de comunicación protegida entre el contexto de historias clínicas y otros contextos o servicios externos, aislando la lógica interna de cambios o inconsistencias externas.
 
 ##### 4.2.3.4. Infrastructure Layer  
 
