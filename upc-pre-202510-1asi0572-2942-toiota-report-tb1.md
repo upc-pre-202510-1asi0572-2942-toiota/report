@@ -1379,11 +1379,11 @@ Representa la historia clínica principal de un paciente, incluyendo antecedente
 
 Value Objects:
 Objetos de valor que encapsulan atributos específicos del historial clínico, asegurando validación, consistencia y evitando ambigüedad en los datos.
-	- Allergy: Representa una alergia específica del paciente, incluyendo su nombre y gravedad.
-	- Diagnosis: Encapsula la información de un diagnóstico realizado, incluyendo la condición detectada y su fecha.
-	- Medication: Contiene detalles de un medicamento prescrito, como nombre, dosis y frecuencia de administración.
-	- MedicalBackground: Describe antecedentes médicos relevantes, como enfermedades previas o historial familiar.
-	- TreatmentPlan: Representa un plan de tratamiento indicado para un diagnóstico específico, detallando terapias o procedimientos.
+- Allergy: Representa una alergia específica del paciente, incluyendo su nombre y gravedad.
+- Diagnosis: Encapsula la información de un diagnóstico realizado, incluyendo la condición detectada y su fecha.
+- Medication: Contiene detalles de un medicamento prescrito, como nombre, dosis y frecuencia de administración.
+- MedicalBackground: Describe antecedentes médicos relevantes, como enfermedades previas o historial familiar.
+- TreatmentPlan: Representa un plan de tratamiento indicado para un diagnóstico específico, detallando terapias o procedimientos.
 
 Commands:
 Modelan las intenciones explícitas de modificar el estado de una historia clínica, siguiendo los principios de modificación controlada.
