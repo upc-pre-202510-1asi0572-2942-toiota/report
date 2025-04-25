@@ -1454,7 +1454,7 @@ Integraciones:
 <img src="images/chapter 4 tactic design/medicalRecord-domainlayerclass.png">
 
 ###### 4.2.3.6.2. Bounded Context Database Design Diagram  
-<img src="images/chapter 4 tactic design/medicalRecordDb.svg">
+<img src="images/chapter 4 tactic design/medicalRecordDb.png">
 
 
 
