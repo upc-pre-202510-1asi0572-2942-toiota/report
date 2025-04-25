@@ -1411,13 +1411,56 @@ Services del Dominio:
     * generateMedicalHistorySummary(UUID patientId)
 
 ##### 4.2.3.2. Interface Layer  
-_(Contenido por completar)_
+
+REST Controllers:
+* MedicalRecordController
+    * GET /medical-records/{patientId} → Obtener historia clínica por paciente
+    * POST /medical-records/{patientId}/entries → Añadir entrada
+    * PUT /medical-records/{patientId}/entries/{entryId} → Editar entrada
+    * GET /medical-records/{patientId}/entries/{entryId} → Ver entrada específica
+DTOs (Recursos):
+* MedicalRecordResource
+* MedicalRecordEntryResource
+* CreateMedicalRecordEntryResource
+* UpdateMedicalRecordEntryResource
+Assemblers:
+* MedicalRecordEntryFromResourceAssembler
+* MedicalRecordEntryToResourceAssembler
+ACL (Anti-Corruption Layer):
+* PatientContextAdapter
+    * Método: getPatientById(UUID patientId)
+    * Protege la integridad de MedicalRecord frente a cambios en el contexto de Profile.
 
 ##### 4.2.3.3. Application Layer  
-_(Contenido por completar)_
+
+Command Handlers:
+* AddMedicalRecordEntryCommandHandler
+* UpdateMedicalRecordEntryCommandHandler
+Query Handlers:
+* GetMedicalRecordByPatientIdQueryHandler
+* GetMedicalRecordEntryByIdQueryHandler
+Commands:
+* AddMedicalRecordEntryCommand
+* UpdateMedicalRecordEntryCommand
+Queries:
+* GetMedicalRecordByPatientIdQuery
+* GetMedicalRecordEntryByIdQuery
+Event Handlers:
+* MedicalRecordEntryAddedEventHandler
+* MedicalRecordUpdatedEventHandler
 
 ##### 4.2.3.4. Infrastructure Layer  
-_(Contenido por completar)_
+
+Persistencia:
+* JPA Entities:
+    * MedicalRecordEntity
+    * MedicalRecordEntryEntity
+* Repositorios:
+    * MedicalRecordRepository (interfaz)
+    * MedicalRecordRepositoryImpl (implementación)
+Integraciones:
+* EventPublisher para propagar eventos de dominio
+* Servicio de logging/auditoría para cambios en la historia clínica
 
 ##### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams  
 _(Contenido por completar)_
