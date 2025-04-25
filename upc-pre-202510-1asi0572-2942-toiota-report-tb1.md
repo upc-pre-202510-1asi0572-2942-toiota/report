@@ -1446,7 +1446,7 @@ Integraciones:
 * Servicio de logging/auditoría para cambios en la historia clínica
 
 ##### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams  
-<img src="images/chapter 4 tactic design/notification-domainlayerclass.svg">
+<img src="images/chapter 4 tactic design/medicalRecordComponentDiagram.png">
 
 ##### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams  
 
