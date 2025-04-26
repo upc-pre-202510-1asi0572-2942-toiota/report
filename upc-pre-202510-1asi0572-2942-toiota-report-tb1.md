@@ -209,7 +209,7 @@ forma conjunta</td>
     <p>Investigué normativas de protección de datos (HIPAA, GDPR) para el módulo de historias clínicas en HormonalCare, documentando requisitos legales en un repositorio compartido. Adicionalmente, me certifiqué en "UX Research for Health Apps" en Coursera para mejorar el diseño de entrevistas a usuarios. La investigación legal evitó riesgos de incumplimiento en el manejo de datos sensibles desde etapas tempranas.</p>
     <h3>Quispesivana Torres, Claudio Sandro</h3>
     <b>TB1</b>
-    <p></p>
+    <p>Trabajé en equipo para proporcionar liderazgo conjunto, describiendo correctamente los bounded contexts dentro de la arquitectura de software, identificando y abordando los distintos niveles: Landscape, Context, Container y Deployment en el proyecto de HormonalCare.</p>
     <td colspan="3">
     <b>TB1</b>
     <p></p>
@@ -235,7 +235,7 @@ objetivos.</td>
     <p>Participé en el webinar "Healthcare API Security" de OWASP, aplicando recomendaciones para proteger endpoints de historias clínicas contra ataques BOLA.</p>
     <h3>Quispesivana Torres, Claudio Sandro</h3>
     <b>TB1</b>
-    <p></p>
+    <p>Creé un entorno colaborativo e inclusivo al trabajar en equipo para definir metas claras, planificar tareas y describir adecuadamente los bounded contexts en la arquitectura de software, abarcando los niveles de Landscape, Context, Container y Deployment en el proyecto HormonalCare, asegurando el cumplimiento de los objetivos establecidos.</p>
     </td>
       <td colspan="3">
     <b>TB1</b>
