@@ -42,7 +42,10 @@
 
 | Versión |    Fecha   |    Autor   |    Descripción de la modificación    |
 |:-----:|:--------:|:--------:|:--------:|
-| TB1  v.1   | 05/04/2025 | toiota | Para esta entrega se desarrollaron los capitulos I, II, III, IV|
+| TB1  v.1   | 25/03/2025 | Claudio Quispesivana, Sergio Pecan, Andre La Torre | Para esta entrega se desarrollaron los capitulos I|
+| TB1  v.2   | 05/04/2025 | Sergio Pecan, Andre La Torre | Para esta entrega se desarrollaron los capitulos II|
+| TB1  v.3   | 15/04/2025 | Luis Chinchihualpa, Estefano Lostaunau | Para esta entrega se desarrollaron los capitulos III|
+| TB1  v.4   | 25/04/2025 | Claudio Quispesivana, Sergio Pecan, Andre La Torre,Luis Chinchihualpa, Estefano Lostaunau | Para esta entrega se desarrollaron los capitulos IV|
 
 </div>
 
