@@ -55,7 +55,6 @@
 <div>
 
 TB1:
-TB1:
 
 Para la primera entrega de nuestro informe de proyecto, utilizamos un enfoque colaborativo y transparente para desarrollar y mejorar continuamente nuestro trabajo. Establecimos un repositorio en la organización de GitHub de nuestro equipo, donde cada miembro contribuyó activamente al desarrollo del informe.
 
