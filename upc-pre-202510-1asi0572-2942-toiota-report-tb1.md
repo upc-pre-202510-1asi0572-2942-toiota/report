@@ -55,6 +55,15 @@
 <div>
 
 TB1:
+TB1:
+
+Para la primera entrega de nuestro informe de proyecto, utilizamos un enfoque colaborativo y transparente para desarrollar y mejorar continuamente nuestro trabajo. Establecimos un repositorio en la organización de GitHub de nuestro equipo, donde cada miembro contribuyó activamente al desarrollo del informe.
+
+Nuestras actividades de elaboración del informe se llevaron a cabo de manera coordinada y eficiente. A través de reuniones periódicas en Discord, asignamos partes específicas del informe a cada miembro del equipo, asegurando un equilibrio en la distribución de tareas y responsabilidades. Durante estas sesiones, proporcionamos orientación y apoyo mutuo para abordar cualquier pregunta o inquietud que surgiera durante el proceso de redacción. Además, fomentamos un ambiente de retroalimentación constructiva, donde revisamos periódicamente el progreso del proyecto y compartimos sugerencias para mejorar la calidad y la coherencia del informe. Estas sesiones de retroalimentación fueron fundamentales para identificar áreas de mejora y garantizar que nuestro trabajo reflejara de manera precisa los objetivos y logros de nuestro proyecto.
+
+Para respaldar nuestra colaboración y transparencia, presentamos un gráfico de los commits en GitHub, proporcionando evidencia visual de la participación activa de cada miembro del equipo en el desarrollo del informe. Estos commits están en nuestro repositorio de GitHub y reflejan nuestro compromiso con la colaboración y la responsabilidad compartida en el proceso de elaboración del informe.
+
+<div align="center"><img src="./Resources/Chapter-0/insights/insights-tb1.png"></div>
 
 </div>
 
