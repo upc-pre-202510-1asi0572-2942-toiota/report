@@ -197,7 +197,7 @@ forma conjunta</td>
       <td colspan="3" align = "justify">
       <h3>Chinchihualpa Saldarriaga, Luis Sebastian</h3> 
       <b>TB1</b> 
-      <p>InvestiguÃ© normativas de protecciÃ³n de datos (HIPAA, GDPR) para el mÃ³dulo de historias clÃ­nicas en HormonalCare, documentando requisitos legales en un repositorio compartido. Adicionalmente, me certifiquÃ© en â€œUX Research for Health Appsâ€ en Coursera para mejorar el diseÃ±o de entrevistas a usuarios. La investigaciÃ³n legal evitÃ³ riesgos de incumplimiento en el manejo de datos sensibles desde etapas tempranas.
+      <p>Trabajó en el proyecto HormonalCare, enfocándose en el bounded context de Medical Record. Aseguró que el flujo de información entre los módulos fuera coherente y eficiente. Además, desarrolló las user stories para el parche IoT, garantizando que las necesidades de los usuarios estuvieran bien representadas y alineadas con los objetivos técnicos. También participó activamente en la creación del Bounded Context Canvas, trabajando para definir y estructurar los diferentes componentes del sistema, asegurando su integración y alineación con la visión general del proyecto.
 </p> 
     <h3>La Torre Soto, Andre Sebastian</h3>
     <b>TB1</b>
@@ -224,7 +224,7 @@ objetivos.</td>
       <td colspan="3" align = "justify">
       <h3>Chinchihualpa Saldarriaga, Luis Sebastian</h3> 
       <b>TB1</b> 
-      <p>TrabajÃ© en el bounded context de Medical Record, ademÃ¡s de desarrollar user stories para el parche IoT y colaborar en el Bounded Context Canvas.
+      <p>Contribuyó al trabajo en equipo, creando un ambiente de colaboración e inclusión. Participó activamente en la planificación de tareas, asegurando que se establecieran metas claras y alcanzables dentro del proyecto. Su colaboración en la definición de los bounded contexts y la integración de cada componente dentro del Landscape, Context, Container y Deployment facilitó la estructura del proyecto, ayudando a cumplir con los objetivos establecidos y asegurando que el desarrollo fuera coherente y eficiente.
 	</p> 
     <h3>La Torre Soto, Andre Sebastian</h3>
     <b>TB1</b>
