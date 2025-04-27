@@ -224,7 +224,7 @@ forma conjunta</td>
     <p>Trabajé en equipo para proporcionar liderazgo conjunto, describiendo correctamente los bounded contexts dentro de la arquitectura de software, identificando y abordando los distintos niveles: Landscape, Context, Container y Deployment en el proyecto de HormonalCare.</p>
     <td colspan="3">
     <b>TB1</b>
-    <p></p>
+    <p>Como equipo, colaboramos activamente en la definición de los bounded contexts, arquitectura, y desarrollo de componentes clave, liderando de manera conjunta las decisiones técnicas y estratégicas del proyecto HormonalCare, siempre alineados a una visión compartida y fomentando una toma de decisiones colaborativa.</p>
   </td>
     </tr>
     <tr>
@@ -252,7 +252,7 @@ objetivos.</td>
     </td>
       <td colspan="3">
     <b>TB1</b>
-    <p></p>
+    <p>Como equipo, fomentamos un entorno colaborativo e inclusivo, estableciendo metas claras, planificando tareas estratégicamente y cumpliendo los objetivos propuestos en cada etapa del proyecto HormonalCare, asegurando la participación activa y el compromiso de todos los integrantes.</p>
   </td>
     </tr>
   </tbody>
