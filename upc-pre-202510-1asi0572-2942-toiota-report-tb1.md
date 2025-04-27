@@ -209,14 +209,13 @@ forma conjunta</td>
       <td colspan="3" align = "justify">
       <h3>Chinchihualpa Saldarriaga, Luis Sebastian</h3> 
       <b>TB1</b> 
-      <p>Trabajó en el proyecto HormonalCare, enfocándose en el bounded context de Medical Record. Aseguró que el flujo de información entre los módulos fuera coherente y eficiente. Además, desarrolló las user stories para el parche IoT, garantizando que las necesidades de los usuarios estuvieran bien representadas y alineadas con los objetivos técnicos. También participó activamente en la creación del Bounded Context Canvas, trabajando para definir y estructurar los diferentes componentes del sistema, asegurando su integración y alineación con la visión general del proyecto.
-</p> 
+      <p>Trabajó en el proyecto HormonalCare, enfocándose en el bounded context de Medical Record. Aseguró que el flujo de información entre los módulos fuera coherente y eficiente. Además, desarrolló las user stories para el parche IoT, garantizando que las necesidades de los usuarios estuvieran bien representadas y alineadas con los objetivos técnicos. También participó activamente en la creación del Bounded Context Canvas, trabajando para definir y estructurar los diferentes componentes del sistema, asegurando su integración y alineación con la visión general del proyecto.</p> 
     <h3>La Torre Soto, Andre Sebastian</h3>
     <b>TB1</b>
     <p></p>
     <h3>Lostaunau Pereira, Estefano Sebastian</h3>
     <b>TB1</b>
-    <p></p>
+    <p>Trabajamos juntos en la definición del perfil de la startup y la problemática en los Capítulos I y II. En el Capítulo III priorizamos y presentamos las User Stories ante el equipo y stakeholders. En el Capítulo IV definimos los Bounded Contexts (Domain, Interface, Application e Infrastructure) y elaboramos los diagramas de componentes y de código (Domain Layer Class y Database). Así lideramos de forma conjunta las decisiones arquitectónicas clave del proyecto.</p>
     <h3>Pecan Pariona, Sergio Joel</h3>
     <b>TB1</b>
     <p>Investigué normativas de protección de datos (HIPAA, GDPR) para el módulo de historias clínicas en HormonalCare, documentando requisitos legales en un repositorio compartido. Adicionalmente, me certifiqué en "UX Research for Health Apps" en Coursera para mejorar el diseño de entrevistas a usuarios. La investigación legal evitó riesgos de incumplimiento en el manejo de datos sensibles desde etapas tempranas.</p>
@@ -243,7 +242,7 @@ objetivos.</td>
     <p></p>
     <h3>Lostaunau Pereira, Estefano Sebastian</h3>
     <b>TB1</b>
-    <p></p>
+    <p>Creamos un entorno inclusivo desde el inicio, dividiendo y planificando las tareas de Introducción, Análisis, Especificación y Arquitectura. Establecimos metas claras para cada capítulo y revisamos juntos los avances. Ajustamos las User Stories y entregables en equipo, y en Arquitectura nos repartimos los Bounded Contexts y sus diagramas (Component Level, Domain Layer Class y Database). Cumplimos los plazos y objetivos acordados, manteniendo la colaboración y el sentido de pertenencia.</p>
     <h3>Pecan Pariona, Sergio Joel</h3>
     <b>TB1</b>
     <p>Participé en el webinar "Healthcare API Security" de OWASP, aplicando recomendaciones para proteger endpoints de historias clínicas contra ataques BOLA.</p>
@@ -294,14 +293,14 @@ Los objetivos SMART son una herramienta esencial para establecer metas claras y 
 ### Lostaunau Pereira, Estefano Sebastian
 | **Campo**                         | **Descripción**                                                                                                                                     |
 |-----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Descripción del objetivo**      |                               |
-| **Fecha de inicio**               | 04/24/25                                                                                                                                              |
-| **Fecha de cumplimiento esperada** | 05/24/25                                                                                                                                              |
-| **S - Specific** |                          |
-| **M - Measurable** |                                              |
-| **A - Achievable** |                                                              |
-| **R - Relevant** |                                    |
-| **T - Time-bound** |                                                            |
+| **Descripción del objetivo**      | Desarrollar una pantalla de historial médico que permita a los médicos revisar, registrar y ajustar planes de tratamiento para pacientes con enfermedades hormonales, utilizando un máximo de tres pantallas.                                        |
+| **Fecha de inicio**               | 04/09/25                                        |
+| **Fecha de cumplimiento esperada** | 05/09/25                                        |
+| **S - Specific** | Implementar una pantalla de historial médico optimizada que permita a los médicos realizar las acciones clave de seguimiento en tres pantallas o menos, mejorando la eficiencia del flujo de trabajo.                                        |
+| **M - Measurable** | Reducir a tres o menos el número de pantallas necesarias para completar las acciones clave, y mejorar la satisfacción del usuario en un 25% según encuestas de usabilidad.                                        |
+| **A - Achievable** | Requiere rediseñar la navegación y agrupar funciones esenciales, demandando un enfoque innovador y centrado en el usuario.                                        |
+| **R - Relevant** | Apoya la estrategia de NinjaCode de mejorar la eficiencia médica y aumentar la adopción de la herramienta entre los profesionales de salud.                                        |
+| **T - Time-bound** | El despliegue debe estar completado y probado dentro de 1 mes.                                        |
 <br>
 
 ### Pecan Pariona, Sergio Joel 
@@ -365,7 +364,7 @@ A continuación, presentaremos los perfiles de los integrantes del equipo encarg
 | -------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
 | **Chinchihualpa Saldarriaga, Luis Sebastian - u202212112**             |Soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas y actualmente estoy cursando el sexto ciclo. Sé programar en C++, Java y un poco de Python. Me considero una persona muy responsable, exigente y trabajadora. En el grupo del proyecto puedo aportar con mis conocimientos adquiridos en los cursos de Especificación y Análisis de Requerimientos, Algoritmos y Estructuras de Datos, Diseño y Patrones de Software y Desarrollo de Aplicaciones Open Source.| <img src="./Resources/Chapter-I/Profiles/luischinchihualpa.jpg" alt="Imagen de Luis Chinchihualpa" />|
 | **La Torre Soto, Andre Sebastian - u202217772** |Hola soy André Sebastián La torre Soto, actualmente me encuentro en el séptimo ciclo de la carrera de Ingeniería de Software. Durante mi transcurso en la universidad he logrado aprender acerca de varios lenguajes y herramientas como pueden ser Python, C++, JavaScript, SQL, desarrollo web y móvil. Elegí esta carrera por mi afinidad con las matemáticas y las nuevas tecnologías. Soy alguien que disfruta el aprender y mejorar lo aprendido, a pesar de que esto a veces resulte difícil. Espero poder aportar de manera positiva en este grupo para que juntos todos podamos alcanzar nuestras metas.| <img src="./Resources/Chapter-I/Profiles/andrelatorre.png" alt="Imagen de Andre La Torre"/> |
-| **Lostaunau Pereira, Estefano Sebastian - u202211742** |Soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas y actualmente estoy cursando el sexto ciclo. Sé programar en C++, Java y un poco de Python. Me considero una persona muy responsable, exigente y trabajadora. En el grupo del proyecto puedo aportar con mis conocimientos adquiridos en los cursos de Especificación y Análisis de Requerimientos, Algoritmos y Estructuras de Datos, Diseño y Patrones de Software y Desarrollo de Aplicaciones Open Source.| <img src="./Resources/Chapter-I/Profiles/estefanolostaunau.png" alt="Imagen de Estefano Lostaunau"/>                 |
+| **Lostaunau Pereira, Estefano Sebastian - u202211742** |Soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas y actualmente estoy cursando el octavo ciclo. Sé programar en C++, Java y un poco de Python. Me considero una persona muy responsable, exigente y trabajadora. En el grupo del proyecto puedo aportar con mis conocimientos adquiridos en los cursos de Especificación y Análisis de Requerimientos, Algoritmos y Estructuras de Datos, Diseño y Patrones de Software y Desarrollo de Aplicaciones Open Source.| <img src="./Resources/Chapter-I/Profiles/estefanolostaunau.png" alt="Imagen de Estefano Lostaunau"/>                 |
 | **Pecan Pariona, Sergio Joel - u20201a938**     |Mi nombre es Sergio y estudio Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Me gusta mucho la tecnología y cómo se puede usar para resolver problemas del mundo real. A lo largo de la carrera he aprendido varios lenguajes de programación como Python, Java, C++, JavaScript y SQL, que me han permitido desarrollar diferentes tipos de proyectos. Me interesa especialmente el desarrollo web y la arquitectura de software, y en el futuro me gustaría trabajar en proyectos innovadores que mejoren la vida de las personas.    | <img src="./Resources/Chapter-I/Profiles/sergiopecan.jpg" alt="Imagen de Sergio Pecan"/> |
 | **Quispesivana Torres, Claudio Sandro - u202215099**     |Mi nombre es Claudio Sandro Quispesivana Torres, tengo 20 años y estoy cursando el septimo ciclo de la carrera de Ingeniería de Software. Me apasiona la resolución de problemas mediante la aplicación de conceptos y tecnologías innovadoras. Tengo experiencia en desarrollo web utilizando HTML, CSS y JavaScript, y manejo frameworks como Vue y Angular. También tengo conocimientos en bases de datos con MySQL y en el uso de Figma para prototipado. Como miembro del equipo, aporto un sólido conocimiento en desarrollo de software y un compromiso constante con la excelencia en cada proyecto en el que participo. Estoy emocionado por aprender y colaborar con el equipo, así como por adquirir nuevas habilidades y conocimientos en las tecnologías que utilizaremos en nuestro trabajo.    | <img src="./Resources/Chapter-I/Profiles/sandroquispesivana.png" alt="Imagen de Sandro Quispesivana"/> |
 
