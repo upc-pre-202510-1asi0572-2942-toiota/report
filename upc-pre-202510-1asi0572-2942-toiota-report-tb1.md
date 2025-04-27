@@ -722,57 +722,431 @@ Preguntas complementarias:
 *	¿Cuáles son las marcas de los dispositivos, artículos o softwares que te ayudan en tu labor en tu día a día?
 
 #### 2.2.2.   Registro de entrevistas.
-##### >Segmento de usuario – Médicos endocrinólogos.
+##### Segmento de usuario – Médicos endocrinólogos.
 
-***Médico 1:***
-| Datos del médico: | Entrevista |
-|---|---|
-|  <p>Nombres:  Luis Hernán</p> <p>Apellidos: Chinchihualpa Montes</p> <p> Edad: 53 años</p> <p> Localidad: La Molina </p> <p> Timing: 0 </p> <p> Duración: 4:59 </p> <p style="max-width: 350px;"> Link: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211742_upc_edu_pe/EUllch4GompOqxssrbxIvcoBUD8-Mf3YKlc-FjtRF528dA?e=FGGt36&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D]</p>| <img src="images/EntrevistaLuisChinchihualpa.png" width=400> |
-| Resumen:<p>Luis Chinchihualpa proporciona una visión detallada de sus opiniones sobre la atención endocrinológica actual y la telemedicina. Destaca los desafíos presentes en la atención endocrinológica, como los largos tiempos de espera y la escasez de médicos, resaltando la importancia de mejorar la accesibilidad y la eficiencia del servicio. En cuanto a la telemedicina, considera que una aplicación ideal debería ser fácil de usar y ofrecer información clara sobre la patología y el tratamiento, así como permitir el registro de datos del paciente y facilitar el seguimiento del progreso. Destaca el potencial de la telemedicina para mejorar la calidad de vida de los pacientes con enfermedades endocrinas. Además, se menciona que Luis utiliza macOS como sistema operativo, Google Chrome como navegador web y un iPhone como dispositivo móvil, mostrando familiaridad con el ecosistema de productos de Apple. También se destaca su experiencia con programas propios de Essalud y Minsa para la gestión de pacientes.</p> | 
+<table>
+<colgroup>
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2">Entrevista #1<br></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Luis Hernán</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Chinchihualpa Montes</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>53 años</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>La Molina</td>
+  </tr>
+  <tr>
+    <td>Aplicaciones Usadas</td>
+    <td>Google Chrome, Zoom</td>
+  </tr>
+  <tr>
+    <td>Motivacion</td>
+    <td>Obtener objetos deseados de manera más sencilla</td>
+  </tr>
+  <tr>
+    <td>Frustracion</td>
+    <td>Dificultades en obtener objetos de calidad a través de grupos de Facebook</td>
+  </tr>
+  <tr>
+    <td>Tecnologias</td>
+    <td>Laptop macbook, Smartphone IOS</td>
+  </tr>
+	<tr>
+    <td>Browsers</td>
+    <td>Safari</td>
+  </tr>
+  <tr>
+    <td>Entrevistador</td>
+    <td>Luis Sebastian Chinchihualpa Saldarriaga</td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="./Resources/Chapter-II/Interviews/luischinchihualpa_interview.png" alt="Entrevista Luis Chinchihualpa"></div></td>
+  </tr>
+  <tr>
+    <td>Link</td>
+    <td><p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211742_upc_edu_pe/EUllch4GompOqxssrbxIvcoBUD8-Mf3YKlc-FjtRF528dA?e=FGGt36&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" title="Title">Microsoft Stream</p></td>
+  </tr>
+  <tr>
+    <td>Duracion<br></td>
+    <td>00:00 min - 4:59 min </td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td>Luis Chinchihualpa proporciona una visión detallada de sus opiniones sobre la atención endocrinológica actual y la telemedicina. Destaca los desafíos presentes en la atención endocrinológica, como los largos tiempos de espera y la escasez de médicos, resaltando la importancia de mejorar la accesibilidad y la eficiencia del servicio. En cuanto a la telemedicina, considera que una aplicación ideal debería ser fácil de usar y ofrecer información clara sobre la patología y el tratamiento, así como permitir el registro de datos del paciente y facilitar el seguimiento del progreso. Destaca el potencial de la telemedicina para mejorar la calidad de vida de los pacientes con enfermedades endocrinas. Además, se menciona que Luis utiliza macOS como sistema operativo, Google Chrome como navegador web y un iPhone como dispositivo móvil, mostrando familiaridad con el ecosistema de productos de Apple. También se destaca su experiencia con programas propios de Essalud y Minsa para la gestión de pacientes.
+</td>
+  </tr>
+</tbody>
+</table>
 
-
-| **Fila 2** |
-***Médico 2:***
-| Datos del médico: | Entrevista |
-|---|---|
-|  <p>Nombres:  Ricardo </p> <p>Apellidos: Durand</p> <p> Edad: 48 años</p> <p> Localidad: Surco</p> <p> Timing: 4:59 </p> <p> Duración: 4:59 </p> <p style="max-width: 350px;"> Link: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211742_upc_edu_pe/EUllch4GompOqxssrbxIvcoBUD8-Mf3YKlc-FjtRF528dA?e=FGGt36&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D]</p>| <img src="images/EntrevistaRicardoDurand.png" width=400> |
-| Resumen:<p>Ricardo Durand, endocrinólogo con 3 años de experiencia en el sector privado, destaca la alta satisfacción de los pacientes debido a la rapidez de atención en comparación con el sector público. Sugiere el desarrollo de una aplicación para facilitar el control y la comunicación con el médico, especialmente en el manejo de la diabetes, que constituye el 95% de sus consultas y enfrenta dificultades en el control glucémico. 
+<table>
+<colgroup>
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2">Entrevista #2<br></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Ricardo</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Durand</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>48 años</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>Surco</td>
+  </tr>
+  <tr>
+    <td>Aplicaciones Usadas</td>
+    <td>Google Chrome, Zoom</td>
+  </tr>
+  <tr>
+    <td>Motivacion</td>
+    <td>Obtener objetos deseados de manera más sencilla</td>
+  </tr>
+  <tr>
+    <td>Frustracion</td>
+    <td>Dificultades en obtener objetos de calidad a través de grupos de Facebook</td>
+  </tr>
+  <tr>
+    <td>Tecnologias</td>
+    <td>Laptop Windows, Smartphone IOS</td>
+  </tr>
+	<tr>
+    <td>Browsers</td>
+    <td>Google Chrome</td>
+  </tr>
+  <tr>
+    <td>Entrevistador</td>
+    <td>Claudio Sandro Quispesivana Torres</td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="./Resources/Chapter-II/Interviews/ricardoduran_interview.png" alt="Entrevista "></div></td>
+  </tr>
+  <tr>
+    <td>Link</td>
+    <td><p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211742_upc_edu_pe/EUllch4GompOqxssrbxIvcoBUD8-Mf3YKlc-FjtRF528dA?e=FGGt36&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" title="Title">Microsoft Stream</p></td>
+  </tr>
+  <tr>
+    <td>Duracion<br></td>
+    <td>05:00 - 10:00 min </td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td>
+   Ricardo Durand, endocrinólogo con 3 años de experiencia en el sector privado, destaca la alta satisfacción de los pacientes debido a la rapidez de atención en comparación con el sector público. Sugiere el desarrollo de una aplicación para facilitar el control y la comunicación con el médico, especialmente en el manejo de la diabetes, que constituye el 95% de sus consultas y enfrenta dificultades en el control glucémico. 
 Propone un seguimiento remoto para reducir la necesidad de citas presenciales, especialmente efectivo para pacientes estables, mientras que los recién diagnosticados podrían requerir visitas mensuales. Recomienda que la aplicación sea fácil de usar para una experiencia eficaz tanto para pacientes como para médicos.
-</p> | 
+</td>
+  </tr>
+</tbody>
+</table>
 
-| Resumen |
-***Médico 3:***
-| Datos del médico: | Entrevista |
-|---|---|
-|  <p>Nombres:  Roxana </p> <p>Apellidos: Podésta</p> <p> Edad: 38 años</p> <p> Localidad: La Victoria </p> <p> Timing: 9.58 </p> <p> Duración: 5:00 </p> <p style="max-width: 350px;"> Link: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211742_upc_edu_pe/EUllch4GompOqxssrbxIvcoBUD8-Mf3YKlc-FjtRF528dA?e=FGGt36&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D]</p>| <img src="images/EntrevistaRoxanaPodesta.png" width=400> |
-| Resumen:<p>Roxana Podesta, endocrinóloga con 5 años de experiencia, describe las dificultades en la atención actual: largos tiempos de espera (4-5 meses) y baja adherencia al tratamiento. La telemedicina, mediante una aplicación, podría mejorar la accesibilidad, el seguimiento y la satisfacción del paciente. Las enfermedades más comunes son diabetes, resistencia a la insulina, obesidad, problemas de tiroides y dislipidemias. La falta de seguimiento adecuado y los largos tiempos de espera impactan negativamente en la salud del paciente. Se propone una aplicación que facilite la comunicación, el registro de datos, el seguimiento y la organización de citas. Esta herramienta optimizaría el tiempo del médico y la atención al paciente, especialmente para aquellos que requieren un seguimiento más estrecho. Además, se menciona que la doctora utiliza iOS como sistema operativo, Google Chrome como navegador web y un iPhone como dispositivo móvil. También se destaca su experiencia con programas propios de Essalud y Minsa para la gestión de pacientes.</p> | 
-</p> | 
 
-##### >Segmento de usuario – Pacientes con diabetes.
+<table>
+<colgroup>
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2">Entrevista #3<br></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Roxana</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Podésta</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>38 años</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>La Victoria</td>
+  </tr>
+  <tr>
+    <td>Aplicaciones Usadas</td>
+    <td>Google Chrome, Zoom</td>
+  </tr>
+  <tr>
+    <td>Motivacion</td>
+    <td>Obtener objetos deseados de manera más sencilla</td>
+  </tr>
+  <tr>
+    <td>Frustracion</td>
+    <td>Dificultades en obtener objetos de calidad a través de grupos de Facebook</td>
+  </tr>
+  <tr>
+    <td>Tecnologias</td>
+    <td>Laptop Windows, Smartphone Android</td>
+  </tr>
+	<tr>
+    <td>Browsers</td>
+    <td>Google Chrome</td>
+  </tr>
+  <tr>
+    <td>Entrevistador</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="./Resources/Chapter-II/Interviews/roxanapodesta_interview.png" alt="Entrevista "></div></td>
+  </tr>
+  <tr>
+    <td>Link</td>
+    <td><p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211742_upc_edu_pe/EUllch4GompOqxssrbxIvcoBUD8-Mf3YKlc-FjtRF528dA?e=FGGt36&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" title="Title">Microsoft Stream</p></td>
+  </tr>
+  <tr>
+    <td>Duracion<br></td>
+    <td>10:00 - 15:00 min </td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td>
+   Roxana Podesta, endocrinóloga con 5 años de experiencia, describe las dificultades en la atención actual: largos tiempos de espera (4-5 meses) y baja adherencia al tratamiento. La telemedicina, mediante una aplicación, podría mejorar la accesibilidad, el seguimiento y la satisfacción del paciente. Las enfermedades más comunes son diabetes, resistencia a la insulina, obesidad, problemas de tiroides y dislipidemias. La falta de seguimiento adecuado y los largos tiempos de espera impactan negativamente en la salud del paciente. Se propone una aplicación que facilite la comunicación, el registro de datos, el seguimiento y la organización de citas. Esta herramienta optimizaría el tiempo del médico y la atención al paciente, especialmente para aquellos que requieren un seguimiento más estrecho. Además, se menciona que la doctora utiliza iOS como sistema operativo, Google Chrome como navegador web y un iPhone como dispositivo móvil. También se destaca su experiencia con programas propios de Essalud y Minsa para la gestión de pacientes.
+</td>
+  </tr>
+</tbody>
+</table>
 
-***Paciente 1:***
-| Datos del paciente: | Entrevista |
-|---|---|
-|  <p>Nombres:  Joaquin </p> <p>Apellidos: Benavides</p> <p> Edad: 20 años</p> <p> Localidad: San Miguel </p> <p> Timing: 14:58 </p> <p> Duración: 4:52 </p> <p style="max-width: 350px;"> Link: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211742_upc_edu_pe/EUllch4GompOqxssrbxIvcoBUD8-Mf3YKlc-FjtRF528dA?e=FGGt36&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D]</p>| <img src="images/EntrevistaJoaquinBenavides.png" width=400> |
-| Resumen:<p>Joaquín Benavides ha enfrentado desafíos en el seguimiento de su tratamiento para el hipotiroidismo debido a la burocracia en los servicios de salud y las largas esperas para consultas médicas. A pesar de visitar a su endocrinólogo cada tres meses, ha tenido dificultades al explicar sus síntomas a médicos poco familiarizados con su condición, lo que ha retrasado el tratamiento adecuado y afectado su adherencia al mismo. Para mejorar su experiencia, Joaquín estaría interesado en una aplicación móvil que le ayude a recordar tomar su medicación diaria, proporcione información sobre el hipotiroidismo y facilite la comunicación directa con su médico para consultas o ajustes en el tratamiento. Considera esencial que esta aplicación ofrezca características como recordatorios de medicación personalizables, acceso fácil a información relevante y una vía segura de comunicación con su médico.
+##### Segmento de usuario – Pacientes con diabetes.
 
-</p> | 
+<table>
+<colgroup>
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2">Entrevista #1<br></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Joaquin</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Benavides</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>20 años</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>San Miguel</td>
+  </tr>
+  <tr>
+    <td>Aplicaciones Usadas</td>
+    <td>Google Chrome, Zoom</td>
+  </tr>
+  <tr>
+    <td>Motivacion</td>
+    <td>Obtener objetos deseados de manera más sencilla</td>
+  </tr>
+  <tr>
+    <td>Frustracion</td>
+    <td>Dificultades en obtener objetos de calidad a través de grupos de Facebook</td>
+  </tr>
+  <tr>
+    <td>Tecnologias</td>
+    <td>Laptop Windows, Smartphone IOS</td>
+  </tr>
+	<tr>
+    <td>Browsers</td>
+    <td>Google Chrome</td>
+  </tr>
+  <tr>
+    <td>Entrevistador</td>
+    <td>Estefano Sebastian Lostaunau Pereira</td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="./Resources/Chapter-II/Interviews/joaquinbenavides_interview.png" alt="Entrevista "></div></td>
+  </tr>
+  <tr>
+    <td>Link</td>
+    <td><p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/personal/u202211742_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202211742%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202401%2Dsi729%2DSW51%2DNinjaCode%2Dneedfinding%2Dsprint%2D1%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E1f425fe3%2D41d6%2D4381%2D8e7c%2Da7d24d43cd9b&mode=View" title="Title">Microsoft Stream</p></td>
+  </tr>
+  <tr>
+    <td>Duracion<br></td>
+    <td>15:00-19:50 </td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td>
+   Joaquín Benavides ha enfrentado desafíos en el seguimiento de su tratamiento para el hipotiroidismo debido a la burocracia en los servicios de salud y las largas esperas para consultas médicas. A pesar de visitar a su endocrinólogo cada tres meses, ha tenido dificultades al explicar sus síntomas a médicos poco familiarizados con su condición, lo que ha retrasado el tratamiento adecuado y afectado su adherencia al mismo. Para mejorar su experiencia, Joaquín estaría interesado en una aplicación móvil que le ayude a recordar tomar su medicación diaria, proporcione información sobre el hipotiroidismo y facilite la comunicación directa con su médico para consultas o ajustes en el tratamiento. Considera esencial que esta aplicación ofrezca características como recordatorios de medicación personalizables, acceso fácil a información relevante y una vía segura de comunicación con su médico.
+</td>
+  </tr>
+</tbody>
+</table>
 
-***Paciente 2:***
-
-| Datos del paciente | Entrevista |
-|--------------------|------------|
-| **Nombres:** Yudi<br>**Apellidos:** Pariona<br>**Edad:** 43<br>**Localidad:** San Juan de Lurigancho, Lima<br>**Timing:** 1:50<br>**Duración:** 7:38<br>**Link:** [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201a938_upc_edu_pe/EWOQfe2fRKdBgs7PGz-VsvkB9ZMJdgLD7jOrLKUO2DduDQ?e=MahkYZ) | ![Imagen de paciente](images/paciente2.png) |
-
-**Resumen:**  
+<table>
+<colgroup>
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2">Entrevista #2<br></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Yudi</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Pariona</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>43 años</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>San Juan de Lurigancho</td>
+  </tr>
+  <tr>
+    <td>Aplicaciones Usadas</td>
+    <td>Google Chrome</td>
+  </tr>
+  <tr>
+    <td>Motivacion</td>
+    <td>Obtener objetos deseados de manera más sencilla</td>
+  </tr>
+  <tr>
+    <td>Frustracion</td>
+    <td>Dificultades en obtener objetos de calidad a través de grupos de Facebook</td>
+  </tr>
+  <tr>
+    <td>Tecnologias</td>
+    <td>Laptop Windows, Smartphone Android</td>
+  </tr>
+	<tr>
+    <td>Browsers</td>
+    <td>Google Chrome</td>
+  </tr>
+  <tr>
+    <td>Entrevistador</td>
+    <td>Sergio Joel Pecan Pariona</td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="./Resources/Chapter-II/Interviews/yudipariona_interview.png" alt="Entrevista "></div></td>
+  </tr>
+  <tr>
+    <td>Link</td>
+    <td><p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201a938_upc_edu_pe/EWOQfe2fRKdBgs7PGz-VsvkB9ZMJdgLD7jOrLKUO2DduDQ?e=MahkYZ" title="Title">Microsoft Stream</p></td>
+  </tr>
+  <tr>
+    <td>Duracion<br></td>
+    <td>00:00 - 07:39 min </td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td>
 Yudi, de 43 años, vive en San Juan de Lurigancho (Lima) y tiene diabetes tipo 2 desde hace 5 años. Aunque se esfuerza por controlar su condición, enfrenta desafíos como la adherencia a la dieta, el olvido de medicamentos y la irregularidad en sus controles de glucosa. Sus citas médicas suelen retrasarse, y ha tenido experiencias negativas en emergencias por demoras en la atención.
 
-***Paciente 3:***
-| Datos del paciente: | Entrevista |
-|---|---|
-|  <p>Nombres: Sebastian  </p> <p>Apellidos: Chacayan</p> <p> Edad: 20</p> <p> Localidad: Surco </p> <p> Timing: 24.42 </p>  <p> Duración: 4:10 </p> <p style="max-width: 350px;"> Link: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212112_upc_edu_pe/EZcAvGxH5d1DjTjYl8yHYjgBzB9foMkuORSMWEQZgMr8sA?] e=0M1zbd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D </p>| <img src="images/entrevistaPaciente3.png"  width="400">  |
-| Resumen:<p> El entrevistado es una joven con hipertiroidismo diagnosticado hace aproximadamente 2 años. Enfrenta desafíos con los cambios constantes en sus niveles de glucosa, que afectan su estado de ánimo y energía, y la dificultad de ajustar la medicación para controlar síntomas como ansiedad y fatiga. Visita a su endocrinólogo cada 3 meses. A veces le resulta complicado cumplir con el tratamiento debido a efectos secundarios y la interferencia de la rutina diaria. Le gustaría un sistema de recordatorios más efectivo y acceso a recursos educativos sobre su enfermedad. Ha tenido experiencias frustrantes con largos tiempos de espera y comunicación limitada con su médico. Utilizaría una aplicación móvil para llevar un registro médico y comunicarse con su médico, destacando la importancia de una interfaz fácil de usar, recordatorios personalizables y comunicación segura. Prefiere recibir notificaciones en su teléfono móvil y compartir información relevante con su médico a través de la aplicación. Se sentiría más seguro con la posibilidad de comunicarse remotamente con su médico y cree que una aplicación mejoraría significativamente su calidad de vida y control sobre su diabetes.
-</p>| 
+</td>
+  </tr>
+</tbody>
+</table>
+
+<table>
+<colgroup>
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2">Entrevista #3<br></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Sebastian</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Chacayan</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>20 años</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>Surco</td>
+  </tr>
+  <tr>
+    <td>Aplicaciones Usadas</td>
+    <td>Google Chrome, Zoom</td>
+  </tr>
+  <tr>
+    <td>Motivacion</td>
+    <td>Obtener objetos deseados de manera más sencilla</td>
+  </tr>
+  <tr>
+    <td>Frustracion</td>
+    <td>Dificultades en obtener objetos de calidad a través de grupos de Facebook</td>
+  </tr>
+  <tr>
+    <td>Tecnologias</td>
+    <td>Laptop Macbook, Smartphone IOS</td>
+  </tr>
+	<tr>
+    <td>Browsers</td>
+    <td>Google Chrome</td>
+  </tr>
+  <tr>
+    <td>Entrevistador</td>
+    <td>Luis Sebastian Chinchihualpa Saldarriaga</td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="./Resources/Chapter-II/Interviews/sebastianchacayan_interview.png" alt="Entrevista "></div></td>
+  </tr>
+  <tr>
+    <td>Link</td>
+    <td><p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212112_upc_edu_pe/EZcAvGxH5d1DjTjYl8yHYjgBzB9foMkuORSMWEQZgMr8sA?" title="Title">Microsoft Stream</p></td>
+  </tr>
+  <tr>
+    <td>Duracion<br></td>
+    <td>00:00 - 04:12 min </td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td>
+Sebastian Chacayan una joven con hipertiroidismo diagnosticado hace aproximadamente 2 años. Enfrenta desafíos con los cambios constantes en sus niveles de glucosa, que afectan su estado de ánimo y energía, y la dificultad de ajustar la medicación para controlar síntomas como ansiedad y fatiga. Visita a su endocrinólogo cada 3 meses. A veces le resulta complicado cumplir con el tratamiento debido a efectos secundarios y la interferencia de la rutina diaria. Le gustaría un sistema de recordatorios más efectivo y acceso a recursos educativos sobre su enfermedad. Ha tenido experiencias frustrantes con largos tiempos de espera y comunicación limitada con su médico. Utilizaría una aplicación móvil para llevar un registro médico y comunicarse con su médico, destacando la importancia de una interfaz fácil de usar, recordatorios personalizables y comunicación segura. Prefiere recibir notificaciones en su teléfono móvil y compartir información relevante con su médico a través de la aplicación. Se sentiría más seguro con la posibilidad de comunicarse remotamente con su médico y cree que una aplicación mejoraría significativamente su calidad de vida y control sobre su diabetes.
+</td>
+  </tr>
+</tbody>
+</table>
 
 
 #### 2.2.3.  Análisis de entrevistas.
