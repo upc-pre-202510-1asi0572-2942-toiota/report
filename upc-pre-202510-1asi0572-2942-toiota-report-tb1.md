@@ -1692,33 +1692,6 @@ Link: https://www.mermaidchart.com/raw/920dbbea-c482-47bf-88b1-fc08576fb622?them
 - Dado el potencial global de HormonalCare, se debe planificar la adaptación de la aplicación a diferentes mercados. Esto incluye soporte multilingüe, cumplimiento con normativas de privacidad locales y ajustes en las funcionalidades según las necesidades de los usuarios de distintas regiones. Este enfoque asegurará que el proyecto pueda escalar globalmente mientras mantiene su relevancia y accesibilidad.
 
 
-### Video App Validation
-
-Aquí se presenta el video de validación de la aplicación en el cual se muestran los flujos de interacción de los usuarios y las funcionalidades implementadas y toda la aplicación en funciónamiento:
-
-Youtube: https://youtu.be/Eg2EyFeUo_g (3:34)
-
-
-### Video About the product
-
-En esta sección, presentamos un video detallado sobre HormonalCare, diseñado para ofrecer una visión completa de sus características, funcionalidades, ventajas y una opinion de un paciente y medico acerca del mismo.
-
-A continuación, puedes ver el video a través de dos plataformas:
-
-Youtube: https://youtu.be/Eg2EyFeUo_g (2:15)
-
-Microsoft Stream: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215099_upc_edu_pe/EUnXAb-_IgBGltDMrTT5a4IBaxp5cDvUIVLnlD5pxFfCiQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=tgmmRe
-
-### Video About the team
-
-En esta sección, presentamos el video sobre About the team, en el que cada uno menciona en retrospectiva las partes desarolladas en particular para el proyecto y lo que ha aprendido con el desarollo del mismo.
-
-A continuación, puedes ver el video a través de dos plataformas:
-
-Youtube: https://youtu.be/7tG8KmxpN6c (6:40)
-
-Microsoft Stream: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215099_upc_edu_pe/EYkZt4VfJ55Ou2sDBE28EqoBWABS6r18GKdLR1cCnDQsuQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=PTGcG4
-
 
 ## Glosario
 
