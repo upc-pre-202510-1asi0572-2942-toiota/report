@@ -197,7 +197,8 @@ forma conjunta</td>
       <td colspan="3" align = "justify">
       <h3>Chinchihualpa Saldarriaga, Luis Sebastian</h3> 
       <b>TB1</b> 
-      <p></p> 
+      <p>InvestiguÃ© normativas de protecciÃ³n de datos (HIPAA, GDPR) para el mÃ³dulo de historias clÃ­nicas en HormonalCare, documentando requisitos legales en un repositorio compartido. Adicionalmente, me certifiquÃ© en â€œUX Research for Health Appsâ€ en Coursera para mejorar el diseÃ±o de entrevistas a usuarios. La investigaciÃ³n legal evitÃ³ riesgos de incumplimiento en el manejo de datos sensibles desde etapas tempranas.
+</p> 
     <h3>La Torre Soto, Andre Sebastian</h3>
     <b>TB1</b>
     <p></p>
@@ -223,7 +224,8 @@ objetivos.</td>
       <td colspan="3" align = "justify">
       <h3>Chinchihualpa Saldarriaga, Luis Sebastian</h3> 
       <b>TB1</b> 
-      <p></p> 
+      <p>TrabajÃ© en el bounded context de Medical Record, ademÃ¡s de desarrollar user stories para el parche IoT y colaborar en el Bounded Context Canvas.
+	</p> 
     <h3>La Torre Soto, Andre Sebastian</h3>
     <b>TB1</b>
     <p></p>
