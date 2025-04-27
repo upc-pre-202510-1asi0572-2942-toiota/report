@@ -254,16 +254,16 @@ objetivos.</td>
 Los objetivos SMART son una herramienta esencial para establecer metas claras y alcanzables en cualquier proyecto. SMART es un acrónimo que significa Specific (Específico), Measurable (Medible), Achievable (Alcanzable), Relevant (Relevante) y Time-bound (Con un plazo definido). Este enfoque asegura que cada objetivo esté bien definido y sea cuantificable, lo que facilita el seguimiento y la evaluación del progreso. Al ser alcanzables y relevantes, estos objetivos están alineados con las estrategias del proyecto, mientras que el establecimiento de plazos garantiza un enfoque constante y un sentido de urgencia para lograr los resultados deseados.
 
 ### Chinchihualpa Saldarriaga, Luis Sebastian 
-| **Campo**                         | **Descripción**                                                                                                                                     |
-|-----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Descripción del objetivo**      |                               |
-| **Fecha de inicio**               | 04/24/25                                                                                                                                              |
-| **Fecha de cumplimiento esperada** | 05/24/25                                                                                                                                              |
-| **S - Specific** |                          |
-| **M - Measurable** |                                              |
-| **A - Achievable** |                                                              |
-| **R - Relevant** |                                    |
-| **T - Time-bound** |                                                            |
+| **Campo**                         | **Descripción**                                                                                                                                    |
+|--------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Descripción del objetivo**   | Realizar el despliegue de la base de datos en un entorno de producción funcional.                                                                   |
+| **Fecha de inicio**            | 01/09/2024                                                                                                                                         |
+| **Fecha de cumplimiento esperada** | 09/09/2024                                                                                                                                         |
+| **S - Specific**               | Configurar y desplegar la base de datos en un entorno de producción, asegurando que sea accesible y esté operativa.                                  |
+| **M - Measurable**             | Confirmar que la base de datos esté desplegada y accesible sin errores, con al menos un 99% de disponibilidad.                                       |
+| **A - Achievable**             | Involucra la configuración de servidores y la optimización de la base de datos para producción.                                                      |
+| **R - Relevant**               | Es fundamental para que la aplicación esté completamente operativa y accesible para los usuarios finales.                                            |
+| **T - Time-bound**             | El despliegue debe estar completado y probado dentro de 1 mes.                                                                                      |
 <br>
 
 ### La Torre Soto, Andre Sebastian
