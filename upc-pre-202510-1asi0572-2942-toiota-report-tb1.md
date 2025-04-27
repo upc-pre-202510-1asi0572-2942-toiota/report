@@ -257,8 +257,8 @@ Los objetivos SMART son una herramienta esencial para establecer metas claras y 
 | **Campo**                         | **Descripción**                                                                                                                                    |
 |--------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Descripción del objetivo**   | Realizar el despliegue de la base de datos en un entorno de producción funcional.                                                                   |
-| **Fecha de inicio**            | 01/09/2024                                                                                                                                         |
-| **Fecha de cumplimiento esperada** | 09/09/2024                                                                                                                                         |
+| **Fecha de inicio**            | 04/24/25                                                                                                                                       |
+| **Fecha de cumplimiento esperada** | 05/24/25                                                                                                                                        |
 | **S - Specific**               | Configurar y desplegar la base de datos en un entorno de producción, asegurando que sea accesible y esté operativa.                                  |
 | **M - Measurable**             | Confirmar que la base de datos esté desplegada y accesible sin errores, con al menos un 99% de disponibilidad.                                       |
 | **A - Achievable**             | Involucra la configuración de servidores y la optimización de la base de datos para producción.                                                      |
