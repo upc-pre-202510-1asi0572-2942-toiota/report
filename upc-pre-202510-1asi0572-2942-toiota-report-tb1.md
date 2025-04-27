@@ -1550,7 +1550,7 @@ Integraciones:
 ##### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams  
 
 ###### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams  
-<img src="images/chapter 4 tactic design/BC Payment Domain Layer Class Diagrams.png">
+<img src="images/chapter 4 tactic design/ BC Payment Domain Layer Class Diagrams.png">
 
 ###### 4.2.4.6.2. Bounded Context Database Design Diagram  
 <img src="images/chapter 4 tactic design/BC Payment Database Design Diagram.png">
