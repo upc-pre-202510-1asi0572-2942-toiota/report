@@ -2232,3 +2232,5 @@ Repositorio GitHub de la Organización: [Ver Organización](https://github.com/u
 
 Repositorio GitHub del Informe: [Ver Informe](https://github.com/upc-pre-202510-1asi0572-2942-toiota/upc-pre-202510-1asi0572-2942-toIOTa-report-tb1/blob/main/upc-pre-202510-1asi0572-2942-toiota-report-tb1.md)
 
+
+Video de exposicio tb1: [upc-pre-202510-1asi0572-2942-toiota-expo-tb1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215099_upc_edu_pe/Ef1tEK5b2P1KleiB0KHucQUBnQkm4p4JcMkqocqfvpbZqw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=go0Iq4)

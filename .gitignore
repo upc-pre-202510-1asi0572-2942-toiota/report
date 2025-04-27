@@ -1,0 +1,5 @@
+# Ignorar configuración de Obsidian
+.obsidian/
+
+# Ignorar archivos de exportación automáticos (si quieres)
+*.pdf
