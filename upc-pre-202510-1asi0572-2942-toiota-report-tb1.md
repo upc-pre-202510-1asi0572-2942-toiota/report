@@ -212,7 +212,7 @@ forma conjunta</td>
       <p>Trabajó en el proyecto HormonalCare, enfocándose en el bounded context de Medical Record. Aseguró que el flujo de información entre los módulos fuera coherente y eficiente. Además, desarrolló las user stories para el parche IoT, garantizando que las necesidades de los usuarios estuvieran bien representadas y alineadas con los objetivos técnicos. También participó activamente en la creación del Bounded Context Canvas, trabajando para definir y estructurar los diferentes componentes del sistema, asegurando su integración y alineación con la visión general del proyecto.</p> 
     <h3>La Torre Soto, Andre Sebastian</h3>
     <b>TB1</b>
-    <p></p>
+    <p>Para esta entrega trabajé junto a mi equipo la definición de los Bounded Contexts (Domain, Interface, Application e Infrastructure de payment) junto a sus correspondientes diagramas (components y database). Coordinamos en equipo la identificación de las entidades, servicios y eventos principales asignados a los bounded context correspondientes a cada uno. Promoviendo siempre una toma de decisiones colaborativa y alineada con la visión general de nuestro proyecto.</p>
     <h3>Lostaunau Pereira, Estefano Sebastian</h3>
     <b>TB1</b>
     <p>Trabajamos juntos en la definición del perfil de la startup y la problemática en los Capítulos I y II. En el Capítulo III priorizamos y presentamos las User Stories ante el equipo y stakeholders. En el Capítulo IV definimos los Bounded Contexts (Domain, Interface, Application e Infrastructure) y elaboramos los diagramas de componentes y de código (Domain Layer Class y Database). Así lideramos de forma conjunta las decisiones arquitectónicas clave del proyecto.</p>
@@ -239,7 +239,7 @@ objetivos.</td>
 	</p> 
     <h3>La Torre Soto, Andre Sebastian</h3>
     <b>TB1</b>
-    <p></p>
+    <p>Contribui a un entorno colaborativo e inclusivo, al trabajar junto a mi equipo para establecer metas claras y alcanzables, participando en la planificación de las integraciones entre los diferentes módulos del sistema para asegurar de que cada miembro comprendiera sus responsabilidades y los objetivos globales de nuestro proyecto.</p>
     <h3>Lostaunau Pereira, Estefano Sebastian</h3>
     <b>TB1</b>
     <p>Creamos un entorno inclusivo desde el inicio, dividiendo y planificando las tareas de Introducción, Análisis, Especificación y Arquitectura. Establecimos metas claras para cada capítulo y revisamos juntos los avances. Ajustamos las User Stories y entregables en equipo, y en Arquitectura nos repartimos los Bounded Contexts y sus diagramas (Component Level, Domain Layer Class y Database). Cumplimos los plazos y objetivos acordados, manteniendo la colaboración y el sentido de pertenencia.</p>
@@ -280,14 +280,14 @@ Los objetivos SMART son una herramienta esencial para establecer metas claras y 
 ### La Torre Soto, Andre Sebastian
 | **Campo**                         | **Descripción**                                                                                                                                     |
 |-----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Descripción del objetivo**      |                               |
+| **Descripción del objetivo**      | 	Desarrollar una funcionalidad de monitoreo continuo para HormonalCare que permita a los usuarios recibir alertas inmediatas sobre niveles de glucosa críticos y notificaciones personalizadas para mejorar la gestión de su diabetes.                              |
 | **Fecha de inicio**               | 04/24/25                                                                                                                                              |
 | **Fecha de cumplimiento esperada** | 05/24/25                                                                                                                                              |
-| **S - Specific** |                          |
-| **M - Measurable** |                                              |
-| **A - Achievable** |                                                              |
-| **R - Relevant** |                                    |
-| **T - Time-bound** |                                                            |
+| **S - Specific** | Implementar una funcionalidad de monitoreo de glucosa en tiempo real que envíe alertas inmediatas a los usuarios cuando los niveles de glucosa sean críticos, mejorando la gestión de la diabetes a través de notificaciones personalizadas.   |
+| **M - Measurable** | Lograr que la funcionalidad esté operativa al 100%, con una tasa de notificación precisa del 98% y una reducción de eventos críticos de hiperglucemia en un 20% en los usuarios que usen esta función.  |
+| **A - Achievable** |  El objetivo es alcanzable dentro del mes utilizando la infraestructura de la aplicación HormonalCare existente, incorporando sensores IoT y ajustando los algoritmos de monitoreo para la detección en tiempo real de niveles críticos de glucosa. |
+| **R - Relevant** | Esta funcionalidad es clave, ya que mejora la calidad de vida de los pacientes con diabetes, asegurando un monitoreo constante y la capacidad de responder rápidamente ante situaciones críticas.|
+| **T - Time-bound** |El despliegue debe estar completado y probado dentro de 1 mes.  |
 <br>
 
 ### Lostaunau Pereira, Estefano Sebastian
