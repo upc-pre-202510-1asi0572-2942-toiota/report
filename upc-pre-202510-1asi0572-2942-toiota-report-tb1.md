@@ -1466,29 +1466,86 @@ Integraciones:
 #### 4.2.4. Bounded Context: Payments
 
 ##### 4.2.4.1. Domain Layer  
-_(Contenido por completar)_
+La capa de dominio establece los conceptos esenciales del sistema de pagos, define las reglas de negocio asociadas a la gestión de transacciones y encapsula los objetos de valor que garantizan su consistencia e integridad.
+
+Entidad Payment:
+Representa una transacción de pago realizada por un usuario. Contiene información como el monto pagado, el método de pago, la moneda utilizada, la fecha de la transacción, el estado del pago, y referencias al remitente y destinatario.
+
+Value Objects:
+ - Amount: Encapsula el valor monetario de la transacción, asegurando que sea positivo y esté correctamente formateado.
+ - Currency: Representa la moneda en la que se realiza el pago, validando contra un listado permitido (por ejemplo, USD, EUR, PEN).
+ - PaymentMethod: Describe el medio de pago utilizado, como tarjeta de crédito, transferencia bancaria o billetera digital.
+ - PaymentStatus: Enumera los posibles estados del pago (PENDING, COMPLETED, FAILED, CANCELLED).
+ - TransactionDate: Maneja la fecha y hora de la transacción, asegurando precisión temporal.
+ 
+Commands:
+ - CreatePaymentCommand: Solicita la creación de un nuevo registro de pago en el sistema.
+ - UpdatePaymentStatusCommand: Permite actualizar el estado de un pago existente (por ejemplo, de PENDING a COMPLETED o FAILED).
+ - CancelPaymentCommand: Solicita la cancelación de un pago antes de que sea procesado.
+
+Queries:
+ - GetPaymentByIdQuery: Recupera un pago específico mediante su identificador único.
+ - GetAllPaymentsByUserIdQuery: Obtiene todos los pagos asociados a un usuario en particular.
+ - GetPaymentsByStatusQuery: Recupera pagos filtrados según su estado actual.
+
+
 
 ##### 4.2.4.2. Interface Layer  
-_(Contenido por completar)_
+Esta capa coordina la lógica de negocio de alto nivel, orquestando servicios que interactúan con la entidad de pagos, y sirviendo de puente entre la presentación y el dominio.
+
+Servicios de Comando:
+ - PaymentCommandService: Define las operaciones necesarias para crear pagos, actualizar su estado o cancelarlos.
+ - PaymentCommandServiceImpl: Implementa la lógica de negocio para procesar los comandos de pago, delegando a la entidad Payment las modificaciones pertinentes.
+
+Servicios de Consulta:
+ - PaymentQueryService: Define métodos para recuperar información de pagos basada en diferentes criterios de búsqueda.
+ - PaymentQueryServiceImpl: Implementa las consultas, garantizando el acceso eficiente y seguro a los datos de pagos.
 
 ##### 4.2.4.3. Application Layer  
-_(Contenido por completar)_
+Esta capa expone las funcionalidades de pagos al exterior mediante controladores REST y adapta las solicitudes externas al modelo de dominio.
+
+Controlador REST:
+ - PaymentController: Gestiona las solicitudes HTTP relacionadas con pagos, incluyendo la creación de nuevos pagos, actualización de estados y consultas de transacciones.
+
+Recursos (DTOs):
+ - CreatePaymentResource: Contiene los datos requeridos para solicitar la creación de un pago (monto, moneda, método de pago, destinatario).
+ - UpdatePaymentStatusResource: Representa la información necesaria para actualizar el estado de un pago.
+ - PaymentResource: Estructura que representa un pago completo para respuestas de consulta.
+
+Assemblers:
+ - CreatePaymentCommandFromResourceAssembler: Convierte un recurso de creación en un comando CreatePaymentCommand.
+ - UpdatePaymentStatusCommandFromResourceAssembler: Transforma un recurso de actualización de estado en el comando UpdatePaymentStatusCommand.
+ - PaymentResourceFromEntityAssembler: Convierte la entidad Payment en un recurso apto para respuestas HTTP.
+
+ACL (Anti-Corruption Layer):
+ - PaymentContextFacade: Proporciona una interfaz protegida que abstrae las operaciones de pago hacia otros bounded contexts (por ejemplo, al notificar a otros servicios sobre la confirmación de un pago), previniendo acoplamientos indebidos.
+
 
 ##### 4.2.4.4. Infrastructure Layer  
-_(Contenido por completar)_
+Esta capa implementa los mecanismos técnicos necesarios para la persistencia e integración de datos de pagos.
+
+Persistencia:
+	JPA Entities:
+  	- PaymentEntity: Mapea la entidad Payment a una tabla relacional en la base de datos, incluyendo campos como monto, moneda, método de pago, fecha, estado y referencias a usuarios.
+   	Repositorio:
+	- PaymentRepository: Define la interfaz para acceder y gestionar los datos de pagos, soportando operaciones CRUD y consultas específicas como búsqueda por estado o usuario.
+
+Integraciones:
+ - EventPublisher: Permite la publicación de eventos de negocio como "Pago realizado" o "Pago fallido", para que otros bounded contexts puedan reaccionar en consecuencia (por ejemplo, enviando notificaciones).
+ - Sistema de Procesamiento de Pagos: Integración opcional con pasarelas de pago externas (Stripe, PayPal, etc.) a través de adaptadores específicos, respetando el patrón de infraestructura anticorrupción.
+
 
 ##### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams  
-_(Contenido por completar)_
+<img src="images/chapter 4 tactic design/BC Payment Software Architecture Component Level Diagrams.png">
 
 ##### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams  
 
 ###### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams  
-_(Contenido por completar)_
+<img src="images/chapter 4 tactic design/BC Payment Domain Layer Class Diagrams.png">
 
 ###### 4.2.4.6.2. Bounded Context Database Design Diagram  
-_(Contenido por completar)_
+<img src="images/chapter 4 tactic design/BC Payment Database Design Diagram.png">
 
----
 
 #### 4.2.5. Bounded Context: Notification
 
