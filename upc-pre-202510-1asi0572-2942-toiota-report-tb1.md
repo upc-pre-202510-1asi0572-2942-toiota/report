@@ -303,17 +303,22 @@ Los objetivos SMART son una herramienta esencial para establecer metas claras y 
 | **T - Time-bound** | El despliegue debe estar completado y probado dentro de 1 mes.                                        |
 <br>
 
-### Pecan Pariona, Sergio Joel 
+---
+
+### Pecan Pariona, Sergio Joel
 | **Campo**                         | **Descripción**                                                                                                                                     |
 |-----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Descripción del objetivo**      |                               |
+| **Descripción del objetivo**      | Desarrollar un módulo de reportes de desempeño para HormonalCare que permita generar informes personalizados sobre el progreso de los pacientes en su tratamiento. |
 | **Fecha de inicio**               | 04/24/25                                                                                                                                              |
 | **Fecha de cumplimiento esperada** | 05/24/25                                                                                                                                              |
-| **S - Specific** |                          |
-| **M - Measurable** |                                              |
-| **A - Achievable** |                                                              |
-| **R - Relevant** |                                    |
-| **T - Time-bound** |                                                            |
+| **S - Specific** | Implementar un módulo que permita a los médicos generar reportes detallados de evolución del paciente, incluyendo métricas clave de salud, en formatos visuales como gráficos y tablas. |
+| **M - Measurable** | Conseguir que el 90% de los médicos usuarios valoren positivamente la utilidad del módulo en encuestas de satisfacción, y generar correctamente al menos 50 reportes durante la fase de prueba. |
+| **A - Achievable** | Se aprovecharán los datos almacenados en HormonalCare y se integrarán librerías de visualización de datos para agilizar el desarrollo y asegurar una entrega a tiempo. |
+| **R - Relevant** | Permite a los profesionales de la salud tomar decisiones mejor fundamentadas y ofrecer un seguimiento más efectivo a sus pacientes, alineándose con la visión de HormonalCare de mejorar la gestión de la salud hormonal. |
+| **T - Time-bound** | El módulo deberá estar diseñado, desarrollado y probado completamente en el plazo de un mes, para su despliegue inmediato en el entorno de producción. |
+
+---
+
 
 <br>
 
