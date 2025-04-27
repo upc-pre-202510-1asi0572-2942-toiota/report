@@ -30,7 +30,8 @@
 
 **Marzo 2025**
 
-**<a src="https://github.com/upc-pre-202510-1asi0572-2942-toiota">Github</a>**
+[Github](https://github.com/upc-pre-202510-1asi0572-2942-toiota)
+
 
 
 </div>
@@ -1865,8 +1866,8 @@ API RESTful: Conjunto de principios para el diseño de APIs basadas en HTTP que 
 ## Anexos
 
 
-Repositorio GitHub de la Organización: <a src="https://github.com/upc-pre-202510-1asi0572-2942-toiota/">Ver Organización</a>
+Repositorio GitHub de la Organización: [Ver Organización](https://github.com/upc-pre-202510-1asi0572-2942-toiota/)
 
 
-Repositorio GitHub del Informe: <a src="https://github.com/upc-pre-202510-1asi0572-2942-toiota/upc-pre-202510-1asi0572-2942-toIOTa-report-tb1/blob/main/upc-pre-202510-1asi0572-2942-toiota-report-tb1.md">Ver Informe</a>
+Repositorio GitHub del Informe: [Ver Informe](https://github.com/upc-pre-202510-1asi0572-2942-toiota/upc-pre-202510-1asi0572-2942-toIOTa-report-tb1/blob/main/upc-pre-202510-1asi0572-2942-toiota-report-tb1.md)
 
