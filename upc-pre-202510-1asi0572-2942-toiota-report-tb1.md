@@ -1137,53 +1137,53 @@ Sebastian Chacayan, diagnosticada con diabetes hace aproximadamente 2 años, enf
 
 #### 2.2.3.  Análisis de entrevistas.
 ##### >Segmento de usuario – Pacientes con diabetes.
-1)	De la pregunta, "¿Qué diabetes padeces y cuánto tiempo llevas siendo diagnosticado/a con ella?" se puede concluir que:
+1) De la pregunta, "¿Qué tipo de diabetes padeces y cuánto tiempo llevas siendo diagnosticado/a con ella?" se puede concluir que:
 
-El 100% de los pacientes entrevistados padecen diabetes, con un 66.7% diagnosticado con hipotiroidismo y el restante 33.3% con hipertiroidismo. En cuanto al tiempo desde el diagnóstico, dos pacientes (66.7%) han sido diagnosticados hace aproximadamente 5 años, mientras que el tercero (33.3%) fue diagnosticado hace aproximadamente 2 años. Esto sugiere una prevalencia significativa de hipotiroidismo en la muestra, con una duración promedio del diagnóstico en torno a los 5 años.
+El 100% de los pacientes entrevistados padecen diabetes, con un 66.7% diagnosticado hace aproximadamente 5 años y el 33.3% hace 2 años. Esto indica una muestra con experiencia significativa en el manejo de la enfermedad y potencialmente mayor apertura a nuevas tecnologías de monitoreo.
 
-2)	De la pregunta, "¿Cuáles son las principales dificultades que enfrentas en el seguimiento y tratamiento de tu diabetes?" se puede concluir que:
+2) De la pregunta, "¿Has utilizado o te interesaría usar dispositivos IoT (como parches inteligentes o sensores) para monitorear tus niveles de glucosa?" se puede concluir que:
 
-El 100% de los pacientes reportan dificultades en el seguimiento y tratamiento de su diabetes. La mayoría de ellos (66.7%) mencionan la necesidad constante de ajustar la dosis de medicación para mantener los niveles de glucosa estables, debido a la lentitud de los servicios de salud en la programación de citas. Además, un paciente (33.3%) destaca las dificultades para seguir los controles y recordar tomar la medicación, mientras que otro (33.3%) menciona los cambios constantes en los niveles de glucosa, que afectan su estado de ánimo y energía, así como la dificultad para ajustar la medicación y controlar los síntomas como la ansiedad y la fatiga. 
+El 100% de los pacientes muestra interés en el uso de dispositivos IoT para el monitoreo de glucosa. Ninguno ha usado aún estos dispositivos, pero todos consideran que facilitarían el seguimiento y el control diario de la enfermedad.
 
-3)	De la pregunta, "¿Con qué frecuencia visitas a tu médico endocrinólogo para seguimiento y ajuste de tratamiento?" se puede concluir que:
+3) De la pregunta, "¿Cuáles son las principales dificultades que enfrentas al tratar de mantener tus niveles de glucosa dentro de los rangos recomendados?" se puede concluir que:
 
-El 100% de los pacientes entrevistados visitan a su médico endocrinólogo con una frecuencia de cada 3 meses para seguimiento y ajuste de tratamiento. Esto indica una consistencia en la atención médica programada, lo que sugiere una práctica estándar en el manejo de la diabetes en la muestra analizada.
+El 66.7% menciona la dificultad para ajustar la medicación a tiempo debido a la falta de seguimiento continuo, mientras que el 33.3% señala el olvido de medicación y la interferencia de la rutina diaria. El IoT es percibido como una solución para reducir estos problemas mediante alertas y registros automáticos.
 
-4)	De la pregunta, "¿Te resulta complicado cumplir con el tratamiento médico prescrito? ¿Qué factores influyen en tu adherencia al tratamiento?" se puede concluir que:
+4) De la pregunta, "¿Te gustaría recibir alertas automáticas en tu teléfono o dispositivo cuando tus niveles de glucosa estén fuera de rango?" se puede concluir que:
 
-El 66.7% de los pacientes mencionan dificultades para cumplir con el tratamiento médico prescrito. Uno de los factores principales es la disponibilidad y los altos costos de la medicación, así como la dificultad para obtenerla debido a la falta de facilitación por parte de los hospitales. Además, otro paciente (33.3%) señala los efectos secundarios de la medicación, como la pérdida de apetito o problemas para conciliar el sueño, así como la interferencia de la rutina diaria en los horarios de medicación. 
+El 100% de los pacientes considera fundamental recibir alertas automáticas en su móvil, lo que refuerza la importancia de la conectividad y la inmediatez en las soluciones IoT.
 
-5)	De la pregunta, "¿Qué aspectos de tu tratamiento o seguimiento médico te gustaría que fueran más fáciles o convenientes?" se puede concluir que:
+5) De la pregunta, "¿Te sentirías cómodo/a permitiendo que un dispositivo administre insulina automáticamente según tus niveles de glucosa?" se puede concluir que:
 
-El 100% de los pacientes expresan deseos de que el seguimiento médico y el tratamiento sean más fáciles y convenientes. Un aspecto comúnmente mencionado es la necesidad de una aplicación que facilite la adherencia al tratamiento, proporcionando recordatorios sobre la medicación y ofreciendo información útil sobre la enfermedad. También destacan la importancia de facilitar el contacto con el médico y obtener resultados de manera más rápida y accesible. Además, expresan el deseo de acceder a recursos educativos sobre su enfermedad y opciones de tratamiento. Esto indica una demanda clara de soluciones tecnológicas que mejoren la experiencia del paciente y simplifiquen la gestión de la diabetes.
+El 66.7% estaría dispuesto a confiar en la administración automática de insulina, siempre que pueda activar o desactivar la función desde la app. El 33.3% prefiere mantener cierto control manual, mostrando la necesidad de flexibilidad en la solución.
 
-6)	De la pregunta, "¿Has tenido alguna experiencia negativa o frustrante en la atención médica relacionada con tu diabetes? ¿Qué mejorarías de esa experiencia?" se puede concluir que:
+6) De la pregunta, "¿Qué tan importante es para ti poder activar o desactivar funciones como el autosuministro de insulina desde una app?" se puede concluir que:
 
-El 66.7% de los pacientes reportan haber experimentado frustraciones en la atención médica relacionada con diabetes, principalmente debido a los largos tiempos de espera para las citas médicas. Además, los pacientes mencionan la dificultad para comunicarse con su médico entre visitas como un aspecto negativo de su experiencia.
+El 100% considera muy importante tener la opción de activar o desactivar el autosuministro desde la app, especialmente en situaciones como actividad física intensa o cambios en la rutina.
 
-7)	De la pregunta, "¿Utilizarías una aplicación móvil para llevar un registro de tu historial médico, resultados de análisis de glucosa y comunicarte con tu médico?" se puede concluir que:
+7) De la pregunta, "¿Qué aspectos de seguridad y privacidad consideras esenciales al usar dispositivos IoT para tu salud?" se puede concluir que:
 
-El 100% de los pacientes están dispuestos a utilizar una aplicación móvil para llevar un registro de su historial médico, resultados de análisis de glucosa y comunicarse con su médico. Esto sugiere un interés generalizado en herramientas tecnológicas que faciliten la gestión de su diabetes y mejoren la comunicación con los profesionales de la salud. 
+El 100% de los pacientes exige que sus datos estén protegidos y solo sean accesibles para ellos y su médico. La privacidad y la seguridad son condiciones indispensables para la adopción de IoT en salud.
 
-8)	De la pregunta, "¿Qué características consideras más importantes en una aplicación diseñada para el seguimiento y tratamiento de diabetes?" se puede concluir que:
+8) De la pregunta, "¿Qué información te gustaría compartir automáticamente con tu médico a través de la app (por ejemplo, historial de alertas, dosis administradas, eventos críticos)?" se puede concluir que:
 
-El 100% de los pacientes destacan la importancia de ciertas características clave en una aplicación diseñada para el seguimiento y tratamiento de diabetes. Esto incluye la necesidad de recordatorios para la medicación, acceso fácil a información sobre la patología que afecta al paciente y la capacidad de comunicarse de manera segura con el médico. Además, mencionan la importancia de la facilidad de uso, la seguridad de los datos personales y la disponibilidad de recordatorios para tomar la medicación. 
+El 100% desea compartir automáticamente información relevante como historial de alertas, dosis administradas y eventos críticos, para facilitar el seguimiento remoto y la personalización del tratamiento.
 
-9)	De la pregunta, "¿Cómo preferirías recibir recordatorios o alertas sobre tu medicación y citas médicas?" se puede concluir que:
+9) De la pregunta, "¿Te sentirías más seguro/a sabiendo que tus datos están protegidos y solo accesibles para ti y tu médico?" se puede concluir que:
 
-El 100% de los pacientes expresan preferencia por recibir recordatorios o alertas sobre su medicación y citas médicas a través de notificaciones push en su teléfono móvil. Destacan la importancia de la personalización, mencionando la posibilidad de ajustar la frecuencia y el contenido de los recordatorios según sus necesidades individuales. Esto resalta la conveniencia que ofrecen las notificaciones para mejorar la adherencia al tratamiento y la puntualidad en las citas médicas.
+El 100% de los pacientes afirma que la seguridad de los datos aumenta su confianza en el uso de la app y dispositivos IoT.
 
-10)	De la pregunta, "¿Qué información te gustaría poder compartir con tu médico a través de una aplicación para facilitar tu seguimiento y tratamiento?" se puede concluir que:
+10) De la pregunta, "¿Consideras que el uso de dispositivos IoT y apps conectadas podría mejorar tu calidad de vida y control sobre tu diabetes?" se puede concluir que:
 
-El 100% de los pacientes desean poder compartir información relevante con su médico a través de una aplicación para facilitar su seguimiento y tratamiento. Esto incluye síntomas, cambios en el peso, efectos secundarios de la medicación y cualquier otra información que pueda ayudar al médico a comprender mejor su situación. 
+El 100% considera que la integración de IoT y apps conectadas mejoraría significativamente su calidad de vida, permitiendo un mejor control, mayor autonomía y comunicación más eficiente con su médico.
 
-11)	De la pregunta, "¿Te sentirías más seguro/a con la posibilidad de comunicarte con tu médico de forma remota a través de una aplicación?" se puede concluir que:
+11) De la pregunta, "¿Te sentirías más seguro/a con la posibilidad de comunicarte con tu médico de forma remota a través de una aplicación?" se puede concluir que:
 
-El 100% de los pacientes expresan sentirse más seguros con la posibilidad de comunicarse con su médico de forma remota a través de una aplicación. Destacan la conveniencia y rapidez que esto proporcionaría para abordar preocupaciones, recibir asesoramiento rápido y hacer preguntas sobre su tratamiento.
+El 100% expresa sentirse más seguro con la posibilidad de comunicación remota, valorando la rapidez y la facilidad de resolver dudas o emergencias.
 
-12)	De la pregunta, "¿Consideras que una aplicación podría mejorar tu calidad de vida y control sobre tu diabetes?" se puede concluir que:
+12) De la pregunta, "¿Qué funcionalidades relacionadas con IoT te gustaría que tuviera la aplicación (por ejemplo, notificaciones, control manual, historial de eventos, configuración de alertas)?" se puede concluir que:
 
-El 100% de los pacientes consideran que una aplicación podría mejorar significativamente su calidad de vida y control sobre su diabetes. Destacan que una aplicación bien diseñada podría ofrecer un mejor control sobre la enfermedad, una comunicación rápida con el equipo médico y herramientas para gestionar el tratamiento de manera más efectiva.
+El 100% destaca la importancia de funcionalidades como notificaciones automáticas, control manual del autosuministro, historial de eventos y configuración personalizada de alertas, alineadas con las expectativas de una solución IoT moderna.
 
 Finalmente, se realizó una encuesta de Formulario de Google para la obtención de datos extra sobre nuestro segmento pacientes:
 
@@ -1197,57 +1197,57 @@ Resultados de las respuesta de los pacientes: https://docs.google.com/spreadshee
 
 ##### >Segmento de usuario – Médicos endocrinólogos.
 Conclusión:
-1)	De la pregunta "¿Cuál es su especialidad médica y cuántos años lleva ejerciéndola?" podemos concluir que: 
+1) De la pregunta, "¿Cuál es su especialidad médica y cuántos años lleva ejerciéndola?" se puede concluir que:
 
-La especialidad médica más común entre las respuestas es Endocrinología, representando el 100% de las respuestas. Respecto a la experiencia laboral, se observa una variedad en los años de ejercicio, con un promedio de 5.3 años y una desviación estándar de aproximadamente 2.1 años. La respuesta más común es 8 años de experiencia, seguida por 5 años y luego 3 años.
+El 100% de los entrevistados son endocrinólogos, con una experiencia promedio de 5.3 años (rango: 3 a 8 años). Esto garantiza que las opiniones recogidas provienen de profesionales con experiencia relevante en el manejo de diabetes.
 
-2)	De la pregunta "¿Ejerce su práctica médica en el sector privado o público?" podemos concluir que:
+2) De la pregunta, "¿Ejerce su práctica médica en el sector privado o público?" se puede concluir que:
 
-Existe una diversidad en las modalidades de ejercicio médico entre los entrevistados. El 66.7% ejerce en ambos sectores (tanto público como privado), mientras que el 33.3% ejerce únicamente en el sector privado. Esto sugiere una preferencia hacia la diversificación de la práctica médica entre los sectores público y privado, posiblemente influenciada por consideraciones financieras y de accesibilidad para los pacientes.
+El 66.7% ejerce en ambos sectores (público y privado), mientras que el 33.3% solo en el privado. Esto refleja una visión amplia sobre los retos y oportunidades en diferentes contextos de atención.
 
-3)	De la pregunta "¿Cómo calificaría la satisfacción de los pacientes en los centros de salud tradicionales estatales y cómo cree que una aplicación podría mejorar esta experiencia?" podemos concluir que:
+3) De la pregunta, "¿Ha utilizado o recomendaría dispositivos IoT (como parches inteligentes o sensores) para el monitoreo de pacientes con diabetes? ¿Por qué?" se puede concluir que:
 
-Se puede observar que existe una percepción generalizada de insatisfacción entre los pacientes respecto a los servicios ofrecidos en el sector público. El 66.7% de los médicos entrevistados destacan problemas como largos tiempos de espera para citas, infraestructura limitada y disponibilidad reducida de medicamentos. Sin embargo, el 33.3% considera que la experiencia en el sector privado es más satisfactoria, atribuyéndolo a la rapidez de la consulta. Todos los médicos coinciden en que una aplicación podría mejorar la experiencia del paciente, con un enfoque en agilizar los tiempos de espera para citas y mejorar la comunicación entre médico y paciente, lo que podría potencialmente aumentar la adherencia al tratamiento y el seguimiento del mismo.
+El 100% reconoce el potencial de los dispositivos IoT para el monitoreo de pacientes. El 66.7% ya ha recomendado su uso y el 33.3% está interesado en implementarlos, destacando la utilidad para el seguimiento en tiempo real y la mejora en la adherencia al tratamiento.
 
-4)	De la pregunta "¿Cuáles considera que son las enfermedades más frecuentes en su área de especialización?" podemos concluir que:
+4) De la pregunta, "¿Cómo cree que el uso de dispositivos IoT podría mejorar la satisfacción de los pacientes respecto a la atención tradicional?" se puede concluir que:
 
-De acuerdo con las respuestas de los médicos entrevistados, se puede observar que hay un consenso en cuanto a las enfermedades más frecuentes en el área de endocrinología. El 100% de los médicos mencionan la diabetes como una de las principales patologías, con porcentajes específicos del 95% y un énfasis generalizado en su importancia. Además, trastornos relacionados con el peso, como la obesidad y el sobrepeso, son destacados por todos los médicos, con el 66.7% mencionando específicamente la obesidad como un factor de riesgo para la diabetes. Otras enfermedades endocrinas comunes incluyen trastornos de la glándula tiroides, resistencia a la insulina, síndrome de ovario poliquístico, así como dislipidemias. La prevalencia de ciertas condiciones, como el síndrome de ovario poliquístico, parece variar entre el sector público y privado, siendo más frecuente en el último, según el 33.3% de los médicos entrevistados. 
+El 100% considera que el IoT puede aumentar la satisfacción del paciente al permitir monitoreo continuo, alertas automáticas y reducción de visitas presenciales. El 66.7% destaca la mejora en la autonomía del paciente y el 33.3% enfatiza la rapidez en la toma de decisiones clínicas.
 
-5)	De la pregunta "¿Cuáles son las mayores dificultades que enfrenta al hacer seguimiento a sus pacientes con diabetes?" podemos concluir que:
+5) De la pregunta, "¿Cuáles son las mayores dificultades que enfrenta al hacer seguimiento remoto y en tiempo real a sus pacientes con diabetes usando tecnología?" se puede concluir que:
 
-El 66.7% de los médicos identifican largos tiempos de espera para conseguir una cita con un endocrinólogo, que puede variar entre 1 y 4 meses, debido a la escasez de especialistas, especialmente en el sector privado. Esto resalta la importancia de abordar la accesibilidad a la atención médica especializada en endocrinología. Además, el 33.3% de los médicos menciona dificultades en el control continuo de la enfermedad, especialmente con respecto al ajuste de la dosificación de insulina, lo que destaca la necesidad de soluciones alternativas para garantizar un seguimiento efectivo de los pacientes.
+El 66.7% menciona la interoperabilidad de dispositivos y la gestión de grandes volúmenes de datos como principales retos. El 33.3% señala la necesidad de interfaces intuitivas y la capacitación tanto para médicos como para pacientes.
 
-6)	De la pregunta "¿Qué porcentaje de sus pacientes cumple con el tratamiento prescrito y alcanza los objetivos planteados en la evaluación médica?" podemos concluir que:
+6) De la pregunta, "¿Qué porcentaje de sus pacientes estaría dispuesto a usar dispositivos IoT para el monitoreo continuo de glucosa?" se puede concluir que:
 
-Existe una marcada diferencia en el cumplimiento del tratamiento entre el sector público y privado. En el sector público, solo el 10-15% de los pacientes cumplen con el tratamiento, lo que refleja una lucha diaria y se atribuye en parte a la limitada rapidez en el contacto médico-paciente. Por otro lado, en el sector privado, el 90% de los pacientes cumplen con el tratamiento, principalmente porque lo están pagando de su propio bolsillo. En cuanto a los objetivos relacionados con la diabetes, el 70% de los pacientes en el sector privado los alcanzan, mientras que en el sector público este porcentaje tiende a ser más bajo. Además, en general, entre el 60-70% de los pacientes cumplen con sus objetivos, lo que sugiere que el cumplimiento del tratamiento puede verse influenciado por diversos factores, incluyendo el acceso y la capacidad de pago.
+El 66.7% estima que más del 70% de sus pacientes jóvenes y familiarizados con tecnología aceptarían el uso de IoT, mientras que el 33.3% considera que la adopción sería más lenta en adultos mayores.
 
-7)	De la pregunta "¿Con qué frecuencia realiza el seguimiento de sus pacientes y si considera que es indispensable realizarlo de manera presencial o puede ser a distancia a través de tecnologías de comunicación?" podemos concluir que:
+7) De la pregunta, "¿Con qué frecuencia revisa los datos generados por dispositivos IoT de sus pacientes? ¿Prefiere hacerlo presencialmente o a distancia?" se puede concluir que:
 
-Según los médicos entrevistados, el 66.7% considera que la tecnología puede agilizar el seguimiento de pacientes con diabetes, permitiendo una comunicación más rápida y eficiente. El 33.3% menciona la posibilidad de utilizar teleconsulta y exámenes de laboratorio facilitados por el paciente, especialmente para enfermedades estables como la diabetes. Además, sugieren variar la frecuencia de seguimiento según la condición del paciente, con intervalos más cortos para nuevos casos. Esto sugiere una adaptación hacia un enfoque más flexible y tecnológico en el seguimiento de pacientes con diabetes.
+El 100% prefiere revisar los datos a distancia, con una frecuencia semanal o según alertas automáticas. Esto permite un seguimiento más eficiente y personalizado.
 
-8)	De la pregunta "¿Cuán frecuente es para usted modificar el tratamiento de sus pacientes en función de los resultados de seguimiento, como análisis de laboratorio, peso y síntomas variados?" podemos concluir que:
+8) De la pregunta, "¿Qué tan útil considera la posibilidad de recibir alertas automáticas cuando los niveles de glucosa de un paciente están fuera de rango?" se puede concluir que:
 
-La frecuencia de modificación del tratamiento varía según el estado del paciente y la estabilidad de su condición médica. En casos de pacientes nuevos o recién diagnosticados, la frecuencia de ajustes en el tratamiento tiende a ser más alta, con modificaciones mensuales e incluso diarias en algunos casos. Por otro lado, para pacientes con condiciones estables y regímenes de tratamiento establecidos, la frecuencia de modificación es menor, con controles regulares que pueden espaciarse a intervalos de tres o cuatro meses. Esta variabilidad en la frecuencia de modificación del tratamiento refleja la necesidad de una atención médica personalizada y adaptable a las necesidades cambiantes de los pacientes en función de su estado de salud y respuesta al tratamiento.
+El 100% considera muy útil esta función, ya que permite intervenciones tempranas y reduce riesgos de complicaciones graves.
 
-9)	De la pregunta "¿Consideraría que es importante una aplicación para el seguimiento y tratamiento de diabetes?" podemos concluir que:
+9) De la pregunta, "¿Considera importante que la aplicación permita configurar alertas personalizadas y límites para cada paciente?" se puede concluir que:
 
-Se destaca la importancia de una aplicación para el seguimiento y tratamiento de diabetes, especialmente en el contexto actual de la telemedicina, que se ha vuelto más común debido a la pandemia de COVID-19. La implementación de una aplicación podría agilizar el contacto entre médicos y pacientes, permitiendo alcanzar los objetivos terapéuticos de manera más rápida y mejorando la salud en general. Además, se señala que una aplicación sería especialmente útil para pacientes que requieren un seguimiento más cercano, como aquellos que utilizan insulina, ya que el tratamiento con esta hormona es dinámico y requiere ajustes frecuentes. La disponibilidad de una base de datos de pacientes con sus respectivas patologías y seguimientos actualizaría sería fundamental para garantizar un control adecuado, especialmente en entornos de atención médica pública.
+El 100% está de acuerdo en la importancia de personalizar los umbrales de alerta, adaptando el monitoreo a las necesidades individuales de cada paciente.
 
-10)	De la pregunta "¿Qué ventajas cree que podría ofrecerle a usted y a sus pacientes la utilización de una aplicación para el seguimiento y tratamiento de diabetes?" podemos concluir que:
+10) De la pregunta, "¿Qué ventajas ve en la integración de IoT para el seguimiento y tratamiento de la diabetes, tanto para usted como para sus pacientes?" se puede concluir que:
 
-La utilización de una aplicación para el seguimiento y tratamiento de diabetes ofrecería ventajas significativas tanto para los pacientes como para los médicos. Para los pacientes, implicaría menos costos y tiempo de movilización, además de permitirles continuar con su rutina diaria sin interrupciones. Esto aumentaría la accesibilidad al tratamiento. Para los médicos, la aplicación proporcionaría la capacidad de atender a más pacientes de manera más eficiente, lo que tendría un impacto económico positivo. Además, permitiría una modificación más rápida del tratamiento y una mejor gestión de la atención. En resumen, la aplicación mejoraría la adherencia al tratamiento, la calidad de la atención y reduciría los tiempos de espera para los pacientes, mientras que para los médicos facilitaría la organización y gestión de la atención médica.
+El 100% destaca ventajas como el monitoreo continuo, la reducción de visitas presenciales, la mejora en la adherencia y la toma de decisiones basada en datos en tiempo real.
 
-11)	De la pregunta "¿Cuáles son las condiciones básicas que deberían cumplirse para que pueda darse una atención efectiva a través de una aplicación?" podemos concluir que:
+11) De la pregunta, "¿Cuáles son las condiciones básicas de seguridad y privacidad que debería cumplir una solución IoT para que usted la recomiende?" se puede concluir que:
 
-Se destacan varias condiciones básicas que deben cumplirse para que la atención a través de una aplicación sea efectiva. En primer lugar, la aplicación debe ser accesible, intuitiva y fácil de usar, especialmente para pacientes de edad avanzada. Esto incluye características como botones grandes y visibles, así como una interfaz clara y sencilla. Además, la aplicación debe ser rápida y compatible con diferentes sistemas operativos, asegurando una conectividad adecuada incluso en áreas con condiciones climáticas adversas. También es crucial que la aplicación proporcione información clara y concisa sobre la patología del paciente, sus objetivos de tratamiento y el plan terapéutico utilizado. Por último, la aplicación debe contar con características como notificaciones y alertas para facilitar la comunicación entre el médico y el paciente, garantizando así una atención efectiva y oportuna.
+El 100% exige cumplimiento de normativas de protección de datos, cifrado de información y acceso restringido solo a usuarios autorizados.
 
-12)	De la pregunta "¿Qué funcionalidades le gustaría que tuviera la aplicación por enfermedad a tratar?, ¿cuáles crees que deberían ser las principales?" podemos concluir que:
+12) De la pregunta, "¿Qué funcionalidades específicas relacionadas con IoT le gustaría que tuviera la aplicación (por ejemplo, administración automática de insulina, historial de alertas, control remoto del autosuministro)?" se puede concluir que:
 
-Las funcionalidades deseadas para una aplicación de seguimiento y tratamiento de diabetes varían entre los médicos, pero hay algunas características principales que destacan. En primer lugar, la capacidad de registrar y monitorear datos relevantes para cada condición, como niveles de glucosa, parámetros de laboratorio y síntomas, es fundamental. Esto incluye la generación de informes y gráficos para una mejor visualización del progreso del paciente. Además, la aplicación debe permitir establecer objetivos claros y enviar recordatorios de medicación para mejorar la adherencia al tratamiento. También es importante que la aplicación facilite la exportación de datos para compartir información con otros profesionales de la salud y garantizar una atención coordinada. Por último, características específicas para cada enfermedad, como la generación de tablas basadas en resultados de laboratorio para el hipertiroidismo o la capacidad de registrar diferentes parámetros para pacientes diabéticos, son deseables para una atención personalizada y efectiva.
+El 100% menciona la importancia de funcionalidades como administración automática de insulina, historial de alertas, control remoto del autosuministro y visualización de tendencias de glucosa.
 
-13)	De la pregunta "¿Cree que la implementación de esta aplicación podría aumentar su cartera de pacientes y la demanda de sus servicios?" podemos concluir que:
+13) De la pregunta, "¿Cree que la implementación de soluciones IoT podría aumentar su cartera de pacientes y la demanda de sus servicios?" se puede concluir que:
 
-La implementación de esta aplicación podría tener un impacto positivo tanto en la cartera de pacientes como en la demanda de servicios. En primer lugar, facilitaría una comunicación más eficiente y una mejor gestión de los pacientes, lo que podría resultar en una mayor satisfacción y fidelidad por parte de estos. Esto podría conducir indirectamente a un aumento en la cartera de pacientes, ya que fortalecería la relación médico-paciente y evitaría la pérdida de clientes. Además, al mejorar la eficiencia en el seguimiento y tratamiento de enfermedades crónicas, como la diabetes, la aplicación podría liberar tiempo para que los médicos atiendan a nuevos pacientes, aumentando así la demanda de servicios médicos. En el sector estatal, donde la demanda ya supera la oferta, la implementación de la aplicación podría mejorar el seguimiento de los pacientes crónicos y liberar citas para nuevos pacientes, lo que haría que los servicios fueran más accesibles y, en última instancia, aumentaría la demanda de atención médica.
+El 66.7% considera que la integración de IoT puede aumentar la eficiencia y la satisfacción del paciente, incrementando la demanda de servicios, especialmente en el sector privado. El 33.3% opina que también puede optimizar la gestión de pacientes en el sector público.
 
 Finalmente, se realizó una encuesta de Formulario de Google para la obtención de datos extra sobre nuestro segmento médico:
 
