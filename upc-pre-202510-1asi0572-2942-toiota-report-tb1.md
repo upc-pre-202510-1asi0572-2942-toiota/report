@@ -646,17 +646,17 @@ El diseño de entrevistas es una parte fundamental de nuestro enfoque para compr
 **Para los médicos especialistas:**
 1.	¿Cuál es su especialidad médica y cuántos años lleva ejerciéndola?
 2.	¿Ejerce su práctica médica en el sector privado o público?
-3.	¿Cómo calificaría la satisfacción de los pacientes en los centros de salud tradicionales estatales y cómo cree que una aplicación podría mejorar esta experiencia?
-4.	¿Cuáles considera que son las enfermedades más frecuentes en su área de especialización?
-5.	¿Cuáles son las mayores dificultades que enfrenta al hacer seguimiento a sus pacientes con diabetes?
-6.	¿Qué porcentaje de sus pacientes cumple con el tratamiento prescrito y alcanza los objetivos planteados en la evaluación médica?
-7.	¿Con qué frecuencia realiza el seguimiento de sus pacientes y si considera que es indispensable realizarlo de manera presencial o puede ser a distancia a través de tecnologías de comunicación?
-8.	¿Cuán frecuente es para usted modificar el tratamiento de sus pacientes en función de los resultados de seguimiento, como análisis de laboratorio, peso y síntomas variados?
-9.	¿Consideraría que es importante una aplicación para el seguimiento y tratamiento de diabetes?
-10.	¿Qué ventajas cree que podría ofrecerle a usted y a sus pacientes la utilización de una aplicación para el seguimiento y tratamiento de diabetes?
-11.	¿Cuáles son las condiciones básicas que deberían cumplirse para que pueda darse una atención efectiva a través de una aplicación?
-12.	¿Qué funcionalidades le gustaría que tuviera la aplicación por enfermedad a tratar?, ¿cuáles crees que deberían ser las principales?
-13.	¿Cree que la implementación de esta aplicación podría aumentar su cartera de pacientes y la demanda de sus servicios?
+3.	¿Ha utilizado o recomendaría dispositivos IoT (como parches inteligentes o sensores) para el monitoreo de pacientes con diabetes? ¿Por qué?
+4.	¿Cómo cree que el uso de dispositivos IoT podría mejorar la satisfacción de los pacientes respecto a la atención tradicional?
+5.	¿Cuáles son las mayores dificultades que enfrenta al hacer seguimiento remoto y en tiempo real a sus pacientes con diabetes usando tecnología?
+6.	¿Qué porcentaje de sus pacientes estaría dispuesto a usar dispositivos IoT para el monitoreo continuo de glucosa?
+7.	¿Con qué frecuencia revisa los datos generados por dispositivos IoT de sus pacientes? ¿Prefiere hacerlo presencialmente o a distancia?
+8.	¿Qué tan útil considera la posibilidad de recibir alertas automáticas cuando los niveles de glucosa de un paciente están fuera de rango?
+9.	¿Considera importante que la aplicación permita configurar alertas personalizadas y límites para cada paciente?
+10.	¿Qué ventajas ve en la integración de IoT para el seguimiento y tratamiento de la diabetes, tanto para usted como para sus pacientes?
+11.	¿Cuáles son las condiciones básicas de seguridad y privacidad que debería cumplir una solución IoT para que usted la recomiende?
+12.	¿Qué funcionalidades específicas relacionadas con IoT le gustaría que tuviera la aplicación (por ejemplo, administración automática de insulina, historial de alertas, control remoto del autosuministro)?
+13.	¿Cree que la implementación de soluciones IoT podría aumentar su cartera de pacientes y la demanda de sus servicios?
 
 Preguntas complementarias:
 *	¿Cuál es su nombre?
@@ -678,17 +678,17 @@ Preguntas complementarias:
 
 **Para los pacientes:**
 1. ¿Qué tipo de diabetes padeces y cuánto tiempo llevas siendo diagnosticado/a con ella?
-2. ¿Cuáles son las principales dificultades que enfrentas en el seguimiento y tratamiento de tu diabetes?
-3. ¿Con qué frecuencia visitas a tu médico endocrinólogo para seguimiento y ajuste de tratamiento?
-4. ¿Te resulta complicado cumplir con el tratamiento médico prescrito? ¿Qué factores influyen en tu adherencia al tratamiento?
-5. ¿Qué aspectos de tu tratamiento o seguimiento médico te gustaría que fueran más fáciles o convenientes?
-6. ¿Has tenido alguna experiencia negativa o frustrante en la atención médica relacionada con tu diabetes? ¿Qué mejorarías de esa experiencia?
-7. ¿Utilizarías una aplicación móvil para llevar un registro de tu historial médico, resultados de análisis de glucosa y comunicarte con tu médico?
-8. ¿Qué características consideras más importantes en una aplicación diseñada para el seguimiento y tratamiento de diabetes?
-9. ¿Cómo preferirías recibir recordatorios o alertas sobre tu medicación y citas médicas?
-10. ¿Qué información te gustaría poder compartir con tu médico a través de una aplicación para facilitar tu seguimiento y tratamiento?
+2. ¿Has utilizado o te interesaría usar dispositivos IoT (como parches inteligentes o sensores) para monitorear tus niveles de glucosa?
+3. ¿Cuáles son las principales dificultades que enfrentas al tratar de mantener tus niveles de glucosa dentro de los rangos recomendados?
+4. ¿Te gustaría recibir alertas automáticas en tu teléfono o dispositivo cuando tus niveles de glucosa estén fuera de rango?
+5. ¿Te sentirías cómodo/a permitiendo que un dispositivo administre insulina automáticamente según tus niveles de glucosa?
+6. ¿Qué tan importante es para ti poder activar o desactivar funciones como el autosuministro de insulina desde una app?
+7. ¿Qué aspectos de seguridad y privacidad consideras esenciales al usar dispositivos IoT para tu salud?
+8. ¿Qué información te gustaría compartir automáticamente con tu médico a través de la app (por ejemplo, historial de alertas, dosis administradas, eventos críticos)?
+9. ¿Te sentirías más seguro/a sabiendo que tus datos están protegidos y solo accesibles para ti y tu médico?
+10. ¿Consideras que el uso de dispositivos IoT y apps conectadas podría mejorar tu calidad de vida y control sobre tu diabetes?
 11. ¿Te sentirías más seguro/a con la posibilidad de comunicarte con tu médico de forma remota a través de una aplicación?
-12. ¿Consideras que una aplicación podría mejorar tu calidad de vida y control sobre tu diabetes?
+12. ¿Qué funcionalidades relacionadas con IoT te gustaría que tuviera la aplicación (por ejemplo, notificaciones, control manual, historial de eventos, configuración de alertas)?
 
 Preguntas complementarias:
 *	¿Cuál es su nombre?
@@ -774,7 +774,7 @@ Preguntas complementarias:
   </tr>
   <tr>
     <td>Resumen</td>
-    <td>Luis Chinchihualpa proporciona una visión detallada de sus opiniones sobre la atención endocrinológica actual y la telemedicina. Destaca los desafíos presentes en la atención endocrinológica, como los largos tiempos de espera y la escasez de médicos, resaltando la importancia de mejorar la accesibilidad y la eficiencia del servicio. En cuanto a la telemedicina, considera que una aplicación ideal debería ser fácil de usar y ofrecer información clara sobre la patología y el tratamiento, así como permitir el registro de datos del paciente y facilitar el seguimiento del progreso. Destaca el potencial de la telemedicina para mejorar la calidad de vida de los pacientes con enfermedades endocrinas. Además, se menciona que Luis utiliza macOS como sistema operativo, Google Chrome como navegador web y un iPhone como dispositivo móvil, mostrando familiaridad con el ecosistema de productos de Apple. También se destaca su experiencia con programas propios de Essalud y Minsa para la gestión de pacientes.
+    <td>Luis Chinchihualpa proporciona una visión detallada de sus opiniones sobre la atención endocrinológica actual, la telemedicina y el potencial de las tecnologías IoT en salud. Destaca los desafíos presentes, como los largos tiempos de espera y la escasez de médicos, y resalta la importancia de mejorar la accesibilidad y la eficiencia del servicio. Considera que una aplicación ideal, apoyada en dispositivos IoT, debería ser fácil de usar, permitir el registro automático de datos del paciente (como niveles de glucosa) y facilitar el seguimiento remoto y en tiempo real del progreso. Reconoce que la integración de IoT puede mejorar la calidad de vida de los pacientes con diabetes al permitir un monitoreo continuo y alertas automáticas. Además, utiliza macOS, Google Chrome y un iPhone, mostrando familiaridad con la tecnología y experiencia con sistemas digitales de gestión de pacientes en Essalud y Minsa.
 </td>
   </tr>
 </tbody>
@@ -844,8 +844,7 @@ Preguntas complementarias:
   <tr>
     <td>Resumen</td>
     <td>
-   Ricardo Durand, endocrinólogo con 3 años de experiencia en el sector privado, destaca la alta satisfacción de los pacientes debido a la rapidez de atención en comparación con el sector público. Sugiere el desarrollo de una aplicación para facilitar el control y la comunicación con el médico, especialmente en el manejo de la diabetes, que constituye el 95% de sus consultas y enfrenta dificultades en el control glucémico. 
-Propone un seguimiento remoto para reducir la necesidad de citas presenciales, especialmente efectivo para pacientes estables, mientras que los recién diagnosticados podrían requerir visitas mensuales. Recomienda que la aplicación sea fácil de usar para una experiencia eficaz tanto para pacientes como para médicos.
+   Ricardo Durand, endocrinólogo con 3 años de experiencia en el sector privado, destaca la alta satisfacción de los pacientes debido a la rapidez de atención en comparación con el sector público. Sugiere el desarrollo de una aplicación que integre dispositivos IoT para facilitar el control glucémico y la comunicación con el médico, especialmente en el manejo de la diabetes, que constituye el 95% de sus consultas. Señala que el monitoreo remoto mediante IoT puede reducir la necesidad de citas presenciales, siendo especialmente útil para pacientes estables, mientras que los recién diagnosticados podrían requerir visitas más frecuentes. Recomienda que la aplicación y los dispositivos IoT sean fáciles de usar para una experiencia eficaz tanto para pacientes como para médicos, y destaca el valor de recibir alertas automáticas y datos en tiempo real para mejorar el seguimiento.
 </td>
   </tr>
 </tbody>
@@ -916,7 +915,7 @@ Propone un seguimiento remoto para reducir la necesidad de citas presenciales, e
   <tr>
     <td>Resumen</td>
     <td>
-   Roxana Podesta, endocrinóloga con 5 años de experiencia, describe las dificultades en la atención actual: largos tiempos de espera (4-5 meses) y baja adherencia al tratamiento. La telemedicina, mediante una aplicación, podría mejorar la accesibilidad, el seguimiento y la satisfacción del paciente. Las enfermedades más comunes son diabetes, resistencia a la insulina, obesidad, problemas de tiroides y dislipidemias. La falta de seguimiento adecuado y los largos tiempos de espera impactan negativamente en la salud del paciente. Se propone una aplicación que facilite la comunicación, el registro de datos, el seguimiento y la organización de citas. Esta herramienta optimizaría el tiempo del médico y la atención al paciente, especialmente para aquellos que requieren un seguimiento más estrecho. Además, se menciona que la doctora utiliza iOS como sistema operativo, Google Chrome como navegador web y un iPhone como dispositivo móvil. También se destaca su experiencia con programas propios de Essalud y Minsa para la gestión de pacientes.
+   Roxana Podesta, endocrinóloga con 5 años de experiencia, describe las dificultades en la atención actual, como los largos tiempos de espera (4-5 meses) y la baja adherencia al tratamiento. Considera que la telemedicina, combinada con soluciones IoT, podría mejorar la accesibilidad, el seguimiento y la satisfacción del paciente, especialmente en el caso de la diabetes. Resalta que la integración de dispositivos IoT permitiría un registro automático de datos, alertas ante niveles fuera de rango y una comunicación más fluida entre médico y paciente. Propone una aplicación que, junto a IoT, facilite la organización de citas y el monitoreo continuo, optimizando el tiempo del médico y la atención al paciente. Además, utiliza iOS, Google Chrome y un iPhone, y tiene experiencia con programas digitales de Essalud y Minsa para la gestión de pacientes.
 </td>
   </tr>
 </tbody>
@@ -988,7 +987,7 @@ Propone un seguimiento remoto para reducir la necesidad de citas presenciales, e
   <tr>
     <td>Resumen</td>
     <td>
-   Joaquín Benavides ha enfrentado desafíos en el seguimiento de su tratamiento para el hipotiroidismo debido a la burocracia en los servicios de salud y las largas esperas para consultas médicas. A pesar de visitar a su endocrinólogo cada tres meses, ha tenido dificultades al explicar sus síntomas a médicos poco familiarizados con su condición, lo que ha retrasado el tratamiento adecuado y afectado su adherencia al mismo. Para mejorar su experiencia, Joaquín estaría interesado en una aplicación móvil que le ayude a recordar tomar su medicación diaria, proporcione información sobre el hipotiroidismo y facilite la comunicación directa con su médico para consultas o ajustes en el tratamiento. Considera esencial que esta aplicación ofrezca características como recordatorios de medicación personalizables, acceso fácil a información relevante y una vía segura de comunicación con su médico.
+   Joaquín Benavides ha enfrentado desafíos en el seguimiento de su tratamiento para la diabetes debido a la burocracia en los servicios de salud y las largas esperas para consultas médicas. Aunque realiza controles periódicos, ha tenido dificultades para comunicar síntomas y ajustar su tratamiento oportunamente. Joaquín muestra interés en una aplicación móvil que integre dispositivos IoT para el monitoreo automático de sus niveles de glucosa, recordatorios personalizables de medicación y una vía segura de comunicación directa con su médico. Considera esencial que la app permita compartir datos relevantes en tiempo real y recibir alertas automáticas, facilitando así el seguimiento y la adherencia al tratamiento.
 </td>
   </tr>
 </tbody>
@@ -1058,7 +1057,7 @@ Propone un seguimiento remoto para reducir la necesidad de citas presenciales, e
   <tr>
     <td>Resumen</td>
     <td>
-Yudi, de 43 años, vive en San Juan de Lurigancho (Lima) y tiene diabetes tipo 2 desde hace 5 años. Aunque se esfuerza por controlar su condición, enfrenta desafíos como la adherencia a la dieta, el olvido de medicamentos y la irregularidad en sus controles de glucosa. Sus citas médicas suelen retrasarse, y ha tenido experiencias negativas en emergencias por demoras en la atención.
+Yudi, de 43 años, vive en San Juan de Lurigancho (Lima) y tiene diabetes tipo 2 desde hace 5 años. Aunque se esfuerza por controlar su condición, enfrenta desafíos como la adherencia a la dieta, el olvido de medicamentos y la irregularidad en sus controles de glucosa. Sus citas médicas suelen retrasarse y ha tenido experiencias negativas en emergencias por demoras en la atención. Yudi considera que una solución basada en IoT, que le permita monitorear sus niveles de glucosa en tiempo real, recibir alertas automáticas y compartir información con su médico, mejoraría significativamente su control y calidad de vida. Valora especialmente la posibilidad de recibir notificaciones en su teléfono móvil y la facilidad de uso de la aplicación.
 
 </td>
   </tr>
@@ -1129,7 +1128,7 @@ Yudi, de 43 años, vive en San Juan de Lurigancho (Lima) y tiene diabetes tipo 2
   <tr>
     <td>Resumen</td>
     <td>
-Sebastian Chacayan una joven con hipertiroidismo diagnosticado hace aproximadamente 2 años. Enfrenta desafíos con los cambios constantes en sus niveles de glucosa, que afectan su estado de ánimo y energía, y la dificultad de ajustar la medicación para controlar síntomas como ansiedad y fatiga. Visita a su endocrinólogo cada 3 meses. A veces le resulta complicado cumplir con el tratamiento debido a efectos secundarios y la interferencia de la rutina diaria. Le gustaría un sistema de recordatorios más efectivo y acceso a recursos educativos sobre su enfermedad. Ha tenido experiencias frustrantes con largos tiempos de espera y comunicación limitada con su médico. Utilizaría una aplicación móvil para llevar un registro médico y comunicarse con su médico, destacando la importancia de una interfaz fácil de usar, recordatorios personalizables y comunicación segura. Prefiere recibir notificaciones en su teléfono móvil y compartir información relevante con su médico a través de la aplicación. Se sentiría más seguro con la posibilidad de comunicarse remotamente con su médico y cree que una aplicación mejoraría significativamente su calidad de vida y control sobre su diabetes.
+Sebastian Chacayan, diagnosticada con diabetes hace aproximadamente 2 años, enfrenta desafíos con los cambios constantes en sus niveles de glucosa, que afectan su estado de ánimo y energía, y la dificultad de ajustar la medicación para controlar síntomas como ansiedad y fatiga. Visita a su endocrinólogo cada 3 meses y a veces le resulta complicado cumplir con el tratamiento debido a efectos secundarios y la interferencia de la rutina diaria. Sebastian destaca la importancia de un sistema de recordatorios efectivo, acceso a recursos educativos y la integración de dispositivos IoT para el monitoreo continuo. Prefiere recibir notificaciones en su teléfono móvil, compartir información relevante con su médico a través de la app y valora la posibilidad de comunicarse remotamente, considerando que una aplicación con estas características mejoraría significativamente su calidad de vida y control sobre su diabetes.
 </td>
   </tr>
 </tbody>
