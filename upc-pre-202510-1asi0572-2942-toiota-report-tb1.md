@@ -2149,170 +2149,208 @@ En HormonalCare, ajustamos el estilo de comunicación según el perfil de cada u
 
 #### 5.1.2. Web, Mobile and IoT Style Guidelines.
 
-En nuestras pautas de estilo web, priorizamos la adaptación de nuestros principios de diseño a la experiencia de usuario en entornos de navegación en línea. Esto incluye:
+En HormonalCare, diseñamos experiencias digitales adaptadas a diversos entornos tecnológicos —web, dispositivos móviles e IoT— considerando siempre las necesidades de nuestros dos principales públicos: especialistas médicos en diabetes y pacientes que conviven con esta condición. Nuestras pautas visuales y funcionales garantizan una navegación accesible, coherente y centrada en el usuario.
 
-- **Diseño Responsivo**: Nos aseguramos de que nuestro sitio web se adapte fluidamente a diferentes tamaños de pantalla, desde computadoras de escritorio hasta dispositivos móviles como tabletas y teléfonos inteligentes. Esto garantiza que los usuarios puedan acceder y disfrutar de la plataforma sin importar el dispositivo que utilicen.<br><br>
+- **Diseño Responsivo y Adaptativo**: Nos aseguramos de que nuestras interfaces se ajusten fluidamente a múltiples tamaños y dispositivos: desde escritorios hasta teléfonos inteligentes, tablets, wearables y pantallas IoT (como glucómetros inteligentes o monitores de salud). Esto permite una experiencia continua y sin interrupciones, sin importar cómo el usuario acceda a la plataforma.<br><br>
   
-- **Navegación Intuitiva**: Implementamos una barra de navegación (Navbar) clara y organizada que facilita el acceso a las diferentes secciones del sitio. Para mejorar la experiencia en dispositivos móviles, incorporamos un "Botón hamburguesa" que despliega el menú principal de manera compacta y fácilmente accesible en pantallas más pequeñas. Esto permite a los usuarios navegar por el sitio de manera intuitiva y eficiente.<br><br>
+- **Navegación Intuitiva**: Implementamos menús claros, jerarquizados y accesibles. En móvil, incorporamos elementos como el botón hamburguesa para mantener una navegación compacta y eficiente. En dispositivos IoT con pantallas reducidas, priorizamos accesos rápidos, íconos comprensibles y flujos simplificados.<br><br>
 
-- **Consistencia Visual**: Mantenemos una estética coherente en todo el sitio, utilizando colores, tipografías y elementos visuales que reflejen la identidad de marca de Cambiazo. Esto ayuda a crear una experiencia de usuario unificada y memorable en todas las páginas y dispositivos.<br><br>
+- **Consistencia Visual Multiplataforma**: Mantenemos una estética unificada en todas nuestras plataformas, utilizando una paleta de colores armónica, la tipografía Montserrat en sus variantes (Regular, Medium, Semi-Bold, Bold) y estructuras visuales limpias. Esto refuerza la identidad visual de HormonalCare y garantiza familiaridad en todos los puntos de contacto.<br><br>
 
-- **Accesibilidad**: Nos esforzamos por hacer que nuestro sitio sea accesible para todos los usuarios, incluidos aquellos con discapacidades visuales o de movilidad. Esto implica utilizar etiquetas alt en imágenes, asegurar un contraste adecuado entre texto y fondo, y proporcionar opciones de navegación alternativas para usuarios con dificultades para interactuar con el sitio de forma estándar.<br>
+**Paleta de Colores**
 
-Al adherirnos a estos principios de diseño, nos comprometemos a ofrecer una experiencia web que sea fácil de usar, estéticamente atractiva y accesible para todos los usuarios, independientemente de su dispositivo o capacidad.
+Nuestra nueva gama cromática refleja una identidad profesional, empática y equilibrada, adecuada tanto para contextos clínicos como para experiencias personales del paciente:
 
-Para la versión iOS de la aplicación CambiaZo, se han considerado los principios de diseño recomendados por Apple y se han adaptado nuestros lineamientos visuales generales para asegurar una experiencia fluida y nativa en dispositivos iPhone y iPad.
+- #6A828D – gris azulado (principal)
+- #000000 – negro (texto y contraste fuerte)
+- #AEBBC3 – gris claro (complementario)
+- #FFFFFF – blanco (fondo y claridad visual)
+- #F3F3F3 – gris muy claro (separadores y superficies)
+- #B9CCD8 – azul grisáceo claro (resaltados suaves)
+- #40535B – gris pizarra (elementos de soporte visual)
 
-En cuanto a la **paleta de colores**, se mantiene el uso de amarillo (#FFE03C), blanco (#FFFFFF), negro (#000000) y blanco humo (#F8F7F4), garantizando una estética moderna y coherente con la identidad de la marca. Se aplican degradados sutiles para ofrecer una experiencia visual más inmersiva y alineada con las transiciones suaves de iOS.
-
-<div align="center">
-    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/General-Style-Guidelines/color-pallete.png?raw=true" alt="Color Pallete iOS">
-</div><br>
-
-La **tipografía Montserrat** continúa siendo el eje de nuestra identidad visual, utilizada en sus variantes Regular, Medium, Semi-Bold y Bold. Se adapta al sistema de texto dinámico de iOS, garantizando accesibilidad y legibilidad en todos los tamaños de pantalla.
-
-<div align="center">
-    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/General-Style-Guidelines/tipography.png?raw=true" alt="Tipografía Montserrat">
-</div><br>
-
-En términos de **espaciado y márgenes**, seguimos un enfoque basado en los estándares de Human Interface Guidelines. Se prioriza el uso de márgenes generosos y padding adecuados en botones y textos, optimizando la navegación táctil y la claridad visual.
-
-El tono de comunicación mantiene su enfoque empático y directo, adaptándose al entorno amigable y limpio que caracteriza al sistema iOS. El diseño busca balancear funcionalidad y estilo, brindando una experiencia elegante y centrada en el usuario.
-
-
-Para Android, nos apoyamos en los lineamientos de **Material Design**, los cuales hemos integrado a nuestro estilo visual para ofrecer una experiencia de usuario coherente y efectiva en dispositivos con sistema operativo Android.
-
-La **paleta de colores** conserva los tonos característicos de la marca (amarillo, blanco, negro y blanco humo), con una implementación cuidadosa de degradados y contrastes, pensados para mantener una interfaz clara y enérgica en el ecosistema Android.
+Esta paleta ha sido optimizada para cumplir con criterios de accesibilidad visual (contraste WCAG) en web, mobile e interfaces IoT.
 
 <div align="center">
-    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/General-Style-Guidelines/color-pallete.png?raw=true" alt="Color Pallete Android">
+    <img src="./Resources/Chapter-V/Style Guidelines/color-pallete.png" alt="Color Pallete">
 </div><br>
 
-La **tipografía Montserrat**, reconocida por su claridad y versatilidad, se aplica en distintos pesos según el contexto (Regular, Medium, Semi-Bold y Bold), asegurando una jerarquía visual adecuada y una experiencia de lectura óptima.
+**Tipografía**
+
+Usamos Montserrat como fuente principal por su legibilidad, versatilidad y modernidad.
+Se implementa en distintos pesos para mantener jerarquía visual clara:
+
+- Regular – para párrafos
+
+- Medium – para subtítulos y botones
+
+- Semi-Bold y Bold – para títulos y llamadas de atención
+
+Adaptamos esta fuente al sistema dinámico de texto en iOS y Android, así como a las limitaciones visuales de interfaces IoT (pantallas pequeñas, textos grandes y de alto contraste).
 
 <div align="center">
-    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/General-Style-Guidelines/tipography.png?raw=true" alt="Tipografía Montserrat Android">
+    <img src="./Resources/Chapter-V/Style Guidelines/tipography.png" alt="Tipografía Montserrat">
 </div><br>
 
-En cuanto a los **espaciados**, adoptamos una estructura modular, utilizando márgenes y paddings que responden a las recomendaciones de Material Design. Esto incluye separación entre elementos para mejorar la navegación y botones suficientemente amplios para facilitar la interacción en pantallas táctiles.
+**Espaciado y Márgenes**
 
-El lenguaje visual y comunicacional mantiene un enfoque práctico y accesible, alineado con la naturaleza abierta y funcional del ecosistema Android. Buscamos que el usuario pueda moverse por la app de manera intuitiva y ágil, sin perder de vista los valores de nuestra marca.
+Aplicamos una estructura de espaciado modular basada en los estándares de Material Design y Human Interface Guidelines, asegurando claridad y navegabilidad:
+
+- Botones: padding generoso para interacción táctil precisa
+
+- Textos: márgenes entre bloques de al menos 1 rem (16 px)
+
+- Elementos visuales: separación de 1.5 rem (24 px) para evitar sobrecarga
+
+- Secciones: 6 rem (72 px) para crear jerarquía visual
+
+En IoT, los márgenes se adaptan según el dispositivo, priorizando la legibilidad y la interacción mínima por parte del usuario.
+
+
+**Accesibilidad**
+
+Diseñamos pensando en todos los usuarios. Incluimos:
+
+- Etiquetas alt en imágenes
+
+- Contraste alto entre texto y fondo
+
+- Compatibilidad con lectores de pantalla
+
+- Navegación simplificada por teclado y comandos por voz
+
+En dispositivos IoT, usamos íconos universales, colores contrastados y textos breves para facilitar la comprensión en contextos médicos o domésticos.
+
+**Tono Comunicacional**
+
+- Para Doctores:
+Utilizamos un tono profesional, informativo y directo, centrado en datos clínicos, beneficios funcionales y cómo la app potencia su labor médica con pacientes diabéticos.
+
+- Para Pacientes:
+El enfoque es empático, claro y alentador, facilitando la autogestión de su salud. La app brinda recordatorios, consejos y seguimiento en un lenguaje accesible, que inspira confianza.
+
+- En IoT:
+Simplificamos al máximo los mensajes, priorizando instrucciones breves, claras y accionables, acompañadas de señales visuales o auditivas que guíen al usuario en tiempo real.
 
 ### 5.2. Information Architecture
 
-En Cambiazo, la arquitectura de la información en nuestras aplicaciones móviles está diseñada para ser intuitiva y fácil de navegar. Implementamos sistemas de organización claros como la jerarquía visual y categorización por temas, lo que permite a los usuarios encontrar lo que necesitan sin esfuerzo, mejorando la experiencia de navegación móvil.
+En HormonalCare, la arquitectura de la información en nuestras plataformas web, móviles e IoT está diseñada para ser clara y accesible. Utilizamos una jerarquía visual coherente y categorización temática que facilita la localización rápida de funciones y contenidos, permitiendo tanto a pacientes como a profesionales de la salud navegar de forma intuitiva y sin fricciones.
 
 #### 5.2.1. Organization Systems.
 
-Implementamos diversos sistemas de organización de la información en la app para mejorar la experiencia móvil:
+En HormonalCare, incorporamos múltiples métodos de organización de la información dentro de la aplicación para optimizar la experiencia en dispositivos móviles, facilitando el acceso rápido, ordenado y contextual a los contenidos clave para cada tipo de usuario.
 
-**Organización visual del contenido:**
+**Organización de la Información en HormonalCare:**
 
-- **Jerárquica (Visual Hierarchy):** Destacamos la información importante en la app móvil para guiar a los usuarios a través de diferentes niveles de contenido, mostrando productos destacados de manera prominente en la pantalla principal.
+- **Jerarquía (Visual Hierarchy):** DResaltamos información prioritaria, como alertas médicas, resultados recientes y próximas consultas, para guiar la atención del usuario desde lo más relevante hasta lo complementario.
 
-- **Organización secuencial (Step-by-step):** Para el registro, creación de listados y confirmación de intercambios, implementamos un sistema paso a paso, asegurando que los usuarios completen tareas fácilmente en su dispositivo móvil.
+- **Organización secuencial (Step-by-step):** Utilizamos flujos progresivos para procesos clave como el registro de pacientes, ingreso de datos médicos, y configuración de dispositivos conectados, facilitando que tanto médicos como pacientes completen tareas sin complicaciones.
 
 **Esquemas de categorización de contenido:**
 
-- **Por tópicos:** Los productos se organizan en categorías como electrónica, ropa, o libros, facilitando a los usuarios móviles encontrar lo que buscan rápidamente.
+- **Por tópicos:** Los contenidos están agrupados por áreas como monitoreo de glucosa, nutrición, medicación o actividad física, permitiendo un acceso claro y enfocado según el objetivo del usuario.
 
-- **Según audiencia (Grupos de usuarios):** Ofrecemos secciones específicas para diferentes grupos de usuarios, como artículos infantiles o deportivos, optimizando la experiencia en función de sus intereses.
+- **Según audiencia (Grupos de usuarios):** Existen vistas y funciones diferenciadas para médicos especialistas y pacientes, adaptadas a sus necesidades y nivel de interacción con la plataforma.
 
-- **Cronológico:** Eventos y promociones importantes se muestran en orden cronológico para mantener a los usuarios actualizados en la app.
+- **Cronológico:** Informes, recordatorios y eventos relacionados con tratamientos o controles aparecen ordenados por fecha, brindando una línea temporal clara para el seguimiento de la salud.
 
-- **Alfabético:** Secciones como productos o preguntas frecuentes se organizan alfabéticamente para una navegación más fácil.
+- **Alfabético:** Secciones como guías educativas, preguntas frecuentes o listas de medicamentos están organizadas alfabéticamente para facilitar su consulta rápida desde cualquier dispositivo.
 
 #### 5.2.2. Labeling Systems.
 
-En nuestras aplicaciones móviles, utilizamos un sistema de etiquetado claro y conciso para facilitar la navegación:
+En HormonalCare, empleamos un sistema de etiquetado intuitivo y directo que facilita la navegación en nuestras interfaces digitales —ya sea en web, aplicaciones móviles o dispositivos IoT— adaptado a las necesidades específicas de nuestros usuarios:
 
-- **Inicio/Home:** Muestra una visión general de la app y sus funciones principales.
-- **Conócenos/About Us:** Presenta la misión y visión de la plataforma.
-- **Características/Features:** Expone los beneficios que la app ofrece a los usuarios.
-- **ONGs Afiliadas/Affiliated NGOs:** Lista las organizaciones asociadas a Cambiazo.
-- **Planes/Subscriptions:** Presenta los diferentes planes de suscripción disponibles.
-- **Contáctanos/Contact Us:** Ofrece información de contacto, con un formulario para consultas.
-- **Registrarse/Sign Up:** Permite a los usuarios registrarse en la app, proporcionando campos para crear una cuenta.
+- **Inicio/Home:** Punto de entrada que ofrece una vista general personalizada, con accesos rápidos a funciones críticas como seguimiento de glucosa, agenda médica y recomendaciones de salud.
+- **Conócenos/About Us:** Explica la misión y visión de HormonalCare, destacando nuestro compromiso con el cuidado integral de la diabetes.
+- **Características/Features:** Presenta los servicios disponibles, como monitoreo en tiempo real, alertas inteligentes, historial médico y conexión con especialistas.
+- **Alianzas Médicas / Medical Partners:** Muestra clínicas, hospitales o instituciones asociadas que colaboran en el manejo y seguimiento de pacientes con diabetes.
+- **Planes/Subscriptions:** Describe los distintos planes de uso, desde el acceso gratuito hasta servicios premium para seguimiento avanzado y soporte médico especializado.
+- **Contáctanos/Contact Us:** Proporciona canales de comunicación directa, formularios de asistencia y soporte técnico para usuarios y profesionales.
+- **Registrarse/Sign Up:** Interfaz para nuevos usuarios, con campos personalizados según el tipo de perfil: paciente o profesional de la salud.
 
 #### 5.2.3. SEO Tags and Meta Tags.
 
-En nuestras aplicaciones móviles, aunque el SEO es menos relevante que en la web, los meta tags aún ayudan a optimizar la visibilidad:
+En HormonalCare, aunque el SEO tiene un mayor impacto en entornos web, también aplicamos etiquetas meta en nuestras plataformas móviles e IoT para mejorar la visibilidad, comprensión del contenido y estructura informativa:
 
-- **Encabezado:** Proporciona un título claro que mejora la visibilidad en los motores de búsqueda.
-- **Descripción:** Ofrecemos una breve descripción del contenido que ayuda a los usuarios a entender la función de la app.
-- **Palabras clave (Keywords):** Incluimos palabras clave relevantes para facilitar la búsqueda de la app.
-- **Autor y Derechos de Autor:** Estas etiquetas identifican al creador de la app y protegen los derechos de propiedad intelectual.
+- **Encabezado:** Asignamos un título claro y representativo para cada pantalla o sección, favoreciendo tanto el posicionamiento como la identificación rápida del contenido por parte del usuario.
+- **Descripción:** Incluimos breves descripciones funcionales que resumen el propósito de cada vista, útil para tiendas de aplicaciones, motores de búsqueda internos y accesibilidad.
+- **Palabras clave (Keywords):** Incorporamos términos relevantes al ámbito de la salud, la diabetes y el monitoreo clínico para facilitar la localización de la app por parte de pacientes y profesionales.
+- **Autor y Derechos de Autor:**  Estas etiquetas establecen la propiedad intelectual de HormonalCare, asegurando la integridad del contenido y reconociendo al equipo desarrollador.
 
-Con estos sistemas, aseguramos que la arquitectura de la información en nuestra app móvil sea clara y efectiva, brindando a los usuarios una experiencia optimizada y satisfactoria.
+Gracias a estas prácticas, logramos una arquitectura de la información más clara, accesible y útil, mejorando la experiencia en todos nuestros canales digitales.
 
 
 **Landing Page:**
 - **Título:**
 ```html
 <title>
-Cambiazo - Intercambia artículos de forma segura y justa
+HormonalCare - Gestión inteligente de la diabetes para pacientes y médicos
 </title>
 ```
 
 - **Descripción:**
 ```
   
- <meta name="description" content="Intercambia artículos de manera segura y justa con Cambiazo. Explora una amplia variedad de productos, garantizando transacciones transparentes y beneficiosas para todos."/>
+ <meta name="description" content="HormonalCare ofrece una solución integral para el control de la diabetes. Monitorea tu salud, accede a especialistas y gestiona tratamientos de manera segura desde cualquier dispositivo." />
+
 
 ```
 
 - **Palabras clave:**
 ```
 
-<meta name="keywords" content="Intercambio de artículos, plataforma de intercambio, seguridad en el intercambio, justicia en el intercambio, comunidad de intercambio, donaciones de artículos."/>
+<meta name="keywords" content="diabetes, salud digital, monitoreo de glucosa, control de enfermedades crónicas, telemedicina, médicos especialistas, pacientes con diabetes, gestión médica digital" />
+
 ```
 
 + **Autor:**
 ```
 
-<meta name="author" content="TechZo Startup" />
+<meta name="author" content="HormonalCare by Toiota" />
+
 
 ```
 
 - **Copyright:**
 ```
 
-<meta name="copyright" content="© TechZo, 2024" />
+<meta name="copyright" content="© Toiota, 2025" />
+
 
 ```
 
-Estos tags están diseñados para resaltar los aspectos clave de Cambiazo, como la seguridad en los intercambios, la justicia en las transacciones y la posibilidad de realizar donaciones de artículos. Esto ayuda a mejorar la visibilidad en los motores de búsqueda y atraer a usuarios interesados en la plataforma.<br><br>
+Estos meta tags refuerzan los valores clave de HormonalCare, como la atención personalizada, la conectividad médica segura y el soporte continuo tanto para pacientes como para especialistas. Además, mejoran la visibilidad orgánica en buscadores y tiendas de aplicaciones, facilitando la llegada a la audiencia adecuada.<br><br>
 
 
 #### 5.2.4. Searching Systems.
 
-Para garantizar una experiencia de búsqueda eficiente y satisfactoria para los usuarios en Cambiazo, implementaremos un sistema de búsqueda robusto con varias opciones y filtros en nuestra aplicación móvil. Aquí está cómo será el sistema de búsqueda:
+Para ofrecer una experiencia de búsqueda eficiente, personalizada y sin fricciones tanto para pacientes como para profesionales médicos, HormonalCare implementa un sistema de búsqueda inteligente y versátil en todos sus entornos digitales:
 
-- **Búsqueda básica:** Ofreceremos un campo de búsqueda simple en la parte superior de cada pantalla, donde los usuarios podrán ingresar palabras clave relacionadas con los productos que desean encontrar. Esto proporcionará una forma rápida y directa de buscar artículos específicos.
+- **Búsqueda básica:** Integramos un campo de búsqueda accesible desde cualquier pantalla, donde usuarios pueden introducir términos clave como síntomas, medicamentos, registros de glucosa o perfiles médicos. Esta función está diseñada para facilitar accesos rápidos a información crítica.
 
-- **Filtros avanzados:** Permitiremos a los usuarios refinar sus resultados de búsqueda utilizando filtros avanzados como categoría de producto, disponible a través de un menú desplegable intuitivo. Estos filtros ayudarán a los usuarios a encontrar exactamente lo que están buscando y a reducir el volumen de información para evitar la sobrecarga de datos.
+- **Filtros avanzados:** Se incluyen filtros avanzados que permiten segmentar resultados por tipo de contenido (consultas médicas, historial de paciente, artículos educativos, etc.), tipo de usuario (paciente o médico), y categoría médica (endocrinología, nutrición, monitoreo IoT).
 
-- **Ordenación de resultados:** Después de realizar una búsqueda, los usuarios podrán ordenar los resultados según diferentes criterios, como relevancia, precio ascendente/descendente, fecha de publicación, etc., mediante un selector fácil de usar. Esto les permitirá encontrar los productos más adecuados de manera rápida y eficiente.
+- **Ordenación de resultados:** Los resultados pueden organizarse según criterios como relevancia clínica, fecha de consulta, frecuencia de monitoreo o prioridad médica. Esto optimiza el acceso a datos relevantes en situaciones donde el tiempo es crucial.
 
-- **Vista de resultados clara y detallada:** Mostraremos los resultados de búsqueda de manera clara y ordenada, con información relevante y detallada sobre cada producto, incluyendo imágenes, título, descripción, precio y ubicación del vendedor. Esto facilitará a los usuarios evaluar y comparar los productos encontrados.
+- **Vista de resultados clara y detallada:** Los resultados se presentan con tarjetas informativas que incluyen datos esenciales como niveles de glucosa, recomendaciones médicas, notas del especialista y gráficas de evolución, proporcionando contexto completo en un solo vistazo.
 
-- **Sugerencias de búsqueda:** Proporcionaremos sugerencias de búsqueda mientras los usuarios escriben en el campo de búsqueda, ayudándoles a encontrar términos relevantes y populares relacionados con su consulta.
+- **Sugerencias de búsqueda:** A medida que los usuarios escriben, el sistema ofrece sugerencias relacionadas basadas en sus hábitos, historial de búsqueda y términos comunes en la comunidad médica, facilitando la navegación incluso para usuarios novatos.
 
-Al ofrecer estas opciones de búsqueda y filtros, junto con una presentación clara y detallada de los resultados, buscamos garantizar que los usuarios puedan encontrar fácilmente los productos que están buscando en Cambiazo, sin sentirse abrumados por el volumen de información disponible.
+Con este enfoque integral de búsqueda, HormonalCare busca empoderar tanto a pacientes como a doctores para que encuentren rápidamente lo que necesitan, reduciendo la sobrecarga informativa y optimizando la toma de decisiones en salud.
 
 #### 5.2.5. Navigation Systems.
 
-Para guiar a los usuarios a través de la aplicación de Cambiazo de manera efectiva, implementaremos diversas acciones y técnicas de navegación:
+Para asegurar una experiencia de usuario fluida, accesible y centrada en los distintos perfiles de HormonalCare, hemos diseñado un sistema de navegación adaptable y eficaz, tanto para entornos móviles, web como dispositivos IoT:
 
-- **Menú de navegación claro y conciso:** En la parte inferior de cada pantalla, proporcionaremos un menú de navegación que incluya enlaces directos a las secciones principales de la aplicación, como "Inicio", "Donaciones", "Mi perfil" y "Ayuda". Esto permitirá a los usuarios acceder rápidamente a las funciones y áreas que deseen explorar.
+- **Menú de navegación claro y conciso:** Colocamos un menú fijo en la parte inferior con accesos rápidos a secciones clave como Dashboard Médico, Historial del Paciente, Alertas de Salud, y Configuración del Dispositivo. En la versión web, este menú se presenta de forma horizontal superior, manteniendo la coherencia visual.
 
-- **Búsqueda prominente:** Colocaremos un campo de búsqueda bien visible en la parte superior de cada pantalla, permitiendo a los usuarios buscar productos específicos, categorías o ong’s dentro de la aplicación de manera rápida y sencilla.
+- **Búsqueda prominente:** Incluimos una barra de búsqueda visible y persistente en todas las pantallas, donde usuarios pueden localizar desde glucemias registradas hasta recomendaciones médicas o guías de alimentación. Esto permite un acceso inmediato a información crítica tanto para pacientes como para profesionales.
 
-- **Botones de llamada a la acción (CTA):** Utilizaremos botones de CTA estratégicamente ubicados para dirigir a los usuarios hacia acciones importantes, como "Publicar", "Inicia sesión", "Inicio", "Categorías", etc. Estos botones ayudarán a los usuarios a tomar decisiones y avanzar en su experiencia en la plataforma.
+- **Botones de llamada a la acción (CTA):** Colocamos botones claramente identificables para acciones esenciales como Registrar Nueva Medición, Solicitar Consulta, Enviar Mensaje al Especialista, o Encender Monitor IoT. Estos botones están optimizados para facilitar decisiones rápidas y mejorar la eficiencia operativa.
 
-- **Navegación intuitiva:** Diseñaremos la estructura de la aplicación de manera intuitiva, siguiendo convenciones de diseño de interfaz de usuario estándar y asegurándonos de que la navegación sea coherente en todas las pantallas. Esto ayudará a los usuarios a sentirse cómodos y seguros mientras exploran y utilizan Cambiazo.
+- **Navegación intuitiva:** La estructura del sistema sigue patrones familiares y estándar (Material Design y HIG), asegurando que la navegación sea sencilla, especialmente para usuarios con menor alfabetización digital. La navegación por voz en IoT también está contemplada para personas con problemas visuales o de movilidad.
 
-Al implementar estas acciones y técnicas de navegación, buscamos garantizar que los usuarios puedan cumplir sus objetivos de manera satisfactoria y disfrutar de una experiencia fluida y sin problemas en la aplicación Cambiazo.
+Mediante estos principios de navegación, HormonalCare garantiza que tanto pacientes como especialistas puedan interactuar con la plataforma de forma clara, intuitiva y segura, independientemente del dispositivo que utilicen.
 
 
 ### 5.3. Landing Page UI Design.
