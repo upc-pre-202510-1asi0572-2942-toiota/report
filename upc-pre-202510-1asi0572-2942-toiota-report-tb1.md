@@ -2084,9 +2084,675 @@ Link: https://www.mermaidchart.com/raw/920dbbea-c482-47bf-88b1-fc08576fb622?them
 
 ## CAPÍTULO V: SOLUTION UI/UX DESIGN
 
-### 5.1. 
+### 5.1. Style Guidelines
 
-#### 5.1.1. 
+En esta sección, compartimos nuestra propuesta de diseño para el landing page y la aplicación móvil, con el objetivo de ofrecer una interfaz intuitiva y fácil de usar para nuestros usuarios. Para lograrlo, hemos optado por utilizar recursos visuales que se adapten a la problemática que queremos abordar, al mismo tiempo que generan un atractivo visual para nuestro público objetivo.
+
+#### 5.1.1. General Style Guidelines
+
+A continuación, se presentan las pautas generales para asegurar una presentación coherente de nuestros productos.
+
+**Colors:**
+
+Hemos seleccionado cuidadosamente una paleta de colores para representar nuestro aplicativo CambiaZo. Nuestro enfoque se centra en tonalidades que incluyen el amarillo (#FFE03C), el blanco (#FFFFFF), el negro (#000000) y degradados del negro para crear transiciones suaves entre los colores. Optamos por el amarillo para reflejar energía y positividad, el blanco para transmitir sofisticación y claridad, y el negro para agregar un toque de elegancia y prestigio. Además, el degradado del negro se utiliza para suavizar las transiciones entre los elementos visuales y añadir profundidad. Por último, el blanco humo (#F8F7F4) complementa la paleta al proporcionar un aspecto moderno y neutro. Este conjunto de colores busca armonizar con nuestra misión de resolver problemas y promover un ambiente de intercambio amigable y dinámico.
+
+<div align="center">
+    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/General-Style-Guidelines/color-pallete.png?raw=true">
+ </div><br><br><br>
+
+ **Branding:**
+El branding es un proceso creativo fundamental que orienta el rumbo de una empresa y forja su identidad de marca. Su finalidad es la creación de marcas sólidas y fácilmente identificables en el mercado, logrando establecer una identidad y presencia apropiadas a través del diseño gráfico. En nuestro caso, el logo de la marca que queremos transmitir a nuestros usuarios es:
+
+<div align="center">
+    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/General-Style-Guidelines/cambiazo-logo-negro.png?raw=true">
+ </div><br><br><br>
+
+**Typography:**
+
+Elegir una fuente adecuada es esencial para lograr un diseño cohesivo y equilibrado que se alinee con la imagen e identidad de la marca. Esta elección refleja nuestro compromiso de construir una identidad visual sólida y reconocible. La tipografía, incluida la fuente, el tamaño y el ancho, contribuirá significativamente a la percepción y el reconocimiento de la marca en el mercado objetivo.<BR>
+La tipografía utilizada será Montserrat, que incluye las variantes Regular, Medium, Semi-Bold y Bold. El tamaño de la letra varió entre 1 rem (16 px), 1.5 rem (24 px), 2 rem (32 px) y 3 rem (48 px).
+
++ **Montserrat - Google fonts**
+
+<div align="center">
+
+[![Montserrat - Google fonts](https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/General-Style-Guidelines/tipography.png?raw=true)](https://fonts.google.com/specimen/Montserrat) 
+</div><br>
+
+
+Referencia: [Montserrat - Google fonts](https://fonts.google.com/specimen/Montserrat)<br><br>
+
+**Spacing**
+
+El espacio en el diseño de **aplicaciones móviles** es crucial para crear una experiencia de usuario fluida y agradable. El espaciado adecuado ayuda a que la interfaz sea más clara, fácil de navegar y visualmente atractiva. En nuestros proyectos, seguimos principios clave de **Material Design**, adaptándolos a las necesidades específicas de nuestras aplicaciones.
+
+- **Botones**: Utilizamos un **padding** de 1 rem (16 px) en la dirección vertical y de 2 rem (32 px) en la horizontal. Esto asegura que los botones sean cómodos de interactuar en pantallas táctiles.
+- **Márgenes entre texto**: Para mejorar la legibilidad, mantenemos un **margen de 1 rem (16 px)** entre elementos de texto, creando una separación clara y estética.
+- **Márgenes entre elementos**: Aseguramos que haya un margen de **1.5 rem (24 px)** entre distintos elementos como imágenes, botones y cuadros de texto.
+- **Márgenes entre secciones**: Para una organización más clara de la interfaz, establecemos un margen de **6 rem (72 px)** entre secciones de contenido, permitiendo una mejor separación visual.
+
+**Dimensions**
+
+La forma en que nos dirigimos a los usuarios de nuestra aplicación móvil varía según sus roles y necesidades. Cada segmento de usuarios tiene un tono y estilo de comunicación específico para garantizar que el mensaje resuene de manera efectiva.
+
+- **Usuarios Intercambiadores**: Para este segmento, utilizamos un lenguaje **práctico y dinámico**, centrado en la facilidad de uso de la plataforma de intercambio. El tono es amigable y directo, destacando las ventajas de utilizar la aplicación para intercambiar artículos de manera rápida y segura. Promovemos un sentido de comunidad, invitando a los usuarios a compartir y encontrar lo que necesitan fácilmente.
+  
+- **Usuarios Donadores**: Para los donadores, adoptamos un lenguaje **cálido y empático**, resaltando el impacto positivo de sus donaciones. El tono es inspirador, motivando a los usuarios a formar parte de una causa mayor. Enfatizamos el agradecimiento y reconocimiento hacia los donadores, recordándoles que su generosidad puede marcar la diferencia en la vida de otras personas.
+
+#### 5.1.2. Web, Mobile and IoT Style Guidelines.
+
+En nuestras pautas de estilo web, priorizamos la adaptación de nuestros principios de diseño a la experiencia de usuario en entornos de navegación en línea. Esto incluye:
+
+- **Diseño Responsivo**: Nos aseguramos de que nuestro sitio web se adapte fluidamente a diferentes tamaños de pantalla, desde computadoras de escritorio hasta dispositivos móviles como tabletas y teléfonos inteligentes. Esto garantiza que los usuarios puedan acceder y disfrutar de la plataforma sin importar el dispositivo que utilicen.<br><br>
+  
+- **Navegación Intuitiva**: Implementamos una barra de navegación (Navbar) clara y organizada que facilita el acceso a las diferentes secciones del sitio. Para mejorar la experiencia en dispositivos móviles, incorporamos un "Botón hamburguesa" que despliega el menú principal de manera compacta y fácilmente accesible en pantallas más pequeñas. Esto permite a los usuarios navegar por el sitio de manera intuitiva y eficiente.<br><br>
+
+- **Consistencia Visual**: Mantenemos una estética coherente en todo el sitio, utilizando colores, tipografías y elementos visuales que reflejen la identidad de marca de Cambiazo. Esto ayuda a crear una experiencia de usuario unificada y memorable en todas las páginas y dispositivos.<br><br>
+
+- **Accesibilidad**: Nos esforzamos por hacer que nuestro sitio sea accesible para todos los usuarios, incluidos aquellos con discapacidades visuales o de movilidad. Esto implica utilizar etiquetas alt en imágenes, asegurar un contraste adecuado entre texto y fondo, y proporcionar opciones de navegación alternativas para usuarios con dificultades para interactuar con el sitio de forma estándar.<br>
+
+Al adherirnos a estos principios de diseño, nos comprometemos a ofrecer una experiencia web que sea fácil de usar, estéticamente atractiva y accesible para todos los usuarios, independientemente de su dispositivo o capacidad.
+
+Para la versión iOS de la aplicación CambiaZo, se han considerado los principios de diseño recomendados por Apple y se han adaptado nuestros lineamientos visuales generales para asegurar una experiencia fluida y nativa en dispositivos iPhone y iPad.
+
+En cuanto a la **paleta de colores**, se mantiene el uso de amarillo (#FFE03C), blanco (#FFFFFF), negro (#000000) y blanco humo (#F8F7F4), garantizando una estética moderna y coherente con la identidad de la marca. Se aplican degradados sutiles para ofrecer una experiencia visual más inmersiva y alineada con las transiciones suaves de iOS.
+
+<div align="center">
+    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/General-Style-Guidelines/color-pallete.png?raw=true" alt="Color Pallete iOS">
+</div><br>
+
+La **tipografía Montserrat** continúa siendo el eje de nuestra identidad visual, utilizada en sus variantes Regular, Medium, Semi-Bold y Bold. Se adapta al sistema de texto dinámico de iOS, garantizando accesibilidad y legibilidad en todos los tamaños de pantalla.
+
+<div align="center">
+    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/General-Style-Guidelines/tipography.png?raw=true" alt="Tipografía Montserrat">
+</div><br>
+
+En términos de **espaciado y márgenes**, seguimos un enfoque basado en los estándares de Human Interface Guidelines. Se prioriza el uso de márgenes generosos y padding adecuados en botones y textos, optimizando la navegación táctil y la claridad visual.
+
+El tono de comunicación mantiene su enfoque empático y directo, adaptándose al entorno amigable y limpio que caracteriza al sistema iOS. El diseño busca balancear funcionalidad y estilo, brindando una experiencia elegante y centrada en el usuario.
+
+
+Para Android, nos apoyamos en los lineamientos de **Material Design**, los cuales hemos integrado a nuestro estilo visual para ofrecer una experiencia de usuario coherente y efectiva en dispositivos con sistema operativo Android.
+
+La **paleta de colores** conserva los tonos característicos de la marca (amarillo, blanco, negro y blanco humo), con una implementación cuidadosa de degradados y contrastes, pensados para mantener una interfaz clara y enérgica en el ecosistema Android.
+
+<div align="center">
+    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/General-Style-Guidelines/color-pallete.png?raw=true" alt="Color Pallete Android">
+</div><br>
+
+La **tipografía Montserrat**, reconocida por su claridad y versatilidad, se aplica en distintos pesos según el contexto (Regular, Medium, Semi-Bold y Bold), asegurando una jerarquía visual adecuada y una experiencia de lectura óptima.
+
+<div align="center">
+    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/General-Style-Guidelines/tipography.png?raw=true" alt="Tipografía Montserrat Android">
+</div><br>
+
+En cuanto a los **espaciados**, adoptamos una estructura modular, utilizando márgenes y paddings que responden a las recomendaciones de Material Design. Esto incluye separación entre elementos para mejorar la navegación y botones suficientemente amplios para facilitar la interacción en pantallas táctiles.
+
+El lenguaje visual y comunicacional mantiene un enfoque práctico y accesible, alineado con la naturaleza abierta y funcional del ecosistema Android. Buscamos que el usuario pueda moverse por la app de manera intuitiva y ágil, sin perder de vista los valores de nuestra marca.
+
+### 5.2. Information Architecture
+
+En Cambiazo, la arquitectura de la información en nuestras aplicaciones móviles está diseñada para ser intuitiva y fácil de navegar. Implementamos sistemas de organización claros como la jerarquía visual y categorización por temas, lo que permite a los usuarios encontrar lo que necesitan sin esfuerzo, mejorando la experiencia de navegación móvil.
+
+#### 5.2.1. Organization Systems.
+
+Implementamos diversos sistemas de organización de la información en la app para mejorar la experiencia móvil:
+
+**Organización visual del contenido:**
+
+- **Jerárquica (Visual Hierarchy):** Destacamos la información importante en la app móvil para guiar a los usuarios a través de diferentes niveles de contenido, mostrando productos destacados de manera prominente en la pantalla principal.
+
+- **Organización secuencial (Step-by-step):** Para el registro, creación de listados y confirmación de intercambios, implementamos un sistema paso a paso, asegurando que los usuarios completen tareas fácilmente en su dispositivo móvil.
+
+**Esquemas de categorización de contenido:**
+
+- **Por tópicos:** Los productos se organizan en categorías como electrónica, ropa, o libros, facilitando a los usuarios móviles encontrar lo que buscan rápidamente.
+
+- **Según audiencia (Grupos de usuarios):** Ofrecemos secciones específicas para diferentes grupos de usuarios, como artículos infantiles o deportivos, optimizando la experiencia en función de sus intereses.
+
+- **Cronológico:** Eventos y promociones importantes se muestran en orden cronológico para mantener a los usuarios actualizados en la app.
+
+- **Alfabético:** Secciones como productos o preguntas frecuentes se organizan alfabéticamente para una navegación más fácil.
+
+#### 5.2.2. Labeling Systems.
+
+En nuestras aplicaciones móviles, utilizamos un sistema de etiquetado claro y conciso para facilitar la navegación:
+
+- **Inicio/Home:** Muestra una visión general de la app y sus funciones principales.
+- **Conócenos/About Us:** Presenta la misión y visión de la plataforma.
+- **Características/Features:** Expone los beneficios que la app ofrece a los usuarios.
+- **ONGs Afiliadas/Affiliated NGOs:** Lista las organizaciones asociadas a Cambiazo.
+- **Planes/Subscriptions:** Presenta los diferentes planes de suscripción disponibles.
+- **Contáctanos/Contact Us:** Ofrece información de contacto, con un formulario para consultas.
+- **Registrarse/Sign Up:** Permite a los usuarios registrarse en la app, proporcionando campos para crear una cuenta.
+
+#### 5.2.3. SEO Tags and Meta Tags.
+
+En nuestras aplicaciones móviles, aunque el SEO es menos relevante que en la web, los meta tags aún ayudan a optimizar la visibilidad:
+
+- **Encabezado:** Proporciona un título claro que mejora la visibilidad en los motores de búsqueda.
+- **Descripción:** Ofrecemos una breve descripción del contenido que ayuda a los usuarios a entender la función de la app.
+- **Palabras clave (Keywords):** Incluimos palabras clave relevantes para facilitar la búsqueda de la app.
+- **Autor y Derechos de Autor:** Estas etiquetas identifican al creador de la app y protegen los derechos de propiedad intelectual.
+
+Con estos sistemas, aseguramos que la arquitectura de la información en nuestra app móvil sea clara y efectiva, brindando a los usuarios una experiencia optimizada y satisfactoria.
+
+
+**Landing Page:**
+- **Título:**
+```html
+<title>
+Cambiazo - Intercambia artículos de forma segura y justa
+</title>
+```
+
+- **Descripción:**
+```
+  
+ <meta name="description" content="Intercambia artículos de manera segura y justa con Cambiazo. Explora una amplia variedad de productos, garantizando transacciones transparentes y beneficiosas para todos."/>
+
+```
+
+- **Palabras clave:**
+```
+
+<meta name="keywords" content="Intercambio de artículos, plataforma de intercambio, seguridad en el intercambio, justicia en el intercambio, comunidad de intercambio, donaciones de artículos."/>
+```
+
++ **Autor:**
+```
+
+<meta name="author" content="TechZo Startup" />
+
+```
+
+- **Copyright:**
+```
+
+<meta name="copyright" content="© TechZo, 2024" />
+
+```
+
+Estos tags están diseñados para resaltar los aspectos clave de Cambiazo, como la seguridad en los intercambios, la justicia en las transacciones y la posibilidad de realizar donaciones de artículos. Esto ayuda a mejorar la visibilidad en los motores de búsqueda y atraer a usuarios interesados en la plataforma.<br><br>
+
+
+#### 5.2.4. Searching Systems.
+
+Para garantizar una experiencia de búsqueda eficiente y satisfactoria para los usuarios en Cambiazo, implementaremos un sistema de búsqueda robusto con varias opciones y filtros en nuestra aplicación móvil. Aquí está cómo será el sistema de búsqueda:
+
+- **Búsqueda básica:** Ofreceremos un campo de búsqueda simple en la parte superior de cada pantalla, donde los usuarios podrán ingresar palabras clave relacionadas con los productos que desean encontrar. Esto proporcionará una forma rápida y directa de buscar artículos específicos.
+
+- **Filtros avanzados:** Permitiremos a los usuarios refinar sus resultados de búsqueda utilizando filtros avanzados como categoría de producto, disponible a través de un menú desplegable intuitivo. Estos filtros ayudarán a los usuarios a encontrar exactamente lo que están buscando y a reducir el volumen de información para evitar la sobrecarga de datos.
+
+- **Ordenación de resultados:** Después de realizar una búsqueda, los usuarios podrán ordenar los resultados según diferentes criterios, como relevancia, precio ascendente/descendente, fecha de publicación, etc., mediante un selector fácil de usar. Esto les permitirá encontrar los productos más adecuados de manera rápida y eficiente.
+
+- **Vista de resultados clara y detallada:** Mostraremos los resultados de búsqueda de manera clara y ordenada, con información relevante y detallada sobre cada producto, incluyendo imágenes, título, descripción, precio y ubicación del vendedor. Esto facilitará a los usuarios evaluar y comparar los productos encontrados.
+
+- **Sugerencias de búsqueda:** Proporcionaremos sugerencias de búsqueda mientras los usuarios escriben en el campo de búsqueda, ayudándoles a encontrar términos relevantes y populares relacionados con su consulta.
+
+Al ofrecer estas opciones de búsqueda y filtros, junto con una presentación clara y detallada de los resultados, buscamos garantizar que los usuarios puedan encontrar fácilmente los productos que están buscando en Cambiazo, sin sentirse abrumados por el volumen de información disponible.
+
+#### 5.2.5. Navigation Systems.
+
+Para guiar a los usuarios a través de la aplicación de Cambiazo de manera efectiva, implementaremos diversas acciones y técnicas de navegación:
+
+- **Menú de navegación claro y conciso:** En la parte inferior de cada pantalla, proporcionaremos un menú de navegación que incluya enlaces directos a las secciones principales de la aplicación, como "Inicio", "Donaciones", "Mi perfil" y "Ayuda". Esto permitirá a los usuarios acceder rápidamente a las funciones y áreas que deseen explorar.
+
+- **Búsqueda prominente:** Colocaremos un campo de búsqueda bien visible en la parte superior de cada pantalla, permitiendo a los usuarios buscar productos específicos, categorías o ong’s dentro de la aplicación de manera rápida y sencilla.
+
+- **Botones de llamada a la acción (CTA):** Utilizaremos botones de CTA estratégicamente ubicados para dirigir a los usuarios hacia acciones importantes, como "Publicar", "Inicia sesión", "Inicio", "Categorías", etc. Estos botones ayudarán a los usuarios a tomar decisiones y avanzar en su experiencia en la plataforma.
+
+- **Navegación intuitiva:** Diseñaremos la estructura de la aplicación de manera intuitiva, siguiendo convenciones de diseño de interfaz de usuario estándar y asegurándonos de que la navegación sea coherente en todas las pantallas. Esto ayudará a los usuarios a sentirse cómodos y seguros mientras exploran y utilizan Cambiazo.
+
+Al implementar estas acciones y técnicas de navegación, buscamos garantizar que los usuarios puedan cumplir sus objetivos de manera satisfactoria y disfrutar de una experiencia fluida y sin problemas en la aplicación Cambiazo.
+
+
+### 5.3. Landing Page UI Design.
+
+#### 5.3.1. Landing Page Wireframe.
+
+Para la creación del esquema inicial de nuestra Landing Page, se empleó la plataforma Figma en conjunto con una variedad de complementos que simplificaron considerablemente el proceso de diseño y desarrollo. Esta combinación de herramientas permitió una producción eficiente y efectiva del wireframe.
+
+Enlace: [Wireframe del Landing Page en Figma]()<br><br>
+
+**Landing Page**
+
+<div align="center">
+    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Landing-Page-UI-Design/wireframe-landing-desktop.png?raw=true" width="600px" alt="Wireframe">
+</div><br><br>
+
+**Landing Page en Mobile Web Browser**
+
+<div align="center">
+    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Landing-Page-UI-Design/wireframe-landing-mobile.png?raw=true" width="300px" alt="Wireframe Mobile">
+</div><br><br>
+
+#### 5.3.2. Landing Page Mock-up.
+
+Hemos completado con éxito la creación del mock-up de la Landing Page, lo que nos ha permitido destacar y aplicar los principios y elementos de diseño que hemos establecido. Estos principios y pautas heurísticas desempeñan un papel fundamental al hacer que la experiencia para los usuarios finales de nuestra plataforma sea más sencilla e intuitiva.
+
+Enlace: [Mock-up del Landing Page en Figma]()<br><br>
+
+**Landing Page**
+
+<div align="center">
+    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Landing-Page-UI-Design/mock-up-landing-desktop.png?raw=true" width="600px" alt="Mockup">
+</div><br><br>
+
+**Landing Page en Mobile Web Browser**
+
+<div align="center">
+    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Landing-Page-UI-Design/mock-up-landing-mobile.png?raw=true" width="300px" alt="Mockup Mobile">
+</div><br><br>
+
+### 5.4. Applications UX/UI Design.
+
+#### 5.4.1. Applications Wireframes.
+
+MOBILE DOCTOR
+
+Los wireframes son esenciales en el diseño de nuestras aplicaciones, ya que ayudan a planificar la interfaz y la navegación antes de empezar el desarrollo. En nuestro proyecto, utilizamos 'Figma' para crear los wireframes de manera eficiente y colaborativa.
+
+<div align="center">
+    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Wireframes/wireframe-0.png?raw=true"  alt="wireframes-appmovil">
+</div><br><br>
+
+Enlace: [Wireframes de la App Móvil en Figma](https://www.figma.com/design/thDm6YVmpL9RwzrpWkP1an/CambiaZo?node-id=0-1&t=JB6EPW2FwvDSD40F-1)<br><br>
+
+A continuación, mostramos los wireframes de nuestra aplicación móvil:<br><br>
+
+<div align="center">
+    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Wireframes/wireframe-1.png?raw=true" alt="wireframes-1"><br>
+    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Wireframes/wireframe-2.png?raw=true"  alt="wireframes-2"><br>
+    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Wireframes/wireframe-3.png?raw=true"  alt="wireframes-3">
+</div><br>
+
+Estos wireframes se centran en la funcionalidad de inicio de sesión, registro y cambio de contraseña en la aplicación móvil. La disposición de los elementos se ha optimizado para una interacción intuitiva del usuario, sin considerar detalles de diseño.<br><br>
+
+<div align="center">
+    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Wireframes/wireframe-4.png?raw=true"  alt="wireframes-4">
+</div><br>
+
+La pantalla de inicio presenta las publicaciones de usuarios de manera organizada. Se incluirá una barra de búsqueda y categorías para facilitar la navegación, además de filtros personalizados.<br><br>
+
+
+<div align="center">
+    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Wireframes/wireframe-5.png?raw=true"  alt="wireframes-5">
+</div><br>
+
+La pantalla de Producto muestra un artículo con detalles como precio, usuario publicador, descripción y ubicación para el intercambio, junto con un botón para iniciar el proceso. En la pantalla de Oferta, el usuario selecciona un solo artículo de su inventario para intercambiar, y confirma la oferta con un resumen visual del artículo propuesto y el deseado.<br><br>
+
+<div align="center">
+    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Wireframes/wireframe-6.png?raw=true"  alt="wireframes-6">
+</div><br>
+
+A través de la pantalla de Mis Artículos podrás publicar nuevos artículos, el formulario de publicación de objetos estará diseñado de manera intuitiva, con secciones claras y espacio suficiente entre ellas para una fácil comprensión.<br><br>
+
+
+<div align="center">
+    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Wireframes/wireframe-7.png?raw=true"  alt="wireframes-7">
+</div><br>
+
+Esta pantalla mostrará una lista de organizaciones benéficas afiliadas, con espacio entre cada una para una mejor legibilidad. Se incluirá una barra de búsqueda dinámica para facilitar la exploración.<br><br>
+
+
+<div align="center">
+    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Wireframes/wireframe-8.png?raw=true" alt="wireframes-8"><br>
+    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Wireframes/wireframe-9.png?raw=true"  alt="wireframes-9">
+
+</div><br>
+
+La pantalla de Mi Perfil permite gestionar la cuenta personal, incluyendo la edición de información, revisión de artículos favoritos, visualización de reseñas recibidas, exploración de planes de suscripción con beneficios adicionales y la opción de cerrar sesión<br><br>
+
+#### 5.4.2. Applications Wireflow Diagrams.
+
+MOBILE DOCTOR:
+
+A continuación, se presentan los wireflows que competen a nuestros user goals.
+
+**User goal 1:** Como usuario, quiero poder iniciar sesión y poder recuperar mi contraseña en caso de pérdida.
+
+<div align="center">
+    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Wireflow-Diagrams/wireflow-1.PNG?raw=true" alt="wireflow 1">
+</div><br>
+
+Al entrar a la aplicación móvil, el usuario primero será recibido por una pantalla de inicio de sesión. Para continuar, deberá ingresar su correo y contraseña. Si el usuario ha olvidado la contraseña, podrá recuperarla mediante un correo de confirmación que incluirá un código de verificación. Solo después de iniciar sesión exitosamente, el usuario será redirigido a la pantalla principal, donde podrá ver todas las publicaciones de intercambios destacadas, incluidas aquellas que poseen un boost.<br><br>
+
+**User goal 2:** Como usuario, quiero poder revisar información detallada de las organizaciones benéficas que puedo apoyar.
+
+<div align="center">
+    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Wireflow-Diagrams/wireflow-2.PNG?raw=true" alt="wireflow 2">
+</div><br>
+El usuario entra a la aplicación móvil y se dirige a una de las opciones de la barra de navegación que se llama “Donaciones”, en ella podrá visualizar todas las organizaciones benéficas afiliadas a CambiaZo. Al clickear en una de estas, podrá visualizar información más detallada de la misma.<br><br>
+
+
+
+**User goal 3:** Como usuario, quiero poder tener la posibilidad de suscribirse a una membresía y de esta forma obtener mejores beneficios.
+
+<div align="center">
+    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Wireflow-Diagrams/wireflow-3.PNG?raw=true"  alt="wireflow 3">
+</div><br>
+El usuario entra a la aplicación móvil y, desde la barra de navegación, selecciona la opción "Mi Perfil". Luego, desde su perfil, podrá acceder a la opción "Mi Suscripción", donde verá todas las suscripciones disponibles con información detallada. Al seleccionar una suscripción, será redirigido a una pasarela de pagos, y finalmente recibirá un pop-up de confirmación del proceso.<br><br>
+
+
+**User goal 4:** Como usuario quiero poder publicar mis artículos de una manera rápida y accesible.
+
+<div align="center">
+    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Wireflow-Diagrams/wireflow-4.PNG?raw=true"  alt="wireflow 4">
+</div><br>
+
+El usuario entra a la aplicación móvil y se dirige a la barra de navegación, donde selecciona la opción "Mis Artículos". Una vez dentro, encontrará un botón de "Publicar". Al presionarlo, se desplegará un formulario para que, con la sesión ya iniciada, el usuario pueda realizar su publicación de intercambio, incluyendo los datos necesarios y las fotos del artículo. Al finalizar, el usuario verá un pop-up con un mensaje de confirmación.<br><br>
+
+
+**User goal 5:** Como usuario quiero poder filtrar mi búsqueda de objetos, recibir información solo de estos mismos y visualizar información pertinente y necesaria.
+
+
+<div align="center">
+    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Wireflow-Diagrams/wireflow-5.PNG?raw=true"  alt="wireflow 5">
+</div><br>
+
+El usuario entra a la aplicación móvil y clickea en algunos de los botones de categorías disponibles. Después de ello se redirigirá a una pantalla en la que salgan todos los resultados de publicaciones encontradas con esa misma categoría. Además de filtros específicos e información básica.<br>Una vez el usuario clickee en cualquier card de publicación, podrá ver la información de la publicación con más detalle e información del autor de la publicación.<br><br>
+
+
+**User goal 6:** Como usuario quiero poder realizar una oferta, teniendo en consideración los intercambios publicados que tengo en mi perfil.
+
+<div align="center">
+    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Wireflow-Diagrams/wireflow-6.PNG?raw=true"  alt="wireflow 6">
+</div><br>
+
+Una vez el usuario haya seleccionado la publicación de interés, puede darle click a “Intercambiar”. Después de ello, saldrá una ventana en la cual el usuario puede seleccionar cualquiera de sus publicaciones en su “stock” para ofrecer. Después de ello, recibirá un mensaje de confirmación. <br><br>
+
+
+**User goal 7:** Como usuario quiero poder visualizar mis publicaciones en mi perfil y administrarlas según mis necesidades.
+
+<div align="center">
+    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Wireflow-Diagrams/wireflow-7.PNG?raw=true"  alt="wireflow 7">
+</div><br>
+
+Los usuarios podrán dirigirse a la sección "Mis Artículos" desde la barra de navegación, donde visualizarán todas sus publicaciones de articulos. Cada artículo tendrá un menú desplegable de tres puntos que les permitirá acceder a opciones para administrar sus publicaciones. Al seleccionar "Editar", se abrirá un formulario con los datos actuales del artículo, para que puedan realizar los cambios necesarios. Si eligen "Eliminar", aparecerá un mensaje de confirmación antes de proceder con la eliminación.<br><br>
+
+
+**User goal 8:** Como usuario, quiero poder verificar las ofertas que he recibido por mis publicaciones y aceptarlas o declinar en caso contrario.
+
+<div align="center">
+    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Wireflow-Diagrams/wireflow-8.PNG?raw=true"  alt="wireflow 8">
+</div><br>
+
+ Los usuarios podrán dirigirse a la sección "Mis Intercambios" desde la barra de navegación, donde visualizarán sus intercambios enviados, recibidos y aceptados. Al seleccionar una oferta en la sección de recibidos, verán los detalles de los artículos ofrecidos. Aquí podrán aceptar o rechazar la oferta mediante un menú con ambas opciones. Si eligen rechazar, se desplegará un mensaje de confirmación antes de proceder, y si aceptan, recibirán una notificación confirmando la aceptación del intercambio.<br><br>
+
+ Enlace: [Wireflows en LucidChart 1](https://lucid.app/lucidchart/63364102-d93b-47fe-a04f-fce263593fdf/edit?viewport_loc=-8835%2C-824%2C20529%2C8239%2C0_0&invitationId=inv_451c4fe8-c20d-4e3d-8ab3-e8df00c42f3e)<br><br>
+
+Enlace: [Wireflows en LucidChart 2](https://lucid.app/lucidchart/ded0e94e-a2ae-4af8-84a9-30eda1490a8c/edit?viewport_loc=-585%2C3553%2C4485%2C1800%2C0_0&invitationId=inv_12e34c87-1186-4aa4-8ddb-ca02798fcd0c)<br><br>
+
+#### 5.4.2. Applications Mock-ups.
+
+MOBILE DOCTOR:
+Los mockups son otra parte esencial en el diseño de nuestras aplicaciones, ya que nos permiten visualizar la apariencia y la disposición de los elementos antes de comenzar el desarrollo.
+
+<div align="center">
+    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Mockups/mock-up-0.png?raw=true"  alt="mockups-appmobile">
+</div><br><br>
+
+
+Enlace: [Mock-up de la App Móvil en Figma](https://www.figma.com/design/thDm6YVmpL9RwzrpWkP1an/CambiaZo?node-id=0-1&t=1gSHFZmUKFcRiU0p-1)<br><br>
+
+
+A continuación, mostramos los mock-ups de nuestra aplicación móvil.
+
+<div align="center">
+    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Mockups/mock-up-1.png?raw=true"  alt="mockups-1"><br>
+    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Mockups/mock-up-2.png?raw=true"  alt="mockups-2"><br>
+    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Mockups/mock-up-3.png?raw=true"  alt="mockups-3">
+</div><br>
+
+Pantallas para el inicio de sesión, registro y cambio de contraseña en la aplicación móvil, con botones minimalistas con bordes redondeados y diseño agradable en nuestro color amarillo distintivo. Presentamos texto amigable y el nombre de la aplicación de manera prominente para generar percepción y reconocimiento de marca entre los usuarios. Utilizamos iconos destacados con sombreado para una fácil identificación visual por parte del usuario. Al finalizar exitosamente las operaciones, mostramos mensajes con el título resaltado en un tamaño mayor, identificados por su importancia, acompañados de un texto agradable y sencillo para mejorar la experiencia del usuario.<br><br>
+
+<div align="center">
+    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Mockups/mock-up-4.png?raw=true"  alt="mockups-4">
+</div><br>
+
+La pantalla de inicio muestra el logo de la aplicación para identificación rápida. Destaca las publicaciones de usuarios en cuadros equitativamente espaciados y sombreados para una apariencia ordenada y atractiva. La información relevante de las publicaciones se resalta mediante el tamaño de letra y otros elementos visuales para una mejor comprensión. Además, se muestra una barra de búsqueda dinámica y debajo, categorías resaltadas en amarillo que se destacan para llamar la atención del usuario de manera efectiva; estas categorías funcionan para una búsqueda rápida y dinámica por parte de los usuarios, garantizando una experiencia cómoda, agradable y visualmente atractiva.<br><br>
+
+<div align="center">
+    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Mockups/mock-up-5.png?raw=true"  alt="mockups-5">
+</div><br>
+
+La pantalla de producto muestra una imagen destacada del artículo y la información del vendedor, incluyendo una foto, nombre y calificación. La descripción del producto y un botón para proceder con la acción deseada se encuentran al final. En la pantalla de selección de oferta, se presenta un área para indicar lo que se ofrece a cambio, con una imagen del artículo y un botón para añadir la oferta. La pantalla de confirmación muestra las opciones de intercambio con imágenes de los productos y una flecha que las conecta, junto con un botón para finalizar el proceso. La última pantalla es una ventana emergente que confirma el envío de la oferta, con un botón para regresar. Todas las pantallas mantienen un diseño uniforme con una paleta de colores en amarillo y blanco, tipografía clara y un estilo moderno que prioriza la usabilidad y la experiencia del usuario.<br><br>
+
+
+<div align="center">
+    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Mockups/mock-up-6.png?raw=true"  alt="mockups-6">
+</div><br>
+
+En la página de publicación de objetos, hemos diseñado un formulario intuitivo con instrucciones claras para guiar al usuario en todo el proceso. El formulario está dividido en secciones con subtítulos claramente definidos y un espacio equitativo entre ellos para una mejor organización visual. Cada sección cuenta con un sutil sombreado con un diseño minimalista, que proporciona una experiencia agradable y cómoda para el usuario. Además, los campos importantes se destacan mediante un tamaño de letra más grande y negrita, lo que facilita su identificación y comprensión durante la creación de la publicación. También hemos incluido un botón de "Publicar" en color amarillo, destacando visualmente sobre las demás secciones para que el usuario identifique intuitivamente que ese botón es para finalizar y publicar la información.<br><br>
+
+
+<div align="center">
+    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Mockups/mock-up-7.png?raw=true"  alt="mockups-7">
+</div><br>
+
+Página que muestra una lista de organizaciones benéficas registradas, con un diseño minimalista y espacio entre ellas para una mejor organización. Utilizamos botones con un color amarillo que resalta y es más visible para el usuario. Además, implementamos una barra de búsqueda dinámica para buscar organizaciones por nombre y por localidades, así como también por categorías mediante botones. Mantenemos una estética visual coherente con un diseño minimalista en toda la aplicación, lo que facilita su navegación y la hace más intuitiva para los usuarios.<br><br>
+
+
+<div align="center">
+    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Mockups/mock-up-8.png?raw=true"  alt="mockups-8"><br>
+    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Mockups/mock-up-9.png?raw=true"  alt="mockups-9">
+</div><br>
+
+La pantalla de Mi Perfil presenta un diseño consistente y visualmente atractivo. En la parte superior, se muestra una foto circular del usuario, seguida de su nombre y calificación con estrellas. Debajo, se encuentran opciones para editar el perfil, revisar favoritos, ver reseñas y explorar planes de suscripción, con texto negro sobre un fondo blanco. Al final, hay un botón para cerrar sesión. La pantalla de edición de perfil conserva la foto circular y ofrece campos de texto claros para modificar la información personal. La sección de favoritos exhibe tarjetas de productos con imágenes, títulos y precios destacados. La pantalla de reseñas presenta calificaciones con estrellas amarillas y comentarios de usuarios. Finalmente, la pantalla de suscripción detalla los planes disponibles con precios y beneficios en un formato de lista fácil de leer. Todas las pantallas comparten una barra de estado negra en la parte superior y una navegación coherente con flechas de retorno, utilizando una paleta de colores en blanco y negro para una experiencia de usuario uniforme y moderna.<br><br>
+
+#### 5.4.3. Applications User Flow Diagrams.
+
+A continuación, se presentan los diagramas de flujo de usuarios relacionados con nuestros objetivos de usuario.
+
+**User Goal 1:** Como usuario, quiero ingresar a la aplicación móvil utilizando una cuenta.
+
+<div align="center">
+    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-User-Flow-Diagrams/userflow-1.PNG?raw=true" alt="userflow 1">
+</div><br>
+
+El usuario abre la aplicación móvil. Se le presenta una pantalla para iniciar sesión si ya tiene una cuenta; de lo contrario, debe registrarse. Si el inicio de sesión es exitoso, puede acceder a todas las funciones de la aplicación. Si se registra con los datos correctos, se le muestra una ventana de confirmación y es dirigido a la pantalla de inicio de sesión.<br><br>
+
+
+**User Goal 2:** Como usuario, quiero buscar objetos para intercambiar fácilmente y obtener información detallada sobre ellos.
+
+<div align="center">
+    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-User-Flow-Diagrams/userflow-2.PNG?raw=true" alt="userflow 2">
+</div><br>
+
+El usuario se encuentra en la pantalla de inicio de la aplicación. Aquí puede visualizar los objetos publicados por otros usuarios. Al seleccionar un objeto, se abre una pantalla con detalles completos sobre la publicación. También puede explorar diferentes categorías de publicaciones desde la pantalla de inicio.<br><br>
+
+
+
+**User Goal 3:** Como usuario, quiero que otros usuarios vean los objetos que publiqué para intercambiar.
+
+<div align="center">
+    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-User-Flow-Diagrams/userflow-3.PNG?raw=true" alt="userflow 3">
+</div><br><br>
+
+Desde la pantalla de Mis Artículos, el usuario selecciona la opción de publicar. Es dirigido a una pantalla donde puede crear una nueva publicación. Después de completar los detalles necesarios y confirmar la publicación, recibe un mensaje de confirmación y su publicación se muestra a todos los usuarios.<br><br>
+
+**User Goal 4:** Como usuario, quiero solicitar un intercambio a cambio de uno de los objetos de mi publicación.
+
+<div align="center">
+    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-User-Flow-Diagrams/userflow-4.PNG?raw=true" alt="userflow 4">
+</div><br><br>
+
+Al visualizar una publicación, el usuario presiona el botón "Intercambiar". Se le muestra una ventana con sus propios objetos publicados, y puede seleccionar uno para proponer un intercambio. Recibe un mensaje de agradecimiento por parte de la aplicación.<br><br>
+
+**User Goal 5:** Como usuario, quiero ser notificado cuando reciba una solicitud de intercambio y tener la opción de aceptar o rechazarla.
+
+<div align="center">
+    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-User-Flow-Diagrams/userflow-5.PNG?raw=true" alt="userflow 5">
+</div><br><br>
+
+El usuario accede a las ofertas Recibidas desde la barra navegadora, donde selecciona Mis Intercambios, en esta sección encuentra las solicitudes de intercambio de otros usuarios. Puede aceptar una oferta, lo que le muestra un mensaje de confirmación y la opción de contactar al usuario por Telegram o WhatsApp para coordinar el intercambio. También puede rechazar la oferta.<br><br>
+
+
+**User Goal 6:** Como usuario, quiero explorar y buscar ONGs y acceder a la información detallada sobre ellas.
+
+<div align="center">
+    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-User-Flow-Diagrams/userflow-6.PNG?raw=true" alt="userflow 6">
+</div><br><br>
+
+Desde la pantalla de inicio, el usuario accede a la sección de donaciones. Aquí puede ver una lista de todas las ONGs disponibles. Al seleccionar una ONG, se abre una pantalla con información detallada sobre la misma.<br><br>
+
+
+**User Goal 7:** Como usuario, quiero explorar y obtener información sobre los perfiles de otros usuarios.
+
+<div align="center">
+    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-User-Flow-Diagrams/userflow-7.PNG?raw=true" alt="userflow 7">
+</div><br><br>
+
+Mientras visualiza una publicación, el usuario puede acceder al perfil del usuario que la publicó para ver más información sobre él en una pantalla dedicada.<br><br>
+
+
+**User Goal 8:** Como usuario, quiero tener la opción de  pagar una membresía y disfrutar de los beneficios que ofrece.
+
+<div align="center">
+    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-User-Flow-Diagrams/userflow-8.PNG?raw=true" alt="userflow 8">
+</div><br><br>
+
+Desde la pantalla de Mi Perfil, el usuario accede a la sección de membresías y elige el plan de su preferencia. Realiza la suscripción a través de una pasarela de pago integrada en la aplicación. Una vez completado el pago con éxito, recibe un mensaje de confirmación.<br><br>
+
+
+**User Goal 9:** Como usuario, quiero poder realizar modificaciones en mis publicaciones si considero que necesitan ajustes.
+
+<div align="center">
+    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-User-Flow-Diagrams/userflow-9.PNG?raw=true" alt="userflow 9">
+</div><br><br>
+
+Desde la pantalla de inicio, el usuario accede a la sección "Mis artículos", donde puede ver todas sus publicaciones. Al tocar el menú de opciones (tres puntos) en cada artículo, puede elegir entre editar o eliminar la publicación. Al seleccionar "Eliminar", se le solicita confirmación antes de proceder. Si elige "Editar", se abre un formulario que permite modificar la información del artículo.<br><br>
+
+
+
+**User Goal 10:** Como usuario, quiero realizar cambios en mi perfil y mantenerlo actualizado con la información más reciente.
+
+<div align="center">
+    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-User-Flow-Diagrams/userflow-10.PNG?raw=true" alt="userflow 10">
+</div><br><br>
+
+Desde la pantalla de inicio, el usuario accede a "Mi perfil" y selecciona la opción "Editar perfil". Aquí podrá cambiar su foto de perfil, datos personales o contraseña.<br><br>
+
+
+
+Enlace: [User Flow 1 en LucidChart](https://lucid.app/lucidchart/43f6d75d-44c8-4170-bd1c-99fd21312c75/edit?viewport_loc=-3690%2C-9299%2C3648%2C5793%2C0_0&invitationId=inv_f07bff56-c57f-4cbb-8b02-8c692958e133)<br><br>
+
+Enlace: [User Flow 2 en LucidChart](https://lucid.app/lucidchart/4966c7f2-f561-43f5-97c3-4dae978dbcfb/edit?viewport_loc=-906%2C-7520%2C2503%2C3974%2C0_0&invitationId=inv_6403b820-2acd-4db0-9a63-16de1d01e7c6)<br><br>
+
+Enlace: [User Flow 3 en LucidChart](https://lucid.app/lucidchart/d12cb0f3-976b-46bf-ab0e-a545c1575e19/edit?viewport_loc=-5397%2C-5745%2C2719%2C4318%2C0_0&invitationId=inv_3ca4de93-b0e9-4de4-819a-3037cf6b4e95)<br><br>
+
+### 5.5. Applications Prototyping.
+
+MOBILE DOCTOR PROPOTOYPING:
+A continuación, se presenta el prototipo que se realizó en base a los mockups que se desarrollaron y documentaron en puntos anteriores. El prototype nos permite evidenciar algunos flujos que se llevarán al desarrollo en código.
+
+<div align="center">
+    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Prototyping/prototype-0.png?raw=true"  alt="prototype-0">
+</div><br><br>
+
+
+Enlace: [Prototype de la App Móvil en Figma](https://www.figma.com/design/thDm6YVmpL9RwzrpWkP1an/CambiaZo?node-id=0-1&t=3g3ixD798Xbsi1K9-1)<br><br>
+
+
+Para complementar, se ha realizado un video donde se muestran los user flows del prototipo, detallando cada flujo de interacción y definiendo el tiempo en el cual se muestran para una comprensión efectiva. Este enfoque proporciona una visión dinámica de la experiencia del usuario, facilitando la identificación de mejoras y la validación de la funcionalidad del prototipo.<br><br>
+
+Enlace: [Video Prototype de la App Móvil](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202214059_upc_edu_pe/ETDFKlDociZGsi_Dgr-d7HkBE3-AouvlOTfvXGrnDqsphg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=PWZXDX)<br><br>
+
+
+**User Goal 1:**  Como usuario, quiero ingresar a la aplicación móvil utilizando una cuenta.<br><br>
+
+Tiempo: 0:12
+
+<div align="center">
+    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Prototyping/prototype-1.PNG?raw=true" alt="prototype 1">
+</div><br>
+
+
+**User Goal 2:** Como usuario, quiero buscar objetos para intercambiar fácilmente y obtener información detallada sobre ellos.<br><br>
+
+Tiempo: 1:43
+
+<div align="center">
+    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Prototyping/prototype-2.PNG?raw=true" alt="prototype 2">
+</div><br>
+
+
+**User Goal 3:** Como usuario, quiero que otros usuarios vean los objetos que publiqué para intercambiar.<br><br>
+
+Tiempo: 3:09
+
+<div align="center">
+    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Prototyping/prototype-3.PNG?raw=true" alt="prototype 3">
+</div><br><br>
+
+
+**User Goal 4:** Como usuario, quiero solicitar un intercambio a cambio de uno de los objetos de mi publicación.<br><br>
+
+Tiempo: 4:01
+
+<div align="center">
+    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Prototyping/prototype-4.PNG?raw=true" alt="prototype 4">
+</div><br><br>
+
+**User Goal 5:** Como usuario, quiero ser notificado cuando reciba una solicitud de intercambio y tener la opción de aceptar o rechazarla.<br><br>
+
+Tiempo: 4:51
+
+<div align="center">
+    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Prototyping/prototype-5.PNG?raw=true" alt="prototype 5">
+</div><br><br>
+
+
+**User Goal 6:** Como usuario, quiero explorar y buscar ONGs y acceder a la información detallada sobre ellas.<br><br>
+
+Tiempo: 6:21
+
+<div align="center">
+    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Prototyping/prototype-6.PNG?raw=true" alt="prototype 6">
+</div><br><br>
+
+
+
+  **User Goal 7:** Como usuario, quiero explorar y obtener información sobre los perfiles de otros usuarios.<br><br>
+
+  Tiempo: 7:01
+
+  <div align="center">
+      <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Prototyping/prototype-7.PNG?raw=true" alt="prototype 7">
+  </div><br><br>
+
+
+
+**User Goal 8:** Como usuario, quiero tener la opción de  pagar una membresía y disfrutar de los beneficios que ofrece.<br><br>
+
+Tiempo: 7:27
+
+<div align="center">
+    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Prototyping/prototype-8.PNG?raw=true" alt="prototype 8">
+</div><br><br>
+
+
+
+
+**User Goal 9:** Como usuario, quiero poder realizar modificaciones en mis publicaciones si considero que necesitan ajustes.<br><br>
+
+Tiempo: 8:17
+
+<div align="center">
+    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Prototyping/prototype-9.PNG?raw=true" alt="prototype 9">
+</div><br><br>
+
+
+
+**User Goal 10:** Como usuario, quiero realizar cambios en mi perfil y mantenerlo actualizado con la información más reciente.<br><br>
+
+Tiempo: 8:56
+
+<div align="center">
+    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Prototyping/prototype-10.PNG?raw=true" alt="prototype 10">
+</div><br><br>
+
 
 ## CAPÍTULO VII: PRODUCT IMPLEMENTATION, VALIDATION & DEPLOYMENT
 
