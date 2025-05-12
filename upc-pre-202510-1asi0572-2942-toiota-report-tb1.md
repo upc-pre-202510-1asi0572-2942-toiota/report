@@ -2086,37 +2086,39 @@ Link: https://www.mermaidchart.com/raw/920dbbea-c482-47bf-88b1-fc08576fb622?them
 
 ### 5.1. Style Guidelines
 
-En esta sección, compartimos nuestra propuesta de diseño para el landing page y la aplicación móvil, con el objetivo de ofrecer una interfaz intuitiva y fácil de usar para nuestros usuarios. Para lograrlo, hemos optado por utilizar recursos visuales que se adapten a la problemática que queremos abordar, al mismo tiempo que generan un atractivo visual para nuestro público objetivo.
+En esta sección, presentamos nuestra propuesta de diseño para la landing page y la aplicación móvil, con el objetivo de ofrecer una interfaz intuitiva y fácil de usar para los usuarios. Para lograrlo, hemos optado por emplear recursos visuales que se alineen con la problemática que buscamos resolver, mientras generamos un atractivo visual que conecte con nuestro público objetivo.
 
 #### 5.1.1. General Style Guidelines
 
-A continuación, se presentan las pautas generales para asegurar una presentación coherente de nuestros productos.
+A continuación, se detallan las directrices básicas para garantizar una presentación uniforme de nuestros productos.
 
 **Colors:**
 
-Hemos seleccionado cuidadosamente una paleta de colores para representar nuestro aplicativo CambiaZo. Nuestro enfoque se centra en tonalidades que incluyen el amarillo (#FFE03C), el blanco (#FFFFFF), el negro (#000000) y degradados del negro para crear transiciones suaves entre los colores. Optamos por el amarillo para reflejar energía y positividad, el blanco para transmitir sofisticación y claridad, y el negro para agregar un toque de elegancia y prestigio. Además, el degradado del negro se utiliza para suavizar las transiciones entre los elementos visuales y añadir profundidad. Por último, el blanco humo (#F8F7F4) complementa la paleta al proporcionar un aspecto moderno y neutro. Este conjunto de colores busca armonizar con nuestra misión de resolver problemas y promover un ambiente de intercambio amigable y dinámico.
+Hemos seleccionado cuidadosamente una paleta de colores para representar nuestro aplicativo HormonalCare. Nuestro enfoque se centra en tonalidades que incluyen el gris azulado oscuro (#6A828D), el negro (#000000), el gris claro (#AEBBC3), el blanco (#FFFFFF), el gris muy claro (#F3F3F3), el azul grisáceo claro (#B9CCD8) y el gris pizarra oscuro (#40535B). Optamos por esta combinación para reflejar profesionalismo, confianza y serenidad. El uso del blanco aporta claridad y equilibrio visual, mientras que los tonos más oscuros brindan profundidad y estructura. Los colores claros complementan la paleta al ofrecer una apariencia moderna, limpia y accesible. Este conjunto de colores busca armonizar con nuestra misión de brindar soluciones efectivas y generar un ambiente de apoyo, bienestar y cuidado integral.
 
 <div align="center">
-    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/General-Style-Guidelines/color-pallete.png?raw=true">
+    <img src="./Resources/Chapter-V/Style Guidelines/color-pallete.png">
  </div><br><br><br>
 
  **Branding:**
-El branding es un proceso creativo fundamental que orienta el rumbo de una empresa y forja su identidad de marca. Su finalidad es la creación de marcas sólidas y fácilmente identificables en el mercado, logrando establecer una identidad y presencia apropiadas a través del diseño gráfico. En nuestro caso, el logo de la marca que queremos transmitir a nuestros usuarios es:
+El branding es un proceso creativo esencial que define la dirección estratégica de una empresa y construye su identidad visual. Su objetivo principal es desarrollar marcas sólidas, coherentes y reconocibles en el mercado, estableciendo una presencia clara mediante recursos de diseño gráfico. En el caso de HormonalCare, el logotipo representa los valores que deseamos comunicar a nuestros usuarios:
 
 <div align="center">
-    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/General-Style-Guidelines/cambiazo-logo-negro.png?raw=true">
+    <img src="./Resources/Chapter-V/Style Guidelines/hormonal-care-logo.png">
  </div><br><br><br>
 
 **Typography:**
 
-Elegir una fuente adecuada es esencial para lograr un diseño cohesivo y equilibrado que se alinee con la imagen e identidad de la marca. Esta elección refleja nuestro compromiso de construir una identidad visual sólida y reconocible. La tipografía, incluida la fuente, el tamaño y el ancho, contribuirá significativamente a la percepción y el reconocimiento de la marca en el mercado objetivo.<BR>
-La tipografía utilizada será Montserrat, que incluye las variantes Regular, Medium, Semi-Bold y Bold. El tamaño de la letra varió entre 1 rem (16 px), 1.5 rem (24 px), 2 rem (32 px) y 3 rem (48 px).
+Seleccionar la tipografía adecuada es clave para lograr un diseño armonioso que esté en sintonía con la identidad visual de la marca. Esta decisión demuestra nuestro compromiso con el desarrollo de una imagen coherente y fácilmente reconocible. La elección de la tipografía —considerando estilo, tamaño y grosor— influye directamente en cómo el público percibe y recuerda la marca en su mercado objetivo.
+Para ello, se ha optado por la fuente Montserrat, empleando sus variantes Regular, Medium, Semi-Bold y Bold. Los tamaños utilizados varían entre 1 rem (16 px), 1.5 rem (24 px), 2 rem (32 px) y 3 rem (48 px).
 
 + **Montserrat - Google fonts**
 
 <div align="center">
 
-[![Montserrat - Google fonts](https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/General-Style-Guidelines/tipography.png?raw=true)](https://fonts.google.com/specimen/Montserrat) 
+<div align="center">
+    <img src="./Resources/Chapter-V/Style Guidelines/tipography.png">
+ </div><br><br><br>
 </div><br>
 
 
@@ -2124,20 +2126,26 @@ Referencia: [Montserrat - Google fonts](https://fonts.google.com/specimen/Montse
 
 **Spacing**
 
-El espacio en el diseño de **aplicaciones móviles** es crucial para crear una experiencia de usuario fluida y agradable. El espaciado adecuado ayuda a que la interfaz sea más clara, fácil de navegar y visualmente atractiva. En nuestros proyectos, seguimos principios clave de **Material Design**, adaptándolos a las necesidades específicas de nuestras aplicaciones.
+El manejo del espacio en el diseño tanto de interfaces web como móviles es un elemento esencial para ofrecer una experiencia de usuario clara, fluida y estéticamente agradable. Un espaciado bien definido mejora la legibilidad, la navegación y la organización visual del contenido. En nuestros proyectos, aplicamos los principios fundamentales de Material Design, adaptándolos de forma flexible a los diferentes tamaños y contextos de pantalla.
 
-- **Botones**: Utilizamos un **padding** de 1 rem (16 px) en la dirección vertical y de 2 rem (32 px) en la horizontal. Esto asegura que los botones sean cómodos de interactuar en pantallas táctiles.
-- **Márgenes entre texto**: Para mejorar la legibilidad, mantenemos un **margen de 1 rem (16 px)** entre elementos de texto, creando una separación clara y estética.
-- **Márgenes entre elementos**: Aseguramos que haya un margen de **1.5 rem (24 px)** entre distintos elementos como imágenes, botones y cuadros de texto.
-- **Márgenes entre secciones**: Para una organización más clara de la interfaz, establecemos un margen de **6 rem (72 px)** entre secciones de contenido, permitiendo una mejor separación visual.
+- Botones: Se utiliza un padding de 1 rem (16 px) en el eje vertical y 2 rem (32 px) en el horizontal, lo que garantiza una superficie táctil cómoda en dispositivos móviles y una presentación equilibrada en pantallas más amplias.
+
+- Espaciado entre textos: Para favorecer la lectura tanto en dispositivos móviles como en escritorio, se mantiene un margen de 1 rem (16 px) entre párrafos y bloques de texto.
+
+- Separación entre elementos: Componentes como botones, imágenes y campos de texto están separados por un margen de 1.5 rem (24 px), asegurando una disposición clara y sin saturación visual en todos los formatos.
+
+- Espaciado entre secciones: Se establece un margen vertical de 6 rem (72 px) entre secciones principales del contenido. Esto permite una estructura jerárquica más definida y una mejor escaneabilidad, independientemente del dispositivo.
+
+Esta guía de espaciado garantiza consistencia visual y usabilidad en múltiples plataformas, fortaleciendo la identidad de la marca y mejorando la experiencia general del usuario.
 
 **Dimensions**
 
-La forma en que nos dirigimos a los usuarios de nuestra aplicación móvil varía según sus roles y necesidades. Cada segmento de usuarios tiene un tono y estilo de comunicación específico para garantizar que el mensaje resuene de manera efectiva.
+En HormonalCare, ajustamos el estilo de comunicación según el perfil de cada usuario, con el objetivo de brindar mensajes claros, empáticos y efectivos que se adapten a sus necesidades específicas. Nuestro enfoque contempla tanto plataformas web como móviles, garantizando una experiencia coherente en todos los puntos de contacto.
 
-- **Usuarios Intercambiadores**: Para este segmento, utilizamos un lenguaje **práctico y dinámico**, centrado en la facilidad de uso de la plataforma de intercambio. El tono es amigable y directo, destacando las ventajas de utilizar la aplicación para intercambiar artículos de manera rápida y segura. Promovemos un sentido de comunidad, invitando a los usuarios a compartir y encontrar lo que necesitan fácilmente.
+- **Usuarios Profesionales de la salud especializados en diabetes**: Usamos un lenguaje profesional, claro y respetuoso, que reconoce la experiencia médica y la necesidad de información precisa. El tono es colaborativo y técnico, facilitando la integración de HormonalCare en su práctica clínica diaria. Se prioriza la eficiencia en la comunicación, enfocándonos en funcionalidades clave, datos clínicos relevantes y herramientas que optimicen la atención al paciente. Promovemos un mensaje que refuerza su rol esencial en el tratamiento de la diabetes, destacando cómo HormonalCare puede apoyar su trabajo con herramientas actualizadas y confiables.
   
-- **Usuarios Donadores**: Para los donadores, adoptamos un lenguaje **cálido y empático**, resaltando el impacto positivo de sus donaciones. El tono es inspirador, motivando a los usuarios a formar parte de una causa mayor. Enfatizamos el agradecimiento y reconocimiento hacia los donadores, recordándoles que su generosidad puede marcar la diferencia en la vida de otras personas.
+- **Pacientes con diabetes**: Empleamos un lenguaje empático, accesible y motivador, adaptado a personas que buscan comprender y gestionar mejor su condición. El tono es amable y cercano, transmitiendo confianza y promoviendo el autocuidado de manera positiva. Nos enfocamos en acompañar al paciente, brindándole orientación clara, recordatorios útiles y recursos educativos comprensibles. Reforzamos el mensaje de que no están solos, y que HormonalCare está diseñado para acompañarlos día a día en su bienestar.
+
 
 #### 5.1.2. Web, Mobile and IoT Style Guidelines.
 
