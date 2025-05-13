@@ -2357,38 +2357,38 @@ Mediante estos principios de navegación, HormonalCare garantiza que tanto pacie
 
 #### 5.3.1. Landing Page Wireframe.
 
-Para la creación del esquema inicial de nuestra Landing Page, se empleó la plataforma Figma en conjunto con una variedad de complementos que simplificaron considerablemente el proceso de diseño y desarrollo. Esta combinación de herramientas permitió una producción eficiente y efectiva del wireframe.
+Se utilizó Figma junto con varios complementos para desarrollar el esquema inicial de la Landing Page, lo que facilitó significativamente tanto el diseño como la creación del wireframe de manera ágil y eficiente.
 
-Enlace: [Wireframe del Landing Page en Figma]()<br><br>
+Enlace: [Wireframe del Landing Page en Figma](https://www.figma.com/design/DwwZyc2C4j2rgwIkTgo60g/HormonalCare?node-id=67-160&t=MmYRnXTFciIQAWHR-1)<br><br>
 
 **Landing Page**
 
 <div align="center">
-    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Landing-Page-UI-Design/wireframe-landing-desktop.png?raw=true" width="600px" alt="Wireframe">
+    <img src="./Resources/Chapter-V/LandingPage/wireframe.png" width="600px" alt="Wireframe">
 </div><br><br>
 
 **Landing Page en Mobile Web Browser**
 
 <div align="center">
-    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Landing-Page-UI-Design/wireframe-landing-mobile.png?raw=true" width="300px" alt="Wireframe Mobile">
+    <img src="./Resources/Chapter-V/LandingPage/wireframe_mobile.png" width="300px" alt="Wireframe Mobile">
 </div><br><br>
 
 #### 5.3.2. Landing Page Mock-up.
 
-Hemos completado con éxito la creación del mock-up de la Landing Page, lo que nos ha permitido destacar y aplicar los principios y elementos de diseño que hemos establecido. Estos principios y pautas heurísticas desempeñan un papel fundamental al hacer que la experiencia para los usuarios finales de nuestra plataforma sea más sencilla e intuitiva.
+Finalizamos con éxito el diseño del mock-up de la Landing Page, lo que nos permitió reflejar y aplicar los principios y elementos de diseño definidos. Estas directrices y heurísticas son clave para ofrecer una experiencia más clara e intuitiva a los usuarios de nuestra plataforma.
 
-Enlace: [Mock-up del Landing Page en Figma]()<br><br>
+Enlace: [Mock-up del Landing Page en Figma](https://www.figma.com/design/DwwZyc2C4j2rgwIkTgo60g/HormonalCare?node-id=67-160&t=MmYRnXTFciIQAWHR-1)<br><br>
 
 **Landing Page**
 
 <div align="center">
-    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Landing-Page-UI-Design/mock-up-landing-desktop.png?raw=true" width="600px" alt="Mockup">
+    <img src="./Resources/Chapter-V/LandingPage/mockup.png" width="600px" alt="Mockup">
 </div><br><br>
 
 **Landing Page en Mobile Web Browser**
 
 <div align="center">
-    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Landing-Page-UI-Design/mock-up-landing-mobile.png?raw=true" width="300px" alt="Mockup Mobile">
+    <img src="./Resources/Chapter-V/LandingPage/mockup_mobile.png" width="300px" alt="Mockup Mobile">
 </div><br><br>
 
 ### 5.4. Applications UX/UI Design.
