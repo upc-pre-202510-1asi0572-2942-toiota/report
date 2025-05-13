@@ -2645,104 +2645,71 @@ Esta pantalla representa el flujo de navegación para pacientes. Aunque su acces
 
 **Mobile Application**
 
-A continuación, se presentan los diagramas de flujo de usuarios relacionados con nuestros objetivos de usuario.
+A continuación, se presentan los user flow diagrams que competen a nuestros user goals.
 
-**User Goal 1:** Como usuario, quiero ingresar a la aplicación móvil utilizando una cuenta.
+**User goal 1:**
 
 <div align="center">
-    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-User-Flow-Diagrams/userflow-1.PNG?raw=true" alt="userflow 1">
+    <img src="./Resources/Chapter-V/mobile_ui/userflow/user_flow_01.png" alt="wireflow 1">
 </div><br>
 
-El usuario abre la aplicación móvil. Se le presenta una pantalla para iniciar sesión si ya tiene una cuenta; de lo contrario, debe registrarse. Si el inicio de sesión es exitoso, puede acceder a todas las funciones de la aplicación. Si se registra con los datos correctos, se le muestra una ventana de confirmación y es dirigido a la pantalla de inicio de sesión.<br><br>
+<br><br>
 
-
-**User Goal 2:** Como usuario, quiero buscar objetos para intercambiar fácilmente y obtener información detallada sobre ellos.
+**User goal 2:**
 
 <div align="center">
-    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-User-Flow-Diagrams/userflow-2.PNG?raw=true" alt="userflow 2">
+    <img src="./Resources/Chapter-V/mobile_ui/userflow/user_flow_02.png" alt="wireflow 2">
 </div><br>
 
-El usuario se encuentra en la pantalla de inicio de la aplicación. Aquí puede visualizar los objetos publicados por otros usuarios. Al seleccionar un objeto, se abre una pantalla con detalles completos sobre la publicación. También puede explorar diferentes categorías de publicaciones desde la pantalla de inicio.<br><br>
+<br><br>
 
-
-
-**User Goal 3:** Como usuario, quiero que otros usuarios vean los objetos que publiqué para intercambiar.
+**User goal 3:** 
 
 <div align="center">
-    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-User-Flow-Diagrams/userflow-3.PNG?raw=true" alt="userflow 3">
-</div><br><br>
+    <img src="./Resources/Chapter-V/mobile_ui/userflow/user_flow_03.png"  alt="wireflow 3">
+</div><br>
 
-Desde la pantalla de Mis Artículos, el usuario selecciona la opción de publicar. Es dirigido a una pantalla donde puede crear una nueva publicación. Después de completar los detalles necesarios y confirmar la publicación, recibe un mensaje de confirmación y su publicación se muestra a todos los usuarios.<br><br>
+<br><br>
 
-**User Goal 4:** Como usuario, quiero solicitar un intercambio a cambio de uno de los objetos de mi publicación.
 
-<div align="center">
-    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-User-Flow-Diagrams/userflow-4.PNG?raw=true" alt="userflow 4">
-</div><br><br>
-
-Al visualizar una publicación, el usuario presiona el botón "Intercambiar". Se le muestra una ventana con sus propios objetos publicados, y puede seleccionar uno para proponer un intercambio. Recibe un mensaje de agradecimiento por parte de la aplicación.<br><br>
-
-**User Goal 5:** Como usuario, quiero ser notificado cuando reciba una solicitud de intercambio y tener la opción de aceptar o rechazarla.
+**User goal 4:** 
 
 <div align="center">
-    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-User-Flow-Diagrams/userflow-5.PNG?raw=true" alt="userflow 5">
-</div><br><br>
+    <img src="./Resources/Chapter-V/mobile_ui/userflow/user_flow_04.png"  alt="wireflow 4">
+</div><br>
 
-El usuario accede a las ofertas Recibidas desde la barra navegadora, donde selecciona Mis Intercambios, en esta sección encuentra las solicitudes de intercambio de otros usuarios. Puede aceptar una oferta, lo que le muestra un mensaje de confirmación y la opción de contactar al usuario por Telegram o WhatsApp para coordinar el intercambio. También puede rechazar la oferta.<br><br>
-
-
-**User Goal 6:** Como usuario, quiero explorar y buscar ONGs y acceder a la información detallada sobre ellas.
-
-<div align="center">
-    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-User-Flow-Diagrams/userflow-6.PNG?raw=true" alt="userflow 6">
-</div><br><br>
-
-Desde la pantalla de inicio, el usuario accede a la sección de donaciones. Aquí puede ver una lista de todas las ONGs disponibles. Al seleccionar una ONG, se abre una pantalla con información detallada sobre la misma.<br><br>
+<br><br>
 
 
-**User Goal 7:** Como usuario, quiero explorar y obtener información sobre los perfiles de otros usuarios.
+**User goal 5:**
 
 <div align="center">
-    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-User-Flow-Diagrams/userflow-7.PNG?raw=true" alt="userflow 7">
-</div><br><br>
+    <img src="./Resources/Chapter-V/mobile_ui/userflow/user_flow_05.png"  alt="wireflow 5">
+</div><br>
 
-Mientras visualiza una publicación, el usuario puede acceder al perfil del usuario que la publicó para ver más información sobre él en una pantalla dedicada.<br><br>
-
-
-**User Goal 8:** Como usuario, quiero tener la opción de  pagar una membresía y disfrutar de los beneficios que ofrece.
-
-<div align="center">
-    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-User-Flow-Diagrams/userflow-8.PNG?raw=true" alt="userflow 8">
-</div><br><br>
-
-Desde la pantalla de Mi Perfil, el usuario accede a la sección de membresías y elige el plan de su preferencia. Realiza la suscripción a través de una pasarela de pago integrada en la aplicación. Una vez completado el pago con éxito, recibe un mensaje de confirmación.<br><br>
+<br><br>
 
 
-**User Goal 9:** Como usuario, quiero poder realizar modificaciones en mis publicaciones si considero que necesitan ajustes.
+**User goal 6:**
 
 <div align="center">
-    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-User-Flow-Diagrams/userflow-9.PNG?raw=true" alt="userflow 9">
-</div><br><br>
+    <img src="./Resources/Chapter-V/mobile_ui/userflow/user_flow_06.png"  alt="wireflow 6">
+</div><br>
 
-Desde la pantalla de inicio, el usuario accede a la sección "Mis artículos", donde puede ver todas sus publicaciones. Al tocar el menú de opciones (tres puntos) en cada artículo, puede elegir entre editar o eliminar la publicación. Al seleccionar "Eliminar", se le solicita confirmación antes de proceder. Si elige "Editar", se abre un formulario que permite modificar la información del artículo.<br><br>
+<br><br>
 
 
-
-**User Goal 10:** Como usuario, quiero realizar cambios en mi perfil y mantenerlo actualizado con la información más reciente.
+**User goal 7:**
 
 <div align="center">
-    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-User-Flow-Diagrams/userflow-10.PNG?raw=true" alt="userflow 10">
-</div><br><br>
+    <img src="./Resources/Chapter-V/mobile_ui/userflow/user_flow_07.png"  alt="wireflow 7">
+</div><br>
 
-Desde la pantalla de inicio, el usuario accede a "Mi perfil" y selecciona la opción "Editar perfil". Aquí podrá cambiar su foto de perfil, datos personales o contraseña.<br><br>
+<br><br>
 
 
+Enlace: [User Flow 1 en LucidChart](https://lucid.app/lucidchart/6a57cfed-5781-4ab5-8fa5-fd5e2eccf192/edit?viewport_loc=4655%2C10517%2C2992%2C1452%2C0_0&invitationId=inv_191ff193-f14b-46ed-91f9-b7db73f8a5f1)<br><br>
 
-Enlace: [User Flow 1 en LucidChart](https://lucid.app/lucidchart/43f6d75d-44c8-4170-bd1c-99fd21312c75/edit?viewport_loc=-3690%2C-9299%2C3648%2C5793%2C0_0&invitationId=inv_f07bff56-c57f-4cbb-8b02-8c692958e133)<br><br>
-
-Enlace: [User Flow 2 en LucidChart](https://lucid.app/lucidchart/4966c7f2-f561-43f5-97c3-4dae978dbcfb/edit?viewport_loc=-906%2C-7520%2C2503%2C3974%2C0_0&invitationId=inv_6403b820-2acd-4db0-9a63-16de1d01e7c6)<br><br>
-
-Enlace: [User Flow 3 en LucidChart](https://lucid.app/lucidchart/d12cb0f3-976b-46bf-ab0e-a545c1575e19/edit?viewport_loc=-5397%2C-5745%2C2719%2C4318%2C0_0&invitationId=inv_3ca4de93-b0e9-4de4-819a-3037cf6b4e95)<br><br>
 
 ### 5.5. Applications Prototyping.
 
