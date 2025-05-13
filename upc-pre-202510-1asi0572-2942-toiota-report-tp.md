@@ -2446,83 +2446,150 @@ Esta pantalla ilustra el flujo de navegación diseñado para los pacientes. Aunq
 
 **Web Application**
 
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+
 **Mobile Application**
 
 A continuación, se presentan los wireflows que competen a nuestros user goals.
 
-**User goal 1:** Como usuario, quiero poder iniciar sesión y poder recuperar mi contraseña en caso de pérdida.
+**User goal 1:**
 
 <div align="center">
-    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Wireflow-Diagrams/wireflow-1.PNG?raw=true" alt="wireflow 1">
+    <img src="./Resources/Chapter-V/mobile_ui/wireflow/doctor/wireflow_user_goal_1.png" alt="wireflow 1">
 </div><br>
 
-Al entrar a la aplicación móvil, el usuario primero será recibido por una pantalla de inicio de sesión. Para continuar, deberá ingresar su correo y contraseña. Si el usuario ha olvidado la contraseña, podrá recuperarla mediante un correo de confirmación que incluirá un código de verificación. Solo después de iniciar sesión exitosamente, el usuario será redirigido a la pantalla principal, donde podrá ver todas las publicaciones de intercambios destacadas, incluidas aquellas que poseen un boost.<br><br>
+<br><br>
 
-**User goal 2:** Como usuario, quiero poder revisar información detallada de las organizaciones benéficas que puedo apoyar.
+**User goal 2:**
 
 <div align="center">
-    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Wireflow-Diagrams/wireflow-2.PNG?raw=true" alt="wireflow 2">
+    <img src="./Resources/Chapter-V/mobile_ui/wireflow/doctor/wireflow_user_goal_2.png" alt="wireflow 2">
 </div><br>
-El usuario entra a la aplicación móvil y se dirige a una de las opciones de la barra de navegación que se llama “Donaciones”, en ella podrá visualizar todas las organizaciones benéficas afiliadas a CambiaZo. Al clickear en una de estas, podrá visualizar información más detallada de la misma.<br><br>
 
+<br><br>
 
-
-**User goal 3:** Como usuario, quiero poder tener la posibilidad de suscribirse a una membresía y de esta forma obtener mejores beneficios.
+**User goal 3:** 
 
 <div align="center">
-    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Wireflow-Diagrams/wireflow-3.PNG?raw=true"  alt="wireflow 3">
+    <img src="./Resources/Chapter-V/mobile_ui/wireflow/doctor/wireflow_user_goal_3.png"  alt="wireflow 3">
 </div><br>
-El usuario entra a la aplicación móvil y, desde la barra de navegación, selecciona la opción "Mi Perfil". Luego, desde su perfil, podrá acceder a la opción "Mi Suscripción", donde verá todas las suscripciones disponibles con información detallada. Al seleccionar una suscripción, será redirigido a una pasarela de pagos, y finalmente recibirá un pop-up de confirmación del proceso.<br><br>
+
+<br><br>
 
 
-**User goal 4:** Como usuario quiero poder publicar mis artículos de una manera rápida y accesible.
+**User goal 4:** 
 
 <div align="center">
-    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Wireflow-Diagrams/wireflow-4.PNG?raw=true"  alt="wireflow 4">
+    <img src="./Resources/Chapter-V/mobile_ui/wireflow/doctor/wireflow_user_goal_4.png"  alt="wireflow 4">
 </div><br>
 
-El usuario entra a la aplicación móvil y se dirige a la barra de navegación, donde selecciona la opción "Mis Artículos". Una vez dentro, encontrará un botón de "Publicar". Al presionarlo, se desplegará un formulario para que, con la sesión ya iniciada, el usuario pueda realizar su publicación de intercambio, incluyendo los datos necesarios y las fotos del artículo. Al finalizar, el usuario verá un pop-up con un mensaje de confirmación.<br><br>
+<br><br>
 
 
-**User goal 5:** Como usuario quiero poder filtrar mi búsqueda de objetos, recibir información solo de estos mismos y visualizar información pertinente y necesaria.
-
+**User goal 5:**
 
 <div align="center">
-    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Wireflow-Diagrams/wireflow-5.PNG?raw=true"  alt="wireflow 5">
+    <img src="./Resources/Chapter-V/mobile_ui/wireflow/doctor/wireflow_user_goal_5.png"  alt="wireflow 5">
 </div><br>
 
-El usuario entra a la aplicación móvil y clickea en algunos de los botones de categorías disponibles. Después de ello se redirigirá a una pantalla en la que salgan todos los resultados de publicaciones encontradas con esa misma categoría. Además de filtros específicos e información básica.<br>Una vez el usuario clickee en cualquier card de publicación, podrá ver la información de la publicación con más detalle e información del autor de la publicación.<br><br>
+<br><br>
 
 
-**User goal 6:** Como usuario quiero poder realizar una oferta, teniendo en consideración los intercambios publicados que tengo en mi perfil.
+**User goal 6:**
 
 <div align="center">
-    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Wireflow-Diagrams/wireflow-6.PNG?raw=true"  alt="wireflow 6">
+    <img src="./Resources/Chapter-V/mobile_ui/wireflow/doctor/wireflow_user_goal_6.png"  alt="wireflow 6">
 </div><br>
 
-Una vez el usuario haya seleccionado la publicación de interés, puede darle click a “Intercambiar”. Después de ello, saldrá una ventana en la cual el usuario puede seleccionar cualquiera de sus publicaciones en su “stock” para ofrecer. Después de ello, recibirá un mensaje de confirmación. <br><br>
+<br><br>
 
 
-**User goal 7:** Como usuario quiero poder visualizar mis publicaciones en mi perfil y administrarlas según mis necesidades.
+**User goal 7:**
 
 <div align="center">
-    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Wireflow-Diagrams/wireflow-7.PNG?raw=true"  alt="wireflow 7">
+    <img src="./Resources/Chapter-V/mobile_ui/wireflow/doctor/wireflow_user_goal_7.png"  alt="wireflow 7">
 </div><br>
 
-Los usuarios podrán dirigirse a la sección "Mis Artículos" desde la barra de navegación, donde visualizarán todas sus publicaciones de articulos. Cada artículo tendrá un menú desplegable de tres puntos que les permitirá acceder a opciones para administrar sus publicaciones. Al seleccionar "Editar", se abrirá un formulario con los datos actuales del artículo, para que puedan realizar los cambios necesarios. Si eligen "Eliminar", aparecerá un mensaje de confirmación antes de proceder con la eliminación.<br><br>
+<br><br>
 
 
-**User goal 8:** Como usuario, quiero poder verificar las ofertas que he recibido por mis publicaciones y aceptarlas o declinar en caso contrario.
+ Enlace: [Wireflows en LucidChart 1](https://lucid.app/lucidchart/3ceafd1f-2ef3-4273-8327-11e3e0a9ff9b/edit?invitationId=inv_c0a7e01b-18fc-4e29-bede-1ee8e07f5e5c)<br><br>
+
+
+ **User goal 1:**
 
 <div align="center">
-    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Wireflow-Diagrams/wireflow-8.PNG?raw=true"  alt="wireflow 8">
+    <img src="./Resources/Chapter-V/mobile_ui/wireflow/patient/wireflow_user_goal_1.png" alt="wireflow 1">
 </div><br>
 
- Los usuarios podrán dirigirse a la sección "Mis Intercambios" desde la barra de navegación, donde visualizarán sus intercambios enviados, recibidos y aceptados. Al seleccionar una oferta en la sección de recibidos, verán los detalles de los artículos ofrecidos. Aquí podrán aceptar o rechazar la oferta mediante un menú con ambas opciones. Si eligen rechazar, se desplegará un mensaje de confirmación antes de proceder, y si aceptan, recibirán una notificación confirmando la aceptación del intercambio.<br><br>
+<br><br>
 
- Enlace: [Wireflows en LucidChart 1](https://lucid.app/lucidchart/63364102-d93b-47fe-a04f-fce263593fdf/edit?viewport_loc=-8835%2C-824%2C20529%2C8239%2C0_0&invitationId=inv_451c4fe8-c20d-4e3d-8ab3-e8df00c42f3e)<br><br>
+**User goal 2:**
 
-Enlace: [Wireflows en LucidChart 2](https://lucid.app/lucidchart/ded0e94e-a2ae-4af8-84a9-30eda1490a8c/edit?viewport_loc=-585%2C3553%2C4485%2C1800%2C0_0&invitationId=inv_12e34c87-1186-4aa4-8ddb-ca02798fcd0c)<br><br>
+<div align="center">
+    <img src="./Resources/Chapter-V/mobile_ui/wireflow/patient/wireflow_user_goal_2.png" alt="wireflow 2">
+</div><br>
+
+<br><br>
+
+**User goal 3:** 
+
+<div align="center">
+    <img src="./Resources/Chapter-V/mobile_ui/wireflow/patient/wireflow_user_goal_3.png"  alt="wireflow 3">
+</div><br>
+
+<br><br>
+
+
+**User goal 4:** 
+
+<div align="center">
+    <img src="./Resources/Chapter-V/mobile_ui/wireflow/patient/wireflow_user_goal_4.png"  alt="wireflow 4">
+</div><br>
+
+<br><br>
+
+
+**User goal 5:**
+
+<div align="center">
+    <img src="./Resources/Chapter-V/mobile_ui/wireflow/patient/wireflow_user_goal_5.png"  alt="wireflow 5">
+</div><br>
+
+<br><br>
+
+
+**User goal 6:**
+
+<div align="center">
+    <img src="./Resources/Chapter-V/mobile_ui/wireflow/patient/wireflow_user_goal_6.png"  alt="wireflow 6">
+</div><br>
+
+<br><br>
+
+
+**User goal 7:**
+
+<div align="center">
+    <img src="./Resources/Chapter-V/mobile_ui/wireflow/patient/wireflow_user_goal_7.png"  alt="wireflow 7">
+</div><br>
+
+<br><br>
+
+Enlace: [Wireflows en LucidChart 2](https://lucid.app/lucidchart/03ddb43d-dedb-4c92-848d-97ebe10e66ad/edit?invitationId=inv_7a66bc52-e1a1-44e3-91ab-5c22a944b548)<br><br>
 
 #### 5.4.3. Applications Mock-ups.
 
