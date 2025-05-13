@@ -2396,64 +2396,57 @@ Enlace: [Mock-up del Landing Page en Figma](https://www.figma.com/design/DwwZyc2
 
 #### 5.4.1. Applications Wireframes.
 
-MOBILE DOCTOR
+**Web Application**
 
-Los wireframes son esenciales en el diseño de nuestras aplicaciones, ya que ayudan a planificar la interfaz y la navegación antes de empezar el desarrollo. En nuestro proyecto, utilizamos 'Figma' para crear los wireframes de manera eficiente y colaborativa.
+**Mobile Application**
+Los wireframes desempeñan un papel crucial en el diseño de nuestras aplicaciones, ya que permiten estructurar la interfaz y definir la navegación antes de iniciar el desarrollo. Para este proyecto, optamos por usar Figma, lo que facilitó una creación colaborativa y ágil de los wireframes.
 
 <div align="center">
-    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Wireframes/wireframe-0.png?raw=true"  alt="wireframes-appmovil">
+    <img src="./Resources/Chapter-V/mobile_ui/wireframes/doctor/wireframes.png">
 </div><br><br>
 
-Enlace: [Wireframes de la App Móvil en Figma](https://www.figma.com/design/thDm6YVmpL9RwzrpWkP1an/CambiaZo?node-id=0-1&t=JB6EPW2FwvDSD40F-1)<br><br>
+Enlace: [Wireframes de la App Móvil en Figma](https://www.figma.com/design/DwwZyc2C4j2rgwIkTgo60g/HormonalCare?node-id=0-1&t=QQ6Vsg7WZ8nL0BoY-1)<br><br>
 
-A continuación, mostramos los wireframes de nuestra aplicación móvil:<br><br>
-
-<div align="center">
-    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Wireframes/wireframe-1.png?raw=true" alt="wireframes-1"><br>
-    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Wireframes/wireframe-2.png?raw=true"  alt="wireframes-2"><br>
-    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Wireframes/wireframe-3.png?raw=true"  alt="wireframes-3">
-</div><br>
-
-Estos wireframes se centran en la funcionalidad de inicio de sesión, registro y cambio de contraseña en la aplicación móvil. La disposición de los elementos se ha optimizado para una interacción intuitiva del usuario, sin considerar detalles de diseño.<br><br>
+A continuación, presentamos los wireframes desarrollados para nuestra aplicación móvil:<br><br>
 
 <div align="center">
-    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Wireframes/wireframe-4.png?raw=true"  alt="wireframes-4">
+    <img src="./Resources/Chapter-V/mobile_ui/wireframes/doctor/wireframe_signup_signin.png" alt="wireframes-1"><br>
 </div><br>
 
-La pantalla de inicio presenta las publicaciones de usuarios de manera organizada. Se incluirá una barra de búsqueda y categorías para facilitar la navegación, además de filtros personalizados.<br><br>
+Estos wireframes están enfocados en las funciones de inicio de sesión y registro. Su estructura ha sido organizada para facilitar una interacción intuitiva por parte del usuario, priorizando la funcionalidad sobre los aspectos visuales del diseño.<br><br>
+
+<div align="center">
+    <img src="./Resources/Chapter-V/mobile_ui/wireframes/doctor/wireframe_main_navigation.png"  alt="wireframes-4">
+</div><br>
+
+Las pantallas reflejan la navegación entre los diferentes elementos de la interfaz del doctor, permitiéndole acceder fácilmente a su panel principal, la lista de pacientes, citas agendadas, notificaciones y su perfil personal.<br><br>
 
 
 <div align="center">
-    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Wireframes/wireframe-5.png?raw=true"  alt="wireframes-5">
+    <img src="./Resources/Chapter-V/mobile_ui/wireframes/doctor/wireframe_consultation.png"  alt="wireframes-5">
 </div><br>
 
-La pantalla de Producto muestra un artículo con detalles como precio, usuario publicador, descripción y ubicación para el intercambio, junto con un botón para iniciar el proceso. En la pantalla de Oferta, el usuario selecciona un solo artículo de su inventario para intercambiar, y confirma la oferta con un resumen visual del artículo propuesto y el deseado.<br><br>
+En las pantallas de Consulta, el médico podrá gestionar de forma integral la medicación prescrita a cada paciente durante sus citas. Esto incluye registrar la razón de consulta, síntomas, examen físico, resultados de laboratorio, diagnósticos, medicación indicada, plan de tratamiento y cualquier observación adicional relevante.<br><br>
 
 <div align="center">
-    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Wireframes/wireframe-6.png?raw=true"  alt="wireframes-6">
+    <img src="./Resources/Chapter-V/mobile_ui/wireframes/doctor/wireframe_medical_record.png"  alt="wireframes-6">
 </div><br>
 
-A través de la pantalla de Mis Artículos podrás publicar nuevos artículos, el formulario de publicación de objetos estará diseñado de manera intuitiva, con secciones claras y espacio suficiente entre ellas para una fácil comprensión.<br><br>
-
-
-<div align="center">
-    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Wireframes/wireframe-7.png?raw=true"  alt="wireframes-7">
-</div><br>
-
-Esta pantalla mostrará una lista de organizaciones benéficas afiliadas, con espacio entre cada una para una mejor legibilidad. Se incluirá una barra de búsqueda dinámica para facilitar la exploración.<br><br>
+A través de la pantalla de Historial Médico, el doctor podrá consultar de forma anticipada la evolución del paciente con diabetes, accediendo a su historial clínico, los diagnósticos y tratamientos asignados, así como a los resultados de laboratorio y reportes externos que el paciente haya subido.<br><br>
 
 
 <div align="center">
-    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Wireframes/wireframe-8.png?raw=true" alt="wireframes-8"><br>
-    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Wireframes/wireframe-9.png?raw=true"  alt="wireframes-9">
-
+    <img src="./Resources/Chapter-V/mobile_ui/wireframes/patient/wireframe_patient.png"  alt="wireframes-7">
 </div><br>
 
-La pantalla de Mi Perfil permite gestionar la cuenta personal, incluyendo la edición de información, revisión de artículos favoritos, visualización de reseñas recibidas, exploración de planes de suscripción con beneficios adicionales y la opción de cerrar sesión<br><br>
+Esta pantalla ilustra el flujo de navegación diseñado para los pacientes. Aunque su acceso es más limitado en comparación con el de los doctores, próximamente contarán con integración de inteligencia artificial y un dispositivo PASO que medirá su nivel de glucosa en sangre y generará reportes automáticos para su médico.<br><br>
+
 
 #### 5.4.2. Applications Wireflow Diagrams.
 
-MOBILE DOCTOR:
+**Web Application**
+
+**Mobile Application**
 
 A continuación, se presentan los wireflows que competen a nuestros user goals.
 
@@ -2531,9 +2524,12 @@ Los usuarios podrán dirigirse a la sección "Mis Artículos" desde la barra de 
 
 Enlace: [Wireflows en LucidChart 2](https://lucid.app/lucidchart/ded0e94e-a2ae-4af8-84a9-30eda1490a8c/edit?viewport_loc=-585%2C3553%2C4485%2C1800%2C0_0&invitationId=inv_12e34c87-1186-4aa4-8ddb-ca02798fcd0c)<br><br>
 
-#### 5.4.2. Applications Mock-ups.
+#### 5.4.3. Applications Mock-ups.
 
-MOBILE DOCTOR:
+**Web Application**
+
+**Mobile Application**
+
 Los mockups son otra parte esencial en el diseño de nuestras aplicaciones, ya que nos permiten visualizar la apariencia y la disposición de los elementos antes de comenzar el desarrollo.
 
 <div align="center">
@@ -2588,7 +2584,11 @@ Página que muestra una lista de organizaciones benéficas registradas, con un d
 
 La pantalla de Mi Perfil presenta un diseño consistente y visualmente atractivo. En la parte superior, se muestra una foto circular del usuario, seguida de su nombre y calificación con estrellas. Debajo, se encuentran opciones para editar el perfil, revisar favoritos, ver reseñas y explorar planes de suscripción, con texto negro sobre un fondo blanco. Al final, hay un botón para cerrar sesión. La pantalla de edición de perfil conserva la foto circular y ofrece campos de texto claros para modificar la información personal. La sección de favoritos exhibe tarjetas de productos con imágenes, títulos y precios destacados. La pantalla de reseñas presenta calificaciones con estrellas amarillas y comentarios de usuarios. Finalmente, la pantalla de suscripción detalla los planes disponibles con precios y beneficios en un formato de lista fácil de leer. Todas las pantallas comparten una barra de estado negra en la parte superior y una navegación coherente con flechas de retorno, utilizando una paleta de colores en blanco y negro para una experiencia de usuario uniforme y moderna.<br><br>
 
-#### 5.4.3. Applications User Flow Diagrams.
+#### 5.4.4. Applications User Flow Diagrams.
+
+**Web Application**
+
+**Mobile Application**
 
 A continuación, se presentan los diagramas de flujo de usuarios relacionados con nuestros objetivos de usuario.
 
@@ -2691,7 +2691,10 @@ Enlace: [User Flow 3 en LucidChart](https://lucid.app/lucidchart/d12cb0f3-976b-4
 
 ### 5.5. Applications Prototyping.
 
-MOBILE DOCTOR PROPOTOYPING:
+**Web Application**
+
+**Mobile Application**
+
 A continuación, se presenta el prototipo que se realizó en base a los mockups que se desarrollaron y documentaron en puntos anteriores. El prototype nos permite evidenciar algunos flujos que se llevarán al desarrollo en código.
 
 <div align="center">
