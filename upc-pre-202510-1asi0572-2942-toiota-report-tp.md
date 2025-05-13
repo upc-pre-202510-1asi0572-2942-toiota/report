@@ -1616,7 +1616,7 @@ https://miro.com/app/board/uXjVIERm9g8=/?share_link_id=539637623176
 
 ##### 4.1.3.3. Software Architecture Container Level Diagrams  
 **Diagrama de contenedores:**  
-<img src="images/chapter 4 software architecture/container level diagram.png">
+<img src="images/chapter 4 software architecture/container level diagram.jpg">
 
 ##### 4.1.3.4. Software Architecture Deployment Diagrams  
 **Diagrama deployment:**
