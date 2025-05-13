@@ -2597,59 +2597,47 @@ Enlace: [Wireflows en LucidChart 2](https://lucid.app/lucidchart/03ddb43d-dedb-4
 
 **Mobile Application**
 
-Los mockups son otra parte esencial en el diseño de nuestras aplicaciones, ya que nos permiten visualizar la apariencia y la disposición de los elementos antes de comenzar el desarrollo.
+Los mockups juegan un papel esencial en el diseño de nuestras aplicaciones, ya que permiten definir la estructura de la interfaz y la lógica de navegación antes de iniciar el desarrollo. Para este proyecto, utilizamos Figma, lo que facilitó una creación ágil y colaborativa de estos prototipos visuales.
 
 <div align="center">
-    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Mockups/mock-up-0.png?raw=true"  alt="mockups-appmobile">
+    <img src="./Resources/Chapter-V/mobile_ui/mockups/mockup-0.png">
 </div><br><br>
 
+Enlace: [Wireframes de la App Móvil en Figma](https://www.figma.com/design/DwwZyc2C4j2rgwIkTgo60g/HormonalCare?node-id=0-1&t=QQ6Vsg7WZ8nL0BoY-1)<br><br>
 
-Enlace: [Mock-up de la App Móvil en Figma](https://www.figma.com/design/thDm6YVmpL9RwzrpWkP1an/CambiaZo?node-id=0-1&t=1gSHFZmUKFcRiU0p-1)<br><br>
-
-
-A continuación, mostramos los mock-ups de nuestra aplicación móvil.
+A continuación, presentamos los mockups desarrollados para nuestra aplicación móvil:<br><br>
 
 <div align="center">
-    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Mockups/mock-up-1.png?raw=true"  alt="mockups-1"><br>
-    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Mockups/mock-up-2.png?raw=true"  alt="mockups-2"><br>
-    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Mockups/mock-up-3.png?raw=true"  alt="mockups-3">
+    <img src="./Resources/Chapter-V/mobile_ui/mockups/mockup-sign-in-sign-up.png" alt="wireframes-1"><br>
 </div><br>
 
-Pantallas para el inicio de sesión, registro y cambio de contraseña en la aplicación móvil, con botones minimalistas con bordes redondeados y diseño agradable en nuestro color amarillo distintivo. Presentamos texto amigable y el nombre de la aplicación de manera prominente para generar percepción y reconocimiento de marca entre los usuarios. Utilizamos iconos destacados con sombreado para una fácil identificación visual por parte del usuario. Al finalizar exitosamente las operaciones, mostramos mensajes con el título resaltado en un tamaño mayor, identificados por su importancia, acompañados de un texto agradable y sencillo para mejorar la experiencia del usuario.<br><br>
+Estos mockups están centrados en las funcionalidades de inicio de sesión y registro. La disposición de los elementos ha sido optimizada para facilitar una interacción intuitiva, dando prioridad a la usabilidad sobre los detalles visuales.<br><br>
 
 <div align="center">
-    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Mockups/mock-up-4.png?raw=true"  alt="mockups-4">
+    <img src="./Resources/Chapter-V/mobile_ui/mockups/mockup-main-navigation.png"  alt="wireframes-4">
 </div><br>
 
-La pantalla de inicio muestra el logo de la aplicación para identificación rápida. Destaca las publicaciones de usuarios en cuadros equitativamente espaciados y sombreados para una apariencia ordenada y atractiva. La información relevante de las publicaciones se resalta mediante el tamaño de letra y otros elementos visuales para una mejor comprensión. Además, se muestra una barra de búsqueda dinámica y debajo, categorías resaltadas en amarillo que se destacan para llamar la atención del usuario de manera efectiva; estas categorías funcionan para una búsqueda rápida y dinámica por parte de los usuarios, garantizando una experiencia cómoda, agradable y visualmente atractiva.<br><br>
-
-<div align="center">
-    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Mockups/mock-up-5.png?raw=true"  alt="mockups-5">
-</div><br>
-
-La pantalla de producto muestra una imagen destacada del artículo y la información del vendedor, incluyendo una foto, nombre y calificación. La descripción del producto y un botón para proceder con la acción deseada se encuentran al final. En la pantalla de selección de oferta, se presenta un área para indicar lo que se ofrece a cambio, con una imagen del artículo y un botón para añadir la oferta. La pantalla de confirmación muestra las opciones de intercambio con imágenes de los productos y una flecha que las conecta, junto con un botón para finalizar el proceso. La última pantalla es una ventana emergente que confirma el envío de la oferta, con un botón para regresar. Todas las pantallas mantienen un diseño uniforme con una paleta de colores en amarillo y blanco, tipografía clara y un estilo moderno que prioriza la usabilidad y la experiencia del usuario.<br><br>
+Las pantallas muestran la navegación entre los distintos elementos de la interfaz del doctor, desde su panel principal hasta pacientes, citas, notificaciones y perfil personal, asegurando un acceso fluido a cada sección.<br><br>
 
 
 <div align="center">
-    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Mockups/mock-up-6.png?raw=true"  alt="mockups-6">
+    <img src="./Resources/Chapter-V/mobile_ui/mockups/mockup-consultation.png"  alt="wireframes-5">
 </div><br>
 
-En la página de publicación de objetos, hemos diseñado un formulario intuitivo con instrucciones claras para guiar al usuario en todo el proceso. El formulario está dividido en secciones con subtítulos claramente definidos y un espacio equitativo entre ellos para una mejor organización visual. Cada sección cuenta con un sutil sombreado con un diseño minimalista, que proporciona una experiencia agradable y cómoda para el usuario. Además, los campos importantes se destacan mediante un tamaño de letra más grande y negrita, lo que facilita su identificación y comprensión durante la creación de la publicación. También hemos incluido un botón de "Publicar" en color amarillo, destacando visualmente sobre las demás secciones para que el usuario identifique intuitivamente que ese botón es para finalizar y publicar la información.<br><br>
+En las pantallas de Consulta, el médico puede gestionar la medicación prescrita por cita. Esto abarca desde la razón de consulta y síntomas hasta el examen físico, resultados de laboratorio, diagnósticos, tratamiento y observaciones adicionales.<br><br>
+
+<div align="center">
+    <img src="./Resources/Chapter-V/mobile_ui/mockups/mockup-medical-record.png"  alt="wireframes-6">
+</div><br>
+
+La pantalla de Historial Médico permite al médico revisar la evolución del paciente con diabetes, accediendo a su historial clínico, diagnósticos, tratamientos y reportes de laboratorio o documentos externos cargados por el paciente.<br><br>
 
 
 <div align="center">
-    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Mockups/mock-up-7.png?raw=true"  alt="mockups-7">
+    <img src="./Resources/Chapter-V/mobile_ui/mockups/mockup-patient.png"  alt="wireframes-7">
 </div><br>
 
-Página que muestra una lista de organizaciones benéficas registradas, con un diseño minimalista y espacio entre ellas para una mejor organización. Utilizamos botones con un color amarillo que resalta y es más visible para el usuario. Además, implementamos una barra de búsqueda dinámica para buscar organizaciones por nombre y por localidades, así como también por categorías mediante botones. Mantenemos una estética visual coherente con un diseño minimalista en toda la aplicación, lo que facilita su navegación y la hace más intuitiva para los usuarios.<br><br>
-
-
-<div align="center">
-    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Mockups/mock-up-8.png?raw=true"  alt="mockups-8"><br>
-    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Mockups/mock-up-9.png?raw=true"  alt="mockups-9">
-</div><br>
-
-La pantalla de Mi Perfil presenta un diseño consistente y visualmente atractivo. En la parte superior, se muestra una foto circular del usuario, seguida de su nombre y calificación con estrellas. Debajo, se encuentran opciones para editar el perfil, revisar favoritos, ver reseñas y explorar planes de suscripción, con texto negro sobre un fondo blanco. Al final, hay un botón para cerrar sesión. La pantalla de edición de perfil conserva la foto circular y ofrece campos de texto claros para modificar la información personal. La sección de favoritos exhibe tarjetas de productos con imágenes, títulos y precios destacados. La pantalla de reseñas presenta calificaciones con estrellas amarillas y comentarios de usuarios. Finalmente, la pantalla de suscripción detalla los planes disponibles con precios y beneficios en un formato de lista fácil de leer. Todas las pantallas comparten una barra de estado negra en la parte superior y una navegación coherente con flechas de retorno, utilizando una paleta de colores en blanco y negro para una experiencia de usuario uniforme y moderna.<br><br>
+Esta pantalla representa el flujo de navegación para pacientes. Aunque su acceso es más limitado respecto al de los doctores, próximamente contarán con integración de inteligencia artificial y el dispositivo PASO, que medirá la glucosa en sangre y generará reportes automáticos para el médico.<br><br>
 
 #### 5.4.4. Applications User Flow Diagrams.
 
