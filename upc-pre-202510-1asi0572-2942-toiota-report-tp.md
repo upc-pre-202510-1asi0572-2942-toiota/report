@@ -15,7 +15,7 @@
 **Profesor:** Marco Antonio Leon Baca
 
 ----
-## Informe del Trabajo TB1
+## Informe del Trabajo TP
 ### Nombre del Startup: Toiota
 
 ### Nombre del Producto: HormonalCare
@@ -47,6 +47,7 @@
 | TB1  v.2   | 05/04/2025 | Sergio Pecan, Andre La Torre | Para esta entrega se desarrollaron los capitulos II|
 | TB1  v.3   | 15/04/2025 | Luis Chinchihualpa, Estefano Lostaunau | Para esta entrega se desarrollaron los capitulos III|
 | TB1  v.4   | 25/04/2025 | Claudio Quispesivana, Sergio Pecan, Andre La Torre,Luis Chinchihualpa, Estefano Lostaunau | Para esta entrega se desarrollaron los capitulos IV|
+| TP  v.5   | 13/05/2025 | Claudio Quispesivana, Estefano Lostaunau | Para esta entrega se desarrollaron los capitulos IV: indice y contenido de Style Guidelines, Information Architecture y Landing Page UI Design. |
 
 </div>
 
