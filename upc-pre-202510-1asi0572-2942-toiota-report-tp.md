@@ -3035,11 +3035,172 @@ Tiempo: 8:56
 </div><br><br>
 
 
-## CAPÍTULO VII: PRODUCT IMPLEMENTATION, VALIDATION & DEPLOYMENT
+## CAPÍTULO VI: PRODUCT IMPLEMENTATION, VALIDATION & DEPLOYMENT
 
-### 6.1.
+### 6.1. Software Configuration Management.
 
-#### 6.1.1.
+#### 6.1.1. Software Development Environment Configuration.
+
+**Project Management:**
+
+Trello: Además de ser utilizado para la gestión de tareas, Trello sirvió como una herramienta integral de gestión de proyectos, permitiendo la asignación de tareas, la definición de fechas límite y el seguimiento del progreso de manera colaborativa. 
+
+https://trello.com/signup
+
+Structurizr: Empleado para crear diagramas de arquitectura de software y documentación de la arquitectura del sistema, lo cual puede ser útil para la gestión de aspectos técnicos del proyecto. 
+
+https://structurizr.com/
+
+Microsoft Stream (Videos): Utilizado para la publicación, almacenamiento y compartición de videos relacionados con el proyecto. Esta plataforma nos permite como equipo centralizar todos nuestros recursos visuales. 
+
+https://www.microsoft.com/en-us/microsoft-365/microsoft-stream
+
+Google Drive: Utilizado para el almacenamiento y colaboración de documentos, archivos y recursos del proyecto. 
+
+https://www.google.com/drive/
+
+GitHub Desktop: Utilizado para la gestión del control de versiones del código fuente, facilitando la colaboración entre el equipo de desarrollo. 
+
+https://desktop.github.com/
+
+Google Forms: Utilizamos Google Forms para recopilar retroalimentación y realizar encuestas de usuarios. Google Forms nos permitió recoger datos relevantes sobre la experiencia de los usuarios y las necesidades del cliente, lo que influyó en el diseño y desarrollo del producto. 
+
+https://www.google.com/forms/about/
+
+
+**Requirements Management:**
+
+Miro: Utilizamos Miro como herramienta principal para la gestión de requisitos. En Miro, creamos mapas mentales y diagramas que ayudaron a visualizar y organizar los requisitos del proyecto, incluyendo características, funcionalidades y objetivos clave. 
+
+https://miro.com/signup/
+
+Lucidchart: Además, utilizamos Lucidchart como herramienta para realizar diagramas y documentación. 
+
+https://www.lucidchart.com/users/register
+
+
+
+**Product UX/UI Design:** 
+
+Figma: Empleamos Figma para el diseño de la interfaz de usuario (UI) y la experiencia de usuario (UX) de la aplicación HormonalCare. Figma permitió la creación de prototipos, wireframes y diseños visuales que guiarán el desarrollo del producto final. 
+
+https://www.figma.com/signup
+
+UXPressia: Utilizamos UXPressia como herramienta especializada en la creación de mapas de experiencia de usuario, perfiles de clientes y otros elementos relacionados con el diseño de UX. UXPressia nos permitió visualizar y comprender la experiencia del usuario en profundidad, ayudando a mejorar la usabilidad y el diseño de la aplicación. 
+
+https://uxpressia.com
+
+Canva: Incorporamos Canva en la etapa de diseño para la creación de recursos gráficos adicionales, como imágenes, gráficos y presentaciones, que mejoró la estética y la presentación del producto. 
+
+https://www.canva.com/signup
+
+
+
+
+**Software Development:**
+
+IDE (Entorno de Desarrollo Integrado): 
+• Visual Studio Code: Utilizado como nuestro IDE para el desarrollo de la landing page, debido a su capacidad para facilitar el desarrollo web moderno y eficiente. 
+
+https://code.visualstudio.com/download
+
+• WebStorm: Empleado como entorno de desarrollo integrado (IDE) adicional para el desarrollo de nuestra aplicación Single Page Application. 
+
+https://www.jetbrains.com/webstorm/download/
+
+• IntelliJ IDEA: Utilizado para realizar el backend con Java, aprovechando sus características avanzadas para el desarrollo en este lenguaje. 
+
+https://www.jetbrains.com/idea/download/
+
+Control de Versiones: Git será fundamental para el control de versiones del código fuente. La integración nativa con sistemas de control de versiones como Git también es crucial para nuestra gestión de proyectos, lo cual, nos permitió un control preciso de nuestro código fuente y facilitando la colaboración entre el equipo de desarrollo. 
+
+https://git-scm.com/downloads
+
+Gestión de Dependencias: Usamos npm (Node Package Manager) para gestionar las dependencias del proyecto, incluyendo bibliotecas y paquetes necesarios para el desarrollo. 
+
+https://docs.npmjs.com/about-npm-versions
+
+
+
+
+**Software Documentation:**
+
+GitHub: Empleamos GitHub como plataforma principal para la documentación del código y la colaboración en el desarrollo. Utilizamos el README.md para documentar el proceso de desarrollo. 
+
+https://github.com/join
+
+
+Structurizr: Empleado para crear diagramas de arquitectura de software y documentación de la arquitectura del sistema. 
+
+https://structurizr.com/
+
+
+
+#### 6.1.2. Source Code Management.
+
+Para garantizar la eficiencia y evitar conflictos en el desarrollo del proyecto, los productos de NinjaCode se gestionaron en una organización de GitHub.
+
+NinjaCode organization: https://github.com/upc-open-source-ninja-code
+
+Esta organización sirve como un espacio centralizado donde todos los miembros del equipo pueden acceder y contribuir al código del proyecto. Dentro de esta organización, se encuentran los repositorios correspondientes a cada aspecto del proyecto. Cada repositorio tiene un propósito específico y juntos forman la estructura completa del proyecto.
+
+A continuación, se presentan los repositorios:
+
+Project Report: Este repositorio contiene el informe del proyecto. En él se documentan todos los aspectos del proyecto, desde la concepción de la idea hasta la implementación final. Este informe es crucial para mantener a todos los miembros del equipo al tanto del progreso del proyecto y para proporcionar una referencia para futuras mejoras o modificaciones. 
+
+https://github.com/upc-open-source-ninja-code/upc-pre-202401-si729-sw51-NinjaCode-report-tp
+
+
+Landing Page: Este repositorio contiene el código fuente de la página de inicio del proyecto. La página de inicio es esencial para proporcionar a los usuarios una visión general de lo que ofrece el proyecto y para guiarlos a través de las diferentes características y funcionalidades disponibles.
+
+https://github.com/upc-open-source-ninja-code/Landing-Page
+
+
+Single Page Application: Este repositorio contiene el código fuente de la aplicación web principal del proyecto. Esta aplicación es el núcleo del proyecto y es donde los usuarios interactúan con las principales características y funcionalidades del proyecto.
+
+https://github.com/upc-open-source-ninja-code/HormonalCare-frontend
+
+
+Fake Api: Este repositorio contiene el código fuente de la API falsa que se utiliza para proporcionar datos de prueba y simular interacciones con el backend. Esta API es fundamental para el desarrollo y pruebas de la aplicación web principal del proyecto.
+
+https://github.com/upc-open-source-ninja-code/Fake-API
+
+
+Acceptance Test: Este repositorio contiene las pruebas de aceptación del proyecto. Estas pruebas son esenciales para garantizar que todas las características y funcionalidades del proyecto funcionan como se esperaba y para identificar y corregir cualquier problema o error que pueda surgir.
+
+https://github.com/upc-open-source-ninja-code/Acceptance-Test
+
+
+Web Application Deployed: Este repositorio es donde se aloja el enlace a la aplicación web desplegada del proyecto. Es donde se proporciona un enlace directo a la versión en línea de la aplicación, que ha sido desplegada utilizando el servicio de GitHub Pages. Este enlace permite a los usuarios acceder a la aplicación en un entorno de producción desde cualquier lugar y en cualquier momento. Este repositorio es esencial para aumentar la accesibilidad y usabilidad del proyecto, ya que permite que la aplicación sea accesible a una audiencia global en cualquier momento.
+
+https://github.com/upc-open-source-ninja-code/Web-Aplication-Deployed
+
+
+
+Como equipo, hemos dividido nuestro trabajo en varios repositorios para gestionar de manera más eficiente el código y facilitar la colaboración. Esta estructura nos permite centrarnos en tareas específicas sin interferir con el trabajo de los demás. Además, nos ayuda a seguir los cambios y a identificar problemas de manera eficaz, ya que cada cambio está asociado a una tarea específica en un repositorio determinado. Esta organización en GitHub es un reflejo de nuestro compromiso con la eficiencia, la colaboración y la calidad en nuestro proyecto.
+
+
+En relación al manejo del Gitflow en nuestro proyecto, se llevó a cabo de la siguiente manera:
+
+Durante el desarrollo del proyecto, establecimos una rama develop que sirvió como base para las versiones finales de cada feature que íbamos desarrollando. A partir de esta rama develop, creamos ramas individuales para cada feature específico.
+
+Nuestro flujo de trabajo se estructuró de la siguiente manera:
+
+Identificamos el bounded context en el que íbamos a trabajar.
+Definimos el feature del bounded context que íbamos a desarrollar.
+Nos desplazamos a la rama correspondiente a ese feature.
+Realizamos un merge para traer todo el contenido de develop a la rama del feature.
+Trabajamos en el desarrollo del feature, asegurándonos de que cada cambio o mejora se reflejara en él.
+Verificamos la correcta ejecución del feature, probando su funcionalidad y rendimiento.
+Una vez que el feature estaba correctamente desarrollado y probado, realizamos un merge para pasar todos los cambios (commits) a la rama develop.
+Este proceso se repitió para cada feature, permitiéndonos desarrollar nuestra aplicación web de manera eficiente y ordenada. Nos aseguramos de que cada feature se implementara correctamente antes de integrarlo en la versión principal.
+
+<img src="images/network.png">
+
+Además, para la organización de los sprints y la gestión del producto backlog, utilizamos la herramienta Trello. Esta nos permitió dividir el trabajo de manera eficiente. Cada miembro del equipo se encargó de una parte específica, avanzando en su respectiva área de acuerdo a los story points asignados. De esta manera, pudimos darle prioridad a las tareas más relevantes y asegurar un progreso constante en nuestro proyecto. Adicionalmente, realizamos revisiones grupales de manera periódica. Estas sesiones nos permitieron consolidar nuestro trabajo de la mejor manera posible.
+
+<img src="images/sprint2.png">
+Enlace: https://trello.com/invite/b/mSimNo04/ATTI125c821416efcad4fb8cb0bafc415bbdFFF7F7D5/sprint-2-hormonalcare
 
 
 ### 6.2.1. Sprint 1
