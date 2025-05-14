@@ -2397,6 +2397,11 @@ Enlace: [Mock-up del Landing Page en Figma](https://www.figma.com/design/DwwZyc2
 #### 5.4.1. Applications Wireframes.
 
 **Web Application**
+<img src="images/Web Applications Wireframes.png">
+
+
+Enlace: [https://www.figma.com/file/mNslBv5s2hX1S8Yc1M25gV/Minimal-Wireframe-Kit-(Community)?type=design&node-id=16-1451&mode=design](https://www.figma.com/file/mNslBv5s2hX1S8Yc1M25gV/Minimal-Wireframe-Kit-(Community)?type=design&node-id=16-1451&mode=design)
+
 
 **Mobile Application**
 Los wireframes desempeñan un papel crucial en el diseño de nuestras aplicaciones, ya que permiten estructurar la interfaz y definir la navegación antes de iniciar el desarrollo. Para este proyecto, optamos por usar Figma, lo que facilitó una creación colaborativa y ágil de los wireframes.
@@ -2445,21 +2450,142 @@ Esta pantalla ilustra el flujo de navegación diseñado para los pacientes. Aunq
 #### 5.4.2. Applications Wireflow Diagrams.
 
 **Web Application**
+Para la realización de los Wireflow Diagrams hemos separado cada diagrama por User Goals y User Personas correspondientes a nuestro proyecto.
 
--
--
--
--
--
--
--
--
--
--
--
--
--
--
+**Pacientes:**
+
+User Goal: Como paciente deseo registrarme para ingresar a la aplicación.
+
+Para este objetivo el paciente se encuentra en la página de log in de la aplicación y al hacer click en el botón register, se le dirigirá a una pestaña en la que podrá seleccionar su tipo de usuario. Luego de seleccionar la opción de Paciente como tipo de usuario, se le redirigirá a una instancia en la que podrá llenar un formulario con sus datos. Una vez completados los datos y le dé click al botón de Register, se le dirigirá al home de la aplicación
+
+<img src="images/patient-usergoal-1.png">
+
+
+User Goal: Como paciente deseo visualizar los médicos disponibles para seleccionar el que crea conveniente.
+
+Para este objetivo el paciente se encuentra en el home principal de la aplicación y cuando le dé clic al botón de médicos disponibles se le dirigirá a una pestaña en la que podrá ver, buscar y seleccionar a su médico. Una vez que haga clic en el médico escogido podrá ver el perfil con sus datos más relevantes.
+
+<img src="images/patient-usergoal-2.png">
+
+
+User Goal: Como paciente deseo agendar mi primera cita con el médico escogido para iniciar con mi tratamiento.
+
+Para este objetivo una vez que el paciente se encuentre en el perfil del médico escogido y haga clic en el botón de reservar una cita, la aplicación desplegará la vista de un calendario en el que el paciente podrá escoger sus horarios disponibles. Luego, cuando el paciente decida confirmar horario, el sistema redirigirá a una vista en la que el paciente podrá elegir el método de pago y cuando haga clic en el botón pagar, se habilitará una pestaña flotante dependiendo del método de pago que haya escogido y cuando haga clic en el botón aceptar se le redirigirá a la vista principal del paciente y podrá ver su cita agendada.
+
+<img src="images/patient-usergoal-3.png">
+
+
+User Goal: Como paciente deseo iniciar sesión con mis credenciales para ingresar a la aplicación.
+
+Con el paciente se encuentre en la página de login de la aplicación, digite sus credenciales y haga clic en el botón login, será redirigido a la vista principal del paciente.
+
+<img src="images/patient-usergoal-4.png">
+
+
+User Goal: Como paciente deseo acceder a mi cita médica para poder recibir mi tratamiento.
+
+Cuando el paciente se encuentre en la vista principal y haga clic en el botón de su cita agendada a la hora pactada con el médico, el sistema de plegará una pestaña flotante con Google para que el paciente puede ingresar a su cita.
+
+<img src="images/patient-usergoal-5.png">
+
+
+User Goal: Como paciente deseo acceder a un calendario para poder visualizar mis próximas citas.
+
+Cuando el paciente se encuentra en la vista principal y haga clic en el icono de calendario del toolbar principal, el sistema desplegará un calendario para que el paciente pueda ver las fechas de sus próximas citas.
+
+<img src="images/patient-usergoal-6.png">
+
+
+User Goal: Como paciente deseo acceder a las notificaciones para mantenerme al tanto de las actualizaciones de mi tratamiento.
+
+
+Cuándo el paciente se encuentra en la vista principal y haga clic en el ícono de campana de la barra de navegación, el sistema desplegará pestaña flotante en el que se podrá visualizar todas sus notificaciones, y cuando el paciente haga click cada una de ellas se desplegará una ventana flotante con los detalles de la notificación. Cuando el paciente haga clic en la X de la ventana flotante será redirigido a la vista principal de la aplicación.
+
+<img src="images/patient-usergoal-7.png">
+
+
+User Goal: Como paciente deseo subir mis exámenes pendientes para poder continuar con mi tratamiento.
+
+Cuando el paciente se encuentre en la vista principal y haga clic en el botón subir sus exámenes, se desplegará una ventana flotante en la cual estarán los exámenes pendientes a subir por parte del paciente. Cuando el paciente haga clic en uno de esos exámenes, el sistema plegará una ventana flotante en la cual el paciente podrá subir el archivo de tal examen requerido por el médico. Cuando el paciente haga clic en enviar, el sistema eliminará la ventana flotante y el paciente se encontrará en la vista principal de la aplicación.
+
+<img src="images/patient-usergoal-8.png">
+
+
+User Goal: Como paciente deseo chatear con mi doctor para poder absolver consultas.
+
+Cuando el paciente se encuentre en la pestaña principal de la aplicación y haga clic sobre el icono del sobre en la barra de navegación, el sistema desplegará una pestaña en la cual el paciente podrá acceder a un Chat con su doctor. Cuando el paciente haga click en el icono de la X, se cerrará la ventana flotante y se le redirigirá a la pestaña principal.
+
+<img src="images/patient-usergoal-9.png">
+
+
+User Goal: Como usuario deseo editar los datos de mi perfil.
+
+Con el paciente se encuentre en la vista principal de la aplicación y haga clic sobre el icono de su foto de perfil en la barra de navegación, el paciente podrá acceder a su perfil y poder editar su información personal.
+
+<img src="images/patient-usergoal-10.png">
+
+**Médicos:**
+
+User Goal: Como médico deseo incluir en el historial médico del paciente la razón de su consulta en relación a sus síntomas para llevar un mejor control de mis pacientes.
+
+Cuando el médico se encuentre en su pantalla principal como médico, al ver todos sus pacientes del día, y haga clic en historial clínico, el sistema desplegara el historial clinico del paciente en el cual al hacer clic en el boton de Razon de consultas podra hacer dos cambios, el cual le mostrará un espacio para completar y luego podrá añadir en el cuadro de síntomas todos los símtomas que tuvo antes de la consulta del paciente. 
+
+<img src="images/doctor-usergoal-4.png">
+
+User Goal: Como médico deseo anotar el pasado historico de mis pacientes para tener información detallada del origen de su enfermedad hormonal.
+
+Cuando el médico se encuentre en su pantalla principal como médico, al ver todos sus pacientes del día, y haga clic en historial clínico, el sistema desplegara el historial clinico del paciente en el cual al hacer clic en el boton de "Background", el médico podrá completar o editar los espacios de "Personal history" y "Family background" con el botón editar.
+
+<img src="images/doctor-usergoal-5.png">
+
+User Goal: Como médico deseo recibir los resultados de laboratorio de mis pacientes para analizar el estado actual de su enfermedad hormonal.
+
+Cuando el médico se encuentre en su pantalla principal como médico, al ver todos sus pacientes del día, y haga clic en historial clínico, el sistema desplegara el historial clinico del paciente en el cual al hacer clic en el boton de "Medical exams", el sistema mostrará todos los examenes de laboratorio que fue subiendo el paciente, y al hacer clic en alguno de ellos, podrá ver la inforamción detallada de cada uno de ellos. 
+
+<img src="images/doctor-usergoal-6.png">
+
+User Goal: Como médico deseo ver los reportes externos que el paciente proporciona para analizar su estado físico en relación a la enfermedad hormonal que lo aqueja.
+
+Cuando el médico se encuentre en su pantalla principal como médico, al ver todos sus pacientes del día, y haga clic en historial clínico, el sistema desplegara el historial clinico del paciente en el cual al hacer clic en el boton de "External reports", el sistema mostrará todos los reportes que el paciente que tuvo el paciente con anteriordad a la consulta, cuando el médico decida hacer clic en uno de ellos, se mostrará como una ventan emergente y verá con más detalle cada uno de los reportes.
+
+<img src="images/doctor-usergoal-7.png">
+
+User Goal: Como médico deseo incluir los diagnosticos de mis pacientes para llevar un control de como a ido evulucionando su enfermedad hormonal.
+
+Cuando el médico se encuentre en su pantalla principal como médico, al ver todos sus pacientes del día, y haga clic en historial clínico, el sistema desplegara el historial clinico del paciente en el cual al hacer clic en el boton de "Diagnoses and treatment", el sistema le mostrará los diagnosticos que tuvo con anterioridad y podra ordernales o añadir uno nuevo con el botón "Add", el cual despliega una ventana donde podrá añadir información del diagnostico.
+
+<img src="images/doctor-usergoal-8.png">
+
+User Goal: Como médico deseo incluir el tratamiento de cada paciente para que sepan como deben llevar su vida cotidiana de ahora en adelante con los medicamentes que se les fue asignado.
+
+Cuando el médico se encuentre en su pantalla principal como médico, al ver todos sus pacientes del día, y haga clic en historial clínico, el sistema desplegara el historial clinico del paciente en el cual al hacer clic en el boton de "Diagnoses and treatment", el sistema le mostrará los tratamientos y medicación donde podrá ver todos los que fueron añadidos con anterior, podrá añadir más con el botón "Add", en el cual se despliega una ventana donde podrá añadir información del tratamiento.
+
+<img src="images/doctor-usergoal-9.png">
+
+User Goal: Como médico deseo anotar la medicación que adquirirá el paciente junto con sus medidas adecuadas para que el paciente pueda llevar su tratamiento sin complicaciones.
+
+Cuando el médico se encuentre en su pantalla principal como médico, al ver todos sus pacientes del día, y haga clic en historial clínico, el sistema desplegara el historial clinico del paciente en el cual al hacer clic en el boton de "Diagnoses and treatment", el sistema le mostrará los tratamientos y medicación donde podrá ver todos los que fueron añadidos con anterior, podrá añadir más con el botón "Add", en el cual se despliega una ventana donde podrá añadir información de la medicación y sus horas.
+
+<img src="images/doctor-usergoal-10.png">
+
+User Goal: Como médico deseo buscar a un colega dentro de la aplicación para que pueda asignarle a un paciente y pueda atenderlo.
+
+Cuando el médico inicie sesión y esté en la su pantalla principal al momento de hacer clic en la barra de navegación e ingrese el correo de su colega, el sistema mostrará el usuario con el que coincida el código y el médico podrá hacer un clic, lo cual desplegará una ventana emergente con todos los datos de su colega, en el cual al hacer clic en el botón "Assign patient " podra asignar un paciente a un determinado horario disponible de su colega para que pueda atenderlo.
+
+<img src="images/doctor-usergoal-1.png">
+
+
+User Goal: Como médico deseo cambiar mi plan de suscripción para entender a un número mayor de pacientes en la aplicación.
+
+Cuando el médico se encuentre en su pantalla principal como médico, al hacer clic en el botón de profile, el sistema desplegará su perfil, donde podrá hacer clic en el botón "Configure current plan" el cual al ser desplegado podrá todos los planes que tiene como médico, despues podrá escoger el plan que más le convenga dando clic en "Accept" para luego ingresar su tarjeta de debito o credito para el pago correspondiente del tipo de plan que escogio. 
+
+<img src="images/doctor-usergoal-2.png">
+
+User Goal: Como médico deseo configurar mi calendario para que pueda añadir a un paciente a una determinada hora.
+
+Cuando el médico se encuentre en su pantalla principal como médico, al hacer clic en el botón de calendario el sistema desplegará su calendario donde podrá hacer escoger los horarios y podrá escoger un pacinte par luego poder crear el evento.
+
+<img src="images/doctor-usergoal-3.png">
 
 **Mobile Application**
 
@@ -2595,6 +2721,10 @@ Enlace: [Wireflows en LucidChart 2](https://lucid.app/lucidchart/03ddb43d-dedb-4
 
 **Web Application**
 
+<img src="images/Web Applications Mock-ups.png">
+Figma Mock ups: [https://www.figma.com/file/5bhJ7aAWlbKHEJgjVZ8Gfc/ninjacode?type=design&node-id=0%3A1&mode=design&t=HeYuEY53eyYW4R5A-1](https://www.figma.com/file/5bhJ7aAWlbKHEJgjVZ8Gfc/ninjacode?type=design&node-id=0%3A1&mode=design&t=HeYuEY53eyYW4R5A-1)
+
+
 **Mobile Application**
 
 Los mockups juegan un papel esencial en el diseño de nuestras aplicaciones, ya que permiten definir la estructura de la interfaz y la lógica de navegación antes de iniciar el desarrollo. Para este proyecto, utilizamos Figma, lo que facilitó una creación ágil y colaborativa de estos prototipos visuales.
@@ -2642,6 +2772,80 @@ Esta pantalla representa el flujo de navegación para pacientes. Aunque su acces
 #### 5.4.4. Applications User Flow Diagrams.
 
 **Web Application**
+
+User 1: Médico endocrinólogo desea registrarse por primera vez en HormonalCare.
+
+User goal: Seleccionar el apartado de registro como médico endocrinólogo, luego ingresar sus datos personales y adjunta los documentos que validen su cargo como especialista.
+
+<img src="images/Web Applications User Flow Diagrams1.png">
+
+User 2 (Paciente):
+
+User Goal: Como paciente deseo registrarme para ingresar a la aplicación.
+
+Para este objetivo el paciente se encuentra en la página de log in de la aplicación y al hacer click en el botón register, se le dirigirá a una pestaña en la que podrá seleccionar su tipo de usuario. Luego de seleccionar la opción de Paciente como tipo de usuario, se le redirigirá a una instancia en la que podrá llenar un formulario con sus datos. Una vez completados los datos y le dé click al botón de Register, se le dirigirá al home de la aplicación
+
+<img src="images/registraraplicacion.png">
+
+
+User Goal: Como paciente deseo visualizar los médicos disponibles para seleccionar el que crea conveniente.
+
+Para este objetivo el paciente se encuentra en el home principal de la aplicación y cuando le dé clic al botón de médicos disponibles se le dirigirá a una pestaña en la que podrá ver, buscar y seleccionar a su médico. Una vez que haga clic en el médico escogido podrá ver el perfil con sus datos más relevantes.
+
+<img src="images/visualizardoctor.png">
+
+
+User Goal: Como paciente deseo agendar mi primera cita con el médico escogido para iniciar con mi tratamiento.
+
+Para este objetivo una vez que el paciente se encuentre en el perfil del médico escogido y haga clic en el botón de reservar una cita, la aplicación desplegará la vista de un calendario en el que el paciente podrá escoger sus horarios disponibles. Luego, cuando el paciente decida confirmar horario, el sistema redirigirá a una vista en la que el paciente podrá elegir el método de pago y cuando haga clic en el botón pagar, se habilitará una pestaña flotante dependiendo del método de pago que haya escogido y cuando haga clic en el botón aceptar se le redirigirá a la vista principal del paciente y podrá ver su cita agendada.
+
+<img src="images/agendarcita.png">
+
+
+User Goal: Como paciente deseo iniciar sesión con mis credenciales para ingresar a la aplicación.
+
+Con el paciente se encuentre en la página de login de la aplicación, digite sus credenciales y haga clic en el botón login, será redirigido a la vista principal del paciente.
+
+<img src="images/loginaplicacion.png">
+
+
+User Goal: Como paciente deseo acceder a un calendario para poder visualizar mis próximas citas.
+
+Cuando el paciente se encuentra en la vista principal y haga clic en el icono de calendario del toolbar principal, el sistema desplegará un calendario para que el paciente pueda ver las fechas de sus próximas citas.
+
+<img src="images/accedercalendario.png">
+
+
+User Goal: Como paciente deseo acceder a las notificaciones para mantenerme al tanto de las actualizaciones de mi tratamiento.
+
+
+Cuándo el paciente se encuentra en la vista principal y haga clic en el ícono de campana de la barra de navegación, el sistema desplegará pestaña flotante en el que se podrá visualizar todas sus notificaciones, y cuando el paciente haga click cada una de ellas se desplegará una ventana flotante con los detalles de la notificación. Cuando el paciente haga clic en la X de la ventana flotante será redirigido a la vista principal de la aplicación.
+
+<img src="images/recordatorio.png">
+
+
+User Goal: Como paciente deseo subir mis exámenes pendientes para poder continuar con mi tratamiento.
+
+Cuando el paciente se encuentre en la vista principal y haga clic en el botón subir sus exámenes, se desplegará una ventana flotante en la cual estarán los exámenes pendientes a subir por parte del paciente. Cuando el paciente haga clic en uno de esos exámenes, el sistema plegará una ventana flotante en la cual el paciente podrá subir el archivo de tal examen requerido por el médico. Cuando el paciente haga clic en enviar, el sistema eliminará la ventana flotante y el paciente se encontrará en la vista principal de la aplicación.
+
+<img src="images/subirexamen.png">
+
+
+User Goal: Como paciente deseo chatear con mi doctor para poder absolver consultas.
+
+Cuando el paciente se encuentre en la pestaña principal de la aplicación y haga clic sobre el icono del sobre en la barra de navegación, el sistema desplegará una pestaña en la cual el paciente podrá acceder a un Chat con su doctor. Cuando el paciente haga click en el icono de la X, se cerrará la ventana flotante y se le redirigirá a la pestaña principal.
+
+<img src="images/accederchat.png">
+
+
+User Goal: Como usuario deseo editar los datos de mi perfil.
+
+Con el paciente se encuentre en la vista principal de la aplicación y haga clic sobre el icono de su foto de perfil en la barra de navegación, el paciente podrá acceder a su perfil y poder editar su información personal.
+
+<img src="images/accederperfil.png">
+
+Enlace: [https://lucid.app/lucidchart/e2b3dc86-786c-44cf-a51d-8edffac7ab2a/edit?viewport_loc=-22142%2C-1168%2C13088%2C6732%2C0_0&invitationId=inv_9c936b1b-7497-4c30-9f44-7b9cbaf0084d](https://lucid.app/lucidchart/e2b3dc86-786c-44cf-a51d-8edffac7ab2a/edit?viewport_loc=-22142%2C-1168%2C13088%2C6732%2C0_0&invitationId=inv_9c936b1b-7497-4c30-9f44-7b9cbaf0084d)
+
 
 **Mobile Application**
 
@@ -2714,6 +2918,11 @@ Enlace: [User Flow 1 en LucidChart](https://lucid.app/lucidchart/6a57cfed-5781-4
 ### 5.5. Applications Prototyping.
 
 **Web Application**
+
+<img src="images/Web Applications Mock-ups.png">
+
+Link: [https://www.figma.com/file/5bhJ7aAWlbKHEJgjVZ8Gfc/ninjacode?type=design&node-id=0%3A1&mode=design&t=HeYuEY53eyYW4R5A-1](https://www.figma.com/file/5bhJ7aAWlbKHEJgjVZ8Gfc/ninjacode?type=design&node-id=0%3A1&mode=design&t=HeYuEY53eyYW4R5A-1)
+
 
 **Mobile Application**
 
