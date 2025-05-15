@@ -3201,10 +3201,7 @@ https://hormonalcarelanding.netlify.app/
 
 Single Page Application: Este repositorio contiene el código fuente de la aplicación web principal del proyecto. Esta aplicación es el núcleo del proyecto y es donde los usuarios interactúan con las principales características y funcionalidades del proyecto.
 
-https://github.com/upc-open-source-ninja-code/HormonalCare-frontend
-
-
-
+[https://github.com/upc-open-source-ninja-code/HormonalCare-frontend](https://github.com/upc-open-source-ninja-code/HormonalCare-frontend)
 
 
 
@@ -3213,11 +3210,14 @@ https://github.com/upc-open-source-ninja-code/HormonalCare-frontend
 
 Web Application Deployed: Este repositorio es donde se aloja el enlace a la aplicación web desplegada del proyecto. Es donde se proporciona un enlace directo a la versión en línea de la aplicación, que ha sido desplegada utilizando el servicio de GitHub Pages. Este enlace permite a los usuarios acceder a la aplicación en un entorno de producción desde cualquier lugar y en cualquier momento. Este repositorio es esencial para aumentar la accesibilidad y usabilidad del proyecto, ya que permite que la aplicación sea accesible a una audiencia global en cualquier momento.
 
-https://github.com/upc-open-source-ninja-code/Web-Aplication-Deployed
+[https://github.com/upc-open-source-ninja-code/Web-Aplication-Deployed](https://main--stupendous-kangaroo-4e2bfa.netlify.app/)
 
 
 
+Mobile Application Repository:
+Este repositorio contiene el código fuente de la aplicación móvil del proyecto Hormonal Care. Ha sido desarrollado con enfoque en la experiencia del usuario en dispositivos móviles, permitiendo a los pacientes y médicos acceder a las funcionalidades clave del sistema desde sus teléfonos o tabletas. Aquí se aloja la versión más actualizada del desarrollo móvil, incluyendo funcionalidades como gestión de citas, visualización de historias clínicas, y sincronización con el parche inteligente. Este repositorio es fundamental para facilitar el despliegue en entornos móviles, fomentar la colaboración entre desarrolladores y garantizar la portabilidad del sistema hacia plataformas Android e iOS.
 
+https://github.com/upc-pre-202510-1asi0572-2942-toiota/hormonal-care-mobile 
 
 
 Como equipo, hemos dividido nuestro trabajo en varios repositorios para gestionar de manera más eficiente el código y facilitar la colaboración. Esta estructura nos permite centrarnos en tareas específicas sin interferir con el trabajo de los demás. Además, nos ayuda a seguir los cambios y a identificar problemas de manera eficaz, ya que cada cambio está asociado a una tarea específica en un repositorio determinado. Esta organización en GitHub es un reflejo de nuestro compromiso con la eficiencia, la colaboración y la calidad en nuestro proyecto.
