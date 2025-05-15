@@ -2844,6 +2844,42 @@ Con el paciente se encuentre en la vista principal de la aplicación y haga clic
 
 <img src="images/accederperfil.png">
 
+
+
+
+
+
+
+User Goal: Como paciente deseo que el parche mida continuamente mis niveles de glucosa para mantener un monitoreo constante sin intervención manual.
+
+
+
+<img src="userGOAL1.png">
+
+User Goal: Como médico deseo que los datos fisiológicos del paciente se registren automáticamente para analizarlos sin depender de registros manuales.
+
+
+<img src="userGOAL2.png">
+
+User Goal: Como médico deseo revisar el historial de administraciones de insulina para evaluar la evolución y eficacia del tratamiento.
+
+
+<img src="userGOAL3.png">
+
+User Goal: Como médico deseo ver remotamente los datos registrados por el parche de mis pacientes para brindar seguimiento sin necesidad de consulta presencial.
+
+<img src="userGOAL4.png">
+
+User Goal: Como paciente deseo recibir una alerta antes de que se me administre insulina automáticamente para estar informado y poder intervenir si es necesario.
+
+<img src="userGOAL5.png">
+
+User Goal: Como médico deseo recibir alertas de glucosa muy alta de mis pacientes para poder tratarlo ugentemente.
+
+<img src="userGOAL6.png">
+
+
+
 Enlace: [https://lucid.app/lucidchart/e2b3dc86-786c-44cf-a51d-8edffac7ab2a/edit?viewport_loc=-22142%2C-1168%2C13088%2C6732%2C0_0&invitationId=inv_9c936b1b-7497-4c30-9f44-7b9cbaf0084d](https://lucid.app/lucidchart/e2b3dc86-786c-44cf-a51d-8edffac7ab2a/edit?viewport_loc=-22142%2C-1168%2C13088%2C6732%2C0_0&invitationId=inv_9c936b1b-7497-4c30-9f44-7b9cbaf0084d)
 
 
