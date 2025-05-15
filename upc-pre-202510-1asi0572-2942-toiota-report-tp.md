@@ -3176,7 +3176,7 @@ https://structurizr.com/
 
 Para garantizar la eficiencia y evitar conflictos en el desarrollo del proyecto, los productos de NinjaCode se gestionaron en una organización de GitHub.
 
-NinjaCode organization: https://github.com/upc-open-source-ninja-code
+ToIoTa organization: [https://github.com/upc-open-source-ninja-code](https://github.com/upc-pre-202510-1asi0572-2942-toiota)
 
 Esta organización sirve como un espacio centralizado donde todos los miembros del equipo pueden acceder y contribuir al código del proyecto. Dentro de esta organización, se encuentran los repositorios correspondientes a cada aspecto del proyecto. Cada repositorio tiene un propósito específico y juntos forman la estructura completa del proyecto.
 
@@ -3184,12 +3184,19 @@ A continuación, se presentan los repositorios:
 
 Project Report: Este repositorio contiene el informe del proyecto. En él se documentan todos los aspectos del proyecto, desde la concepción de la idea hasta la implementación final. Este informe es crucial para mantener a todos los miembros del equipo al tanto del progreso del proyecto y para proporcionar una referencia para futuras mejoras o modificaciones. 
 
-https://github.com/upc-open-source-ninja-code/upc-pre-202401-si729-sw51-NinjaCode-report-tp
+[https://github.com/upc-open-source-ninja-code/upc-pre-202401-si729-sw51-NinjaCode-report-tp](https://github.com/upc-pre-202510-1asi0572-2942-toiota/upc-pre-202510-1asi0572-2942-toIOTa-report-tb1)
 
 
 Landing Page: Este repositorio contiene el código fuente de la página de inicio del proyecto. La página de inicio es esencial para proporcionar a los usuarios una visión general de lo que ofrece el proyecto y para guiarlos a través de las diferentes características y funcionalidades disponibles.
 
-https://github.com/upc-open-source-ninja-code/Landing-Page
+[https://github.com/upc-open-source-ninja-code/Landing-Page](https://github.com/upc-pre-202510-1asi0572-2942-toiota/Landing-Page)
+
+https://hormonalcarelanding.netlify.app/  
+
+
+
+
+
 
 
 Single Page Application: Este repositorio contiene el código fuente de la aplicación web principal del proyecto. Esta aplicación es el núcleo del proyecto y es donde los usuarios interactúan con las principales características y funcionalidades del proyecto.
@@ -3197,19 +3204,19 @@ Single Page Application: Este repositorio contiene el código fuente de la aplic
 https://github.com/upc-open-source-ninja-code/HormonalCare-frontend
 
 
-Fake Api: Este repositorio contiene el código fuente de la API falsa que se utiliza para proporcionar datos de prueba y simular interacciones con el backend. Esta API es fundamental para el desarrollo y pruebas de la aplicación web principal del proyecto.
-
-https://github.com/upc-open-source-ninja-code/Fake-API
 
 
-Acceptance Test: Este repositorio contiene las pruebas de aceptación del proyecto. Estas pruebas son esenciales para garantizar que todas las características y funcionalidades del proyecto funcionan como se esperaba y para identificar y corregir cualquier problema o error que pueda surgir.
 
-https://github.com/upc-open-source-ninja-code/Acceptance-Test
+
+
 
 
 Web Application Deployed: Este repositorio es donde se aloja el enlace a la aplicación web desplegada del proyecto. Es donde se proporciona un enlace directo a la versión en línea de la aplicación, que ha sido desplegada utilizando el servicio de GitHub Pages. Este enlace permite a los usuarios acceder a la aplicación en un entorno de producción desde cualquier lugar y en cualquier momento. Este repositorio es esencial para aumentar la accesibilidad y usabilidad del proyecto, ya que permite que la aplicación sea accesible a una audiencia global en cualquier momento.
 
 https://github.com/upc-open-source-ninja-code/Web-Aplication-Deployed
+
+
+
 
 
 
@@ -3231,7 +3238,6 @@ Verificamos la correcta ejecución del feature, probando su funcionalidad y rend
 Una vez que el feature estaba correctamente desarrollado y probado, realizamos un merge para pasar todos los cambios (commits) a la rama develop.
 Este proceso se repitió para cada feature, permitiéndonos desarrollar nuestra aplicación web de manera eficiente y ordenada. Nos aseguramos de que cada feature se implementara correctamente antes de integrarlo en la versión principal.
 
-<img src="images/network.png">
 
 Además, para la organización de los sprints y la gestión del producto backlog, utilizamos la herramienta Trello. Esta nos permitió dividir el trabajo de manera eficiente. Cada miembro del equipo se encargó de una parte específica, avanzando en su respectiva área de acuerdo a los story points asignados. De esta manera, pudimos darle prioridad a las tareas más relevantes y asegurar un progreso constante en nuestro proyecto. Adicionalmente, realizamos revisiones grupales de manera periódica. Estas sesiones nos permitieron consolidar nuestro trabajo de la mejor manera posible.
 
