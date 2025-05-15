@@ -2854,29 +2854,29 @@ User Goal: Como paciente deseo que el parche mida continuamente mis niveles de g
 
 
 
-<img src="userGOAL1.png">
+<img src="images/userGOAL1.png">
 
 User Goal: Como médico deseo que los datos fisiológicos del paciente se registren automáticamente para analizarlos sin depender de registros manuales.
 
 
-<img src="userGOAL2.png">
+<img src="images/userGOAL2.png">
 
 User Goal: Como médico deseo revisar el historial de administraciones de insulina para evaluar la evolución y eficacia del tratamiento.
 
 
-<img src="userGOAL3.png">
+<img src="images/userGOAL3.png">
 
 User Goal: Como médico deseo ver remotamente los datos registrados por el parche de mis pacientes para brindar seguimiento sin necesidad de consulta presencial.
 
-<img src="userGOAL4.png">
+<img src="images/userGOAL4.png">
 
 User Goal: Como paciente deseo recibir una alerta antes de que se me administre insulina automáticamente para estar informado y poder intervenir si es necesario.
 
-<img src="userGOAL5.png">
+<img src="images/userGOAL5.png">
 
 User Goal: Como médico deseo recibir alertas de glucosa muy alta de mis pacientes para poder tratarlo ugentemente.
 
-<img src="userGOAL6.png">
+<img src="images/userGOAL6.png">
 
 
 
