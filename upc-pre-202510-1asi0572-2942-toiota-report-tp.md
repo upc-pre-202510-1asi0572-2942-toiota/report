@@ -3185,11 +3185,6 @@ Enlace: [User Flow 1 en LucidChart](https://lucid.app/lucidchart/6a57cfed-5781-4
 
 ### 5.5. Applications Prototyping.
 
-**Web Application**
-
-<img src="images/Web Applications Mock-ups.png">
-
-Link: [https://www.figma.com/file/5bhJ7aAWlbKHEJgjVZ8Gfc/ninjacode?type=design&node-id=0%3A1&mode=design&t=HeYuEY53eyYW4R5A-1](https://www.figma.com/file/5bhJ7aAWlbKHEJgjVZ8Gfc/ninjacode?type=design&node-id=0%3A1&mode=design&t=HeYuEY53eyYW4R5A-1)
 
 
 **Mobile Application**
@@ -3343,6 +3338,72 @@ Tiempo: 3:40
     <img src="./Resources/Chapter-V/prototype/prototypemobilepatient6.png" alt="prototype 1">
 </div><br>
 
+**Web Application**
+
+<img src="images/Web Applications Mock-ups.png">
+
+Link: [Prototype de la App Web en Figma](https://www.figma.com/file/5bhJ7aAWlbKHEJgjVZ8Gfc/ninjacode?type=design&node-id=0%3A1&mode=design&t=HeYuEY53eyYW4R5A-1)
+
+ara complementar, se ha realizado un video donde se muestran los user flows del prototipo del tipo de usuario doctor, detallando cada flujo de interacción y definiendo el tiempo en el cual se muestran para una comprensión efectiva. Este enfoque proporciona una visión dinámica de la experiencia del usuario, facilitando la identificación de mejoras y la validación de la funcionalidad del prototipo.<br><br>
+
+Enlace: [Video Prototype de la App Web](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212112_upc_edu_pe/ERLnM8uWGApJsLmuDnHhlUUBYmBgmkiJLYrWNF0CYVFYbA?e=dmYUHP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)<br><br>
+
+**User Goal 1:**  Como usuario de hormonalcare, quiero poder escoger entre medico o paciente para poder estar involucrado entre tratamientos de enfermedades diabeticas. <br><br>
+
+Tiempo: 0:12
+
+<div align="center">
+    <img src="./Resources/Chapter-V/prototype/web/protoweb1.png" alt="prototype 1">
+</div><br>
+
+**User Goal 2:**  Como medico, quiero poder ver todas las secciones disponibles para tener una experiencias mas a gusto como profesional. <br><br>
+
+Tiempo: 0:20
+
+<div align="center">
+    <img src="./Resources/Chapter-V/prototype/web/protoweb2.png" alt="prototype 1">
+</div><br>
+
+**User Goal 3:**  Como medico, quierpod er chatear con otros doctores para tener un contexto mas exacto de los pacientes. <br><br>
+
+Tiempo: 0:40
+
+<div align="center">
+    <img src="./Resources/Chapter-V/prototype/web/protowebchats.png" alt="prototype 1">
+</div><br>
+
+**User Goal 4:**  Como paciente, quiero poder ver recordatorios de los medicamentos que debo tomar el dia de hoy para cumplir con mi tratamiento de diabetes. <br><br>
+
+Tiempo: 1:00
+
+<div align="center">
+    <img src="./Resources/Chapter-V/prototype/web/protowebexamenespendientes.png" alt="prototype 1">
+</div><br>
+
+**User Goal 5:**  Como paciente, quiero poder editar mis datos principales, para que tenga una experiencia mas a gusto. <br><br>
+
+Tiempo: 1:20
+
+<div align="center">
+    <img src="./Resources/Chapter-V/prototype/web/protowebprofile.png" alt="prototype 1">
+</div><br>
+
+
+**User Goal 6:**  Como doctor, queiro poder programar eventos o citas medicas entre mi y mis pacientes para llevar a cabo el tratamiento de sus enfermedades.<br><br>
+
+Tiempo: 1:40
+
+<div align="center">
+    <img src="./Resources/Chapter-V/prototype/web/protowebschedule.png" alt="prototype 1">
+</div><br>
+
+**User Goal 7:**  Como medico quiero poder ver mis pacientes del dia de hoy para poder tenerlos de forma organizada. <br><br>
+
+Tiempo: 2:10
+
+<div align="center">
+    <img src="./Resources/Chapter-V/prototype/web/protowebtodayspatient.png" alt="prototype 1">
+</div><br>
 
 
 ## CAPÍTULO VI: PRODUCT IMPLEMENTATION, VALIDATION & DEPLOYMENT
