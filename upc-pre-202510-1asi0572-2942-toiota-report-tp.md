@@ -1611,20 +1611,140 @@ https://miro.com/app/board/uXjVICCoJ1Y=/?share_link_id=374839324168
 #IAM:
 <img src="images/iamBoundedContextCanvas.png">
 
+
+### Ubiquitous Language
+- **Usuario**: Médico o paciente con acceso al sistema
+- **Token**: Credencial digital para autenticación
+- **MFA**: Autenticación Multifactor (verificación en dos pasos)
+- **Sesión**: Período activo de un usuario logueado
+- **Expiración**: Tiempo límite de validez (token/sesión)
+
+### Inbound Communication
+| Tipo      | Origen       | Mensaje                            | Respuesta              | Descripción |
+|-----------|--------------|------------------------------------|------------------------|-------------|
+| Query     | Profile      | `validarToken(usuarioId)`          | `tokenValidado`        | Verifica validez de token |
+| Query     | MedicalRecord| `verificarRol(usuarioId)`          | `rolVerificado`        | Confirma rol de médico |
+
+### Outbound Communication
+| Tipo      | Destino      | Mensaje                            | Respuesta              | Descripción |
+|-----------|--------------|------------------------------------|------------------------|-------------|
+| Command   | Profile      | `autenticar(email, password)`      | `usuarioAutenticado`   | Valida credenciales |
+| Event     | Notification | `notificarIntentoFallido(usuarioId)`| `notificaciónEnviada` | Alerta de acceso fallido |
+
+
 #Profile:
 <img src="images/profileBoundedContextCanvas.png">
+
+### Ubiquitous Language
+- **Perfil**: Datos personales/profesionales
+- **Médico**: Usuario con especialización válida
+- **Fotos personales**: Imágenes asociadas al perfil
+- **Configuración de visibilidad**: Control de privacidad
+- **Especialidad**: Área médica del profesional
+
+### Inbound Communication
+| Tipo  | Origen | Mensaje                   | Respuesta          | Descripción |
+|-------|--------|---------------------------|--------------------|-------------|
+| Query | IAM    | `obtenerPerfil(usuarioId)` | `perfilObtenido`   | Solicita datos de usuario |
+
+### Outbound Communication
+| Tipo  | Destino | Mensaje                     | Respuesta          | Descripción |
+|-------|---------|-----------------------------|--------------------|-------------|
+| Query | IAM     | `verificarSesión(usuarioId)` | `sesionVerificada` | Confirma sesión activa |
+| Event | Notification | `enviarNotificacionActualizacion(usuarioId)` | `notificaciónEnviada` | Notifica cambios |
+| Query | Payments | `consultarPagos(usuarioId)` | `historialPagosObtenido` | Obtiene historial de pagos |
+
 
 #Medical Record
 <img src="images/medicalRecordBoundedContextCanvas.png">
 
+### Ubiquitous Language
+- **Historia clínica**: Registro médico completo
+- **Diagnóstico**: Conclusiones médicas
+- **Tratamiento**: Plan terapéutico
+- **Registro fisiológico**: Datos de sensores
+- **Observación médica**: Notas adicionales
+
+### Inbound Communication
+| Tipo      | Origen | Mensaje                              | Respuesta               | Descripción |
+|-----------|--------|--------------------------------------|-------------------------|-------------|
+| Query     | Profile| `consultarDatosBasicos(pacienteId)`  | `datosBasicosObtenidos` | Obtiene info básica |
+| Command   | IAM    | `verificarPermisos(usuarioId)`       | `permisosVerificados`   | Valida acceso |
+
+### 📤 Outbound Communication
+| Tipo    | Destino      | Mensaje                              | Respuesta               | Descripción |
+|---------|--------------|--------------------------------------|-------------------------|-------------|
+| Event   | Notification | `notificarDiagnostico(pacienteId)`   | `notificaciónEnviada`   | Alerta nuevo diagnóstico |
+| Command | Communication| `generarResumen(pacienteId)`         | `resumenGenerado`       | Crea informe médico |
+
+
 #Payments:
 <img src="images/paymentsBoundedContextCanvas.png">
+
+### Ubiquitous Language
+- **Suscripción**: Membresía activa
+- **Factura**: Documento de cobro
+- **Tarjeta**: Método de pago
+- **Plan**: Tipo de suscripción
+- **Renovación automática**: Cobro recurrente
+
+### Inbound Communication
+| Tipo  | Origen | Mensaje                       | Respuesta               | Descripción |
+|-------|--------|-------------------------------|-------------------------|-------------|
+| Query | IAM    | `verificarSuscripcion(usuarioId)` | `suscripcionVerificada` | Valida suscripción |
+
+### Outbound Communication
+| Tipo  | Destino      | Mensaje                          | Respuesta             | Descripción |
+|-------|--------------|----------------------------------|-----------------------|-------------|
+| Event | Notification | `enviarRecordatorioPago(usuarioId)` | `recordatorioEnviado` | Notifica pago pendiente |
+
 
 #Notifications:
 <img src="images/notificationBoundedContextCanvas.png">
 
+### Ubiquitous Language
+- **Notificación**: Mensaje informativo
+- **Alerta crítica**: Aviso urgente
+- **Recordatorio**: Aviso programado
+- **Programación**: Configuración de envío
+- **Entrega**: Estado de notificación
+
+### Inbound Communication
+| Tipo      | Origen        | Mensaje                              | Respuesta             | Descripción |
+|-----------|---------------|--------------------------------------|-----------------------|-------------|
+| Command   | MedicalRecord | `enviarAlertaCritica(pacienteId)`    | `alertaEnviada`       | Dispara alerta médica |
+| Command   | Payments      | `enviarRecordatorioPago(usuarioId)`  | `recordatorioEnviado` | Programa recordatorio |
+
+### Outbound Communication
+| Tipo      | Destino      | Mensaje                                  | Respuesta               | Descripción |
+|-----------|--------------|------------------------------------------|-------------------------|-------------|
+| Command   | Communication| `generarResumenNotificaciones(usuarioId)`| `resumenGenerado`       | Prepara resumen diario |
+| Command   | Profile      | `actualizarPreferencias(usuarioId)`      | `preferenciasActualizadas` | Guarda configuraciones |
+
+
 #Communication:
 <img src="images/communicationBoundedContextCanvas.png">
+
+### Ubiquitous Language
+- **Mensaje**: Comunicación textual
+- **Chat**: Hilo de conversación
+- **Documento**: Archivo médico
+- **Resumen médico**: Informe estructurado
+- **Receptor**: Destinatario
+
+### Inbound Communication
+| Tipo      | Origen        | Mensaje                          | Respuesta         | Descripción |
+|-----------|---------------|----------------------------------|-------------------|-------------|
+| Command   | MedicalRecord | `enviarResumenMedico(pacienteId)` | `resumenEnviado`  | Comparte resumen |
+| Command   | Notification  | `enviarResumenDiario(usuarioId)`  | `resumenEnviado`  | Envía notificaciones |
+
+### Outbound Communication
+| Tipo  | Destino | Mensaje                          | Respuesta          | Descripción |
+|-------|---------|----------------------------------|--------------------|-------------|
+| Query | Profile | `consultarReceptor(usuarioId)`   | `receptorObtenido` | Obtiene datos contacto |
+| Event | Notification | `confirmarEntrega(mensajeId)`  | `entregaConfirmada` | Registra recepción |
+
+
 
 https://miro.com/app/board/uXjVI_u9nsI=/?share_link_id=321741724221
 
