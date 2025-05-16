@@ -3647,6 +3647,18 @@ Se logró documentar los principales endpoints que soportan las operaciones de c
 
 #### 6.2.1.8. Software Deployment Evidence for Sprint Review. 
 
+Para desplegar el landing page o frontend estático en Netlify, se siguen estos pasos:
+
+1. Preparar y verificar que el proyecto funcione correctamente en local.
+2. Subir el código al repositorio Git (por ejemplo, GitHub).
+3. Ingresar a Netlify y crear un nuevo sitio, conectándolo al repositorio correspondiente.
+4. Configurar el comando de build (si es necesario) y especificar la carpeta donde se encuentran los archivos estáticos.
+5. Netlify ejecuta automáticamente el build tras cada push y publica el sitio.
+6. Verificar que el despliegue sea exitoso accediendo a la URL generada.
+7. Para futuras actualizaciones, realizar commits que se desplegarán automáticamente.
+
+Este proceso garantiza un despliegue sencillo y continuo para el frontend estático.
+
 
 #### 6.2.1.9. Team Collaboration Insights during Sprint. 
 
