@@ -238,12 +238,16 @@ forma conjunta</td>
     <h3>Pecan Pariona, Sergio Joel</h3>
     <b>TB1</b>
     <p>Investigué normativas de protección de datos (HIPAA, GDPR) para el módulo de historias clínicas en HormonalCare, documentando requisitos legales en un repositorio compartido. Adicionalmente, me certifiqué en "UX Research for Health Apps" en Coursera para mejorar el diseño de entrevistas a usuarios. La investigación legal evitó riesgos de incumplimiento en el manejo de datos sensibles desde etapas tempranas.</p>
+    <b>TP</b>
+    <p> Durante esta fase del proyecto, lideré la planificación del Sprint 1, definiendo objetivos claros, organizando el backlog y coordinando la distribución de tareas entre los integrantes del equipo. Esta labor facilitó una ejecución ordenada y permitió que todos avanzáramos de manera alineada, contribuyendo al liderazgo conjunto y al logro de metas comunes. </p>
     <h3>Quispesivana Torres, Claudio Sandro</h3>
     <b>TB1</b>
     <p>Trabajé en equipo para proporcionar liderazgo conjunto, describiendo correctamente los bounded contexts dentro de la arquitectura de software, identificando y abordando los distintos niveles: Landscape, Context, Container y Deployment en el proyecto de HormonalCare.</p>
     <td colspan="3">
     <b>TB1</b>
     <p>Como equipo, colaboramos activamente en la definición de los bounded contexts, arquitectura, y desarrollo de componentes clave, liderando de manera conjunta las decisiones técnicas y estratégicas del proyecto HormonalCare, siempre alineados a una visión compartida y fomentando una toma de decisiones colaborativa.</p>
+    <b>TP</b>
+    <p>Durante el TP, el equipo asumió responsabilidades compartidas y ejerció liderazgo de manera conjunta en cada etapa del proyecto. Coordinamos la planificación del Sprint 1, organizamos reuniones para tomar decisiones técnicas y distribuir tareas, y promovimos un liderazgo horizontal, donde todos los integrantes aportaron en función de sus fortalezas. Esta forma de trabajo permitió avanzar de forma ordenada en la elaboración del informe, la implementación de la Landing Page y el despliegue de la primera versión del sistema.</p>
   </td>
     </tr>
     <tr>
@@ -268,6 +272,9 @@ objetivos.</td>
     <h3>Pecan Pariona, Sergio Joel</h3>
     <b>TB1</b>
     <p>Participé en el webinar "Healthcare API Security" de OWASP, aplicando recomendaciones para proteger endpoints de historias clínicas contra ataques BOLA.</p>
+    <b>TP</b>
+    <p> Fomenté un entorno colaborativo e inclusivo al guiar la configuración y ejecución del método de despliegue de la aplicación. Me aseguré de que el entorno de producción estuviera correctamente preparado y de que todos los miembros comprendieran el proceso. Esto ayudó a cumplir con los objetivos técnicos del Sprint y a mantener una dinámica de trabajo participativa y organizada.
+ </p>
     <h3>Quispesivana Torres, Claudio Sandro</h3>
     <b>TB1</b>
     <p>Creé un entorno colaborativo e inclusivo al trabajar en equipo para definir metas claras, planificar tareas y describir adecuadamente los bounded contexts en la arquitectura de software, abarcando los niveles de Landscape, Context, Container y Deployment en el proyecto HormonalCare, asegurando el cumplimiento de los objetivos establecidos.</p>
@@ -275,6 +282,8 @@ objetivos.</td>
       <td colspan="3">
     <b>TB1</b>
     <p>Como equipo, fomentamos un entorno colaborativo e inclusivo, estableciendo metas claras, planificando tareas estratégicamente y cumpliendo los objetivos propuestos en cada etapa del proyecto HormonalCare, asegurando la participación activa y el compromiso de todos los integrantes.</p>
+    <b>TB1</b>
+    <p>Desde el inicio del TP, creamos un entorno colaborativo e inclusivo a través de reuniones frecuentes y uso activo del repositorio de GitHub. Establecimos metas claras para cada fase del proyecto: desde la mejora de artefactos anteriores hasta la implementación técnica del producto. Planificamos y ejecutamos el Sprint 1 con tareas bien distribuidas, asegurando que todos participaran. Esto nos permitió cumplir con los entregables: desarrollo y despliegue de la Landing Page, frontend web, y documentación de evidencia técnica y colaborativa.</p>
   </td>
     </tr>
   </tbody>
