@@ -2995,7 +2995,7 @@ Link: [https://www.figma.com/file/5bhJ7aAWlbKHEJgjVZ8Gfc/ninjacode?type=design&n
 A continuación, se presenta el prototipo que se realizó en base a los mockups que se desarrollaron y documentaron en puntos anteriores. El prototype nos permite evidenciar algunos flujos que se llevarán al desarrollo en código.
 
 <div align="center">
-    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Prototyping/prototype-0.png?raw=true"  alt="prototype-0">
+    <img src="./Resources/Chapter-V/prototype/mobiledoctorproto.png"  alt="prototype-0">
 </div><br><br>
 
 
@@ -3004,7 +3004,7 @@ Enlace: [Prototype de la App Móvil en Figma](https://www.figma.com/design/thDm6
 
 Para complementar, se ha realizado un video donde se muestran los user flows del prototipo, detallando cada flujo de interacción y definiendo el tiempo en el cual se muestran para una comprensión efectiva. Este enfoque proporciona una visión dinámica de la experiencia del usuario, facilitando la identificación de mejoras y la validación de la funcionalidad del prototipo.<br><br>
 
-Enlace: [Video Prototype de la App Móvil](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202214059_upc_edu_pe/ETDFKlDociZGsi_Dgr-d7HkBE3-AouvlOTfvXGrnDqsphg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=PWZXDX)<br><br>
+Enlace: [Video Prototype de la App Móvil](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215099_upc_edu_pe/ETHvytF-na5HkoyF1tksn0wBFmXuCTaukhwLRRQy5QkyPA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=hGhznb)<br><br>
 
 
 **User Goal 1:**  Como usuario, quiero ingresar a la aplicación móvil utilizando una cuenta.<br><br>
