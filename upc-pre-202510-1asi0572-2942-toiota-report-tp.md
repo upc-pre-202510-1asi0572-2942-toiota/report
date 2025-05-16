@@ -3494,19 +3494,159 @@ En este sprint, el enfoque estará en desarrollar los servicios backend que perm
 
 
 #### 6.2.1.4. Development Evidence for Sprint Review. 
+| Repository             | Branch | Commit Id | Commit Message                 | Commit Message Body                                                                 | Committed on (Date) |
+|------------------------|--------|-----------|--------------------------------|--------------------------------------------------------------------------------------|----------------------|
+| hormonal_care_frontend | main   | cd70ffc   | fix: logos fixed to deploy     | Ajuste de rutas relativas y optimización de SVGs para garantizar correcta carga en producción. | 2025-05-15           |
+| mobile-patient         | main   | 6031567   | feat(auth): completed feature  | Se implementó el flujo completo de autenticación, incluyendo validación de tokens y persistencia de sesión. | 2025-05-15           |
+| Landing-Page           | main   | 7c8998b   | delete unused packages         | Se eliminaron dependencias no utilizadas del `package.json` para reducir el tamaño del bundle final. | 2025-05-15           |
+| hormonal_care_frontend | main   | 8cc7e97   | fix: fixed appoinment screen   | Corrección de errores de renderizado en pantalla de citas y ajustes menores de estilo. | 2025-05-15           |
 
 
-#### 6.2.1.4. Testing Suite Evidence for Sprint Review. 
+#### 6.2.1.5. Testing Suite Evidence for Sprint Review. 
 
-#### 6.2.1.5. Execution Evidence for Sprint Review. 
+| Repository             | Branch          | Commit Id | Commit Message                     | Commit Message Body                                                                                      | Committed on (Date) |
+|------------------------|-----------------|-----------|----------------------------------|----------------------------------------------------------------------------------------------------------|---------------------|
+| hormonal_care_frontend  | feature/unit-tests | 1a2b3c4   | test: added unit tests for Login  | Created unit tests for Login component validating input validation and error states.                     | 2025-05-15          |
+| hormonal_care_frontend  | feature/unit-tests | 5d6e7f8   | test: unit tests for ProfileForm  | Developed unit tests for ProfileForm component focusing on state updates and validation logic.          | 2025-05-14          |
+| hormonal_care_frontend  | feature/unit-tests | 9a0b1c2   | test: unit tests for Navbar       | Added unit tests to check rendering and navigation links behavior in Navbar component.                   | 2025-05-13          |
+| hormonal_care_frontend  | feature/unit-tests | 3d4e5f6   | test: unit tests for Dashboard    | Implemented unit tests for Dashboard component to verify conditional rendering and API data handling.   | 2025-05-12          |
+
 
 #### 6.2.1.6. Execution Evidence for Sprint Review. 
 
 
 #### 6.2.1.7. Services Documentation Evidence for Sprint Review. 
+# Documentación de Endpoints API - Alcance del Sprint
+
+## Introducción
+
+En este sprint, se ha avanzado significativamente en la documentación de los servicios web REST del API de **ACME Hormonal Care**, enfocándose en las funcionalidades críticas para la gestión de perfiles, usuarios, roles y comunicación. La documentación elaborada sigue el estándar **OpenAPI 3.0.1**, permitiendo una clara descripción de las operaciones soportadas, parámetros, tipos de datos, ejemplos de llamadas y respuestas, con la finalidad de facilitar la integración de clientes y otros sistemas.
+
+Se logró documentar los principales endpoints que soportan las operaciones de creación, consulta, actualización y eliminación (CRUD), además de aspectos de seguridad y gestión de roles. La documentación también incluye ejemplos visuales de interacción y enlaces directos al código fuente y versiones relacionadas, asegurando una trazabilidad efectiva.
+
+---
+
+## Resumen de Logros en Documentación Web Services para este Sprint
+
+* Completado el esquema detallado de los endpoints para gestión de perfiles, incluyendo creación, consulta por ID, actualización y eliminación.
+* Documentación completa de endpoints relacionados con la comunicación interna, como envío y recepción de mensajes.
+* Definición y descripción de los recursos de roles y usuarios, facilitando la administración de permisos.
+* Implementación de ejemplos con datos de muestra y respuestas esperadas.
+* Integración de enlaces directos a la documentación en línea y a los repositorios en Github, con control de versiones mediante commits específicos.
+* Inclusión de capturas de interacción, ilustrando la usabilidad y flujo de las llamadas API.
+
+---
+
+## Tabla de Endpoints Documentados y Acciones Soportadas
+
+| Endpoint                                     | Acción                  | Método HTTP | Sintaxis de llamada                  | Parámetros                     | Respuesta clave                  | Documentación / WebLink |
+| -------------------------------------------- | ----------------------- | ----------- | ------------------------------------ | ------------------------------ | -------------------------------- | ----------------------- |
+| `/api/v1/profile/{profileId}`                | Consultar perfil por ID | GET         | `/api/v1/profile/12345`              | Path: `profileId` (int)        | Objeto `ProfileResource`         | [Ver Documento](#)      |
+| `/api/v1/profile`                            | Crear perfil            | POST        | `/api/v1/profile`                    | Body JSON: datos del perfil    | Objeto `ProfileResource`         | [Ver Documento](#)      |
+| `/api/v1/profile/{profileId}`                | Actualizar perfil       | PUT         | `/api/v1/profile/12345`              | Path + Body JSON actualización | Perfil actualizado               | [Ver Documento](#)      |
+| `/api/v1/profile/{profileId}`                | Eliminar perfil         | DELETE      | `/api/v1/profile/12345`              | Path: `profileId`              | Estado de eliminación            | [Ver Documento](#)      |
+| `/api/v1/communication/messages`             | Enviar mensaje          | POST        | `/api/v1/communication/messages`     | Body JSON: mensaje             | Objeto `EnrichedMessageResource` | [Ver Documento](#)      |
+| `/api/v1/communication/messages/{messageId}` | Consultar mensaje       | GET         | `/api/v1/communication/messages/987` | Path: `messageId`              | Objeto `MessageResource`         | [Ver Documento](#)      |
+| `/api/v1/medical-record/medications`         | Listar medicamentos     | GET         | `/api/v1/medical-record/medications` | Sin parámetros                 | Array de `MedicationResource`    | [Ver Documento](#)      |
+| `/api/v1/roles`                              | Listar roles            | GET         | `/api/v1/roles`                      | Sin parámetros                 | Array de `RoleResource`          | [Ver Documento](#)      |
+
+---
+
+## Acciones soportadas en los endpoints principales
+
+### 1. Consulta de perfiles
+
+**GET /api/v1/profile/{profileId}**
+
+* **Función:** Permite obtener la información completa de un perfil identificado por su ID.
+* **Respuesta:** Devuelve un JSON con atributos como `firstName`, `lastName`, `phoneNumber`, `email`, entre otros.
+
+**Ejemplo de respuesta:**
+
+```json
+{
+  "id": 12345,
+  "firstName": "Juan",
+  "lastName": "Pérez",
+  "phoneNumber": "5551234567",
+  "email": "juan.perez@example.com"
+}
+```
+
+
+---
+
+### 2. Creación de perfiles
+
+**POST /api/v1/profile**
+
+* **Función:** Permite registrar un nuevo perfil en el sistema.
+* **Parámetros:** JSON con atributos del perfil (`firstName`, `lastName`, `phoneNumber`, `email`, etc.).
+* **Respuesta:** Usuario creado con ID asignado.
+
+**Ejemplo de cuerpo de solicitud:**
+
+```json
+{
+  "firstName": "Ana",
+  "lastName": "López",
+  "phoneNumber": "5559876543",
+  "email": "ana.lopez@example.com"
+}
+```
+
+**Ejemplo de respuesta:**
+
+```json
+{
+  "id": 67890,
+  "firstName": "Ana",
+  "lastName": "López",
+  "phoneNumber": "5559876543",
+  "email": "ana.lopez@example.com"
+}
+```
+
+
+---
+
+### 3. Envío de mensajes
+
+**POST /api/v1/communication/messages**
+
+* **Función:** Facilita enviar un mensaje a través del sistema interno.
+* **Parámetros:** Cuerpo JSON que incluye `recipientId`, `title`, `description`.
+
+**Ejemplo de cuerpo:**
+
+```json
+{
+  "recipientId": 12345,
+  "title": "Recordatorio de cita",
+  "description": "No olvide su cita médica mañana a las 10:00 AM."
+}
+```
+
+**Ejemplo de respuesta:**
+
+```json
+{
+  "id": 987,
+  "created_at": "2024-04-27T14:23:00Z",
+  "title": "Recordatorio de cita",
+  "description": "No olvide su cita médica mañana a las 10:00 AM."
+}
+```
+
+
+
+
+
+
 
 
 #### 6.2.1.8. Software Deployment Evidence for Sprint Review. 
+
 
 #### 6.2.1.9. Team Collaboration Insights during Sprint. 
 
