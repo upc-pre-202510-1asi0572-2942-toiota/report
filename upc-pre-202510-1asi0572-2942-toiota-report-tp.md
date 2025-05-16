@@ -282,7 +282,7 @@ objetivos.</td>
       <td colspan="3">
     <b>TB1</b>
     <p>Como equipo, fomentamos un entorno colaborativo e inclusivo, estableciendo metas claras, planificando tareas estratégicamente y cumpliendo los objetivos propuestos en cada etapa del proyecto HormonalCare, asegurando la participación activa y el compromiso de todos los integrantes.</p>
-    <b>TB1</b>
+    <b>TP</b>
     <p>Desde el inicio del TP, creamos un entorno colaborativo e inclusivo a través de reuniones frecuentes y uso activo del repositorio de GitHub. Establecimos metas claras para cada fase del proyecto: desde la mejora de artefactos anteriores hasta la implementación técnica del producto. Planificamos y ejecutamos el Sprint 1 con tareas bien distribuidas, asegurando que todos participaran. Esto nos permitió cumplir con los entregables: desarrollo y despliegue de la Landing Page, frontend web, y documentación de evidencia técnica y colaborativa.</p>
   </td>
     </tr>
