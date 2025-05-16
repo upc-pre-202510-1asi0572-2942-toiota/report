@@ -3136,7 +3136,7 @@ Tiempo: 0:12
 </div><br>
 
 
-**User Goal 2:** Como usuario, quiero buscar objetos para intercambiar fácilmente y obtener información detallada sobre ellos.<br><br>
+**User Goal 2:** Como medico endocrinologo, quiero poder ver mi cartera de pacientes para poder llevar una mejor gestion de forma remota.<br><br>
 
 Tiempo: 1:43
 
@@ -3145,7 +3145,7 @@ Tiempo: 1:43
 </div><br>
 
 
-**User Goal 3:** Como usuario, quiero que otros usuarios vean los objetos que publiqué para intercambiar.<br><br>
+**User Goal 3:** Como medico endocrinologo, quiero poder ver el historial medico de mis pacientes para poder estar al dia de como fue evolucionando su enfermedad diabetica.<br><br>
 
 Tiempo: 3:09
 
@@ -3154,7 +3154,7 @@ Tiempo: 3:09
 </div><br><br>
 
 
-**User Goal 4:** Como usuario, quiero solicitar un intercambio a cambio de uno de los objetos de mi publicación.<br><br>
+**User Goal 4:** Como medico endocrinologo, quiero poder ver las consultas que hice en las citas medicas, para poder llevar un control mas seguro para el historial medicao de cada paciente.<br><br>
 
 Tiempo: 4:01
 
@@ -3162,7 +3162,7 @@ Tiempo: 4:01
     <img src="./Resources/Chapter-V/prototype/prototypemobile4.png" alt="prototype 4">
 </div><br><br>
 
-**User Goal 5:** Como usuario, quiero ser notificado cuando reciba una solicitud de intercambio y tener la opción de aceptar o rechazarla.<br><br>
+**User Goal 5:** Como medico endocrinologo, quiero poder agender citas medicas, para que mis pacientes puedan explayarse sobre sus dolencias de sus enfermedades diabeticas.<br><br>
 
 Tiempo: 4:51
 
@@ -3171,7 +3171,7 @@ Tiempo: 4:51
 </div><br><br>
 
 
-**User Goal 6:** Como usuario, quiero explorar y buscar ONGs y acceder a la información detallada sobre ellas.<br><br>
+**User Goal 6:** Como medico endocrinologo, quiero poder visualizar las notificaciones a mas detalle, para estar enterado si mis pacientes cumplieron los test de laboratorio asignados .<br><br>
 
 Tiempo: 6:21
 
@@ -3181,7 +3181,7 @@ Tiempo: 6:21
 
 
 
-  **User Goal 7:** Como usuario, quiero explorar y obtener información sobre los perfiles de otros usuarios.<br><br>
+  **User Goal 7:** Como medico endocrinologo, quiero poder editar mi perfil para que pueda anadir mi subspecialidad.<br><br>
 
   Tiempo: 7:01
 
