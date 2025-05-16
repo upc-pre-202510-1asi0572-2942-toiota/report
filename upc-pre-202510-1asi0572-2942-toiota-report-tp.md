@@ -3780,12 +3780,19 @@ En esta sección se resume los procesos realizados en relación con Deployment d
 Durante este sprint, enfocamos nuestros esfuerzos en completar y desplegar tanto el backend, el frontend y el landing de nuestro proyecto. Completamos la implementación de los bounded context de manera parcial. Para proteger la rama “main”, creamos una rama “develop” de la cual cada integrante de nuestro grupo creó su propia sub-rama “feature” para subir un capítulo del reporte, siguiendo las convenciones establecidas (conventional commit y git flow). Asegurándonos durante todo el transcurso de contar con una integración fluida de los desarrollos individuales y mantener la coherencia en todo el proyecto.</p>
 
 ### Github analytics de nuestro primer sprint Landing Page:
-
+<div align="center">
+    <img src="./images/Sprint1-Team-Insights-Landing.png">
+</div><br><br>
 
 ### Github analytics de nuestro primer sprint Backend:
-
+<div align="center">
+    <img src="./images/Sprint1-Team-Insights-Backend.png">
+</div><br><br>
 
 ### Github analytics de nuestro primer sprint Frontend:
+<div align="center">
+    <img src="./images/Sprint1-Team-Insights-Frontend.png">
+</div><br><br>
 
 ## Conclusiones
 
