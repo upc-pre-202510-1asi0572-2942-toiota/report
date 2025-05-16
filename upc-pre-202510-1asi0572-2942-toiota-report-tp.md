@@ -3141,7 +3141,7 @@ Tiempo: 0:12
 Tiempo: 1:43
 
 <div align="center">
-    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Prototyping/prototype-2.PNG?raw=true" alt="prototype 2">
+    <img src="./Resources/Chapter-V/prototype/prototypemobile2.png" alt="prototype 2">
 </div><br>
 
 
@@ -3150,7 +3150,7 @@ Tiempo: 1:43
 Tiempo: 3:09
 
 <div align="center">
-    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Prototyping/prototype-3.PNG?raw=true" alt="prototype 3">
+    <img src="./Resources/Chapter-V/prototype/prototypemobile3.png" alt="prototype 3">
 </div><br><br>
 
 
@@ -3159,7 +3159,7 @@ Tiempo: 3:09
 Tiempo: 4:01
 
 <div align="center">
-    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Prototyping/prototype-4.PNG?raw=true" alt="prototype 4">
+    <img src="./Resources/Chapter-V/prototype/prototypemobile4.png" alt="prototype 4">
 </div><br><br>
 
 **User Goal 5:** Como usuario, quiero ser notificado cuando reciba una solicitud de intercambio y tener la opción de aceptar o rechazarla.<br><br>
@@ -3167,7 +3167,7 @@ Tiempo: 4:01
 Tiempo: 4:51
 
 <div align="center">
-    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Prototyping/prototype-5.PNG?raw=true" alt="prototype 5">
+    <img src="./Resources/Chapter-V/prototype/prototypemobile5schedule.png" alt="prototype 5">
 </div><br><br>
 
 
@@ -3176,7 +3176,7 @@ Tiempo: 4:51
 Tiempo: 6:21
 
 <div align="center">
-    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Prototyping/prototype-6.PNG?raw=true" alt="prototype 6">
+    <img src="./Resources/Chapter-V/prototype/prototypemobile6notification.png" alt="prototype 6">
 </div><br><br>
 
 
@@ -3186,39 +3186,10 @@ Tiempo: 6:21
   Tiempo: 7:01
 
   <div align="center">
-      <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Prototyping/prototype-7.PNG?raw=true" alt="prototype 7">
+      <img src="./Resources/Chapter-V/prototype/prototypemobile7profile.png" alt="prototype 7">
   </div><br><br>
 
 
-
-**User Goal 8:** Como usuario, quiero tener la opción de  pagar una membresía y disfrutar de los beneficios que ofrece.<br><br>
-
-Tiempo: 7:27
-
-<div align="center">
-    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Prototyping/prototype-8.PNG?raw=true" alt="prototype 8">
-</div><br><br>
-
-
-
-
-**User Goal 9:** Como usuario, quiero poder realizar modificaciones en mis publicaciones si considero que necesitan ajustes.<br><br>
-
-Tiempo: 8:17
-
-<div align="center">
-    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Prototyping/prototype-9.PNG?raw=true" alt="prototype 9">
-</div><br><br>
-
-
-
-**User Goal 10:** Como usuario, quiero realizar cambios en mi perfil y mantenerlo actualizado con la información más reciente.<br><br>
-
-Tiempo: 8:56
-
-<div align="center">
-    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Prototyping/prototype-10.PNG?raw=true" alt="prototype 10">
-</div><br><br>
 
 
 ## CAPÍTULO VI: PRODUCT IMPLEMENTATION, VALIDATION & DEPLOYMENT
