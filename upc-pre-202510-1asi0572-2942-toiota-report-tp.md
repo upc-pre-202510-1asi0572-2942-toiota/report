@@ -238,6 +238,8 @@ forma conjunta</td>
     <h3>Lostaunau Pereira, Estefano Sebastian</h3>
     <b>TB1</b>
     <p>Trabajamos juntos en la definición del perfil de la startup y la problemática en los Capítulos I y II. En el Capítulo III priorizamos y presentamos las User Stories ante el equipo y stakeholders. En el Capítulo IV definimos los Bounded Contexts (Domain, Interface, Application e Infrastructure) y elaboramos los diagramas de componentes y de código (Domain Layer Class y Database). Así lideramos de forma conjunta las decisiones arquitectónicas clave del proyecto.</p>
+    <b>TP</b>
+    <p> Durante el Sprint 1, dirigí el desarrollo de la aplicación móvil, coordinando la implementación de las funcionalidades principales y asegurando su integración con los servicios backend. Preparé la documentación del Sprint Planning, estableciendo metas claras y distribuyendo responsabilidades entre el equipo. Esta labor de coordinación permitió mantener alineados todos los aspectos técnicos del proyecto, desde la base de datos hasta la experiencia de usuario, facilitando una implementación coherente y efectiva de las funcionalidades planificadas. </p>
     <h3>Pecan Pariona, Sergio Joel</h3>
     <b>TB1</b>
     <p>Investigué normativas de protección de datos (HIPAA, GDPR) para el módulo de historias clínicas en HormonalCare, documentando requisitos legales en un repositorio compartido. Adicionalmente, me certifiqué en "UX Research for Health Apps" en Coursera para mejorar el diseño de entrevistas a usuarios. La investigación legal evitó riesgos de incumplimiento en el manejo de datos sensibles desde etapas tempranas.</p>
@@ -279,6 +281,8 @@ objetivos.</td>
     <h3>Lostaunau Pereira, Estefano Sebastian</h3>
     <b>TB1</b>
     <p>Creamos un entorno inclusivo desde el inicio, dividiendo y planificando las tareas de Introducción, Análisis, Especificación y Arquitectura. Establecimos metas claras para cada capítulo y revisamos juntos los avances. Ajustamos las User Stories y entregables en equipo, y en Arquitectura nos repartimos los Bounded Contexts y sus diagramas (Component Level, Domain Layer Class y Database). Cumplimos los plazos y objetivos acordados, manteniendo la colaboración y el sentido de pertenencia.</p>
+    <b>TP</b>
+    <p> Establecí una estructura de trabajo colaborativa para el desarrollo móvil, creando una metodología que permitió la participación de todos los miembros del equipo independientemente de su experiencia previa en desarrollo móvil. Implementé un sistema de documentación accesible para las APIs y componentes desarrollados, facilitando la integración entre los diferentes aspectos del proyecto. Como responsable de la preparación del Sprint Planning, definí metas realistas y medibles, distribuyendo las tareas según las fortalezas de cada miembro y asegurando que todos tuvieran claridad sobre sus responsabilidades y plazos, lo que contribuyó al cumplimiento efectivo de los objetivos del sprint.</p>
     <h3>Pecan Pariona, Sergio Joel</h3>
     <b>TB1</b>
     <p>Participé en el webinar "Healthcare API Security" de OWASP, aplicando recomendaciones para proteger endpoints de historias clínicas contra ataques BOLA.</p>
@@ -2263,6 +2267,15 @@ Hemos seleccionado cuidadosamente una paleta de colores para representar nuestro
     <img src="./Resources/Chapter-V/Style Guidelines/color-pallete.png">
  </div><br><br><br>
 
+Hemos seleccionado cuidadosamente una paleta de colores para representar nuestro aplicativo HormonalCare. Nuestro enfoque se centra en tonalidades que incluyen el blanco cálido (#faf9f9), el negro (#000000), el lila claro (#b39ddb), el blanco puro (#FFFFFF), el violeta medio (#8765c6), el violeta intenso (#6d46b8) y el violeta oscuro (#4829a2). Optamos por esta combinación para reflejar profesionalismo, accesibilidad y modernidad. El uso del blanco aporta claridad y equilibrio visual, mientras que los tonos violetas transmiten empatía y cercanía, y el negro asegura contraste y legibilidad. Los colores claros y acentos violetas complementan la paleta al ofrecer una apariencia limpia, atractiva y accesible. Este conjunto de colores busca armonizar con nuestra misión de brindar soluciones efectivas y generar un ambiente de apoyo, bienestar y cuidado integral.
+
+<div align="center">
+    <img src="./Resources/Chapter-V/Style Guidelines/color-pallete-patient.png">
+ </div><br><br><br>
+
+
+
+
  **Branding:**
 El branding es un proceso creativo esencial que define la dirección estratégica de una empresa y construye su identidad visual. Su objetivo principal es desarrollar marcas sólidas, coherentes y reconocibles en el mercado, estableciendo una presencia clara mediante recursos de diseño gráfico. En el caso de HormonalCare, el logotipo representa los valores que deseamos comunicar a nuestros usuarios:
 
@@ -2337,6 +2350,27 @@ Esta paleta ha sido optimizada para cumplir con criterios de accesibilidad visua
 <div align="center">
     <img src="./Resources/Chapter-V/Style Guidelines/color-pallete.png" alt="Color Pallete">
 </div><br>
+
+
+
+Nuestra nueva gama cromática para el paciente refleja una identidad profesional, moderna y accesible, adecuada tanto para contextos clínicos como para experiencias personales del paciente:
+
+- #faf9f9 – blanco cálido (fondo principal y claridad visual)
+- #000000 – negro (texto y contraste fuerte)
+- #b39ddb – lila claro (resaltados y elementos secundarios)
+- #FFFFFF – blanco puro (superficies y secciones destacadas)
+- #8765c6 – violeta medio (elementos interactivos y botones)
+- #6d46b8 – violeta intenso (acentos y llamadas a la acción)
+- #4829a2 – violeta oscuro (soporte visual y profundidad)
+
+Esta paleta ha sido optimizada para cumplir con criterios de accesibilidad visual (contraste WCAG) en web, mobile e interfaces IoT.
+
+<div align="center">
+    <img src="./Resources/Chapter-V/Style Guidelines/color-pallete-patient.png" alt="Color Pallete">
+</div><br>
+
+
+
 
 **Tipografía**
 
@@ -3124,19 +3158,19 @@ Link: [https://www.figma.com/file/5bhJ7aAWlbKHEJgjVZ8Gfc/ninjacode?type=design&n
 
 **Mobile Application**
 
-A continuación, se presenta el prototipo que se realizó en base a los mockups que se desarrollaron y documentaron en puntos anteriores. El prototype nos permite evidenciar algunos flujos que se llevarán al desarrollo en código.
+A continuación, se presenta el prototipo del tipo de usuario doctor que se realizó en base a los mockups que se desarrollaron y documentaron en puntos anteriores. El prototype nos permite evidenciar algunos flujos que se llevarán al desarrollo en código.
 
 <div align="center">
     <img src="./Resources/Chapter-V/prototype/mobiledoctorproto.png"  alt="prototype-0">
 </div><br><br>
 
 
-Enlace: [Prototype de la App Móvil en Figma](https://www.figma.com/proto/DwwZyc2C4j2rgwIkTgo60g/HormonalCare?node-id=184-2697&t=2AXuZmxjQtzInIrA-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1115%3A583)<br><br>
+Enlace: [Prototype de la App Móvil de Doctor en Figma](https://www.figma.com/proto/DwwZyc2C4j2rgwIkTgo60g/HormonalCare?node-id=184-2697&t=2AXuZmxjQtzInIrA-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1115%3A583)<br><br>
 
 
-Para complementar, se ha realizado un video donde se muestran los user flows del prototipo, detallando cada flujo de interacción y definiendo el tiempo en el cual se muestran para una comprensión efectiva. Este enfoque proporciona una visión dinámica de la experiencia del usuario, facilitando la identificación de mejoras y la validación de la funcionalidad del prototipo.<br><br>
+Para complementar, se ha realizado un video donde se muestran los user flows del prototipo del tipo de usuario doctor, detallando cada flujo de interacción y definiendo el tiempo en el cual se muestran para una comprensión efectiva. Este enfoque proporciona una visión dinámica de la experiencia del usuario, facilitando la identificación de mejoras y la validación de la funcionalidad del prototipo.<br><br>
 
-Enlace: [Video Prototype de la App Móvil](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215099_upc_edu_pe/ETHvytF-na5HkoyF1tksn0wBFmXuCTaukhwLRRQy5QkyPA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=hGhznb)<br><br>
+Enlace: [Video Prototype de la App Móvil de Doctor](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215099_upc_edu_pe/ETHvytF-na5HkoyF1tksn0wBFmXuCTaukhwLRRQy5QkyPA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=hGhznb)<br><br>
 
 
 **User Goal 1:**  Como medico, quiero poder registrarme en la aplicacion para poder acceder a las funcionalidades de usuario. <br><br>
@@ -3201,6 +3235,77 @@ Tiempo: 6:21
       <img src="./Resources/Chapter-V/prototype/prototypemobile7profile.png" alt="prototype 7">
   </div><br><br>
 
+
+
+A continuación, se presenta el prototipo del tipo de usuario paciente que se realizó en base a los mockups que se desarrollaron y documentaron en puntos anteriores. El prototype nos permite evidenciar algunos flujos que se llevarán al desarrollo en código.
+
+<div align="center">
+    <img src="./Resources/Chapter-V/prototype/Mobile-Patient-Applications-Prototyping.png"  alt="prototype-0">
+</div><br><br>
+
+
+Enlace: [Prototype de la App Móvil de Patient en Figma](https://www.figma.com/proto/DwwZyc2C4j2rgwIkTgo60g/HormonalCare?node-id=1115-586&t=hf77qV1vY0F1ZaDK-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1115%3A583)<br><br>
+
+
+Para complementar, se ha realizado un video donde se muestran los user flows del prototipo del tipo de usuario doctor, detallando cada flujo de interacción y definiendo el tiempo en el cual se muestran para una comprensión efectiva. Este enfoque proporciona una visión dinámica de la experiencia del usuario, facilitando la identificación de mejoras y la validación de la funcionalidad del prototipo.<br><br>
+
+Enlace: [Video Prototype de la App Móvil de Patient](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211742_upc_edu_pe/EZBxizm1LmpDjTNv3-MpTJUB_jTJ3Wnlo2AcG2FDT8a7tQ?e=m0f0WX&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)<br><br>
+
+
+**User Goal 1:**  Como paciente deseo registrarme para ingresar a la aplicacion. <br><br>
+
+Tiempo: 0:32
+
+<div align="center">
+    <img src="./Resources/Chapter-V/prototype/prototypemobilepatient1.1.png" alt="prototype 1">
+</div><br>
+<div align="center">
+    <img src="./Resources/Chapter-V/prototype/prototypemobilepatient1.2.png" alt="prototype 1">
+</div><br>
+
+**User Goal 2:**  Como pacientes deseo iniciar sesion con mis credenciales para ingresar a la aplicacion. <br><br>
+
+Tiempo: 1:20
+
+<div align="center">
+    <img src="./Resources/Chapter-V/prototype/prototypemobilepatient2.png" alt="prototype 1">
+</div><br>
+
+
+**User Goal 3:**  Como paciente deseo acceder a mi cita medica para poder recibir mi tratamiento. <br><br>
+
+Tiempo: 2:00
+
+<div align="center">
+    <img src="./Resources/Chapter-V/prototype/prototypemobilepatient3.png" alt="prototype 1">
+</div><br>
+
+
+**User Goal 4:**  Como paciente deseo poder acceder a mi calendario para poder visualizar mis proximas citas. <br><br>
+
+Tiempo: 2:36
+
+<div align="center">
+    <img src="./Resources/Chapter-V/prototype/prototypemobilepatient4.png" alt="prototype 1">
+</div><br>
+
+
+**User Goal 5:**  Como paciente deseo acceder a las notificaciones para mantenerme al tanto de  las actualizacioens de mi tratamiento. <br><br>
+
+Tiempo: 3:08
+
+<div align="center">
+    <img src="./Resources/Chapter-V/prototype/prototypemobilepatient5.png" alt="prototype 1">
+</div><br>
+
+
+**User Goal 6:**  Como usuario deseo editar los datos de mi perfil. <br><br>
+
+Tiempo: 3:40
+
+<div align="center">
+    <img src="./Resources/Chapter-V/prototype/prototypemobilepatient6.png" alt="prototype 1">
+</div><br>
 
 
 
