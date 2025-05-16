@@ -2999,7 +2999,7 @@ A continuación, se presenta el prototipo que se realizó en base a los mockups 
 </div><br><br>
 
 
-Enlace: [Prototype de la App Móvil en Figma](https://www.figma.com/design/thDm6YVmpL9RwzrpWkP1an/CambiaZo?node-id=0-1&t=3g3ixD798Xbsi1K9-1)<br><br>
+Enlace: [Prototype de la App Móvil en Figma](https://www.figma.com/proto/DwwZyc2C4j2rgwIkTgo60g/HormonalCare?node-id=184-2697&t=2AXuZmxjQtzInIrA-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1115%3A583)<br><br>
 
 
 Para complementar, se ha realizado un video donde se muestran los user flows del prototipo, detallando cada flujo de interacción y definiendo el tiempo en el cual se muestran para una comprensión efectiva. Este enfoque proporciona una visión dinámica de la experiencia del usuario, facilitando la identificación de mejoras y la validación de la funcionalidad del prototipo.<br><br>
@@ -3007,12 +3007,12 @@ Para complementar, se ha realizado un video donde se muestran los user flows del
 Enlace: [Video Prototype de la App Móvil](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215099_upc_edu_pe/ETHvytF-na5HkoyF1tksn0wBFmXuCTaukhwLRRQy5QkyPA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=hGhznb)<br><br>
 
 
-**User Goal 1:**  Como usuario, quiero ingresar a la aplicación móvil utilizando una cuenta.<br><br>
+**User Goal 1:**  Como medico, quiero poder registrarme en la aplicacion para poder acceder a las funcionalidades de usuario. <br><br>
 
 Tiempo: 0:12
 
 <div align="center">
-    <img src="https://github.com/TechZo-1ASI0732-4453/Report/blob/main/Resources/Chapter-III/Mobile-Applications-Prototyping/prototype-1.PNG?raw=true" alt="prototype 1">
+    <img src="./Resources/Chapter-V/prototype/prototypemobile1.png" alt="prototype 1">
 </div><br>
 
 
