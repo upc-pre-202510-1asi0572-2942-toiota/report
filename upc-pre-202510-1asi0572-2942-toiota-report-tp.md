@@ -3943,15 +3943,15 @@ En este sprint, el enfoque estará en desarrollar los servicios backend que perm
 
 Link de evidencia de la ejecucion del servicio web: https://upcedupe-my.sharepoint.com/personal/u202217772_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202217772%5Fupc%5Fedu%5Fpe%2FDocuments%2Fvideo%20iot%2Fvideo%20ejecucion%20del%20front%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ef0022257%2Dd205%2D48fe%2D8bee%2Df685fcdddd79
 
-![front1](https://github.com/upc-pre-202510-1asi0572-2942-toiota/upc-pre-202510-1asi0572-2942-toIOTa-report-tb1/blob/main/images/front1.png)
+![front1](images/front1.png)
 
-![front2](https://github.com/upc-pre-202510-1asi0572-2942-toiota/upc-pre-202510-1asi0572-2942-toIOTa-report-tb1/blob/main/images/front2.png)
+![front2](images/front2.png)
 
-![front3](https://github.com/upc-pre-202510-1asi0572-2942-toiota/upc-pre-202510-1asi0572-2942-toIOTa-report-tb1/blob/main/images/front3.png)
+![front3](images/front3.png)
 
-![front4](https://github.com/upc-pre-202510-1asi0572-2942-toiota/upc-pre-202510-1asi0572-2942-toIOTa-report-tb1/blob/main/images/front4.png)
+![front4](images/front4.png)
 
-![lading](https://github.com/upc-pre-202510-1asi0572-2942-toiota/upc-pre-202510-1asi0572-2942-toIOTa-report-tb1/blob/main/images/lading.png)
+![lading](images/lading.png)
 
 
 #### 6.2.1.7. Services Documentation Evidence for Sprint Review. 
@@ -4078,7 +4078,7 @@ Se logró documentar los principales endpoints que soportan las operaciones de c
 ```
 
 
-![API](https://github.com/upc-pre-202510-1asi0572-2942-toiota/upc-pre-202510-1asi0572-2942-toIOTa-report-tb1/blob/main/images/api.png)
+![API](images/api.png)
 
 
 
@@ -4101,7 +4101,7 @@ En esta sección se resume los procesos realizados en relación con Deployment d
 
 📸 **Capturas del proceso:**
 
-![lading](https://github.com/upc-pre-202510-1asi0572-2942-toiota/upc-pre-202510-1asi0572-2942-toIOTa-report-tb1/blob/main/images/lading.png)
+![lading](images/lading.png)
 
 ---
 
