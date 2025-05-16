@@ -3514,6 +3514,16 @@ En este sprint, el enfoque estará en desarrollar los servicios backend que perm
 
 #### 6.2.1.6. Execution Evidence for Sprint Review. 
 
+![front1](https://github.com/upc-pre-202510-1asi0572-2942-toiota/upc-pre-202510-1asi0572-2942-toIOTa-report-tb1/blob/main/images/front1.png)
+
+![front2](https://github.com/upc-pre-202510-1asi0572-2942-toiota/upc-pre-202510-1asi0572-2942-toIOTa-report-tb1/blob/main/images/front2.png)
+
+![front3](https://github.com/upc-pre-202510-1asi0572-2942-toiota/upc-pre-202510-1asi0572-2942-toIOTa-report-tb1/blob/main/images/front3.png)
+
+![front4](https://github.com/upc-pre-202510-1asi0572-2942-toiota/upc-pre-202510-1asi0572-2942-toIOTa-report-tb1/blob/main/images/front4.png)
+
+![lading](https://github.com/upc-pre-202510-1asi0572-2942-toiota/upc-pre-202510-1asi0572-2942-toIOTa-report-tb1/blob/main/images/lading.png)
+
 
 #### 6.2.1.7. Services Documentation Evidence for Sprint Review. 
 # Documentación de Endpoints API - Alcance del Sprint
@@ -3639,6 +3649,7 @@ Se logró documentar los principales endpoints que soportan las operaciones de c
 ```
 
 
+![API](https://github.com/upc-pre-202510-1asi0572-2942-toiota/upc-pre-202510-1asi0572-2942-toIOTa-report-tb1/blob/main/images/api.png)
 
 
 
@@ -3647,18 +3658,30 @@ Se logró documentar los principales endpoints que soportan las operaciones de c
 
 #### 6.2.1.8. Software Deployment Evidence for Sprint Review. 
 
-Para desplegar el landing page o frontend estático en Netlify, se siguen estos pasos:
+En esta sección se resume los procesos realizados en relación con Deployment durante este Sprint. Se realizaron las configuraciones necesarias para publicar y mantener activos tanto la **Landing Page** como el **Frontend estático** en la nube, usando **Netlify** como proveedor de despliegue. El proceso incluyó la creación de cuentas, vinculación con los repositorios Git y automatización del despliegue continuo.
 
-1. Preparar y verificar que el proyecto funcione correctamente en local.
-2. Subir el código al repositorio Git (por ejemplo, GitHub).
-3. Ingresar a Netlify y crear un nuevo sitio, conectándolo al repositorio correspondiente.
-4. Configurar el comando de build (si es necesario) y especificar la carpeta donde se encuentran los archivos estáticos.
-5. Netlify ejecuta automáticamente el build tras cada push y publica el sitio.
-6. Verificar que el despliegue sea exitoso accediendo a la URL generada.
-7. Para futuras actualizaciones, realizar commits que se desplegarán automáticamente.
+---
 
-Este proceso garantiza un despliegue sencillo y continuo para el frontend estático.
+### 🟢 Despliegue de la Landing Page en Netlify
 
+1. Se creó una cuenta en [Netlify](https://www.netlify.com/).
+2. Se vinculó el repositorio del proyecto de la Landing Page a Netlify.
+3. Se configuró la rama de despliegue (`main`) para activar el **CI/CD** automáticamente.
+4. Se verificó que la build fuera exitosa (usando configuración predeterminada de React/Vite/HTML).
+5. Se generó el dominio automático y se validó que la landing esté publicada y funcional.
+
+📸 **Capturas del proceso:**
+
+![lading](https://github.com/upc-pre-202510-1asi0572-2942-toiota/upc-pre-202510-1asi0572-2942-toIOTa-report-tb1/blob/main/images/lading.png)
+
+---
+
+### 🟢 Despliegue del Frontend principal
+
+1. Se creó un nuevo proyecto en Netlify vinculado al repositorio del frontend.
+2. Se configuró correctamente el comando de build (`npm run build`) y el directorio de salida (`dist`).
+3. Se activó la integración continua para cada push a la rama `main`.
+4. Se validó que el frontend cargue correctamente desde el dominio asignado por Netlify.
 
 #### 6.2.1.9. Team Collaboration Insights during Sprint. 
 
