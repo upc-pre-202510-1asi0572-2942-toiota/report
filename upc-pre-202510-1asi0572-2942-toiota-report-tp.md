@@ -3493,8 +3493,22 @@ En este sprint, el enfoque estará en desarrollar los servicios backend que perm
 |      |                                      | T03: Pruebas del endpoint                       | Realizar pruebas para asegurar que el endpoint de identidad y acceso funcione correctamente.                          | 2                  | Luis                  | Done     |
 
 
-#### 6.2.1.3. Development
+#### 6.2.1.4. Development Evidence for Sprint Review. 
 
+
+#### 6.2.1.4. Testing Suite Evidence for Sprint Review. 
+
+#### 6.2.1.5. Execution Evidence for Sprint Review. 
+
+#### 6.2.1.6. Execution Evidence for Sprint Review. 
+
+
+#### 6.2.1.7. Services Documentation Evidence for Sprint Review. 
+
+
+#### 6.2.1.8. Software Deployment Evidence for Sprint Review. 
+
+#### 6.2.1.9. Team Collaboration Insights during Sprint. 
 
 
 
