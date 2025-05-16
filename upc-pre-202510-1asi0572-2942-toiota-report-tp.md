@@ -3482,6 +3482,125 @@ Además, para la organización de los sprints y la gestión del producto backlog
 <img src="images/sprint2.png">
 Enlace: https://trello.com/invite/b/mSimNo04/ATTI125c821416efcad4fb8cb0bafc415bbdFFF7F7D5/sprint-2-hormonalcare
 
+#### 6.1.3. Source Code Style Guide & Conventions.
+
+<p>
+Para asegurar la consistencia y calidad en el desarrollo tanto de nuestra Landing Page como de la aplicación web, se adoptarán normas específicas para cada lenguaje y tecnología utilizada.
+
+</p>
+
+
+
+### HTML
+
+- **Uso de minúsculas:** Todas las etiquetas y atributos se escribirán en minúsculas, por ejemplo: `<body>`, `<p>`.
+- **Cierre correcto de etiquetas:** Todas las etiquetas deben cerrarse apropiadamente para mantener una estructura válida del documento.
+- **Comillas en los atributos:** Se utilizarán comillas para encerrar los valores de los atributos, por ejemplo: `<a href="https://example.com">`.
+- **Atributos en imágenes:** Las etiquetas de imagen deben incluir atributos como `alt`, `width` y `height`, lo cual mejora la accesibilidad y el diseño.
+- **Sin espacios en los atributos:** No se dejarán espacios alrededor del signo igual, por ejemplo: `<link rel="stylesheet" href="styles.css">`.
+
+---
+
+### CSS
+
+- **Nombres en minúscula:** Todos los nombres de propiedades, valores y elementos estarán en minúsculas, como `color: #e5e5e5;`.
+- **Clases descriptivas:** Los nombres de clase deben ser claros, breves y separados por guiones, como `.barra-navegacion`, `.autor-articulo`.
+- **Propiedades abreviadas:** Se utilizarán versiones abreviadas de las propiedades cuando sea posible, como `border-top: 0;`.
+- **Colores hexadecimales cortos:** Se empleará la notación de tres caracteres en los colores hexadecimales si es aplicable, por ejemplo: `#ebc`.
+- **Orden alfabético:** Las propiedades CSS se ordenarán alfabéticamente dentro de cada bloque.
+- **Punto y coma obligatorio:** Cada declaración terminará con punto y coma para evitar errores.
+- **Espacios en las declaraciones:** Se dejará un espacio después de los dos puntos y entre propiedades y llaves, por ejemplo: `font-weight: bold;`.
+- **Uso de comillas simples:** Se emplearán comillas simples para los valores de atributos, como: `font-family: 'Open Sans', Arial, sans-serif;`.
+
+---
+
+### Gherkin
+
+- **Estructura de archivos:** Los archivos `.feature` contendrán historias de usuario organizadas y estructuradas.
+- **Palabra clave `Feature`:** Se usará para agrupar funcionalidades relacionadas dentro del archivo.
+- **Definición de escenarios y ejemplos:** `Scenario` define casos concretos y `Example` proporciona datos específicos.
+- **Uso de pasos Dado, Cuando, Entonces:**  
+  - `Given`: establece el contexto,  
+  - `When`: describe la acción,  
+  - `Then`: define el resultado esperado,  
+  - `And`: permite agregar pasos adicionales sin repetir palabras clave.
+- **Tablas de datos:** Se utilizará `|` para crear tablas que permitan definir múltiples valores o escenarios en una misma prueba.
+
+---
+
+### JavaScript y TypeScript
+
+- **Estilo de nombres:**  
+  - `camelCase` para variables y funciones,  
+  - `PascalCase` para clases en TypeScript,  
+  - `UPPER_CASE_WITH_UNDERSCORES` para constantes.
+- **Uso preferente de `let` y `const`:** Estas se usarán en lugar de `var` para declarar variables.
+- **Punto y coma final:** Se incluirá punto y coma al final de cada línea para evitar errores de compilación.
+
+---
+
+### Angular
+
+- **Formato de nombres de archivos:** Se seguirá el estilo `kebab-case`, por ejemplo: `mi-componente.component.ts`.
+- **Nombres de clases y componentes:** Se usará el formato `UpperCamelCase`, como en `MiComponente`.
+- **Evitar dependencias circulares:** Se evitarán ciclos de dependencia para mantener una arquitectura modular y limpia.
+- **Activación del modo estricto:** Se habilitará el modo estricto en TypeScript para mejorar el control de tipos y la calidad del código.
+
+
+#### 6.1.4. Software Deployment Configuration.
+
+
+<p>Para desplegar nuestra base de datos en Heroku usando el repositorio de GitHub, seguimos estos pasos:</p>
+
+### 1. Creación de la aplicación en Heroku
+- Accedimos al dashboard de Heroku y seleccionamos **"Create New App"**.
+
+<div align="center">
+    <img src="./images/deployheroku1.png">
+</div><br><br>
+
+- Asignamos un nombre único y elegimos la región adecuada (*Common Runtime* - Estados Unidos o Europa).
+<div align="center">
+    <img src="./images/deployheroku2.png">
+</div><br><br>
+
+- Marcamos la opción **"Connect to GitHub"** para vincular el repositorio.
+<div align="center">
+    <img src="./images/deployheroku3.png">
+</div><br><br>
+
+### 2. Conexión con GitHub
+- En la pestaña **"Deploy"** de Heroku, buscamos el repositorio y lo conectamos.
+<div align="center">
+    <img src="./images/deployheroku4.png">
+</div><br><br>
+- Verificamos que Heroku tenga acceso a la organización de GitHub.
+
+
+<div align="center">
+    <img src="./images/deployheroku5.png">
+</div><br><br>
+
+
+### 3. Despliegue manual
+- En la sección **"Manual Deploy"**, seleccionamos la rama `develop` y hacemos clic en **"Deploy Branch"**.
+<div align="center">
+    <img src="./images/deployheroku6.png">
+</div><br><br>
+
+
+### 4. Verificación del despliegue
+- Una vez completado el proceso, Heroku mostrará el mensaje de confirmación:  
+  **"Your app was successfully deployed"**.
+<div align="center">
+    <img src="./images/deployheroku7.png">
+</div><br><br>
+  
+- Accedemos a la URL proporcionada por Heroku para comprobar que tanto la aplicación como la base de datos funcionan correctamente.
+<div align="center">
+    <img src="./images/deployheroku8.png">
+</div><br><br>
+
 
 ### 6.2.1. Sprint 1
 
@@ -3721,6 +3840,8 @@ En este sprint, el enfoque estará en desarrollar los servicios backend que perm
 
 
 #### 6.2.1.6. Execution Evidence for Sprint Review. 
+
+Link de evidencia de la ejecucion del servicio web: https://upcedupe-my.sharepoint.com/personal/u202217772_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202217772%5Fupc%5Fedu%5Fpe%2FDocuments%2Fvideo%20iot%2Fvideo%20ejecucion%20del%20front%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ef0022257%2Dd205%2D48fe%2D8bee%2Df685fcdddd79
 
 ![front1](https://github.com/upc-pre-202510-1asi0572-2942-toiota/upc-pre-202510-1asi0572-2942-toIOTa-report-tb1/blob/main/images/front1.png)
 
