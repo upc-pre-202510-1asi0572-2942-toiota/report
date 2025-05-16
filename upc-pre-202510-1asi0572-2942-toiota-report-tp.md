@@ -401,11 +401,11 @@ Nuestra misión es clara y potente: mejorar la calidad de vida de las personas c
 
 Logo del Startup:
 
-<div align="center"><img src="images/logo-toiota.png" width = 200></div>
+<div align="center"><img src="./Resources/Chapter-I/StartupProfile/logo-toiota.png" width = 200></div>
 
 Logo del Producto:
 
-<div align="center"><img src="images/LogoHormonalCare.png"></div>
+<div align="center"><img src="./Resources/Chapter-I/StartupProfile/LogoHormonalCare.png"></div>
 
 
 
@@ -630,7 +630,7 @@ El producto debe ser simple, intuitivo y eficaz, para que tanto los pacientes co
 
    ##### 1.2.2.4.	Lean UX Canvas.
 
-<center><img src="images/leanuxcanva.png"></center>
+<center><img src="./Resources/Chapter-I/LeanUx/leanuxcanva.png"></center>
 
 
 [https://miro.com/app/board/uXjVIFaFq5g=/?share_link_id=396708128599](https://miro.com/app/board/uXjVIFaFq5g=/?share_link_id=396708128599)
@@ -1235,9 +1235,9 @@ El 100% destaca la importancia de funcionalidades como notificaciones automátic
 Finalmente, se realizó una encuesta de Formulario de Google para la obtención de datos extra sobre nuestro segmento pacientes:
 
 <center>
-<img src="images/Paciente quedispositivotecnologicousamas.png">
-<img src="images/Paciente cualessunavegadorwebfavorito.png">
-<img src="images/Paciente quesistemaoperativousamas.png">
+<img src="./Resources/Chapter-II/Interviews/AnalisisEntrevistas/Paciente cualessunavegadorwebfavorito.png">
+<img src="./Resources/Chapter-II/Interviews/AnalisisEntrevistas/Paciente cualessunavegadorwebfavorito.png">
+<img src="./Resources/Chapter-II/Interviews/AnalisisEntrevistas/Paciente quesistemaoperativousamas.png">
 </center>
 
 Resultados de las respuesta de los pacientes: https://docs.google.com/spreadsheets/d/18ymG7icz4uSKDMLTZHZjehKpsIX3hhprjjFXo9H5tQ8/edit?usp=sharing
@@ -1299,9 +1299,9 @@ El 66.7% considera que la integración de IoT puede aumentar la eficiencia y la 
 Finalmente, se realizó una encuesta de Formulario de Google para la obtención de datos extra sobre nuestro segmento médico:
 
 <center>
-<img src="images/Medico quesistemaoperativousamasensucargo.png">
-<img src="images/Medico quedispositivotecnologicousamasensucargo.png">
-<img src="images/Medico cualessunavegadorwebfavorito.png">
+<img src="./Resources/Chapter-II/Interviews/AnalisisEntrevistas/Medico quesistemaoperativousamasensucargo.png">
+<img src="./Resources/Chapter-II/Interviews/AnalisisEntrevistas/Medico quedispositivotecnologicousamasensucargo.png">
+<img src="./Resources/Chapter-II/Interviews/AnalisisEntrevistas/Medico cualessunavegadorwebfavorito.png">
 </center>
 
 Resultados de las respuestas de los médicos: https://docs.google.com/spreadsheets/d/1AG_PKOa8czbNz00sYfzPndJZ8FENAuJ3JxAp0Lld1-Y/edit?usp=sharing
@@ -1315,13 +1315,13 @@ La creación de User Personas es una práctica fundamental para comprender las n
 
 **Segmento paciente:**
 
-<img src="images/User Persona Paciente Juan Pérez.png">
+<img src="./Resources/Chapter-II/Needfinding/UserPersonas/User Persona Paciente Juan Pérez.png">
 
 Enlace User Persona Paciente: https://drive.google.com/file/d/1BVOK0Y27CCRhW_B7TyWO5fIP3flDIwbG/view?usp=sharing
 
 **Segmento médico:**
 
-<img src="images/User Persona Médico Alejandro Torres.png">
+<img src="./Resources/Chapter-II/Needfinding/UserPersonas/User Persona Médico Alejandro Torres.png">
 
 Enlace User Persona Médico: https://drive.google.com/file/d/1XPcrQL0Lfm-PvvzwE2hlTeC6D1LPRmwk/view?usp=sharing
 
