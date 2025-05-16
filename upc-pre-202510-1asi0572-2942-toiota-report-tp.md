@@ -246,6 +246,7 @@ forma conjunta</td>
     <h3>Quispesivana Torres, Claudio Sandro</h3>
     <b>TB1</b>
     <p>Trabajé en equipo para proporcionar liderazgo conjunto, describiendo correctamente los bounded contexts dentro de la arquitectura de software, identificando y abordando los distintos niveles: Landscape, Context, Container y Deployment en el proyecto de HormonalCare.</p>
+    <b>TP</b>
     <p>
 Participé en el diseño visual y funcional de la aplicación HormonalCare, enfocándome en la experiencia móvil del rol de doctor. Me encargué de definir la guía de estilos y desarrollar todos los elementos de diseño UX/UI, incluyendo los <i>wireframes</i>, <i>wireflows</i>, <i>user flows</i> y <i>mockups</i>, además del prototipo interactivo. Estas entregas garantizaron una navegación clara, estética consistente y alineación con los objetivos del proyecto desde el enfoque de diseño centrado en el usuario.
 </p>
@@ -287,7 +288,6 @@ objetivos.</td>
     <h3>Quispesivana Torres, Claudio Sandro</h3>
     <b>TB1</b>
     <p>Creé un entorno colaborativo e inclusivo al trabajar en equipo para definir metas claras, planificar tareas y describir adecuadamente los bounded contexts en la arquitectura de software, abarcando los niveles de Landscape, Context, Container y Deployment en el proyecto HormonalCare, asegurando el cumplimiento de los objetivos establecidos.</p>
-    </td>
     <b>TP</b>
     <p> Diseñé un entorno visual funcional y centrado en el usuario para la sección médica de la aplicación HormonalCare, elaborando los <i>style guidelines</i> y el diseño completo de la experiencia en dispositivos móviles para el rol de doctor. Esto incluyó la creación de <i>wireframes</i>, <i>user flows</i>, <i>wireflows</i> y <i>mockups</i> de alta fidelidad, así como el desarrollo del prototipo interactivo, asegurando la coherencia visual, la usabilidad y el cumplimiento de los objetivos del sistema desde una perspectiva UX/UI profesional.
     </p>
