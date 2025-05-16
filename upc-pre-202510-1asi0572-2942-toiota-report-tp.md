@@ -232,6 +232,9 @@ forma conjunta</td>
     <h3>La Torre Soto, Andre Sebastian</h3>
     <b>TB1</b>
     <p>Para esta entrega trabajé junto a mi equipo la definición de los Bounded Contexts (Domain, Interface, Application e Infrastructure de payment) junto a sus correspondientes diagramas (components y database). Coordinamos en equipo la identificación de las entidades, servicios y eventos principales asignados a los bounded context correspondientes a cada uno. Promoviendo siempre una toma de decisiones colaborativa y alineada con la visión general de nuestro proyecto.</p>
+	      <b>TP</b> 
+      <p>Durante el transcurso de este entregable , asumí un rol de liderazgo junto a mis compañeros al delimitar y realizar responsabilidades divididas para agilizar la elaboración de los puntos del Sprint como serían la gestión del codigo, guia y convenciones de estilo, el avance de componentes en nuestro Front-end y el despliegue del Back-end. Lo que nos permitió realizar un avance ágil en el informe y del despliegue de nuestro sistema.
+	</p> 
     <h3>Lostaunau Pereira, Estefano Sebastian</h3>
     <b>TB1</b>
     <p>Trabajamos juntos en la definición del perfil de la startup y la problemática en los Capítulos I y II. En el Capítulo III priorizamos y presentamos las User Stories ante el equipo y stakeholders. En el Capítulo IV definimos los Bounded Contexts (Domain, Interface, Application e Infrastructure) y elaboramos los diagramas de componentes y de código (Domain Layer Class y Database). Así lideramos de forma conjunta las decisiones arquitectónicas clave del proyecto.</p>
@@ -266,6 +269,9 @@ objetivos.</td>
     <h3>La Torre Soto, Andre Sebastian</h3>
     <b>TB1</b>
     <p>Contribui a un entorno colaborativo e inclusivo, al trabajar junto a mi equipo para establecer metas claras y alcanzables, participando en la planificación de las integraciones entre los diferentes módulos del sistema para asegurar de que cada miembro comprendiera sus responsabilidades y los objetivos globales de nuestro proyecto.</p>
+    <b>TP</b>
+    <p> Para esta entrega, estuvimos colaborando fuertemente al momento de trazar los puntos a corregir y avanzar. Delimitando los puntos que cada uno debia avanzar, contando además con reuniones constantes para asegurar el progreso y cumplimiento de cada una de las labores asignadas. Cumpliendo al final con cada objetivo de la entrega, manteniendo un orden y ambiente colaborativo.
+ </p>      
     <h3>Lostaunau Pereira, Estefano Sebastian</h3>
     <b>TB1</b>
     <p>Creamos un entorno inclusivo desde el inicio, dividiendo y planificando las tareas de Introducción, Análisis, Especificación y Arquitectura. Establecimos metas claras para cada capítulo y revisamos juntos los avances. Ajustamos las User Stories y entregables en equipo, y en Arquitectura nos repartimos los Bounded Contexts y sus diagramas (Component Level, Domain Layer Class y Database). Cumplimos los plazos y objetivos acordados, manteniendo la colaboración y el sentido de pertenencia.</p>
