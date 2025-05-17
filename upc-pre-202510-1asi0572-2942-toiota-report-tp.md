@@ -382,7 +382,7 @@ Los objetivos SMART son una herramienta esencial para establecer metas claras y 
 | **S - Specific** | Implementar una pantalla de historial médico optimizada que permita a los médicos realizar las acciones clave de seguimiento en tres pantallas o menos, mejorando la eficiencia del flujo de trabajo.                                        |
 | **M - Measurable** | Reducir a tres o menos el número de pantallas necesarias para completar las acciones clave, y mejorar la satisfacción del usuario en un 25% según encuestas de usabilidad.                                        |
 | **A - Achievable** | Requiere rediseñar la navegación y agrupar funciones esenciales, demandando un enfoque innovador y centrado en el usuario.                                        |
-| **R - Relevant** | Apoya la estrategia de NinjaCode de mejorar la eficiencia médica y aumentar la adopción de la herramienta entre los profesionales de salud.                                        |
+| **R - Relevant** | Apoya la estrategia de Toiota de mejorar la eficiencia médica y aumentar la adopción de la herramienta entre los profesionales de salud.                                        |
 | **T - Time-bound** | El despliegue debe estar completado y probado dentro de 1 mes.                                        |
 <br>
 
@@ -3512,7 +3512,7 @@ https://structurizr.com/
 
 #### 6.1.2. Source Code Management.
 
-Para garantizar la eficiencia y evitar conflictos en el desarrollo del proyecto, los productos de NinjaCode se gestionaron en una organización de GitHub.
+Para garantizar la eficiencia y evitar conflictos en el desarrollo del proyecto, los productos de Toiota se gestionaron en una organización de GitHub.
 
 ToIoTa organization: [https://github.com/upc-open-source-ninja-code](https://github.com/upc-pre-202510-1asi0572-2942-toiota)
 
@@ -3522,12 +3522,11 @@ A continuación, se presentan los repositorios:
 
 Project Report: Este repositorio contiene el informe del proyecto. En él se documentan todos los aspectos del proyecto, desde la concepción de la idea hasta la implementación final. Este informe es crucial para mantener a todos los miembros del equipo al tanto del progreso del proyecto y para proporcionar una referencia para futuras mejoras o modificaciones. 
 
-[https://github.com/upc-open-source-ninja-code/upc-pre-202401-si729-sw51-NinjaCode-report-tp](https://github.com/upc-pre-202510-1asi0572-2942-toiota/upc-pre-202510-1asi0572-2942-toIOTa-report-tb1)
-
+[https://github.com/upc-pre-202510-1asi0572-2942-toiota/upc-pre-202510-1asi0572-2942-toIOTa-report-tb1](https://github.com/upc-pre-202510-1asi0572-2942-toiota/upc-pre-202510-1asi0572-2942-toIOTa-report-tb1)
 
 Landing Page: Este repositorio contiene el código fuente de la página de inicio del proyecto. La página de inicio es esencial para proporcionar a los usuarios una visión general de lo que ofrece el proyecto y para guiarlos a través de las diferentes características y funcionalidades disponibles.
 
-[https://github.com/upc-open-source-ninja-code/Landing-Page](https://github.com/upc-pre-202510-1asi0572-2942-toiota/Landing-Page)
+[https://github.com/upc-pre-202510-1asi0572-2942-toiota/Landing-Page](https://github.com/upc-pre-202510-1asi0572-2942-toiota/Landing-Page)
 
 https://hormonalcarelanding.netlify.app/  
 
@@ -3539,17 +3538,15 @@ https://hormonalcarelanding.netlify.app/
 
 Single Page Application: Este repositorio contiene el código fuente de la aplicación web principal del proyecto. Esta aplicación es el núcleo del proyecto y es donde los usuarios interactúan con las principales características y funcionalidades del proyecto.
 
-[https://github.com/upc-open-source-ninja-code/HormonalCare-frontend](https://github.com/upc-open-source-ninja-code/HormonalCare-frontend)
+[https://github.com/upc-pre-202510-1asi0572-2942-toiota/hormonal_care_frontend](https://github.com/upc-pre-202510-1asi0572-2942-toiota/hormonal_care_frontend)
 
 
 
 
 
+Web Application Deployed: Este repositorio es donde se aloja el enlace a la aplicación web desplegada del proyecto. Es donde se proporciona un enlace directo a la versión en línea de la aplicación, que ha sido desplegada utilizando el servicio de Render. Este enlace permite a los usuarios acceder a la aplicación en un entorno de producción desde cualquier lugar y en cualquier momento. Este repositorio es esencial para aumentar la accesibilidad y usabilidad del proyecto, ya que permite que la aplicación sea accesible a una audiencia global en cualquier momento.
 
-Web Application Deployed: Este repositorio es donde se aloja el enlace a la aplicación web desplegada del proyecto. Es donde se proporciona un enlace directo a la versión en línea de la aplicación, que ha sido desplegada utilizando el servicio de GitHub Pages. Este enlace permite a los usuarios acceder a la aplicación en un entorno de producción desde cualquier lugar y en cualquier momento. Este repositorio es esencial para aumentar la accesibilidad y usabilidad del proyecto, ya que permite que la aplicación sea accesible a una audiencia global en cualquier momento.
-
-[https://github.com/upc-open-source-ninja-code/Web-Aplication-Deployed](https://main--stupendous-kangaroo-4e2bfa.netlify.app/)
-
+[https://hormonalcare-frontend.onrender.com/](https://hormonalcare-frontend.onrender.com/)
 
 
 Mobile Application Repository:
