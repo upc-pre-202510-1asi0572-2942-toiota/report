@@ -4284,3 +4284,8 @@ Repositorio GitHub del Informe: [Ver Informe](https://github.com/upc-pre-202510-
 Video de exposicion tb1: [upc-pre-202510-1asi0572-2942-toiota-expo-tb1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215099_upc_edu_pe/Ef1tEK5b2P1KleiB0KHucQUBnQkm4p4JcMkqocqfvpbZqw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=go0Iq4)
 
 Video de exposicion tp: [upc-pre-202510-1asi0572-2942-toiota-expo-tp](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215099_upc_edu_pe/EfDc-Q-pb0pGgUYhivEGva0B-REPGQGtF0Q5oOTS0shLPw?e=iyLNAf&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+
+LandingPage: https://hormonalcarelanding.netlify.app/
+
+WebApp: https://hormonalcare-frontend.onrender.com/
