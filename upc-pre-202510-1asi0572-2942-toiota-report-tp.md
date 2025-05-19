@@ -1812,8 +1812,8 @@ https://miro.com/app/board/uXjVIERm9g8=/?share_link_id=539637623176
 #### 4.1.3. Software Architecture
 
 ##### 4.1.3.1. Software Architecture  System Landscape Diagram  
-**Diagrama de contexto:**  
-<img src="images/chapter 4 software architecture/system landscape diagram.png">
+**Diagrama de panoramico:**  
+<img src="./Resources/Chapter-IV/software_architecture/system_landscape_diagram.jpg">
 
 ##### 4.1.3.2. Software Architecture Context Level Diagrams  
 **Diagrama de contexto:**  
