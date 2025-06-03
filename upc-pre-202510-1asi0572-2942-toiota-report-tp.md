@@ -2300,12 +2300,6 @@ A continuación, se detallan las directrices básicas para garantizar una presen
 
 **Colors:**
 
-Hemos seleccionado cuidadosamente una paleta de colores para representar nuestro aplicativo HormonalCare. Nuestro enfoque se centra en tonalidades que incluyen el gris azulado oscuro (#6A828D), el negro (#000000), el gris claro (#AEBBC3), el blanco (#FFFFFF), el gris muy claro (#F3F3F3), el azul grisáceo claro (#B9CCD8) y el gris pizarra oscuro (#40535B). Optamos por esta combinación para reflejar profesionalismo, confianza y serenidad. El uso del blanco aporta claridad y equilibrio visual, mientras que los tonos más oscuros brindan profundidad y estructura. Los colores claros complementan la paleta al ofrecer una apariencia moderna, limpia y accesible. Este conjunto de colores busca armonizar con nuestra misión de brindar soluciones efectivas y generar un ambiente de apoyo, bienestar y cuidado integral.
-
-<div align="center">
-    <img src="./Resources/Chapter-V/Style Guidelines/color-pallete.png">
- </div><br><br><br>
-
 Hemos seleccionado cuidadosamente una paleta de colores para representar nuestro aplicativo HormonalCare. Nuestro enfoque se centra en tonalidades que incluyen el blanco cálido (#faf9f9), el negro (#000000), el lila claro (#b39ddb), el blanco puro (#FFFFFF), el violeta medio (#8765c6), el violeta intenso (#6d46b8) y el violeta oscuro (#4829a2). Optamos por esta combinación para reflejar profesionalismo, accesibilidad y modernidad. El uso del blanco aporta claridad y equilibrio visual, mientras que los tonos violetas transmiten empatía y cercanía, y el negro asegura contraste y legibilidad. Los colores claros y acentos violetas complementan la paleta al ofrecer una apariencia limpia, atractiva y accesible. Este conjunto de colores busca armonizar con nuestra misión de brindar soluciones efectivas y generar un ambiente de apoyo, bienestar y cuidado integral.
 
 <div align="center">
@@ -2373,24 +2367,6 @@ En HormonalCare, diseñamos experiencias digitales adaptadas a diversos entornos
 - **Consistencia Visual Multiplataforma**: Mantenemos una estética unificada en todas nuestras plataformas, utilizando una paleta de colores armónica, la tipografía Montserrat en sus variantes (Regular, Medium, Semi-Bold, Bold) y estructuras visuales limpias. Esto refuerza la identidad visual de HormonalCare y garantiza familiaridad en todos los puntos de contacto.<br><br>
 
 **Paleta de Colores**
-
-Nuestra nueva gama cromática refleja una identidad profesional, empática y equilibrada, adecuada tanto para contextos clínicos como para experiencias personales del paciente:
-
-- #6A828D – gris azulado (principal)
-- #000000 – negro (texto y contraste fuerte)
-- #AEBBC3 – gris claro (complementario)
-- #FFFFFF – blanco (fondo y claridad visual)
-- #F3F3F3 – gris muy claro (separadores y superficies)
-- #B9CCD8 – azul grisáceo claro (resaltados suaves)
-- #40535B – gris pizarra (elementos de soporte visual)
-
-Esta paleta ha sido optimizada para cumplir con criterios de accesibilidad visual (contraste WCAG) en web, mobile e interfaces IoT.
-
-<div align="center">
-    <img src="./Resources/Chapter-V/Style Guidelines/color-pallete.png" alt="Color Pallete">
-</div><br>
-
-
 
 Nuestra nueva gama cromática para el paciente refleja una identidad profesional, moderna y accesible, adecuada tanto para contextos clínicos como para experiencias personales del paciente:
 
