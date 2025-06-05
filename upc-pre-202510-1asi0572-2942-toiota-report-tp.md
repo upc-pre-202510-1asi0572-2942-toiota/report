@@ -3218,7 +3218,7 @@ Tiempo: 4:01
 Tiempo: 4:51
 
 <div align="center">
-    <img src="./Resources/Chapter-V/prototype/prototypemobile5schedule.png" alt="prototype 5">
+    <img src="./Resources/Chapter-V/prototype/prototypemobile5.png" alt="prototype 5">
 </div><br><br>
 
 
@@ -3227,7 +3227,7 @@ Tiempo: 4:51
 Tiempo: 6:21
 
 <div align="center">
-    <img src="./Resources/Chapter-V/prototype/prototypemobile6notification.png" alt="prototype 6">
+    <img src="./Resources/Chapter-V/prototype/prototypemobile6.png" alt="prototype 6">
 </div><br><br>
 
 
@@ -3237,7 +3237,7 @@ Tiempo: 6:21
   Tiempo: 7:01
 
   <div align="center">
-      <img src="./Resources/Chapter-V/prototype/prototypemobile7profile.png" alt="prototype 7">
+      <img src="./Resources/Chapter-V/prototype/prototypemobile7.png" alt="prototype 7">
   </div><br><br>
 
 
