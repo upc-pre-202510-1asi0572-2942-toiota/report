@@ -2974,11 +2974,6 @@ En las pantallas de Consulta, el médico puede gestionar la medicación prescrit
 La pantalla de Historial Médico permite al médico revisar la evolución del paciente con diabetes, accediendo a su historial clínico, diagnósticos, tratamientos y reportes de laboratorio o documentos externos cargados por el paciente.<br><br>
 
 
-<div align="center">
-    <img src="./Resources/Chapter-V/mobile_ui/mockups/mockup-patient.png"  alt="wireframes-7">
-</div><br>
-
-Esta pantalla representa el flujo de navegación para pacientes. Aunque su acceso es más limitado respecto al de los doctores, próximamente contarán con integración de inteligencia artificial y el dispositivo PASO, que medirá la glucosa en sangre y generará reportes automáticos para el médico.<br><br>
 
 #### 5.4.4. Applications User Flow Diagrams.
 
