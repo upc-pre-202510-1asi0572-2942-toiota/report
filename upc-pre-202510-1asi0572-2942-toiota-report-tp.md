@@ -4207,7 +4207,9 @@ En este sprint, el enfoque estará en desarrollar los servicios backend que perm
 |            |        |           |                |                     |                     |
 |            |        |           |                |                     |                     |
 
+#### 6.3.2. Registro de Entrevistas.
 
+#### 6.3.3. Evaluaciones según heurísticas. 
 
 ## Conclusiones
 
