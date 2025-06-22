@@ -4622,3 +4622,8 @@ Video de exposicion tp: [upc-pre-202510-1asi0572-2942-toiota-expo-tp](https://up
 LandingPage: https://hormonalcarelanding.netlify.app/
 
 WebApp: https://hormonalcare-frontend.onrender.com/
+
+Abouth the team: 
+https://www.youtube.com/embed/jHqsW2_zkxw
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215099_upc_edu_pe/EcefcPPL_jNJiThbS46lUhsBc_ljDhLCy4iZN95UJ1jc9A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=tc8l2u
