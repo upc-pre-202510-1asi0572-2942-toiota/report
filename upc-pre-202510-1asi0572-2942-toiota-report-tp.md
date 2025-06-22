@@ -300,18 +300,25 @@ forma conjunta</td>
     <p>Investigué normativas de protección de datos (HIPAA, GDPR) para el módulo de historias clínicas en HormonalCare, documentando requisitos legales en un repositorio compartido. Adicionalmente, me certifiqué en "UX Research for Health Apps" en Coursera para mejorar el diseño de entrevistas a usuarios. La investigación legal evitó riesgos de incumplimiento en el manejo de datos sensibles desde etapas tempranas.</p>
     <b>TP</b>
     <p> Durante esta fase del proyecto, lideré la planificación del Sprint 1, definiendo objetivos claros, organizando el backlog y coordinando la distribución de tareas entre los integrantes del equipo. Esta labor facilitó una ejecución ordenada y permitió que todos avanzáramos de manera alineada, contribuyendo al liderazgo conjunto y al logro de metas comunes. </p>
+    <b>TB2</b>
+    <p>Durante este proyecto, utilicé la plataforma de simulación Wokwi para desarrollar y probar un circuito basado en un ESP32, empleando un potenciómetro como entrada analógica. Diseñé un adaptador virtual personalizado que facilitó la conexión y lectura precisa de los valores del potenciómetro, permitiendo una simulación más realista del comportamiento del hardware. Implementé y verifiqué el código en C++ mediante el entorno de Arduino, enfocándome en la lectura continua de señales analógicas y su visualización en tiempo real. Esta simulación permitió validar la lógica del sistema antes del despliegue físico, optimizando tiempos de desarrollo y asegurando la compatibilidad del diseño con el entorno embebido.</p>
     <h3>Quispesivana Torres, Claudio Sandro</h3>
     <b>TB1</b>
     <p>Trabajé en equipo para proporcionar liderazgo conjunto, describiendo correctamente los bounded contexts dentro de la arquitectura de software, identificando y abordando los distintos niveles: Landscape, Context, Container y Deployment en el proyecto de HormonalCare.</p>
     <b>TP</b>
     <p>
-Participé en el diseño visual y funcional de la aplicación HormonalCare, enfocándome en la experiencia móvil del rol de doctor. Me encargué de definir la guía de estilos y desarrollar todos los elementos de diseño UX/UI, incluyendo los <i>wireframes</i>, <i>wireflows</i>, <i>user flows</i> y <i>mockups</i>, además del prototipo interactivo. Estas entregas garantizaron una navegación clara, estética consistente y alineación con los objetivos del proyecto desde el enfoque de diseño centrado en el usuario.
-</p>
+    Participé en el diseño visual y funcional de la aplicación HormonalCare, enfocándome en la experiencia móvil del rol de doctor. Me encargué de definir la guía de estilos y desarrollar todos los elementos de diseño UX/UI, incluyendo los <i>wireframes</i>,  <i>wireflows</i>, <i>user flows</i> y <i>mockups</i>, además del prototipo interactivo. Estas entregas garantizaron una navegación clara, estética consistente y alineación con los objetivos del proyecto desde el enfoque de diseño centrado en el usuario.
+    </p>
+    <b>TB2</b>
+    <p>En el Sprint 2, me encargué del desarrollo del frontend de la aplicación web de HormonalCare, desde el diseño hasta la implementación. Diseñé la interfaz de usuario en Figma, creando wireframes y prototipos que guiaron la experiencia visual y funcional del sitio. Posteriormente, traduje estos diseños en código, asegurando una integración eficiente con el backend y otros componentes del sistema. También desarrollé el módulo de <i>Medical Record</i>, pieza clave en la funcionalidad de la plataforma. Además, colaboré activamente en la planificación y ejecución de entrevistas de validación con usuarios, contribuyendo a alinear los objetivos técnicos con las necesidades reales del público objetivo y mejorando así la dirección del producto de forma colaborativa.</p>
     <td colspan="3">
     <b>TB1</b>
     <p>Como equipo, colaboramos activamente en la definición de los bounded contexts, arquitectura, y desarrollo de componentes clave, liderando de manera conjunta las decisiones técnicas y estratégicas del proyecto HormonalCare, siempre alineados a una visión compartida y fomentando una toma de decisiones colaborativa.</p>
     <b>TP</b>
     <p>Durante el TP, el equipo asumió responsabilidades compartidas y ejerció liderazgo de manera conjunta en cada etapa del proyecto. Coordinamos la planificación del Sprint 1, organizamos reuniones para tomar decisiones técnicas y distribuir tareas, y promovimos un liderazgo horizontal, donde todos los integrantes aportaron en función de sus fortalezas. Esta forma de trabajo permitió avanzar de forma ordenada en la elaboración del informe, la implementación de la Landing Page y el despliegue de la primera versión del sistema.</p>
+    <b>TB2</b>
+    <p>Durante el Sprint 2, cada miembro del equipo asumió responsabilidades clave en el diseño, desarrollo y validación del sistema, permitiendo ejercer un liderazgo distribuido en función de nuestras fortalezas. Coordinamos la implementación de funcionalidades, compartimos criterios técnicos y organizamos sesiones de validación de manera conjunta, lo cual fortaleció la toma de decisiones colaborativa y el alineamiento con los objetivos estratégicos del proyecto HormonalCare.</p>
+
   </td>
     </tr>
     <tr>
@@ -348,8 +355,8 @@ objetivos.</td>
     <p>Participé en el webinar "Healthcare API Security" de OWASP, aplicando recomendaciones para proteger endpoints de historias clínicas contra ataques BOLA.</p>
     <b>TP</b>
     <p> Fomenté un entorno colaborativo e inclusivo al guiar la configuración y ejecución del método de despliegue de la aplicación. Me aseguré de que el entorno de producción estuviera correctamente preparado y de que todos los miembros comprendieran el proceso. Esto ayudó a cumplir con los objetivos técnicos del Sprint y a mantener una dinámica de trabajo participativa y organizada.
- </p>
-	          <b>TB2</b>
+    </p>
+	  <b>TB2</b>
     <p>Organicé sesiones de pair programming para implementar las funcionalidades críticas de seguridad, creando un ambiente donde todos los miembros del equipo podían contribuir y aprender. Establecí hitos semanales para el módulo de seguridad y monitoreé el progreso mediante tableros Kanban compartidos, facilitando la colaboración transversal entre los diferentes roles del proyecto y asegurando el cumplimiento de los objetivos en los plazos establecidos.</p>
     <h3>Quispesivana Torres, Claudio Sandro</h3>
     <b>TB1</b>
@@ -357,11 +364,16 @@ objetivos.</td>
     <b>TP</b>
     <p> Diseñé un entorno visual funcional y centrado en el usuario para la sección médica de la aplicación HormonalCare, elaborando los <i>style guidelines</i> y el diseño completo de la experiencia en dispositivos móviles para el rol de doctor. Esto incluyó la creación de <i>wireframes</i>, <i>user flows</i>, <i>wireflows</i> y <i>mockups</i> de alta fidelidad, así como el desarrollo del prototipo interactivo, asegurando la coherencia visual, la usabilidad y el cumplimiento de los objetivos del sistema desde una perspectiva UX/UI profesional.
     </p>
+    <b>TB2</b>
+    <p>Durante el Sprint 2, asumí la responsabilidad del desarrollo del frontend de la aplicación web de HormonalCare. Diseñé y prototipé la interfaz de usuario en Figma, definiendo los flujos de navegación y la arquitectura visual. A partir de estos diseños, implementé la capa de presentación utilizando tecnologías web modernas, garantizando una integración eficiente con la API del backend y otros servicios del sistema. Desarrollé e integré el módulo de <i>Medical Record</i>, asegurando su correcto funcionamiento dentro del ecosistema de la plataforma. Adicionalmente, participé en la planificación y ejecución de sesiones de validación con usuarios, colaborando en la definición de criterios técnicos alineados con los objetivos de usabilidad y experiencia de usuario.</p>
       <td colspan="3">
     <b>TB1</b>
     <p>Como equipo, fomentamos un entorno colaborativo e inclusivo, estableciendo metas claras, planificando tareas estratégicamente y cumpliendo los objetivos propuestos en cada etapa del proyecto HormonalCare, asegurando la participación activa y el compromiso de todos los integrantes.</p>
     <b>TP</b>
     <p>Desde el inicio del TP, creamos un entorno colaborativo e inclusivo a través de reuniones frecuentes y uso activo del repositorio de GitHub. Establecimos metas claras para cada fase del proyecto: desde la mejora de artefactos anteriores hasta la implementación técnica del producto. Planificamos y ejecutamos el Sprint 1 con tareas bien distribuidas, asegurando que todos participaran. Esto nos permitió cumplir con los entregables: desarrollo y despliegue de la Landing Page, frontend web, y documentación de evidencia técnica y colaborativa.</p>
+    <b>TB2</b>
+    <p>En el Sprint 2 consolidamos un entorno de trabajo colaborativo e inclusivo mediante la planificación conjunta de metas, distribución de tareas según fortalezas individuales y uso de herramientas compartidas. Esto nos permitió avanzar de forma sincronizada, cumplir con los objetivos técnicos del Sprint y reforzar la participación activa de todo el equipo, tanto en desarrollo como en validación del producto.</p>
+
   </td>
     </tr>
   </tbody>
