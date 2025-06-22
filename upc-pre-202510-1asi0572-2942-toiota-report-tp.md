@@ -3976,7 +3976,7 @@ Despliegue de la Landing Page en Netlify
 
 **Capturas del Backend Desplegado:**
 
-![lading](images/evidenceBackenddesplegado.png)
+![lading](images/evidenceBackenddesplegado.jpeg)
 
 LINK: [https://hormonalcarelanding.netlify.app](https://hormonalcarebackend-9c81ad662b45.herokuapp.com/swagger-ui/index.html#/)
 
