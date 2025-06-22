@@ -4353,7 +4353,18 @@ Para los pacientes:
 |---|---|
 |  <p>Nombres: Luis </p> <p>Apellidos: Chavez </p> <p> Edad: 40 años</p> <p> Localidad:  San Felipe, Lima  </p> <p> Timing: 0:00 </p> <p> Duración: 5:23 </p> <p style="max-width: 350px;"> Link: [https://acortar.link/doc1](https://www.youtube.com/watch?v=L51biXD4j_g)</p>| <img src="images/entrevista-validacion-medico-1.png" width=400> |
 | Resumen:<p> En la entrevista con el doctor Luis Chávez, endocrinólogo con más de 15 años de experiencia en Lima, se resaltaron aspectos clave sobre la funcionalidad médica de la aplicación. Valoró positivamente la lista diaria de pacientes, la organización clara del historial clínico y la visualización de los niveles de glucosa mediante gráficas. También destacó la utilidad de registrar diagnósticos y tratamientos de forma rápida, así como la facilidad para cargar informes externos. Sin embargo, sugirió incluir filtros adicionales en la lista de pacientes, mejorar la integración de datos contextuales (como alimentación o actividad física) y contar con un panel clínico más completo que permita un seguimiento integral. En general, consideró que la plataforma optimiza el tiempo en consulta y mejora la coordinación médica. </p> | 
+***Doctor 2***
+| Datos del médico: | Entrevista |
+|---|---|
+|  <p>Nombres: Roberto </p> <p>Apellidos: Eustaquio</p> <p> Edad: 26</p> <p> Localidad: Ate</p> <p> Timing: 0 </p> <p> Duración: 3:38 </p> <p style="max-width: 350px;"> Link: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212112_upc_edu_pe/EQuf-Gos7_BLqBx9q92u29UBzTJU22ND3OVP5pHrnBhbJQ?e=AgmiSQ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212112_upc_edu_pe/EQuf-Gos7_BLqBx9q92u29UBzTJU22ND3OVP5pHrnBhbJQ?e=AgmiSQ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)</p>| <img src="images/EntrevistaLuisChinchihualpa.png" width=400> |
+| Resumen:<p> El doctor Roberto Eustaquio, residente en Ate, participó en la evaluación de una aplicación médica diseñada para facilitar la gestión de pacientes y optimizar el tiempo en consulta. Durante su revisión, destacó la eficiencia de la herramienta para acceder rápidamente a la lista de pacientes diarios, registrar diagnósticos, tratamientos y gestionar citas, valorando especialmente la claridad en la presentación de los datos y la organización del historial clínico. Sin embargo, sugirió incluir mejoras en la interfaz, como el uso de colores más vivos y opciones de personalización, especialmente en la sección de exámenes médicos, para hacerla más intuitiva y adaptable a las necesidades específicas de los profesionales de la salud. </p> | 
 
+
+***Doctor 3***
+| Datos del médico: | Entrevista |
+|---|---|
+|  <p>Nombres: Adrián </p> <p>Apellidos: Sotelo</p> <p> Edad: 26</p> <p> Localidad: Ate</p> <p> Timing: 0 </p> <p> Duración: 6:46 </p> <p style="max-width: 350px;"> Link: [[https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212112_upc_edu_pe/EQuf-Gos7_BLqBx9q92u29UBzTJU22ND3OVP5pHrnBhbJQ?e=AgmiSQ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212112_upc_edu_pe/EVvevrfI7mNDh3iGCJGI4CoB_ZUiNRGaJdGbu_03r93rIw?e=Dnx9Y7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)]</p>| <img src="images/EntrevistaLuisChinchihualpa.png" width=400> |
+| Resumen:<p> En la reunión con el médico endocrinólogo Adrián Marcelo Sotelo, se analizaron aspectos fundamentales del proyecto, como la gestión eficiente de la lista de pacientes y las funcionalidades que permiten a los médicos organizar consultas, acceder rápidamente a historiales médicos y programar citas. Además, se discutieron mejoras en la experiencia del usuario para garantizar que la plataforma facilite el seguimiento médico de manera efectiva y personalizada, integrando herramientas que optimicen los tiempos y promuevan una interacción más fluida entre pacientes y profesionales de la salud. </p> | 
 >Segmento de usuario – Pacientes con enfermedades hormonales.
 >
 ***Paciente 1***
@@ -4361,11 +4372,102 @@ Para los pacientes:
 |---|---|
 |  <p>Nombres: Pedro  </p> <p>Apellidos: Ramos </p> <p> Edad: 30 años</p> <p> Localidad: San Juan de Lurigancho, Lima </p> <p> Timing: 0:00 </p> <p> Duración: 7:12 </p> <p style="max-width: 350px;"> Link: (Enlace)[[https://acortar.link/qpLNZC](https://www.youtube.com/watch?v=J1qR2DBDY2I)]</p>| <img src="images/entrevista-validacion-paciente-1.png" width=400> |
 | Resumen:<p>En la entrevista con José Calderón, estudiante y paciente de Lima, se evaluó una aplicación médica. José destacó que la interfaz es intuitiva, bien organizada, y agradable visualmente, con colores y tipografía adecuados aunque sugirió ajustar algunos tamaños de letras y botones. Opinó que las funciones como gestionar citas, historial médico, recordatorios de medicamentos y subir archivos son claras y prácticas. También valoró positivamente la estructura por días y semanas en las citas, así como la funcionalidad de eliminar automáticamente las citas pasadas. En general, consideró que la aplicación es fácil de usar y eficiente para navegar entre las diferentes secciones.</p> | 
+***Paciente 2***
+| Datos del paciente: | Entrevista |
+|---|---|
+|  <p>Nombres: Jose  </p> <p>Apellidos: Calderon Huaman </p> <p> Edad: 19 años</p> <p> Localidad: Lima, Perú </p> <p> Timing: 0 </p> <p> Duración: 7:12 </p> <p style="max-width: 350px;"> Link: (Enlace)[[https://acortar.link/qpLNZC](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211742_upc_edu_pe/EUdvu_kGhglKn68XdIJMGJYBvPQjuqn5YBh4AGOz7-Gysg?e=jCUFlV&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)]</p>| <img src="images/EntrevistaJoseCalderonHuaman.png" width=400> |
+| Resumen:<p>En la entrevista con José Calderón, estudiante y paciente de Lima, se evaluó una aplicación médica. José destacó que la interfaz es intuitiva, bien organizada, y agradable visualmente, con colores y tipografía adecuados aunque sugirió ajustar algunos tamaños de letras y botones. Opinó que las funciones como gestionar citas, historial médico, recordatorios de medicamentos y subir archivos son claras y prácticas. También valoró positivamente la estructura por días y semanas en las citas, así como la funcionalidad de eliminar automáticamente las citas pasadas. En general, consideró que la aplicación es fácil de usar y eficiente para navegar entre las diferentes secciones.</p> | 
 
+***Paciente 3***  
+| **Datos del paciente:** | **Entrevista** |
+|---|---|
+| <p>• Nombres: Yudi</p><p>• Apellidos: Torres Méndez</p><p>• Edad: 34 años</p><p>• Localidad: Arequipa, Perú</p><p>• Timing: 0</p><p>• Duración: 8:05 min</p><p style="max-width: 350px;">• Link: [Grabación de la entrevista](https://1drv.ms/v/c/af0ed1eda1129143/ETbEG1h3eONDs6Eahb1WHs4Bo7u5jeYM6NdZKjLhTYDA4Q?e=i4jKFb)</p> | <img src="images/entrevistaYudi.png" width=400> |
+| **Resumen:**<p>En la entrevista con Yudi Torres, paciente de Arequipa, se evaluó la usabilidad de la aplicación médica. Yudi destacó que la interfaz es visualmente atractiva con una paleta de colores relajantes, aunque sugirió aumentar el contraste en botones críticos. Resaltó como especialmente útiles:</p><ul><li>La organización jerárquica de las citas médicas</li><li>Las alertas personalizables para medicamentos</li><li>La integración con su dispositivo de monitoreo continuo</li></ul><p>Señaló que el sistema de gestión de documentos podría mejorar con una vista previa de archivos subidos. En general, calificó la experiencia como intuitiva, con navegación fluida entre secciones.</p> |
 
 ### 6.3.3. Evaluaciones según heurísticas. 
+**Informe de Evaluación de Usabilidad - HormonalCare**  
+**Grupo:** Toiota  
+**Carrera:** Ingeniería de Software  
+**Curso:** Aplicaciones para Dispositivos Móviles  
+**Sección:** SW63  
+**Auditor:** Grupo Toiota  
+**Clientes:** Endocrinólogos y pacientes diabéticos  
+**Aplicación evaluada:** DiabetesCare  
 
+## TAREAS EVALUADAS  
+
+El alcance incluyó:  
+- Monitoreo en tiempo real de glucosa  
+- Registro de dosis de insulina  
+- Programación de citas con especialistas  
+- Historial médico digital  
+- Sistema de alertas para niveles críticos  
+
+## TAREAS NO EVALUADAS  
+
+Quedaron fuera de este análisis:  
+- Planificación de comidas  
+- Integración con wearables  
+- Análisis predictivos  
+
+## ESCALA DE GRAVEDAD  
+
+| Nivel | Descripción |  
+|-------|-------------|  
+| 1 | Problema cosmético |  
+| 2 | Problema menor |  
+| 3 | Problema grave |  
+| 4 | Error crítico |  
+
+## TABLA RESUMEN  
+
+| # | Problema | Gravedad | Principio Violado |  
+|---|----------|----------|--------------------|  
+| 1 | Gráficos no muestran relación comida/glucosa | 3 | Visualización de datos |  
+| 2 | Calculadora de insulina compleja | 2 | Eficiencia |  
+| 3 | Botón de emergencia oculto | 3 | Seguridad |  
+| 4 | Recordatorios no personalizables | 2 | Control usuario |  
+
+## DETALLE DE PROBLEMAS  
+
+### PROBLEMA #1: Gráficos sin contexto alimenticio  
+**Gravedad:** 3  
+**Principio:** Visualización efectiva  
+**Problema:** Los gráficos de glucosa no permiten correlacionar con horarios de comida.  
+<img src="images/diabetes_retro1.png" width=400>  
+**Solución:** Añadir marcadores de comidas y opción para registrar horarios.  
+
+### PROBLEMA #2: Calculadora de insulina poco intuitiva  
+**Gravedad:** 2  
+**Principio:** Eficiencia  
+**Problema:** Requiere múltiples pasos para cálculo básico.  
+<img src="images/diabetes_retro2.png" width=400>  
+**Mejora:** Implementar calculadora de un solo toque con historial.  
+
+### PROBLEMA #3: Acceso a emergencia no visible  
+**Gravedad:** 3  
+**Principio:** Seguridad  
+**Problema:** El botón de emergencia está enterrado en menús.  
+<img src="images/diabetes_retro3.png" width=400>  
+**Recomendación:** Botón flotante rojo permanente en todas las pantallas.  
+
+### PROBLEMA #4: Recordatorios genéricos  
+**Gravedad:** 2  
+**Principio:** Personalización  
+**Problema:** No se adaptan a diferentes tipos de insulinas.  
+<img src="images/diabetes_retro4.png" width=400>  
+**Solución:** Permitir configurar recordatorios específicos por medicamento.  
+
+---
 ## 6.4. Video About the product.
+
+En esta sección, presentamos un video detallado sobre HormonalCare, diseñado para ofrecer una visión completa de sus características, funcionalidades, ventajas y una opinion de un paciente y medico acerca del mismo.
+
+A continuación, puedes ver el video a través de dos plataformas:
+
+Youtube: https://youtu.be/Eg2EyFeUo_g (2:15)
+
+Microsoft Stream: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215099_upc_edu_pe/EUnXAb-_IgBGltDMrTT5a4IBaxp5cDvUIVLnlD5pxFfCiQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=tgmmRe
 
 ## Conclusiones
 
