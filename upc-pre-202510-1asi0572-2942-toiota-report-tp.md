@@ -278,6 +278,9 @@ forma conjunta</td>
 	<b>TP</b> 
       <p>Durante el desarrollo del proyecto, asumí un rol de liderazgo en el diseño visual y funcional de la aplicación web, elaborando todos los wireflows, wireframes, mockups y el prototipo navegable. Esta labor permitió unificar la visión del equipo en torno a una experiencia de usuario coherente, asegurando que el diseño respondiera a las necesidades de los usuarios y a los objetivos funcionales del sistema.
 	</p> 
+	      <b>TB2</b>
+	<p>Durante esta etapa, lideré el diseño funcional y visual de la aplicación web, elaborando los wireframes y mockups en Figma que definieron la interfaz y la experiencia del usuario. Asimismo, implementé el módulo de <i>Medical Record</i> en la web app, asegurando su integración fluida con el backend y otros módulos del sistema. Esta labor permitió al equipo mantener una visión coherente del producto digital, fortaleciendo la calidad técnica del entregable. Además, coordiné con mis compañeros en la preparación de las entrevistas de validación, alineando los objetivos técnicos y de usuario, y fomentando una toma de decisiones colaborativa y enfocada en la mejora continua del producto.
+	</p>
     <h3>La Torre Soto, Andre Sebastian</h3>
     <b>TB1</b>
     <p>Para esta entrega trabajé junto a mi equipo la definición de los Bounded Contexts (Domain, Interface, Application e Infrastructure de payment) junto a sus correspondientes diagramas (components y database). Coordinamos en equipo la identificación de las entidades, servicios y eventos principales asignados a los bounded context correspondientes a cada uno. Promoviendo siempre una toma de decisiones colaborativa y alineada con la visión general de nuestro proyecto.</p>
@@ -324,6 +327,9 @@ objetivos.</td>
 	<b>TP</b> 
       <p>Me encargué de configurar el entorno de desarrollo del proyecto y gestionar el control de versiones mediante GitHub. Esta labor permitió al equipo trabajar de forma ordenada, colaborativa y simultánea, facilitando la planificación de tareas, la integración de cambios y el cumplimiento eficiente de los objetivos técnicos establecidos.
 	</p> 
+ 	<b>TB2</b>
+<p>Contribuí activamente a un entorno colaborativo al planificar y ejecutar el diseño de la interfaz de usuario de la aplicación web en Figma, definiendo con claridad los wireframes, flujos y mockups que guiarían la implementación visual del sistema. Junto con el equipo, estructuramos las metas del Sprint, distribuyendo tareas según nuestras fortalezas y sincronizando nuestros avances a través de reuniones periódicas. Además, participé en la elaboración de las entrevistas de validación, asegurando que todos los miembros comprendieran su propósito y pudieran aportar desde sus respectivos roles. Estas acciones permitieron mantener una dinámica de trabajo participativa y orientada al cumplimiento efectivo de los objetivos técnicos y de validación del Sprint.</p>
+	
     <h3>La Torre Soto, Andre Sebastian</h3>
     <b>TB1</b>
     <p>Contribui a un entorno colaborativo e inclusivo, al trabajar junto a mi equipo para establecer metas claras y alcanzables, participando en la planificación de las integraciones entre los diferentes módulos del sistema para asegurar de que cada miembro comprendiera sus responsabilidades y los objetivos globales de nuestro proyecto.</p>
