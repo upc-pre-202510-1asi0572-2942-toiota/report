@@ -325,6 +325,8 @@ objetivos.</td>
     <b>TP</b>
     <p> Fomenté un entorno colaborativo e inclusivo al guiar la configuración y ejecución del método de despliegue de la aplicación. Me aseguré de que el entorno de producción estuviera correctamente preparado y de que todos los miembros comprendieran el proceso. Esto ayudó a cumplir con los objetivos técnicos del Sprint y a mantener una dinámica de trabajo participativa y organizada.
  </p>
+	          <b>TB2</b>
+    <p>Organicé sesiones de pair programming para implementar las funcionalidades críticas de seguridad, creando un ambiente donde todos los miembros del equipo podían contribuir y aprender. Establecí hitos semanales para el módulo de seguridad y monitoreé el progreso mediante tableros Kanban compartidos, facilitando la colaboración transversal entre los diferentes roles del proyecto y asegurando el cumplimiento de los objetivos en los plazos establecidos.</p>
     <h3>Quispesivana Torres, Claudio Sandro</h3>
     <b>TB1</b>
     <p>Creé un entorno colaborativo e inclusivo al trabajar en equipo para definir metas claras, planificar tareas y describir adecuadamente los bounded contexts en la arquitectura de software, abarcando los niveles de Landscape, Context, Container y Deployment en el proyecto HormonalCare, asegurando el cumplimiento de los objetivos establecidos.</p>
