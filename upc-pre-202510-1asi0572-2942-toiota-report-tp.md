@@ -4319,6 +4319,14 @@ Despliegue del Frontend principal
 3. Se activó la integración continua para cada push a la rama `main`.
 4. Se validó que el frontend cargue correctamente desde el dominio asignado por Netlify.
 
+
+**Capturas del Backend Desplegado:**
+
+![lading](images/evidenceBackenddesplegado.png)
+
+LINK: [https://hormonalcarelanding.netlify.app](https://hormonalcarebackend-9c81ad662b45.herokuapp.com/swagger-ui/index.html#/) 
+
+
 **Captura Backend Desplegado**
 
 ![lading](images/evidenceBackenddesplegado.png)
