@@ -4434,28 +4434,28 @@ Quedaron fuera de este análisis:
 **Gravedad:** 3  
 **Principio:** Visualización efectiva  
 **Problema:** Los gráficos de glucosa no permiten correlacionar con horarios de comida.  
-<img src="images/diabetes_retro1.png" width=400>  
+<img src="images/retrospectiva_1.png" width=400>
 **Solución:** Añadir marcadores de comidas y opción para registrar horarios.  
 
 ### PROBLEMA #2: Calculadora de insulina poco intuitiva  
 **Gravedad:** 2  
 **Principio:** Eficiencia  
 **Problema:** Requiere múltiples pasos para cálculo básico.  
-<img src="images/diabetes_retro2.png" width=400>  
+<img src="images/retrospectiva_2.png" width=400>
 **Mejora:** Implementar calculadora de un solo toque con historial.  
 
 ### PROBLEMA #3: Acceso a emergencia no visible  
 **Gravedad:** 3  
 **Principio:** Seguridad  
 **Problema:** El botón de emergencia está enterrado en menús.  
-<img src="images/diabetes_retro3.png" width=400>  
+<img src="images/retrospectiva_3.png" width=400>
 **Recomendación:** Botón flotante rojo permanente en todas las pantallas.  
 
 ### PROBLEMA #4: Recordatorios genéricos  
 **Gravedad:** 2  
 **Principio:** Personalización  
 **Problema:** No se adaptan a diferentes tipos de insulinas.  
-<img src="images/diabetes_retro4.png" width=400>  
+<img src="images/retrospectiva_4.png" width=400>
 **Solución:** Permitir configurar recordatorios específicos por medicamento.  
 
 ---
