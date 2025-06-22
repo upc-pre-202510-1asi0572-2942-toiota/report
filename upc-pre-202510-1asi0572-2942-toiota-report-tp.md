@@ -327,6 +327,8 @@ objetivos.</td>
 	<b>TP</b> 
       <p>Me encargué de configurar el entorno de desarrollo del proyecto y gestionar el control de versiones mediante GitHub. Esta labor permitió al equipo trabajar de forma ordenada, colaborativa y simultánea, facilitando la planificación de tareas, la integración de cambios y el cumplimiento eficiente de los objetivos técnicos establecidos.
 	</p> 
+	      <b>TB2</b>
+<p>Contribuí activamente a un entorno colaborativo al planificar y ejecutar el diseño de la interfaz de usuario de la aplicación web en Figma, definiendo con claridad los wireframes, flujos y mockups que guiarían la implementación visual del sistema. Junto con el equipo, estructuramos las metas del Sprint, distribuyendo tareas según nuestras fortalezas y sincronizando nuestros avances a través de reuniones periódicas. Además, participé en la elaboración de las entrevistas de validación, asegurando que todos los miembros comprendieran su propósito y pudieran aportar desde sus respectivos roles. Estas acciones permitieron mantener una dinámica de trabajo participativa y orientada al cumplimiento efectivo de los objetivos técnicos y de validación del Sprint.</p>
     <h3>La Torre Soto, Andre Sebastian</h3>
     <b>TB1</b>
     <p>Contribui a un entorno colaborativo e inclusivo, al trabajar junto a mi equipo para establecer metas claras y alcanzables, participando en la planificación de las integraciones entre los diferentes módulos del sistema para asegurar de que cada miembro comprendiera sus responsabilidades y los objetivos globales de nuestro proyecto.</p>
