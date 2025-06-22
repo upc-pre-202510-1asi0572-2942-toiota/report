@@ -4323,6 +4323,22 @@ Despliegue del Frontend principal
 
 #### 6.2.2.9. Team Collaboration Insights during Sprint.
 
+Durante este sprint, enfocamos nuestros esfuerzos en completar el frontend y actualizar el landing de nuestro proyecto, además de nuestra primera version del Wokwi. Completamos la implementación de los bounded context de manera parcial. Para proteger la rama “main”, creamos una rama “develop” de la cual cada integrante de nuestro grupo creó su propia sub-rama “feature” para subir un capítulo del reporte, siguiendo las convenciones establecidas (conventional commit y git flow). Asegurándonos durante todo el transcurso de contar con una integración fluida de los desarrollos individuales y mantener la coherencia en todo el proyecto.
+
+### Github analytics de nuestro segundo sprint Landing Page:
+<div align="center">
+    <img src="./images/capturaInsightsSprint2Landing.png">
+</div><br><br>
+
+### Github analytics de nuestro segundo sprint Backend:
+<div align="center">
+    <img src="./images/capturaInsightsSprint2Backend.png">
+</div><br><br>
+
+### Github analytics de nuestro segundo sprint Frontend:
+<div align="center">
+    <img src="./images/capturaInsightsSprint2Frontend.png">
+</div><br><br>
 
 ## 6.3. Validation Interviews.
 
