@@ -4346,6 +4346,23 @@ Para los pacientes:
 
 ### 6.3.2. Registro de Entrevistas.
 
+>Segmento de usuario – Médicos endocrinólogos.
+
+***Doctor 1***
+| Datos del médico: | Entrevista |
+|---|---|
+|  <p>Nombres: Luis </p> <p>Apellidos: Chavez </p> <p> Edad: 40 años</p> <p> Localidad:  San Felipe, Lima  </p> <p> Timing: 0:00 </p> <p> Duración: 5:23 </p> <p style="max-width: 350px;"> Link: [https://acortar.link/doc1](https://www.youtube.com/watch?v=L51biXD4j_g)</p>| <img src="images/entrevista-validacion-medico-1.png" width=400> |
+| Resumen:<p> En la entrevista con el doctor Luis Chávez, endocrinólogo con más de 15 años de experiencia en Lima, se resaltaron aspectos clave sobre la funcionalidad médica de la aplicación. Valoró positivamente la lista diaria de pacientes, la organización clara del historial clínico y la visualización de los niveles de glucosa mediante gráficas. También destacó la utilidad de registrar diagnósticos y tratamientos de forma rápida, así como la facilidad para cargar informes externos. Sin embargo, sugirió incluir filtros adicionales en la lista de pacientes, mejorar la integración de datos contextuales (como alimentación o actividad física) y contar con un panel clínico más completo que permita un seguimiento integral. En general, consideró que la plataforma optimiza el tiempo en consulta y mejora la coordinación médica. </p> | 
+
+>Segmento de usuario – Pacientes con enfermedades hormonales.
+>
+***Paciente 1***
+| Datos del paciente: | Entrevista |
+|---|---|
+|  <p>Nombres: Pedro  </p> <p>Apellidos: Ramos </p> <p> Edad: 30 años</p> <p> Localidad: San Juan de Lurigancho, Lima </p> <p> Timing: 0:00 </p> <p> Duración: 7:12 </p> <p style="max-width: 350px;"> Link: (Enlace)[[https://acortar.link/qpLNZC](https://www.youtube.com/watch?v=J1qR2DBDY2I)]</p>| <img src="images/entrevista-validacion-paciente-1.png" width=400> |
+| Resumen:<p>En la entrevista con José Calderón, estudiante y paciente de Lima, se evaluó una aplicación médica. José destacó que la interfaz es intuitiva, bien organizada, y agradable visualmente, con colores y tipografía adecuados aunque sugirió ajustar algunos tamaños de letras y botones. Opinó que las funciones como gestionar citas, historial médico, recordatorios de medicamentos y subir archivos son claras y prácticas. También valoró positivamente la estructura por días y semanas en las citas, así como la funcionalidad de eliminar automáticamente las citas pasadas. En general, consideró que la aplicación es fácil de usar y eficiente para navegar entre las diferentes secciones.</p> | 
+
+
 ### 6.3.3. Evaluaciones según heurísticas. 
 
 ## 6.4. Video About the product.
