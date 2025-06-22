@@ -4221,7 +4221,14 @@ En este sprint, el enfoque estará en desarrollar los servicios backend que perm
 | hormonal_care_backend | feature/tests     | m0n1o2p   | test: refactor test structure    | Refactored the test structure to improve readability and maintainability.          | 2025-06-5          |
 
 #### 6.2.2.6. Execution Evidence for Sprint Review.
+
+WOKWI:
+
+![lading](images/captureWokwiSprint2.png)
+
 https://wokwi.com/projects/434432781248501761
+
+
 WEB APP:
 
 **Inicio de sesión:**
@@ -4244,17 +4251,24 @@ WEB APP:
 MOBILE APP:
 
 **Inicio de sesión:**
+
 ![lading](images/capmobile2-1.png)
 
+
 **Edit User data**
+
 ![lading](images/capmobile2-2.png)
 
+
 **Doctor Appointments**
+
 ![lading](images/capmobile2-3.png)
 
 ![lading](images/capmobile2-4.png)
 
+
 **Patient messages**
+
 ![lading](images/capmobile2-5.png)
 
 
