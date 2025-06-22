@@ -83,8 +83,20 @@ Como evidencia de la participación activa, incluimos un gráfico de commits de 
 
 <div align="center"><img src="./Resources/Chapter-0/insights/insights-tp.png"></div>
 
+
+TB2: Para esta primera entrega del Trabajo de Proyecto, trabajamos de forma colaborativa y organizada, utilizando un repositorio compartido en la organización de GitHub del equipo. Cada miembro participó activamente tanto en la redacción del informe como en la implementación del sistema.
+
+Coordinamos nuestras tareas mediante reuniones periódicas en Discord, donde distribuimos responsabilidades de forma equilibrada. Estas incluyeron: actualización de artefactos anteriores, elaboración de las nuevas secciones del informe (como UI/UX Design y Product Implementation), y desarrollo de la Landing Page y la primera versión del Frontend.
+
+A lo largo del Sprint 2, generamos evidencias claras: planificación, backlog, desarrollo, pruebas, despliegue y documentación. También mantuvimos actualizado el Registro de Versiones del Informe, la sección de Colaboración del Proyecto, y los Student Outcomes.
+
+Como evidencia de la participación activa, incluimos un gráfico de commits de GitHub que refleja el trabajo conjunto y el compromiso del equipo.
+
+<div align="center"><img src="images/insightsTB2V2.png"></div>
+
 </div>
 <div style="page-break-after: always;"></div>
+
 
 
 ## Contenido
