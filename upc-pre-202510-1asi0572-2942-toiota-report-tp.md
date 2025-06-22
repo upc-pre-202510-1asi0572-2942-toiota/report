@@ -4269,6 +4269,9 @@ LINK: [https://hormonalcarelanding.netlify.app](https://hormonalcarebackend-9c81
 
 LINK: https://hormonalcarebackend-9c81ad662b45.herokuapp.com/swagger-ui/index.html#/
 
+**Si bien se logró deployar el backend, este se tuvo que apagar para ahorrar los créditos gratuitos y usarlo en futuras entregas**
+
+
 #### 6.2.2.9. Team Collaboration Insights during Sprint.
 
 Durante este sprint, enfocamos nuestros esfuerzos en completar el frontend y actualizar el landing de nuestro proyecto, además de nuestra primera version del Wokwi. Completamos la implementación de los bounded context de manera parcial. Para proteger la rama “main”, creamos una rama “develop” de la cual cada integrante de nuestro grupo creó su propia sub-rama “feature” para subir un capítulo del reporte, siguiendo las convenciones establecidas (conventional commit y git flow). Asegurándonos durante todo el transcurso de contar con una integración fluida de los desarrollos individuales y mantener la coherencia en todo el proyecto.
