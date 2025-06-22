@@ -4209,6 +4209,22 @@ En este sprint, el enfoque estará en desarrollar los servicios backend que perm
 
 #### 6.2.2.6. Execution Evidence for Sprint Review.
 
+**Inicio de sesión:**
+![lading](images/capMRV2-5.png)
+
+**Edit User data**
+![lading](images/capMRV2-2.png)
+
+**Medical Record: History**
+![lading](images/capMRV2-1.png)
+
+**Medical Record: Reports**
+![lading](images/capMRV2-3.png)
+
+**Medical Record: Graphics & Evolution**
+![lading](images/capMRV2-4.png)
+
+
 #### 6.2.2.7. Services Documentation for Sprint Review.
 
 #### 6.2.2.8. Software Deployment for Sprint Review.
