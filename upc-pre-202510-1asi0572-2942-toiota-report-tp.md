@@ -3967,12 +3967,18 @@ Despliegue de la Landing Page en Netlify
 
 ---
 
-Despliegue del Frontend principal
+**Despliegue del Frontend principal**
 
 1. Se creó un nuevo proyecto en Netlify vinculado al repositorio del frontend.
 2. Se configuró correctamente el comando de build (`npm run build`) y el directorio de salida (`dist`).
 3. Se activó la integración continua para cada push a la rama `main`.
 4. Se validó que el frontend cargue correctamente desde el dominio asignado por Netlify.
+
+**Capturas del Backend Desplegado:**
+
+![lading](images/evidenceBackenddesplegado.png)
+
+LINK: [https://hormonalcarelanding.netlify.app](https://hormonalcarebackend-9c81ad662b45.herokuapp.com/swagger-ui/index.html#/)
 
 #### 6.2.1.9. Team Collaboration Insights during Sprint. 
 
