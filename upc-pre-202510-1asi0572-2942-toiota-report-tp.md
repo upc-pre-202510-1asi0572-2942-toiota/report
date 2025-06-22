@@ -4213,6 +4213,30 @@ En este sprint, el enfoque estará en desarrollar los servicios backend que perm
 
 #### 6.2.2.8. Software Deployment for Sprint Review.
 
+En esta sección se resume los procesos realizados en relación con Deployment durante este Sprint. Se realizaron las configuraciones necesarias para publicar y mantener activos tanto la **Landing Page** como el **Frontend estático** en la nube, usando **Netlify** como proveedor de despliegue. El proceso incluyó la creación de cuentas, vinculación con los repositorios Git y automatización del despliegue continuo.
+
+Despliegue de la Landing Page en Netlify
+
+1. Se creó una cuenta en [Netlify](https://www.netlify.com/).
+2. Se vinculó el repositorio del proyecto de la Landing Page a Netlify.
+3. Se configuró la rama de despliegue (`main`) para activar el **CI/CD** automáticamente.
+4. Se verificó que la build fuera exitosa (usando configuración predeterminada de React/Vite/HTML).
+5. Se generó el dominio automático y se validó que la landing esté publicada y funcional.
+
+**Capturas del proceso:**
+
+![lading](images/lading.png)
+
+LINK: https://hormonalcarelanding.netlify.app/ 
+
+
+Despliegue del Frontend principal
+
+1. Se creó un nuevo proyecto en Netlify vinculado al repositorio del frontend.
+2. Se configuró correctamente el comando de build (`npm run build`) y el directorio de salida (`dist`).
+3. Se activó la integración continua para cada push a la rama `main`.
+4. Se validó que el frontend cargue correctamente desde el dominio asignado por Netlify.
+
 #### 6.2.2.9. Team Collaboration Insights during Sprint.
 
 
