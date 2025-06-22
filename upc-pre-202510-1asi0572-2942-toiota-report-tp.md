@@ -4209,20 +4209,40 @@ En este sprint, el enfoque estará en desarrollar los servicios backend que perm
 
 #### 6.2.2.6. Execution Evidence for Sprint Review.
 
+WEB APP:
+
 **Inicio de sesión:**
 ![lading](images/capMRV2-5.png)
 
-**Edit User data**
+**Edit Doctor data**
 ![lading](images/capMRV2-2.png)
 
-**Medical Record: History**
+**Patient Medical Record: History**
 ![lading](images/capMRV2-1.png)
 
-**Medical Record: Reports**
+**Patient Medical Record: Reports**
 ![lading](images/capMRV2-3.png)
 
-**Medical Record: Graphics & Evolution**
+**Patient Medical Record: Graphics & Evolution**
 ![lading](images/capMRV2-4.png)
+
+---
+
+MOBILE APP:
+
+**Inicio de sesión:**
+![lading](images/capmobile2-1.png)
+
+**Edit User data**
+![lading](images/capmobile2-2.png)
+
+**Doctor Appointments**
+![lading](images/capmobile2-3.png)
+
+![lading](images/capmobile2-4.png)
+
+**Patient messages**
+![lading](images/capmobile2-5.png)
 
 
 #### 6.2.2.7. Services Documentation for Sprint Review.
