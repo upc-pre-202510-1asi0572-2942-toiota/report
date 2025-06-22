@@ -4263,7 +4263,6 @@ MOBILE APP:
 **Doctor Appointments**
 
 ![lading](images/capmobile2-3.png)
-
 ![lading](images/capmobile2-4.png)
 
 
@@ -4338,6 +4337,11 @@ Durante este sprint, enfocamos nuestros esfuerzos en completar el frontend y act
 ### Github analytics de nuestro segundo sprint Frontend:
 <div align="center">
     <img src="./images/capturaInsightsSprint2Frontend.png">
+</div><br><br>
+
+### Github analytics de nuestro segundo sprint Mobile:
+<div align="center">
+    <img src="./images/capturaInsightsSprint2Mobile.png">
 </div><br><br>
 
 ## 6.3. Validation Interviews.
