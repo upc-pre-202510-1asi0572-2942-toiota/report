@@ -4059,7 +4059,7 @@ En esta sección se resume los procesos realizados en relación con Deployment d
 
 ---
 
-### 🟢 Despliegue de la Landing Page en Netlify
+Despliegue de la Landing Page en Netlify
 
 1. Se creó una cuenta en [Netlify](https://www.netlify.com/).
 2. Se vinculó el repositorio del proyecto de la Landing Page a Netlify.
@@ -4067,13 +4067,13 @@ En esta sección se resume los procesos realizados en relación con Deployment d
 4. Se verificó que la build fuera exitosa (usando configuración predeterminada de React/Vite/HTML).
 5. Se generó el dominio automático y se validó que la landing esté publicada y funcional.
 
-📸 **Capturas del proceso:**
+**Capturas del proceso:**
 
-![lading](images/lading.png)
+![lading](images/capturaLandingPageV2.png)
 
 ---
 
-### 🟢 Despliegue del Frontend principal
+Despliegue del Frontend principal
 
 1. Se creó un nuevo proyecto en Netlify vinculado al repositorio del frontend.
 2. Se configuró correctamente el comando de build (`npm run build`) y el directorio de salida (`dist`).
