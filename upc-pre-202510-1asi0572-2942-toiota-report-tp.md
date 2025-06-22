@@ -49,6 +49,7 @@
 | TB1  v.4   | 25/04/2025 | Claudio Quispesivana, Sergio Pecan, Andre La Torre,Luis Chinchihualpa, Estefano Lostaunau | Para esta entrega se desarrollaron los capitulos IV|
 | TP  v.5   | 13/05/2025 | Claudio Quispesivana, Estefano Lostaunau | Para esta entrega se desarrollaron los capitulos IV: indice y contenido de Style Guidelines, Information Architecture y Landing Page UI Design. |
 | TP  v.56  | 13/05/2025 | Luis Chinchihualpa,  Sergio Pecan, Andre La Torre | Para esta entrega se desarrollaron los capitulos V y VI : todo referente a la parte codificacion del spring 1. |
+| TB2  v.6  | 13/05/2025 | Luis Chinchihualpa,  Sergio Pecan, Andre La Torre | Para esta entrega se desarrollaron los capitulos VI y VI : todo referente a la parte codificacion del spring 1. |
 
 </div>
 
@@ -271,6 +272,9 @@ forma conjunta</td>
 	      <b>TP</b> 
       <p>Durante el transcurso de este entregable , asumí un rol de liderazgo junto a mis compañeros al delimitar y realizar responsabilidades divididas para agilizar la elaboración de los puntos del Sprint como serían la gestión del codigo, guia y convenciones de estilo, el avance de componentes en nuestro Front-end y el despliegue del Back-end. Lo que nos permitió realizar un avance ágil en el informe y del despliegue de nuestro sistema.
 	</p> 
+        <b>TB2</b> 
+      <p>Durante el Sprint Review, lideré junto a mi equipo la elaboración de evidencias de desarrollo, pruebas y validación. Coordinamos la organización del repositorio, documentamos avances técnicos y construimos en conjunto la Testing Suite. Además, participé en entrevistas de validación, sistematizando hallazgos para mejorar el producto. Estas acciones reflejan un liderazgo compartido y una toma de decisiones colaborativa.
+	</p> 
     <h3>Lostaunau Pereira, Estefano Sebastian</h3>
     <b>TB1</b>
     <p>Trabajamos juntos en la definición del perfil de la startup y la problemática en los Capítulos I y II. En el Capítulo III priorizamos y presentamos las User Stories ante el equipo y stakeholders. En el Capítulo IV definimos los Bounded Contexts (Domain, Interface, Application e Infrastructure) y elaboramos los diagramas de componentes y de código (Domain Layer Class y Database). Así lideramos de forma conjunta las decisiones arquitectónicas clave del proyecto.</p>
@@ -314,6 +318,9 @@ objetivos.</td>
     <b>TP</b>
     <p> Para esta entrega, estuvimos colaborando fuertemente al momento de trazar los puntos a corregir y avanzar. Delimitando los puntos que cada uno debia avanzar, contando además con reuniones constantes para asegurar el progreso y cumplimiento de cada una de las labores asignadas. Cumpliendo al final con cada objetivo de la entrega, manteniendo un orden y ambiente colaborativo.
  </p>      
+	<b>TB2</b> 
+      <p>Promoví un entorno colaborativo definiendo objetivos claros con mi equipo para las evidencias del Sprint. Organizamos tareas, usamos herramientas compartidas y establecimos metas semanales que facilitaron cumplir los entregables de desarrollo, pruebas e investigación. Esta planificación conjunta aseguró la participación activa y el cumplimiento de los objetivos.
+	</p> 
     <h3>Lostaunau Pereira, Estefano Sebastian</h3>
     <b>TB1</b>
     <p>Creamos un entorno inclusivo desde el inicio, dividiendo y planificando las tareas de Introducción, Análisis, Especificación y Arquitectura. Establecimos metas claras para cada capítulo y revisamos juntos los avances. Ajustamos las User Stories y entregables en equipo, y en Arquitectura nos repartimos los Bounded Contexts y sus diagramas (Component Level, Domain Layer Class y Database). Cumplimos los plazos y objetivos acordados, manteniendo la colaboración y el sentido de pertenencia.</p>
