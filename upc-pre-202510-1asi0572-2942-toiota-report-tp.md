@@ -49,6 +49,7 @@
 | TB1  v.4   | 25/04/2025 | Claudio Quispesivana, Sergio Pecan, Andre La Torre,Luis Chinchihualpa, Estefano Lostaunau | Para esta entrega se desarrollaron los capitulos IV|
 | TP  v.5   | 13/05/2025 | Claudio Quispesivana, Estefano Lostaunau | Para esta entrega se desarrollaron los capitulos IV: indice y contenido de Style Guidelines, Information Architecture y Landing Page UI Design. |
 | TP  v.56  | 13/05/2025 | Luis Chinchihualpa,  Sergio Pecan, Andre La Torre | Para esta entrega se desarrollaron los capitulos V y VI : todo referente a la parte codificacion del spring 1. |
+| TB2  v.6  | 13/05/2025 | Luis Chinchihualpa,  Sergio Pecan, Andre La Torre | Para esta entrega se desarrollaron los capitulos VI y VI : todo referente a la parte codificacion del spring 1. |
 
 </div>
 
@@ -271,6 +272,9 @@ forma conjunta</td>
 	      <b>TP</b> 
       <p>Durante el transcurso de este entregable , asumí un rol de liderazgo junto a mis compañeros al delimitar y realizar responsabilidades divididas para agilizar la elaboración de los puntos del Sprint como serían la gestión del codigo, guia y convenciones de estilo, el avance de componentes en nuestro Front-end y el despliegue del Back-end. Lo que nos permitió realizar un avance ágil en el informe y del despliegue de nuestro sistema.
 	</p> 
+        <b>TB2</b> 
+      <p>Durante el Sprint Review, lideré junto a mi equipo la elaboración de evidencias de desarrollo, pruebas y validación. Coordinamos la organización del repositorio, documentamos avances técnicos y construimos en conjunto la Testing Suite. Además, participé en entrevistas de validación, sistematizando hallazgos para mejorar el producto. Estas acciones reflejan un liderazgo compartido y una toma de decisiones colaborativa.
+	</p> 
     <h3>Lostaunau Pereira, Estefano Sebastian</h3>
     <b>TB1</b>
     <p>Trabajamos juntos en la definición del perfil de la startup y la problemática en los Capítulos I y II. En el Capítulo III priorizamos y presentamos las User Stories ante el equipo y stakeholders. En el Capítulo IV definimos los Bounded Contexts (Domain, Interface, Application e Infrastructure) y elaboramos los diagramas de componentes y de código (Domain Layer Class y Database). Así lideramos de forma conjunta las decisiones arquitectónicas clave del proyecto.</p>
@@ -314,6 +318,9 @@ objetivos.</td>
     <b>TP</b>
     <p> Para esta entrega, estuvimos colaborando fuertemente al momento de trazar los puntos a corregir y avanzar. Delimitando los puntos que cada uno debia avanzar, contando además con reuniones constantes para asegurar el progreso y cumplimiento de cada una de las labores asignadas. Cumpliendo al final con cada objetivo de la entrega, manteniendo un orden y ambiente colaborativo.
  </p>      
+	<b>TB2</b> 
+      <p>Promoví un entorno colaborativo definiendo objetivos claros con mi equipo para las evidencias del Sprint. Organizamos tareas, usamos herramientas compartidas y establecimos metas semanales que facilitaron cumplir los entregables de desarrollo, pruebas e investigación. Esta planificación conjunta aseguró la participación activa y el cumplimiento de los objetivos.
+	</p> 
     <h3>Lostaunau Pereira, Estefano Sebastian</h3>
     <b>TB1</b>
     <p>Creamos un entorno inclusivo desde el inicio, dividiendo y planificando las tareas de Introducción, Análisis, Especificación y Arquitectura. Establecimos metas claras para cada capítulo y revisamos juntos los avances. Ajustamos las User Stories y entregables en equipo, y en Arquitectura nos repartimos los Bounded Contexts y sus diagramas (Component Level, Domain Layer Class y Database). Cumplimos los plazos y objetivos acordados, manteniendo la colaboración y el sentido de pertenencia.</p>
@@ -325,6 +332,8 @@ objetivos.</td>
     <b>TP</b>
     <p> Fomenté un entorno colaborativo e inclusivo al guiar la configuración y ejecución del método de despliegue de la aplicación. Me aseguré de que el entorno de producción estuviera correctamente preparado y de que todos los miembros comprendieran el proceso. Esto ayudó a cumplir con los objetivos técnicos del Sprint y a mantener una dinámica de trabajo participativa y organizada.
  </p>
+	          <b>TB2</b>
+    <p>Organicé sesiones de pair programming para implementar las funcionalidades críticas de seguridad, creando un ambiente donde todos los miembros del equipo podían contribuir y aprender. Establecí hitos semanales para el módulo de seguridad y monitoreé el progreso mediante tableros Kanban compartidos, facilitando la colaboración transversal entre los diferentes roles del proyecto y asegurando el cumplimiento de los objetivos en los plazos establecidos.</p>
     <h3>Quispesivana Torres, Claudio Sandro</h3>
     <b>TB1</b>
     <p>Creé un entorno colaborativo e inclusivo al trabajar en equipo para definir metas claras, planificar tareas y describir adecuadamente los bounded contexts en la arquitectura de software, abarcando los niveles de Landscape, Context, Container y Deployment en el proyecto HormonalCare, asegurando el cumplimiento de los objetivos establecidos.</p>
@@ -3944,7 +3953,7 @@ En esta sección se resume los procesos realizados en relación con Deployment d
 
 ---
 
-### 🟢 Despliegue de la Landing Page en Netlify
+Despliegue de la Landing Page en Netlify
 
 1. Se creó una cuenta en [Netlify](https://www.netlify.com/).
 2. Se vinculó el repositorio del proyecto de la Landing Page a Netlify.
@@ -3952,13 +3961,13 @@ En esta sección se resume los procesos realizados en relación con Deployment d
 4. Se verificó que la build fuera exitosa (usando configuración predeterminada de React/Vite/HTML).
 5. Se generó el dominio automático y se validó que la landing esté publicada y funcional.
 
-📸 **Capturas del proceso:**
+**Capturas del proceso:**
 
-![lading](images/lading.png)
+![lading](images/capturaLandingPageV2.png)
 
 ---
 
-### 🟢 Despliegue del Frontend principal
+Despliegue del Frontend principal
 
 1. Se creó un nuevo proyecto en Netlify vinculado al repositorio del frontend.
 2. Se configuró correctamente el comando de build (`npm run build`) y el directorio de salida (`dist`).
@@ -3984,6 +3993,426 @@ Durante este sprint, enfocamos nuestros esfuerzos en completar y desplegar tanto
 <div align="center">
     <img src="./images/Sprint1-Team-Insights-Frontend.png">
 </div><br><br>
+
+
+### 6.2.2. Sprint 2
+
+#### 6.2.2.1. Sprint Planning 2
+
+#### En este sprint, el enfoque estará en seguir desarrollar los servicios backend y frontend que permitirán la correcta interacción con la base de datos y el manejo de los datos requeridos por las funcionalidades de la aplicación móvil "HormonalCare". Los servicios serán diseñados para ser escalables y eficientes, empleando buenas prácticas de desarrollo como **Clean Architecture** y **Domain-Driven Design**.
+
+
+| Sprint #                        | Sprint 2                                                                                                                                                                                                                                                                                                          |
+|---------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background**  |                                                                                                                                                                                                                                                                                                                   |
+| Date                            | 14-04-2025                                                                                                                                                                                                                                                                                                        |
+| Time                            | 10:00 p.m.                                                                                                                                                                                                                                                                                                        |
+| Location                        | Reunión realizada mediante Discord                                                                                                                                                                                                                                                                                |
+| Prepared By                     | La torre Soto, Andre Sebastián                                                                                                                                                                                                                                                                                    |
+| Attendees (to planning meeting) | Chinchihualpa Saldarriaga, Luis Sebastian / La Torre Soto, Andre Sebastian / Lostaunau Pereira, Estefano Sebastian	/ Pecan Pariona, Sergio Joel / Quispesivana Torres, Claudio Sandro                                                                                                                             |
+| **Sprint Goal & User Stories**  |                                                                                                                                                                                                                                                                                                                   |
+| Sprint 2 Goal                   | Concluir con la implementacion total de los servicios backend, las interfaces frontend y las funcionalidades móviles necesarias para la interacción con la base de datos, las funcionalidades de la aplicación y la experiencia de usuario, asegurando la escalabilidad, mantenibilidad y usabilidad del sistema. |
+| Sprint 2 Velocity               | 70 Story Points                                                                                                                                                                                                                                                                                                   |
+| Sum of Story Points             | 70 Story Points                                                                                                                                                                                                                                                                                                   |
+
+
+#### 6.2.2.2. Aspect Leaders and Collaborators
+
+| Aspecto                          | Líder                           | Colaboradores                                                                  |
+|----------------------------------|---------------------------------|--------------------------------------------------------------------------------|
+| **Backend Development**          | Quispesivana Torres, Claudio    | La torre Soto, Andre                                                           |
+| **Frontend Development**         | Pecan Pariona, Sergio           | Pecan Pariona, Sergio / La Torre Soto, Andre / Chinchihualpa Saldarriaga, Luis |
+| **Mobile Development**           | Pecan Pariona, Sergio           | Quispesivana Torres, Claudio                                                   |
+| **Database Design**              | Chinchihualpa Saldarriaga, Luis | Lostaunau Pereira, Estéfano                                                    |
+| **API Integration**              | Pecan Pariona, Sergio           | Quispesivana Torres, Claudio                                                   |
+| **UI/UX Design**                 | La Torre Soto, Andre            | Quispesivana Torres, Claudio                                                   |
+| **Testing and Validation**       | Pecan Pariona, Sergio           | La Torre Soto, Andre                                                           |
+| **Deployment and CI/CD**         | Quispesivana Torres, Claudio    | Chinchihualpa Saldarriaga, Luis / Lostaunau Pereira, Estéfano                  |
+
+#### 6.2.2.3. Sprint Backlog 2
+
+En este sprint, el enfoque estará en desarrollar los servicios backend que permitirán la correcta interacción con la base de datos y el manejo de los datos requeridos por las funcionalidades de la aplicación móvil "HormonalCare". Se utilizarán herramientas como **Spring Boot** para la implementación de servicios web, **Postman** para pruebas de APIs, y **Swagger** para documentar las interfaces. Además, se emplearán buenas prácticas de desarrollo como **Clean Architecture** y  **Domain-Driven Design** para garantizar la escalabilidad y mantenibilidad del sistema.
+
+| ID   | User Story                                  | Work-Item / Task                                    | Description                                                                                                                 | Estimation (Hours) | Assigned To           | Status   |
+|------|---------------------------------------------|-----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|--------------------|-----------------------|----------|
+| US59 | Medición continua de glucosa                | T01: Diseño de la interfaz de medición de glucosa   | Diseñar la interfaz donde el paciente podrá visualizar los valores de glucosa.                                              | 4                  | Sergio                | Todo     |
+|      |                                             | T02: Implementación de medición continua            | Implementar la funcionalidad para la medición continua de glucosa en el parche y la sincronización con la app.              | 4                  | Andre                 | Todo     |
+|      |                                             | T03: Pruebas de medición continua de glucosa        | Realizar pruebas para verificar que la medición continua de glucosa funcione correctamente.                                 | 3                  | Estefano              | Todo     |
+| US60 | Medición de temperatura y ritmo cardíaco    | T01: Diseño de interfaz de signos vitales           | Diseñar la interfaz para mostrar la temperatura y ritmo cardíaco en tiempo real.                                            | 4                  | Luis                  | Todo     |
+|      |                                             | T02: Implementación de medición de signos vitales   | Implementar la medición de temperatura y ritmo cardíaco y su visualización en la app móvil.                                 | 4                  | Andre                 | Todo     |
+|      |                                             | T03: Pruebas de medición de signos vitales          | Realizar pruebas para asegurarse de que los signos vitales se miden y muestran correctamente.                               | 3                  | Estefano              | Todo     |
+| US61 | Registro automático para seguimiento médico | T01: Diseño de panel de informes                    | Diseñar la sección del panel para que los médicos accedan al informe detallado de los pacientes.                            | 4                  | Sergio                | Todo     |
+|      |                                             | T02: Implementación de registro automático          | Implementar la funcionalidad para que los datos del paciente se registren automáticamente y sean accesibles para el médico. | 4                  | Luis                  | Todo     |
+|      |                                             | T03: Pruebas de registro automático                 | Realizar pruebas para asegurar que el registro automático funcione y se presente correctamente.                             | 3                  | Andre                 | Todo     |
+| US62 | Cálculo automático de insulina              | T01: Diseño de calculadora de insulina              | Diseñar la interfaz para mostrar el cálculo automático de insulina en la app del paciente.                                  | 4                  | Sergio                | Todo     |
+|      |                                             | T02: Implementación del cálculo automático          | Implementar la funcionalidad para que el sistema calcule la dosis de insulina según los niveles de glucosa.                 | 4                  | Andre                 | Todo     |
+|      |                                             | T03: Pruebas de cálculo de insulina                 | Realizar pruebas para validar que el cálculo automático de insulina se realice correctamente.                               | 3                  | Estefano              | Todo     |
+| US63 | Validación clínica del cálculo              | T01: Diseño de panel de validación médica           | Diseñar el panel donde el médico podrá auditar y validar los cálculos de insulina.                                          | 4                  | Luis                  | Todo     |
+|      |                                             | T02: Implementación de validación clínica           | Implementar el sistema para que el médico valide los cálculos automáticos de insulina según parámetros clínicos.            | 6                  | Sergio                | Todo     |
+|      |                                             | T03: Pruebas de validación clínica                  | Realizar pruebas para verificar que la validación clínica del cálculo de insulina sea correcta.                             | 3                  | Andre                 | Todo     |
+| US64 | Administración automática de insulina       | T01: Diseño de interfaz de administración           | Diseñar la interfaz de administración automática de insulina en la app del paciente.                                        | 4                  | Estefano              | Todo     |
+|      |                                             | T02: Implementación de administración automática    | Implementar la funcionalidad para la administración automática de insulina cuando se detecten niveles altos de glucosa.     | 6                  | Luis                  | Todo     |
+|      |                                             | T03: Pruebas de administración automática           | Realizar pruebas para asegurar que la administración automática de insulina funcione correctamente.                         | 3                  | Andre                 | Todo     |
+| US65 | Notificación previa a administración        | T01: Diseño de notificación previa                  | Diseñar la notificación previa a la administración de insulina para que el paciente pueda aceptarla o cancelarla.           | 2                  | Sergio                | Todo     |
+|      |                                             | T02: Implementación de notificación previa          | Implementar la notificación previa a la administración automática de insulina con opciones de aceptar o cancelar.           | 3                  | Andre                 | Todo     |
+|      |                                             | T03: Pruebas de notificación previa                 | Realizar pruebas para verificar que la notificación previa se emita correctamente y que la cancelación funcione.            | 3                  | Estefano              | Todo     |
+| US66 | Historial de administración                 | T01: Diseño del historial de administración         | Diseñar la sección del historial de administración de insulina donde los médicos puedan ver las dosis aplicadas.            | 4                  | Luis                  | Todo     |
+|      |                                             | T02: Implementación de historial de administración  | Implementar la funcionalidad para que los médicos puedan acceder al historial detallado de administración de insulina.      | 6                  | Sergio                | Todo     |
+|      |                                             | T03: Pruebas de historial de administración         | Realizar pruebas para asegurarse de que el historial de administración se visualice correctamente en la app.                | 3                  | Andre                 | Todo     |
+| US67 | Visualización de datos en app móvil         | T01: Diseño de interfaz para visualización de datos | Diseñar la interfaz de la app donde se visualicen los datos de glucosa, temperatura y ritmo cardíaco en tiempo real.        | 4                  | Estefano              | Todo     |
+|      |                                             | T02: Implementación de visualización de datos       | Implementar la visualización de datos en tiempo real desde el parche hacia la app móvil del paciente.                       | 6                  | Luis                  | Todo     |
+|      |                                             | T03: Pruebas de visualización de datos              | Realizar pruebas para asegurarse de que los datos se visualicen correctamente y se actualicen en tiempo real.               | 3                  | Andre                 | Todo     |
+| US68 | Monitoreo remoto del médico                 | T01: Diseño del panel de monitoreo médico           | Diseñar la interfaz web para que los médicos puedan visualizar los datos de los pacientes en tiempo real.                   | 4                  | Sergio                | Todo     |
+|      |                                             | T02: Implementación de monitoreo remoto             | Implementar la funcionalidad de monitoreo remoto de los pacientes desde el panel de control web del médico.                 | 6                  | Andre                 | Todo     |
+|      |                                             | T03: Pruebas de monitoreo remoto                    | Realizar pruebas para verificar que los datos de los pacientes se visualicen correctamente en el panel web del médico.      | 3                  | Estefano              | Todo     |
+| US69 | Alertas por niveles fuera de rango          | T01: Diseño de sistema de alertas                   | Diseñar el sistema de alertas que notifique al paciente cuando los niveles de glucosa estén fuera de rango.                 | 4                  | Luis                  | Todo     |
+|      |                                             | T02: Implementación de alertas por niveles          | Implementar el sistema de alertas que notifique al paciente por niveles críticos de glucosa y registre la confirmación.     | 6                  | Estefano              | Todo     |
+|      |                                             | T03: Pruebas de alertas                             | Realizar pruebas para asegurar que las alertas se emitan correctamente cuando los niveles de glucosa sean críticos.         | 3                  | Sergio                | Todo     |
+| US70 | Control del autosuministro desde app        | T01: Diseño de control de autosuministro            | Diseñar la interfaz para que el paciente pueda activar o desactivar el autosuministro desde la app.                         | 4                  | Sergio                | Todo     |
+|      |                                             | T02: Implementación de control de autosuministro    | Implementar la funcionalidad para que el paciente pueda controlar el autosuministro de insulina desde la app.               | 6                  | Luis                  | Todo     |
+|      |                                             | T03: Pruebas de control de autosuministro           | Realizar pruebas para asegurar que el control de autosuministro desde la app funcione correctamente.                        | 3                  | Andre                 | Todo     |
+| US71 | Configuración de alertas personalizadas     | T01: Diseño de configuración de alertas             | Diseñar la interfaz donde el médico pueda configurar alertas personalizadas para cada paciente.                             | 4                  | Estefano              | Todo     |
+|      |                                             | T02: Implementación de configuración de alertas     | Implementar la funcionalidad para que el médico pueda configurar límites personalizados de alerta para cada paciente.       | 6                  | Andre                 | Todo     |
+|      |                                             | T03: Pruebas de configuración de alertas            | Realizar pruebas para validar que las alertas configuradas funcionen adecuadamente.                                         | 3                  | Luis                  | Todo     |
+| US72 | Protección de datos personales              | T01: Diseño de sistema de protección de datos       | Diseñar la interfaz y funcionalidad para proteger los datos personales de los pacientes, restringiendo el acceso.           | 4                  | Sergio                | Todo     |
+|      |                                             | T02: Implementación de protección de datos          | Implementar medidas de protección de datos como autenticación y encriptación de información.                                | 6                  | Andre                 | Todo     |
+|      |                                             | T03: Pruebas de protección de datos                 | Realizar pruebas para verificar que los datos personales del paciente estén protegidos correctamente.                       | 3                  | Estefano              | Todo     |
+| US73 | Seguridad médica y cumplimiento normativo   | T01: Diseño de medidas de seguridad                 | Diseñar el sistema de seguridad para garantizar el cumplimiento normativo y la protección de datos médicos.                 | 4                  | Luis                  | Todo     |
+|      |                                             | T02: Implementación de medidas de seguridad         | Implementar cifrado de extremo a extremo y doble autenticación para cumplir con normativas de seguridad médica.             | 6                  | Sergio                | Todo     |
+|      |                                             | T03: Pruebas de seguridad médica                    | Realizar pruebas para asegurarse de que el sistema cumpla con las normativas de seguridad y protección de datos.            | 3                  | Andre                 | Todo     |
+
+
+
+### 6.2.1.4. Development Evidence for Sprint Review. 
+| Repository            | Branch  | Commit Id     | Commit Message                 | Commit Message Body                                                                 | Committed on (Date)  |
+|-----------------------|---------|---------------|--------------------------------|-------------------------------------------------------------------------------------|-----------------------|
+| hormonal_care_backend | develop | a1b2c3d       | feat(api): add patient module  | Added the patient module with endpoints for creation, update, and retrieval.        | 2025-06-7           |
+| hormonal_care_backend | develop | e4f5g6h       | fix: resolve null pointer      | Fixed a null pointer error in the appointment service when handling incomplete data. | 2025-06-8           |
+| hormonal_care_backend | develop | i7j8k9l       | chore: update dependencies     | Updated dependencies in `pom.xml` to improve security and performance.              | 2025-06-7           |
+| hormonal_care_backend | develop | m0n1o2p       | refactor: optimize queries     | Optimized SQL queries in the user repository to enhance performance.                | 2025-06-8           |
+
+
+
+
+
+
+#### 6.2.1.5. Testing Suite Evidence for Sprint Review.
+
+| Repository            | Branch            | Commit Id | Commit Message                  | Commit Message Body                                                                 | Committed on (Date) |
+|-----------------------|-------------------|-----------|---------------------------------|-------------------------------------------------------------------------------------|---------------------|
+| hormonal_care_backend | feature/tests     | a1b2c3d   | test: add unit tests for service | Added unit tests for the patient service, validating business logic and exceptions. | 2025-06-13          |
+| hormonal_care_backend | feature/tests     | e4f5g6h   | test: add integration tests      | Implemented integration tests for the appointment module endpoints.                | 2025-06-15          |
+| hormonal_care_backend | feature/tests     | i7j8k9l   | test: improve coverage           | Improved test coverage in the user repository, including edge cases.               | 2025-06-10          |
+| hormonal_care_backend | feature/tests     | m0n1o2p   | test: refactor test structure    | Refactored the test structure to improve readability and maintainability.          | 2025-06-5          |
+
+#### 6.2.2.6. Execution Evidence for Sprint Review.
+
+WOKWI:
+
+![lading](images/captureWokwiSprint2.png)
+
+https://wokwi.com/projects/434432781248501761
+
+
+WEB APP:
+
+**Inicio de sesión:**
+![lading](images/capMRV2-5.png)
+
+**Edit Doctor data**
+![lading](images/capMRV2-2.png)
+
+**Patient Medical Record: History**
+![lading](images/capMRV2-1.png)
+
+**Patient Medical Record: Reports**
+![lading](images/capMRV2-3.png)
+
+**Patient Medical Record: Graphics & Evolution**
+![lading](images/capMRV2-4.png)
+
+---
+
+MOBILE APP:
+
+**Inicio de sesión:**
+
+![lading](images/capmobile2-1.png)
+
+
+**Edit User data**
+
+![lading](images/capmobile2-2.png)
+
+
+**Doctor Appointments**
+
+![lading](images/capmobile2-3.png)
+![lading](images/capmobile2-4.png)
+
+
+**Patient messages**
+
+![lading](images/capmobile2-5.png)
+
+
+#### 6.2.2.7. Services Documentation for Sprint Review.
+
+A continuación se muestran los endpoints usados e implementados para cumplir con el sprint backlog:
+
+| Endpoint                                     | Acción                                       | Método HTTP | Sintaxis de llamada                           | Parámetros                              | Respuesta clave                    | Documentación / WebLink |
+|---------------------------------------------|----------------------------------------------|-------------|-----------------------------------------------|------------------------------------------|------------------------------------|--------------------------|
+| `/api/v1/profile/{profileId}`               | Consultar perfil por ID                      | GET         | `/api/v1/profile/12345`                       | Path: `profileId` (int)                  | Objeto `ProfileResource`           | [Ver Documento](#)      |
+| `/api/v1/profile`                           | Crear perfil                                 | POST        | `/api/v1/profile`                             | Body JSON: datos del perfil              | Objeto `ProfileResource`           | [Ver Documento](#)      |
+| `/api/v1/profile/{profileId}`               | Actualizar perfil                             | PUT         | `/api/v1/profile/12345`                       | Path + Body JSON                         | Perfil actualizado                 | [Ver Documento](#)      |
+| `/api/v1/patient/{patientId}`               | Consultar paciente por ID                    | GET         | `/api/v1/patient/123`                         | Path: `patientId`                        | Objeto `PatientResource`           | [Ver Documento](#)      |
+| `/api/v1/patient`                           | Crear paciente                               | POST        | `/api/v1/patient`                             | Body JSON: datos del paciente            | Objeto `PatientResource`           | [Ver Documento](#)      |
+| `/api/v1/patient/{patientId}`               | Actualizar datos del paciente                | PUT         | `/api/v1/patient/123`                         | Path + Body JSON                         | Paciente actualizado               | [Ver Documento](#)      |
+| `/api/v1/patient/personal-history/{patientId}` | Actualizar historia personal                | PUT         | `/api/v1/patient/personal-history/123`        | Path + Body JSON                         | Historia personal actualizada      | [Ver Documento](#)      |
+| `/api/v1/patient/family-history/{patientId}` | Actualizar historia familiar                | PUT         | `/api/v1/patient/family-history/123`          | Path + Body JSON                         | Historia familiar actualizada      | [Ver Documento](#)      |
+| `/api/v1/medicalAppointment`                | Crear cita médica                            | POST        | `/api/v1/medicalAppointment`                  | Body JSON: datos de la cita              | Objeto `AppointmentResource`       | [Ver Documento](#)      |
+| `/api/v1/medicalAppointment/{medicalAppointmentId}` | Consultar cita médica                   | GET         | `/api/v1/medicalAppointment/789`              | Path: `medicalAppointmentId`             | Objeto `AppointmentResource`       | [Ver Documento](#)      |
+| `/api/v1/medical-record/treatments`         | Crear tratamiento                            | POST        | `/api/v1/medical-record/treatments`           | Body JSON: tratamiento                   | Objeto `TreatmentResource`         | [Ver Documento](#)      |
+| `/api/v1/medical-record/medications`        | Listar medicamentos                          | GET         | `/api/v1/medical-record/medications`          | Sin parámetros                           | Array de `MedicationResource`      | [Ver Documento](#)      |
+| `/api/v1/notification`                      | Crear notificación                           | POST        | `/api/v1/notification`                        | Body JSON: notificación                  | Objeto `NotificationResource`      | [Ver Documento](#)      |
+| `/api/v1/notification/{notificationId}`     | Consultar notificación                       | GET         | `/api/v1/notification/999`                    | Path: `notificationId`                   | Objeto `NotificationResource`      | [Ver Documento](#)      |
+| `/api/v1/monitoring/glucose`                | Obtener medición de glucosa (ficticio)       | GET         | `/api/v1/monitoring/glucose`                  | Query: `patientId`, `fecha`              | Datos de glucosa                   | [Ver Documento](#)      |
+| `/api/v1/insulin/auto-administration`       | Registrar administración de insulina (ficticio) | POST    | `/api/v1/insulin/auto-administration`         | Body JSON: datos de dosis                | Dosis registrada                   | [Ver Documento](#)      |
+
+#### 6.2.2.8. Software Deployment for Sprint Review.
+
+En esta sección se resume los procesos realizados en relación con Deployment durante este Sprint. Se realizaron las configuraciones necesarias para publicar y mantener activos tanto la **Landing Page** como el **Frontend estático** en la nube, usando **Netlify** como proveedor de despliegue. El proceso incluyó la creación de cuentas, vinculación con los repositorios Git y automatización del despliegue continuo.
+
+Despliegue de la Landing Page en Netlify
+
+1. Se creó una cuenta en [Netlify](https://www.netlify.com/).
+2. Se vinculó el repositorio del proyecto de la Landing Page a Netlify.
+3. Se configuró la rama de despliegue (`main`) para activar el **CI/CD** automáticamente.
+4. Se verificó que la build fuera exitosa (usando configuración predeterminada de React/Vite/HTML).
+5. Se generó el dominio automático y se validó que la landing esté publicada y funcional.
+
+**Capturas del proceso:**
+
+![lading](images/capturaLandingPageV2.png)
+
+LINK: https://hormonalcarelanding.netlify.app 
+
+Despliegue del Frontend principal
+
+1. Se creó un nuevo proyecto en Netlify vinculado al repositorio del frontend.
+2. Se configuró correctamente el comando de build (`npm run build`) y el directorio de salida (`dist`).
+3. Se activó la integración continua para cada push a la rama `main`.
+4. Se validó que el frontend cargue correctamente desde el dominio asignado por Netlify.
+
+
+**Capturas del Backend Desplegado:**
+
+![lading](images/evidenceBackenddesplegado.png)
+
+LINK: [https://hormonalcarelanding.netlify.app](https://hormonalcarebackend-9c81ad662b45.herokuapp.com/swagger-ui/index.html#/) 
+
+
+**Captura Backend Desplegado**
+
+![lading](images/evidenceBackenddesplegado.png)
+
+LINK: https://hormonalcarebackend-9c81ad662b45.herokuapp.com/swagger-ui/index.html#/
+
+#### 6.2.2.9. Team Collaboration Insights during Sprint.
+
+Durante este sprint, enfocamos nuestros esfuerzos en completar el frontend y actualizar el landing de nuestro proyecto, además de nuestra primera version del Wokwi. Completamos la implementación de los bounded context de manera parcial. Para proteger la rama “main”, creamos una rama “develop” de la cual cada integrante de nuestro grupo creó su propia sub-rama “feature” para subir un capítulo del reporte, siguiendo las convenciones establecidas (conventional commit y git flow). Asegurándonos durante todo el transcurso de contar con una integración fluida de los desarrollos individuales y mantener la coherencia en todo el proyecto.
+
+### Github analytics de nuestro segundo sprint Landing Page:
+<div align="center">
+    <img src="./images/capturaInsightsSprint2Landing.png">
+</div><br><br>
+
+### Github analytics de nuestro segundo sprint Backend:
+<div align="center">
+    <img src="./images/capturaInsightsSprint2Backend.png">
+</div><br><br>
+
+### Github analytics de nuestro segundo sprint Frontend:
+<div align="center">
+    <img src="./images/capturaInsightsSprint2Frontend.png">
+</div><br><br>
+
+### Github analytics de nuestro segundo sprint Mobile:
+<div align="center">
+    <img src="./images/capturaInsightsSprint2Mobile.png">
+</div><br><br>
+
+## 6.3. Validation Interviews.
+
+### 6.3.1. Diseño de Entrevistas.
+
+El diseño de estas entrevistas se centra en validar el trabajo realizado hasta ahora en nuestra aplicación para pacientes y médicos endocrinólogos. Nuestro objetivo es obtener retroalimentación directa sobre el diseño y las funcionalidades desarrolladas, con el propósito de evaluar si satisfacen las necesidades reales de los usuarios.
+
+Estas entrevistas están estructuradas para identificar áreas de mejora, confirmar decisiones previas y refinar la experiencia del usuario. Al recopilar opiniones específicas sobre el diseño visual y la facilidad de uso, así como sobre la utilidad de las funciones implementadas, buscamos garantizar que la aplicación sea intuitiva, efectiva y esté alineada con las expectativas del mundo real. Esta validación es clave para consolidar el proyecto y asegurarnos de que estamos creando una herramienta que realmente marque la diferencia.
+
+Para los médicos especialistas:
+
+1. ¿Qué le parece la funcionalidad que muestra la lista de sus pacientes del día?  
+2. ¿Cómo evalúa la organización y accesibilidad de la lista de pacientes?  
+3. ¿Qué opina sobre la forma de registrar y visualizar diagnósticos y tratamientos?  
+4. ¿Qué le parece la forma en que se presentan los resultados de pruebas médicas?  
+5. ¿Qué opina sobre la funcionalidad para cargar o visualizar informes externos?  
+6. ¿Qué le parece la funcionalidad de la sección de citas médicas?  
+7. ¿Cómo evalúa la facilidad de uso general del diseño?  
+8. ¿Qué opina de la presentación visual de la aplicación?  
+9. ¿Qué función o sección cree que debería mejorarse más?  
+10. ¿Qué otra funcionalidad considera esencial para la aplicación?  
+11. ¿Qué opina de la forma en que se presentan los niveles de glucosa del paciente a lo largo del día (gráficas y tablas)?  
+12. ¿Considera clara y útil la información visual sobre la administración de insulina automatizada por el parche?  
+13. ¿Cree que la visualización le ayuda a ajustar con mayor precisión las dosis de insulina rápida para cada paciente?  
+14. ¿Qué sugerencias tiene para mejorar la visualización de datos o la toma de decisiones clínicas dentro de la plataforma?
+
+
+Para los pacientes:
+
+1. ¿Qué opina del diseño de la pantalla principal?  
+2. ¿Cómo evalúa la forma en que se presentan los recordatorios de medicamentos en cuanto a claridad visual?  
+3. ¿Qué le parece el diseño de la función para unirse a una cita médica?  
+4. ¿Qué opina de la apariencia y claridad de la sección para buscar doctores?  
+5. ¿Qué le parece el diseño de la sección para gestionar sus citas médicas?  
+6. ¿Qué opina del diseño del historial de citas?  
+7. ¿Cómo evalúa el diseño general de la aplicación en términos de colores, organización y estilo visual?  
+8. ¿Le resulta intuitivo moverse entre las pantallas de la aplicación?  
+9. ¿Qué aspecto del diseño le gustaría que se ajustara o mejorara?  
+10. ¿Qué opina del tamaño y estilo de la tipografía utilizada en la aplicación?  
+11. ¿Qué opina sobre la funcionalidad que muestra sus niveles de glucosa a lo largo del día? ¿Le resulta fácil de entender?  
+12. ¿Le resulta clara la información que muestra cuánta insulina se le administró y a qué hora?  
+13. ¿Siente confianza en que el parche inteligente administra la dosis correcta de insulina? ¿Por qué sí o no?  
+14. ¿Confía en que su médico puede ajustar correctamente su tratamiento basándose en los datos que se muestran en la app?  
+15. ¿Cómo se siente respecto a que parte del tratamiento sea automatizado por la tecnología del parche?  
+16. ¿Cree que la app le brinda suficiente transparencia y control sobre lo que ocurre con su tratamiento diario?  
+17. ¿Le gustaría recibir alertas o explicaciones más detalladas sobre las decisiones que toma el parche (por ejemplo, por qué administró cierta dosis)?
+
+
+### 6.3.2. Registro de Entrevistas.
+
+>Segmento de usuario – Médicos endocrinólogos.
+
+***Doctor 1***
+| Datos del médico: | Entrevista |
+|---|---|
+|  <p>Nombres: Luis </p> <p>Apellidos: Chavez </p> <p> Edad: 40 años</p> <p> Localidad:  San Felipe, Lima  </p> <p> Timing: 0:00 </p> <p> Duración: 5:23 </p> <p style="max-width: 350px;"> Link: [https://acortar.link/doc1](https://www.youtube.com/watch?v=L51biXD4j_g)</p>| <img src="images/entrevista-validacion-medico-1.png" width=400> |
+| Resumen:<p> En la entrevista con el doctor Luis Chávez, endocrinólogo con más de 15 años de experiencia en Lima, se resaltaron aspectos clave sobre la funcionalidad médica de la aplicación. Valoró positivamente la lista diaria de pacientes, la organización clara del historial clínico y la visualización de los niveles de glucosa mediante gráficas. También destacó la utilidad de registrar diagnósticos y tratamientos de forma rápida, así como la facilidad para cargar informes externos. Sin embargo, sugirió incluir filtros adicionales en la lista de pacientes, mejorar la integración de datos contextuales (como alimentación o actividad física) y contar con un panel clínico más completo que permita un seguimiento integral. En general, consideró que la plataforma optimiza el tiempo en consulta y mejora la coordinación médica. </p> | 
+***Doctor 2***
+| Datos del médico: | Entrevista |
+|---|---|
+|  <p>Nombres: Roberto </p> <p>Apellidos: Eustaquio</p> <p> Edad: 26</p> <p> Localidad: Ate</p> <p> Timing: 0 </p> <p> Duración: 3:38 </p> <p style="max-width: 350px;"> Link: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212112_upc_edu_pe/EQuf-Gos7_BLqBx9q92u29UBzTJU22ND3OVP5pHrnBhbJQ?e=AgmiSQ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212112_upc_edu_pe/EQuf-Gos7_BLqBx9q92u29UBzTJU22ND3OVP5pHrnBhbJQ?e=AgmiSQ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)</p>| <img src="images/EntrevistaLuisChinchihualpa.png" width=400> |
+| Resumen:<p> El doctor Roberto Eustaquio, residente en Ate, participó en la evaluación de una aplicación médica diseñada para facilitar la gestión de pacientes y optimizar el tiempo en consulta. Durante su revisión, destacó la eficiencia de la herramienta para acceder rápidamente a la lista de pacientes diarios, registrar diagnósticos, tratamientos y gestionar citas, valorando especialmente la claridad en la presentación de los datos y la organización del historial clínico. Sin embargo, sugirió incluir mejoras en la interfaz, como el uso de colores más vivos y opciones de personalización, especialmente en la sección de exámenes médicos, para hacerla más intuitiva y adaptable a las necesidades específicas de los profesionales de la salud. </p> | 
+
+
+***Doctor 3***
+| Datos del médico: | Entrevista |
+|---|---|
+|  <p>Nombres: Adrián </p> <p>Apellidos: Sotelo</p> <p> Edad: 26</p> <p> Localidad: Ate</p> <p> Timing: 0 </p> <p> Duración: 6:46 </p> <p style="max-width: 350px;"> Link: [[https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212112_upc_edu_pe/EQuf-Gos7_BLqBx9q92u29UBzTJU22ND3OVP5pHrnBhbJQ?e=AgmiSQ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212112_upc_edu_pe/EVvevrfI7mNDh3iGCJGI4CoB_ZUiNRGaJdGbu_03r93rIw?e=Dnx9Y7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)]</p>| <img src="images/EntrevistaLuisChinchihualpa.png" width=400> |
+| Resumen:<p> En la reunión con el médico endocrinólogo Adrián Marcelo Sotelo, se analizaron aspectos fundamentales del proyecto, como la gestión eficiente de la lista de pacientes y las funcionalidades que permiten a los médicos organizar consultas, acceder rápidamente a historiales médicos y programar citas. Además, se discutieron mejoras en la experiencia del usuario para garantizar que la plataforma facilite el seguimiento médico de manera efectiva y personalizada, integrando herramientas que optimicen los tiempos y promuevan una interacción más fluida entre pacientes y profesionales de la salud. </p> | 
+>Segmento de usuario – Pacientes con enfermedades hormonales.
+>
+***Paciente 1***
+| Datos del paciente: | Entrevista |
+|---|---|
+|  <p>Nombres: Pedro  </p> <p>Apellidos: Ramos </p> <p> Edad: 30 años</p> <p> Localidad: San Juan de Lurigancho, Lima </p> <p> Timing: 0:00 </p> <p> Duración: 7:12 </p> <p style="max-width: 350px;"> Link: (Enlace)[[https://acortar.link/qpLNZC](https://www.youtube.com/watch?v=J1qR2DBDY2I)]</p>| <img src="images/entrevista-validacion-paciente-1.png" width=400> |
+| Resumen:<p>En la entrevista con José Calderón, estudiante y paciente de Lima, se evaluó una aplicación médica. José destacó que la interfaz es intuitiva, bien organizada, y agradable visualmente, con colores y tipografía adecuados aunque sugirió ajustar algunos tamaños de letras y botones. Opinó que las funciones como gestionar citas, historial médico, recordatorios de medicamentos y subir archivos son claras y prácticas. También valoró positivamente la estructura por días y semanas en las citas, así como la funcionalidad de eliminar automáticamente las citas pasadas. En general, consideró que la aplicación es fácil de usar y eficiente para navegar entre las diferentes secciones.</p> | 
+***Paciente 2***
+| Datos del paciente: | Entrevista |
+|---|---|
+|  <p>Nombres: Jose  </p> <p>Apellidos: Calderon Huaman </p> <p> Edad: 19 años</p> <p> Localidad: Lima, Perú </p> <p> Timing: 0 </p> <p> Duración: 7:12 </p> <p style="max-width: 350px;"> Link: (Enlace)[[https://acortar.link/qpLNZC](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211742_upc_edu_pe/EUdvu_kGhglKn68XdIJMGJYBvPQjuqn5YBh4AGOz7-Gysg?e=jCUFlV&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)]</p>| <img src="images/EntrevistaJoseCalderonHuaman.png" width=400> |
+| Resumen:<p>En la entrevista con José Calderón, estudiante y paciente de Lima, se evaluó una aplicación médica. José destacó que la interfaz es intuitiva, bien organizada, y agradable visualmente, con colores y tipografía adecuados aunque sugirió ajustar algunos tamaños de letras y botones. Opinó que las funciones como gestionar citas, historial médico, recordatorios de medicamentos y subir archivos son claras y prácticas. También valoró positivamente la estructura por días y semanas en las citas, así como la funcionalidad de eliminar automáticamente las citas pasadas. En general, consideró que la aplicación es fácil de usar y eficiente para navegar entre las diferentes secciones.</p> | 
+
+***Paciente 3***  
+| **Datos del paciente:** | **Entrevista** |
+|---|---|
+| <p>• Nombres: Yudi</p><p>• Apellidos: Torres Méndez</p><p>• Edad: 34 años</p><p>• Localidad: Arequipa, Perú</p><p>• Timing: 0</p><p>• Duración: 8:05 min</p><p style="max-width: 350px;">• Link: [Grabación de la entrevista](https://1drv.ms/v/c/af0ed1eda1129143/ETbEG1h3eONDs6Eahb1WHs4Bo7u5jeYM6NdZKjLhTYDA4Q?e=i4jKFb)</p> | <img src="images/entrevistaYudi.png" width=400> |
+| **Resumen:**<p>En la entrevista con Yudi Torres, paciente de Arequipa, se evaluó la usabilidad de la aplicación médica. Yudi destacó que la interfaz es visualmente atractiva con una paleta de colores relajantes, aunque sugirió aumentar el contraste en botones críticos. Resaltó como especialmente útiles:</p><ul><li>La organización jerárquica de las citas médicas</li><li>Las alertas personalizables para medicamentos</li><li>La integración con su dispositivo de monitoreo continuo</li></ul><p>Señaló que el sistema de gestión de documentos podría mejorar con una vista previa de archivos subidos. En general, calificó la experiencia como intuitiva, con navegación fluida entre secciones.</p> |
+
+### 6.3.3. Evaluaciones según heurísticas. 
+**Informe de Evaluación de Usabilidad - HormonalCare**  
+**Grupo:** Toiota  
+**Carrera:** Ingeniería de Software  
+**Curso:** Aplicaciones para Dispositivos Móviles  
+**Sección:** SW63  
+**Auditor:** Grupo Toiota  
+**Clientes:** Endocrinólogos y pacientes diabéticos  
+**Aplicación evaluada:** DiabetesCare  
+
+## TAREAS EVALUADAS  
+
+El alcance incluyó:  
+- Monitoreo en tiempo real de glucosa  
+- Registro de dosis de insulina  
+- Programación de citas con especialistas  
+- Historial médico digital  
+- Sistema de alertas para niveles críticos  
+
+## TAREAS NO EVALUADAS  
+
+Quedaron fuera de este análisis:  
+- Planificación de comidas  
+- Integración con wearables  
+- Análisis predictivos  
+
+## ESCALA DE GRAVEDAD  
+
+| Nivel | Descripción |  
+|-------|-------------|  
+| 1 | Problema cosmético |  
+| 2 | Problema menor |  
+| 3 | Problema grave |  
+| 4 | Error crítico |  
+
+## TABLA RESUMEN  
+
+| # | Problema | Gravedad | Principio Violado |  
+|---|----------|----------|--------------------|  
+| 1 | Gráficos no muestran relación comida/glucosa | 3 | Visualización de datos |  
+| 2 | Calculadora de insulina compleja | 2 | Eficiencia |  
+| 3 | Botón de emergencia oculto | 3 | Seguridad |  
+| 4 | Recordatorios no personalizables | 2 | Control usuario |  
+
+## DETALLE DE PROBLEMAS  
+
+### PROBLEMA #1: Gráficos sin contexto alimenticio  
+**Gravedad:** 3  
+**Principio:** Visualización efectiva  
+**Problema:** Los gráficos de glucosa no permiten correlacionar con horarios de comida.  
+<img src="images/retrospectiva_1.png" width=400>
+**Solución:** Añadir marcadores de comidas y opción para registrar horarios.  
+
+### PROBLEMA #2: Calculadora de insulina poco intuitiva  
+**Gravedad:** 2  
+**Principio:** Eficiencia  
+**Problema:** Requiere múltiples pasos para cálculo básico.  
+<img src="images/retrospectiva_2.png" width=400>
+**Mejora:** Implementar calculadora de un solo toque con historial.  
+
+### PROBLEMA #3: Acceso a emergencia no visible  
+**Gravedad:** 3  
+**Principio:** Seguridad  
+**Problema:** El botón de emergencia está enterrado en menús.  
+<img src="images/retrospectiva_3.png" width=400>
+**Recomendación:** Botón flotante rojo permanente en todas las pantallas.  
+
+### PROBLEMA #4: Recordatorios genéricos  
+**Gravedad:** 2  
+**Principio:** Personalización  
+**Problema:** No se adaptan a diferentes tipos de insulinas.  
+<img src="images/retrospectiva_4.png" width=400>
+**Solución:** Permitir configurar recordatorios específicos por medicamento.  
+
+---
+## 6.4. Video About the product.
+
+En esta sección, presentamos un video detallado sobre HormonalCare, diseñado para ofrecer una visión completa de sus características, funcionalidades, ventajas y una opinion de un paciente y medico acerca del mismo.
+
+A continuación, puedes ver el video a través de dos plataformas:
+
+Youtube: https://youtu.be/Eg2EyFeUo_g (2:15)
+
+Microsoft Stream: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215099_upc_edu_pe/EUnXAb-_IgBGltDMrTT5a4IBaxp5cDvUIVLnlD5pxFfCiQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=tgmmRe
 
 ## Conclusiones
 
