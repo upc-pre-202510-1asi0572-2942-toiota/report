@@ -4189,7 +4189,7 @@ En este sprint, el enfoque estará en desarrollar los servicios backend que perm
 
 
 
-#### 6.2.3.4. Development Evidence for Sprint Review.
+#### 6.2.2.4. Development Evidence for Sprint Review.
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
 |------------|--------|-----------|----------------|---------------------|---------------------|
 |            | main   |           |                |                     |                     |
@@ -4198,7 +4198,7 @@ En este sprint, el enfoque estará en desarrollar los servicios backend que perm
 |            | main   |           |                |                     |                     |
 
 
-#### 6.2.3.5. Testing Suite Evidence for Sprint Review.
+#### 6.2.2.5. Testing Suite Evidence for Sprint Review.
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
 |------------|--------|-----------|----------------|---------------------|---------------------|
@@ -4207,9 +4207,25 @@ En este sprint, el enfoque estará en desarrollar los servicios backend que perm
 |            |        |           |                |                     |                     |
 |            |        |           |                |                     |                     |
 
-#### 6.3.2. Registro de Entrevistas.
+#### 6.2.2.6. Execution Evidence for Sprint Review.
 
-#### 6.3.3. Evaluaciones según heurísticas. 
+#### 6.2.2.7. Services Documentation for Sprint Review.
+
+#### 6.2.2.8. Software Deployment for Sprint Review.
+
+#### 6.2.2.9. Team Collaboration Insights during Sprint.
+
+
+## 6.3. Validation Interviews.
+
+### 6.3.1. Diseño de Entrevistas.
+
+
+### 6.3.2. Registro de Entrevistas.
+
+### 6.3.3. Evaluaciones según heurísticas. 
+
+## 6.4. Video About the product.
 
 ## Conclusiones
 
