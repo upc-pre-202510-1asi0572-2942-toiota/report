@@ -4225,9 +4225,9 @@ Despliegue de la Landing Page en Netlify
 
 **Capturas del proceso:**
 
-![lading](images/lading.png)
+![lading](images/capturaLandingPageV2.png)
 
-LINK: https://hormonalcarelanding.netlify.app/ 
+LINK: https://hormonalcarelanding.netlify.app 
 
 
 Despliegue del Frontend principal
