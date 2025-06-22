@@ -258,146 +258,112 @@ establecen objetivos, planifican tareas y cumplen objetivos.<br><br>
 En el siguiente cuadro se describe las acciones realizadas y enunciados de
 conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 5.<br><br>
 
-<table border="1" cellspacing="0" cellpadding="8">
+
+<table>
   <thead>
     <tr>
-      <th><b>Criterio específico</b></th>
-      <th><b>Acciones realizadas</b></th>
-      <th><b>Conclusiones</b></th>
+      <th colspan="3"><b>Criterio específico</b></th>
+      <th colspan="3"><b>Acciones realizadas</b></th>
+      <th colspan="3"><b>Conclusiones</b></th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td rowspan="5"><b>Trabaja en equipo para proporcionar liderazgo en forma conjunta</b></td>
-      <td align="justify">
-        <h3>Chinchihualpa Saldarriaga, Luis Sebastian</h3>
-        <b>TB1</b>
-        <p>Trabajó en el proyecto HormonalCare, enfocándose en el bounded context de Medical Record. Aseguró que el flujo de información entre los módulos fuera coherente y eficiente. Además, desarrolló las user stories para el parche IoT, garantizando que las necesidades de los usuarios estuvieran bien representadas y alineadas con los objetivos técnicos. También participó activamente en la creación del Bounded Context Canvas, trabajando para definir y estructurar los diferentes componentes del sistema, asegurando su integración y alineación con la visión general del proyecto.</p>
-        <b>TP</b>
-        <p>Durante el desarrollo del proyecto, asumí un rol de liderazgo en el diseño visual y funcional de la aplicación web, elaborando todos los wireflows, wireframes, mockups y el prototipo navegable. Esta labor permitió unificar la visión del equipo en torno a una experiencia de usuario coherente, asegurando que el diseño respondiera a las necesidades de los usuarios y a los objetivos funcionales del sistema.</p>
-        <b>TB2</b>
-        <p>Durante esta etapa, lideré el diseño funcional y visual de la aplicación web, elaborando los wireframes y mockups en Figma que definieron la interfaz y la experiencia del usuario. Asimismo, implementé el módulo de <i>Medical Record</i> en la web app, asegurando su integración fluida con el backend y otros módulos del sistema. Esta labor permitió al equipo mantener una visión coherente del producto digital, fortaleciendo la calidad técnica del entregable. Además, coordiné con mis compañeros en la preparación de las entrevistas de validación, alineando los objetivos técnicos y de usuario, y fomentando una toma de decisiones colaborativa y enfocada en la mejora continua del producto.</p>
-      </td>
-      <td rowspan="5" align="justify">
-        <b>TB1</b>
-        <p>Como equipo, colaboramos activamente en la definición de los bounded contexts, arquitectura, y desarrollo de componentes clave, liderando de manera conjunta las decisiones técnicas y estratégicas del proyecto HormonalCare, siempre alineados a una visión compartida y fomentando una toma de decisiones colaborativa.</p>
-        <b>TP</b>
-        <p>Durante el TP, el equipo asumió responsabilidades compartidas y ejerció liderazgo de manera conjunta en cada etapa del proyecto. Coordinamos la planificación del Sprint 1, organizamos reuniones para tomar decisiones técnicas y distribuir tareas, y promovimos un liderazgo horizontal, donde todos los integrantes aportaron en función de sus fortalezas. Esta forma de trabajo permitió avanzar de forma ordenada en la elaboración del informe, la implementación de la Landing Page y el despliegue de la primera versión del sistema.</p>
-        <b>TB2</b>
-        <p>En esta entrega, como equipo, ejercimos un liderazgo compartido al coordinar el desarrollo de funcionalidades clave en la aplicación web, incluyendo el módulo de Medical Record, la estructura del sistema de pruebas y la preparación de las entrevistas de validación. Establecimos acuerdos y responsabilidades claras, asegurando una integración fluida y coherente de los avances de cada miembro del equipo.</p>
-      </td>
+	<td colspan="3">Trabaja en equipo para
+proporcionar liderazgo en
+forma conjunta</td>
+      <td colspan="3" align = "justify">
+      <h3>Chinchihualpa Saldarriaga, Luis Sebastian</h3> 
+      <b>TB1</b> 
+      <p>Trabajó en el proyecto HormonalCare, enfocándose en el bounded context de Medical Record. Aseguró que el flujo de información entre los módulos fuera coherente y eficiente. Además, desarrolló las user stories para el parche IoT, garantizando que las necesidades de los usuarios estuvieran bien representadas y alineadas con los objetivos técnicos. También participó activamente en la creación del Bounded Context Canvas, trabajando para definir y estructurar los diferentes componentes del sistema, asegurando su integración y alineación con la visión general del proyecto.</p> 
+	<b>TP</b> 
+      <p>Durante el desarrollo del proyecto, asumí un rol de liderazgo en el diseño visual y funcional de la aplicación web, elaborando todos los wireflows, wireframes, mockups y el prototipo navegable. Esta labor permitió unificar la visión del equipo en torno a una experiencia de usuario coherente, asegurando que el diseño respondiera a las necesidades de los usuarios y a los objetivos funcionales del sistema.
+	</p> 
+	<b>TB2</b>
+        <p>Durante el Sprint 2, lideré el diseño funcional y visual de la aplicación web, elaborando los wireframes y mockups en Figma que definieron la interfaz y la experiencia del usuario. Asimismo, implementé el módulo de <i>Medical Record</i> en la web app, asegurando su integración fluida con el backend y otros módulos del sistema. Esta labor permitió al equipo mantener una visión coherente del producto digital, fortaleciendo la calidad técnica del entregable. Además, coordiné con mis compañeros en la preparación de las entrevistas de validación, alineando los objetivos técnicos y de usuario, y fomentando una toma de decisiones colaborativa y enfocada en la mejora continua del producto.</p>
+    <h3>La Torre Soto, Andre Sebastian</h3>
+    <b>TB1</b>
+    <p>Para esta entrega trabajé junto a mi equipo la definición de los Bounded Contexts (Domain, Interface, Application e Infrastructure de payment) junto a sus correspondientes diagramas (components y database). Coordinamos en equipo la identificación de las entidades, servicios y eventos principales asignados a los bounded context correspondientes a cada uno. Promoviendo siempre una toma de decisiones colaborativa y alineada con la visión general de nuestro proyecto.</p>
+	      <b>TP</b> 
+      <p>Durante el transcurso de este entregable , asumí un rol de liderazgo junto a mis compañeros al delimitar y realizar responsabilidades divididas para agilizar la elaboración de los puntos del Sprint como serían la gestión del codigo, guia y convenciones de estilo, el avance de componentes en nuestro Front-end y el despliegue del Back-end. Lo que nos permitió realizar un avance ágil en el informe y del despliegue de nuestro sistema.
+	</p> 
+        <b>TB2</b> 
+      <p>Durante el Sprint Review, lideré junto a mi equipo la elaboración de evidencias de desarrollo, pruebas y validación. Coordinamos la organización del repositorio, documentamos avances técnicos y construimos en conjunto la Testing Suite. Además, participé en entrevistas de validación, sistematizando hallazgos para mejorar el producto. Estas acciones reflejan un liderazgo compartido y una toma de decisiones colaborativa.
+	</p> 
+    <h3>Lostaunau Pereira, Estefano Sebastian</h3>
+    <b>TB1</b>
+    <p>Trabajamos juntos en la definición del perfil de la startup y la problemática en los Capítulos I y II. En el Capítulo III priorizamos y presentamos las User Stories ante el equipo y stakeholders. En el Capítulo IV definimos los Bounded Contexts (Domain, Interface, Application e Infrastructure) y elaboramos los diagramas de componentes y de código (Domain Layer Class y Database). Así lideramos de forma conjunta las decisiones arquitectónicas clave del proyecto.</p>
+    <b>TP</b>
+    <p> Durante el Sprint 1, dirigí el desarrollo de la aplicación móvil, coordinando la implementación de las funcionalidades principales y asegurando su integración con los servicios backend. Preparé la documentación del Sprint Planning, estableciendo metas claras y distribuyendo responsabilidades entre el equipo. Esta labor de coordinación permitió mantener alineados todos los aspectos técnicos del proyecto, desde la base de datos hasta la experiencia de usuario, facilitando una implementación coherente y efectiva de las funcionalidades planificadas. </p>
+    <h3>Pecan Pariona, Sergio Joel</h3>
+    <b>TB1</b>
+    <p>Investigué normativas de protección de datos (HIPAA, GDPR) para el módulo de historias clínicas en HormonalCare, documentando requisitos legales en un repositorio compartido. Adicionalmente, me certifiqué en "UX Research for Health Apps" en Coursera para mejorar el diseño de entrevistas a usuarios. La investigación legal evitó riesgos de incumplimiento en el manejo de datos sensibles desde etapas tempranas.</p>
+    <b>TP</b>
+    <p> Durante esta fase del proyecto, lideré la planificación del Sprint 1, definiendo objetivos claros, organizando el backlog y coordinando la distribución de tareas entre los integrantes del equipo. Esta labor facilitó una ejecución ordenada y permitió que todos avanzáramos de manera alineada, contribuyendo al liderazgo conjunto y al logro de metas comunes. </p>
+    <h3>Quispesivana Torres, Claudio Sandro</h3>
+    <b>TB1</b>
+    <p>Trabajé en equipo para proporcionar liderazgo conjunto, describiendo correctamente los bounded contexts dentro de la arquitectura de software, identificando y abordando los distintos niveles: Landscape, Context, Container y Deployment en el proyecto de HormonalCare.</p>
+    <b>TP</b>
+    <p>
+Participé en el diseño visual y funcional de la aplicación HormonalCare, enfocándome en la experiencia móvil del rol de doctor. Me encargué de definir la guía de estilos y desarrollar todos los elementos de diseño UX/UI, incluyendo los <i>wireframes</i>, <i>wireflows</i>, <i>user flows</i> y <i>mockups</i>, además del prototipo interactivo. Estas entregas garantizaron una navegación clara, estética consistente y alineación con los objetivos del proyecto desde el enfoque de diseño centrado en el usuario.
+</p>
+    <td colspan="3">
+    <b>TB1</b>
+    <p>Como equipo, colaboramos activamente en la definición de los bounded contexts, arquitectura, y desarrollo de componentes clave, liderando de manera conjunta las decisiones técnicas y estratégicas del proyecto HormonalCare, siempre alineados a una visión compartida y fomentando una toma de decisiones colaborativa.</p>
+    <b>TP</b>
+    <p>Durante el TP, el equipo asumió responsabilidades compartidas y ejerció liderazgo de manera conjunta en cada etapa del proyecto. Coordinamos la planificación del Sprint 1, organizamos reuniones para tomar decisiones técnicas y distribuir tareas, y promovimos un liderazgo horizontal, donde todos los integrantes aportaron en función de sus fortalezas. Esta forma de trabajo permitió avanzar de forma ordenada en la elaboración del informe, la implementación de la Landing Page y el despliegue de la primera versión del sistema.</p>
+  </td>
     </tr>
-
     <tr>
-      <td align="justify">
-        <h3>La Torre Soto, Andre Sebastian</h3>
-        <b>TB1</b>
-        <p>Para esta entrega trabajé junto a mi equipo la definición de los Bounded Contexts (Domain, Interface, Application e Infrastructure de payment) junto a sus correspondientes diagramas (components y database)...</p>
-        <b>TP</b>
-        <p>Durante el transcurso de este entregable, asumí un rol de liderazgo junto a mis compañeros al delimitar y realizar responsabilidades divididas para agilizar la elaboración de los puntos del Sprint...</p>
-        <b>TB2</b>
-        <p>Durante el Sprint Review, lideré junto a mi equipo la elaboración de evidencias de desarrollo, pruebas y validación. Coordinamos la organización del repositorio, documentamos avances técnicos y construimos en conjunto la Testing Suite...</p>
-      </td>
-    </tr>
-
-    <tr>
-      <td align="justify">
-        <h3>Lostaunau Pereira, Estefano Sebastian</h3>
-        <b>TB1</b>
-        <p>Trabajamos juntos en la definición del perfil de la startup y la problemática...</p>
-        <b>TP</b>
-        <p>Durante el Sprint 1, dirigí el desarrollo de la aplicación móvil...</p>
-      </td>
-    </tr>
-
-    <tr>
-      <td align="justify">
-        <h3>Pecan Pariona, Sergio Joel</h3>
-        <b>TB1</b>
-        <p>Investigué normativas de protección de datos (HIPAA, GDPR)...</p>
-        <b>TP</b>
-        <p>Durante esta fase del proyecto, lideré la planificación del Sprint 1...</p>
-      </td>
-    </tr>
-
-    <tr>
-      <td align="justify">
-        <h3>Quispesivana Torres, Claudio Sandro</h3>
-        <b>TB1</b>
-        <p>Trabajé en equipo para proporcionar liderazgo conjunto...</p>
-        <b>TP</b>
-        <p>Participé en el diseño visual y funcional de la aplicación HormonalCare...</p>
-      </td>
-    </tr>
-
-    <!-- Segunda fila de criterio -->
-    <tr>
-      <td rowspan="5"><b>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos</b></td>
-      <td align="justify">
-        <h3>Chinchihualpa Saldarriaga, Luis Sebastian</h3>
-        <b>TB1</b>
-        <p>Contribuyó al trabajo en equipo, creando un ambiente de colaboración e inclusión...</p>
-        <b>TP</b>
-        <p>Me encargué de configurar el entorno de desarrollo del proyecto y gestionar el control de versiones mediante GitHub...</p>
-        <b>TB2</b>
-        <p>Contribuí activamente a un entorno colaborativo al planificar y ejecutar el diseño de la interfaz de usuario de la aplicación web en Figma...</p>
-      </td>
-      <td rowspan="5" align="justify">
-        <b>TB1</b>
-        <p>Como equipo, fomentamos un entorno colaborativo e inclusivo...</p>
-        <b>TP</b>
-        <p>Desde el inicio del TP, creamos un entorno colaborativo e inclusivo a través de reuniones frecuentes y uso activo del repositorio de GitHub...</p>
-        <b>TB2</b>
-        <p>Durante la ejecución del Sprint 2, fortalecimos el entorno colaborativo al documentar el avance técnico de cada módulo y organizar sesiones de trabajo cruzadas entre los roles de diseño, frontend y backend, asegurando así la integración de todos los aportes.</p>
-      </td>
-    </tr>
-
-    <tr>
-      <td align="justify">
-        <h3>La Torre Soto, Andre Sebastian</h3>
-        <b>TB1</b>
-        <p>Contribuí a un entorno colaborativo e inclusivo...</p>
-        <b>TP</b>
-        <p>Para esta entrega, estuvimos colaborando fuertemente al momento de trazar los puntos a corregir y avanzar...</p>
-        <b>TB2</b>
-        <p>Promoví un entorno colaborativo definiendo objetivos claros con mi equipo para las evidencias del Sprint...</p>
-      </td>
-    </tr>
-
-    <tr>
-      <td align="justify">
-        <h3>Lostaunau Pereira, Estefano Sebastian</h3>
-        <b>TB1</b>
-        <p>Creamos un entorno inclusivo desde el inicio...</p>
-        <b>TP</b>
-        <p>Establecí una estructura de trabajo colaborativa para el desarrollo móvil...</p>
-      </td>
-    </tr>
-
-    <tr>
-      <td align="justify">
-        <h3>Pecan Pariona, Sergio Joel</h3>
-        <b>TB1</b>
-        <p>Participé en el webinar "Healthcare API Security"...</p>
-        <b>TP</b>
-        <p>Fomenté un entorno colaborativo e inclusivo al guiar la configuración y ejecución del método de despliegue de la aplicación...</p>
-        <b>TB2</b>
-        <p>Organicé sesiones de pair programming para implementar las funcionalidades críticas de seguridad...</p>
-      </td>
-    </tr>
-
-    <tr>
-      <td align="justify">
-        <h3>Quispesivana Torres, Claudio Sandro</h3>
-        <b>TB1</b>
-        <p>Creé un entorno colaborativo e inclusivo al trabajar en equipo para definir metas claras...</p>
-        <b>TP</b>
-        <p>Diseñé un entorno visual funcional y centrado en el usuario para la sección médica de la aplicación HormonalCare...</p>
-      </td>
+      <td colspan="3">Crea un entorno colaborativo e
+inclusivo, establece metas,
+planifica tareas y cumple
+objetivos.</td>
+      <td colspan="3" align = "justify">
+      <h3>Chinchihualpa Saldarriaga, Luis Sebastian</h3> 
+      <b>TB1</b> 
+      <p>Contribuyó al trabajo en equipo, creando un ambiente de colaboración e inclusión. Participó activamente en la planificación de tareas, asegurando que se establecieran metas claras y alcanzables dentro del proyecto. Su colaboración en la definición de los bounded contexts y la integración de cada componente dentro del Landscape, Context, Container y Deployment facilitó la estructura del proyecto, ayudando a cumplir con los objetivos establecidos y asegurando que el desarrollo fuera coherente y eficiente.
+	</p> 
+	<b>TP</b> 
+      <p>Me encargué de configurar el entorno de desarrollo del proyecto y gestionar el control de versiones mediante GitHub. Esta labor permitió al equipo trabajar de forma ordenada, colaborativa y simultánea, facilitando la planificación de tareas, la integración de cambios y el cumplimiento eficiente de los objetivos técnicos establecidos.
+	</p> 
+    <h3>La Torre Soto, Andre Sebastian</h3>
+    <b>TB1</b>
+    <p>Contribui a un entorno colaborativo e inclusivo, al trabajar junto a mi equipo para establecer metas claras y alcanzables, participando en la planificación de las integraciones entre los diferentes módulos del sistema para asegurar de que cada miembro comprendiera sus responsabilidades y los objetivos globales de nuestro proyecto.</p>
+    <b>TP</b>
+    <p> Para esta entrega, estuvimos colaborando fuertemente al momento de trazar los puntos a corregir y avanzar. Delimitando los puntos que cada uno debia avanzar, contando además con reuniones constantes para asegurar el progreso y cumplimiento de cada una de las labores asignadas. Cumpliendo al final con cada objetivo de la entrega, manteniendo un orden y ambiente colaborativo.
+ </p>      
+	<b>TB2</b> 
+      <p>Promoví un entorno colaborativo definiendo objetivos claros con mi equipo para las evidencias del Sprint. Organizamos tareas, usamos herramientas compartidas y establecimos metas semanales que facilitaron cumplir los entregables de desarrollo, pruebas e investigación. Esta planificación conjunta aseguró la participación activa y el cumplimiento de los objetivos.
+	</p> 
+    <h3>Lostaunau Pereira, Estefano Sebastian</h3>
+    <b>TB1</b>
+    <p>Creamos un entorno inclusivo desde el inicio, dividiendo y planificando las tareas de Introducción, Análisis, Especificación y Arquitectura. Establecimos metas claras para cada capítulo y revisamos juntos los avances. Ajustamos las User Stories y entregables en equipo, y en Arquitectura nos repartimos los Bounded Contexts y sus diagramas (Component Level, Domain Layer Class y Database). Cumplimos los plazos y objetivos acordados, manteniendo la colaboración y el sentido de pertenencia.</p>
+    <b>TP</b>
+    <p> Establecí una estructura de trabajo colaborativa para el desarrollo móvil, creando una metodología que permitió la participación de todos los miembros del equipo independientemente de su experiencia previa en desarrollo móvil. Implementé un sistema de documentación accesible para las APIs y componentes desarrollados, facilitando la integración entre los diferentes aspectos del proyecto. Como responsable de la preparación del Sprint Planning, definí metas realistas y medibles, distribuyendo las tareas según las fortalezas de cada miembro y asegurando que todos tuvieran claridad sobre sus responsabilidades y plazos, lo que contribuyó al cumplimiento efectivo de los objetivos del sprint.</p>
+    <h3>Pecan Pariona, Sergio Joel</h3>
+    <b>TB1</b>
+    <p>Participé en el webinar "Healthcare API Security" de OWASP, aplicando recomendaciones para proteger endpoints de historias clínicas contra ataques BOLA.</p>
+    <b>TP</b>
+    <p> Fomenté un entorno colaborativo e inclusivo al guiar la configuración y ejecución del método de despliegue de la aplicación. Me aseguré de que el entorno de producción estuviera correctamente preparado y de que todos los miembros comprendieran el proceso. Esto ayudó a cumplir con los objetivos técnicos del Sprint y a mantener una dinámica de trabajo participativa y organizada.
+ </p>
+	          <b>TB2</b>
+    <p>Organicé sesiones de pair programming para implementar las funcionalidades críticas de seguridad, creando un ambiente donde todos los miembros del equipo podían contribuir y aprender. Establecí hitos semanales para el módulo de seguridad y monitoreé el progreso mediante tableros Kanban compartidos, facilitando la colaboración transversal entre los diferentes roles del proyecto y asegurando el cumplimiento de los objetivos en los plazos establecidos.</p>
+    <h3>Quispesivana Torres, Claudio Sandro</h3>
+    <b>TB1</b>
+    <p>Creé un entorno colaborativo e inclusivo al trabajar en equipo para definir metas claras, planificar tareas y describir adecuadamente los bounded contexts en la arquitectura de software, abarcando los niveles de Landscape, Context, Container y Deployment en el proyecto HormonalCare, asegurando el cumplimiento de los objetivos establecidos.</p>
+    <b>TP</b>
+    <p> Diseñé un entorno visual funcional y centrado en el usuario para la sección médica de la aplicación HormonalCare, elaborando los <i>style guidelines</i> y el diseño completo de la experiencia en dispositivos móviles para el rol de doctor. Esto incluyó la creación de <i>wireframes</i>, <i>user flows</i>, <i>wireflows</i> y <i>mockups</i> de alta fidelidad, así como el desarrollo del prototipo interactivo, asegurando la coherencia visual, la usabilidad y el cumplimiento de los objetivos del sistema desde una perspectiva UX/UI profesional.
+    </p>
+      <td colspan="3">
+    <b>TB1</b>
+    <p>Como equipo, fomentamos un entorno colaborativo e inclusivo, estableciendo metas claras, planificando tareas estratégicamente y cumpliendo los objetivos propuestos en cada etapa del proyecto HormonalCare, asegurando la participación activa y el compromiso de todos los integrantes.</p>
+    <b>TP</b>
+    <p>Desde el inicio del TP, creamos un entorno colaborativo e inclusivo a través de reuniones frecuentes y uso activo del repositorio de GitHub. Establecimos metas claras para cada fase del proyecto: desde la mejora de artefactos anteriores hasta la implementación técnica del producto. Planificamos y ejecutamos el Sprint 1 con tareas bien distribuidas, asegurando que todos participaran. Esto nos permitió cumplir con los entregables: desarrollo y despliegue de la Landing Page, frontend web, y documentación de evidencia técnica y colaborativa.</p>
+  </td>
     </tr>
   </tbody>
 </table>
-
 
 <div style="page-break-after: always;"></div>
 
