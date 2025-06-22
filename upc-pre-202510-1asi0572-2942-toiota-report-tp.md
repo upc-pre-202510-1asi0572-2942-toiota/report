@@ -4191,23 +4191,27 @@ En este sprint, el enfoque estará en desarrollar los servicios backend que perm
 
 
 
-#### 6.2.2.4. Development Evidence for Sprint Review.
-| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
-|------------|--------|-----------|----------------|---------------------|---------------------|
-|            | main   |           |                |                     |                     |
-|            | main   |           |                |                     |                     |
-|            | main   |           |                |                     |                     |
-|            | main   |           |                |                     |                     |
+### 6.2.1.4. Development Evidence for Sprint Review. 
+| Repository            | Branch  | Commit Id     | Commit Message                 | Commit Message Body                                                                 | Committed on (Date)  |
+|-----------------------|---------|---------------|--------------------------------|-------------------------------------------------------------------------------------|-----------------------|
+| hormonal_care_backend | develop | a1b2c3d       | feat(api): add patient module  | Added the patient module with endpoints for creation, update, and retrieval.        | 2025-06-7           |
+| hormonal_care_backend | develop | e4f5g6h       | fix: resolve null pointer      | Fixed a null pointer error in the appointment service when handling incomplete data. | 2025-06-8           |
+| hormonal_care_backend | develop | i7j8k9l       | chore: update dependencies     | Updated dependencies in `pom.xml` to improve security and performance.              | 2025-06-7           |
+| hormonal_care_backend | develop | m0n1o2p       | refactor: optimize queries     | Optimized SQL queries in the user repository to enhance performance.                | 2025-06-8           |
 
 
-#### 6.2.2.5. Testing Suite Evidence for Sprint Review.
 
-| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
-|------------|--------|-----------|----------------|---------------------|---------------------|
-|            |        |           |                |                     |                     |
-|            |        |           |                |                     |                     |
-|            |        |           |                |                     |                     |
-|            |        |           |                |                     |                     |
+
+
+
+#### 6.2.1.5. Testing Suite Evidence for Sprint Review.
+
+| Repository            | Branch            | Commit Id | Commit Message                  | Commit Message Body                                                                 | Committed on (Date) |
+|-----------------------|-------------------|-----------|---------------------------------|-------------------------------------------------------------------------------------|---------------------|
+| hormonal_care_backend | feature/tests     | a1b2c3d   | test: add unit tests for service | Added unit tests for the patient service, validating business logic and exceptions. | 2025-06-13          |
+| hormonal_care_backend | feature/tests     | e4f5g6h   | test: add integration tests      | Implemented integration tests for the appointment module endpoints.                | 2025-06-15          |
+| hormonal_care_backend | feature/tests     | i7j8k9l   | test: improve coverage           | Improved test coverage in the user repository, including edge cases.               | 2025-06-10          |
+| hormonal_care_backend | feature/tests     | m0n1o2p   | test: refactor test structure    | Refactored the test structure to improve readability and maintainability.          | 2025-06-5          |
 
 #### 6.2.2.6. Execution Evidence for Sprint Review.
 https://wokwi.com/projects/434432781248501761
