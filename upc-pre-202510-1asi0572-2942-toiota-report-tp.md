@@ -4220,42 +4220,48 @@ En este sprint, el enfoque estará en desarrollar los servicios backend que perm
 
 ### 6.3.1. Diseño de Entrevistas.
 
-El diseño de estas entrevistas se centra en validar el trabajo realizado hasta ahora en nuestra aplicación para pacientes y médicos endocrinólogos. Nuestro objetivo es obtener retroalimentación directa sobre el diseño y las funcionalidades desarrolladas, con el propósito de evaluar si satisfacen las necesidades reales de los usuarios. Estas entrevistas están estructuradas para identificar áreas de mejora, confirmar decisiones previas y refinar la experiencia del usuario. Al recopilar opiniones específicas sobre el diseño visual y la facilidad de uso, así como sobre la utilidad de las funciones implementadas, buscamos garantizar que la aplicación sea intuitiva, efectiva y esté alineada con las expectativas del mundo real. Esta validación es clave para consolidar el proyecto y asegurarnos de que estamos creando una herramienta que realmente marque la diferencia.
+El diseño de estas entrevistas se centra en validar el trabajo realizado hasta ahora en nuestra aplicación para pacientes y médicos endocrinólogos. Nuestro objetivo es obtener retroalimentación directa sobre el diseño y las funcionalidades desarrolladas, con el propósito de evaluar si satisfacen las necesidades reales de los usuarios.
 
- Para los médicos especialistas:
-	1.	¿Qué le parece la funcionalidad que muestra la lista de sus pacientes del día?
-	2.	¿Cómo evalúa la organización y accesibilidad de la lista de pacientes?
-	3.	¿Qué opina sobre la forma de registrar y visualizar diagnósticos y tratamientos?
-	4.	¿Qué le parece la forma en que se presentan los resultados de pruebas médicas?
-	5.	¿Qué opina sobre la funcionalidad para cargar o visualizar informes externos?
-	6.	¿Qué le parece la funcionalidad de la sección de citas médicas?
-	7.	¿Cómo evalúa la facilidad de uso general del diseño?
-	8.	¿Qué opina de la presentación visual de la aplicación?
-	9.	¿Qué función o sección cree que debería mejorarse más?
-	10.	¿Qué otra funcionalidad considera esencial para la aplicación?
-	11.	¿Qué opina de la forma en que se presentan los niveles de glucosa del paciente a lo largo del día (gráficas y tablas)?
-	12.	¿Considera clara y útil la información visual sobre la administración de insulina automatizada por el parche?
-	13.	¿Cree que la visualización le ayuda a ajustar con mayor precisión las dosis de insulina rápida para cada paciente?
-	14.	¿Qué sugerencias tiene para mejorar la visualización de datos o la toma de decisiones clínicas dentro de la plataforma?
+Estas entrevistas están estructuradas para identificar áreas de mejora, confirmar decisiones previas y refinar la experiencia del usuario. Al recopilar opiniones específicas sobre el diseño visual y la facilidad de uso, así como sobre la utilidad de las funciones implementadas, buscamos garantizar que la aplicación sea intuitiva, efectiva y esté alineada con las expectativas del mundo real. Esta validación es clave para consolidar el proyecto y asegurarnos de que estamos creando una herramienta que realmente marque la diferencia.
+
+Para los médicos especialistas:
+
+1. ¿Qué le parece la funcionalidad que muestra la lista de sus pacientes del día?  
+2. ¿Cómo evalúa la organización y accesibilidad de la lista de pacientes?  
+3. ¿Qué opina sobre la forma de registrar y visualizar diagnósticos y tratamientos?  
+4. ¿Qué le parece la forma en que se presentan los resultados de pruebas médicas?  
+5. ¿Qué opina sobre la funcionalidad para cargar o visualizar informes externos?  
+6. ¿Qué le parece la funcionalidad de la sección de citas médicas?  
+7. ¿Cómo evalúa la facilidad de uso general del diseño?  
+8. ¿Qué opina de la presentación visual de la aplicación?  
+9. ¿Qué función o sección cree que debería mejorarse más?  
+10. ¿Qué otra funcionalidad considera esencial para la aplicación?  
+11. ¿Qué opina de la forma en que se presentan los niveles de glucosa del paciente a lo largo del día (gráficas y tablas)?  
+12. ¿Considera clara y útil la información visual sobre la administración de insulina automatizada por el parche?  
+13. ¿Cree que la visualización le ayuda a ajustar con mayor precisión las dosis de insulina rápida para cada paciente?  
+14. ¿Qué sugerencias tiene para mejorar la visualización de datos o la toma de decisiones clínicas dentro de la plataforma?
+
 
 Para los pacientes:
-	1.	¿Qué opina del diseño de la pantalla principal?
-	2.	¿Cómo evalúa la forma en que se presentan los recordatorios de medicamentos en cuanto a claridad visual?
-	3.	¿Qué le parece el diseño de la función para unirse a una cita médica?
-	4.	¿Qué opina de la apariencia y claridad de la sección para buscar doctores?
-	5.	¿Qué le parece el diseño de la sección para gestionar sus citas médicas?
-	6.	¿Qué opina del diseño del historial de citas?
-	7.	¿Cómo evalúa el diseño general de la aplicación en términos de colores, organización y estilo visual?
-	8.	¿Le resulta intuitivo moverse entre las pantallas de la aplicación?
-	9.	¿Qué aspecto del diseño le gustaría que se ajustara o mejorara?
-	10.	¿Qué opina del tamaño y estilo de la tipografía utilizada en la aplicación?
-	11.	¿Qué opina sobre la funcionalidad que muestra sus niveles de glucosa a lo largo del día? ¿Le resulta fácil de entender?
-	12.	¿Le resulta clara la información que muestra cuánta insulina se le administró y a qué hora?
-	13.	¿Siente confianza en que el parche inteligente administra la dosis correcta de insulina? ¿Por qué sí o no?
-	14.	¿Confía en que su médico puede ajustar correctamente su tratamiento basándose en los datos que se muestran en la app?
-	15.	¿Cómo se siente respecto a que parte del tratamiento sea automatizado por la tecnología del parche?
-	16.	¿Cree que la app le brinda suficiente transparencia y control sobre lo que ocurre con su tratamiento diario?
-	17.	¿Le gustaría recibir alertas o explicaciones más detalladas sobre las decisiones que toma el parche (por ejemplo, por qué administró cierta dosis)?
+
+1. ¿Qué opina del diseño de la pantalla principal?  
+2. ¿Cómo evalúa la forma en que se presentan los recordatorios de medicamentos en cuanto a claridad visual?  
+3. ¿Qué le parece el diseño de la función para unirse a una cita médica?  
+4. ¿Qué opina de la apariencia y claridad de la sección para buscar doctores?  
+5. ¿Qué le parece el diseño de la sección para gestionar sus citas médicas?  
+6. ¿Qué opina del diseño del historial de citas?  
+7. ¿Cómo evalúa el diseño general de la aplicación en términos de colores, organización y estilo visual?  
+8. ¿Le resulta intuitivo moverse entre las pantallas de la aplicación?  
+9. ¿Qué aspecto del diseño le gustaría que se ajustara o mejorara?  
+10. ¿Qué opina del tamaño y estilo de la tipografía utilizada en la aplicación?  
+11. ¿Qué opina sobre la funcionalidad que muestra sus niveles de glucosa a lo largo del día? ¿Le resulta fácil de entender?  
+12. ¿Le resulta clara la información que muestra cuánta insulina se le administró y a qué hora?  
+13. ¿Siente confianza en que el parche inteligente administra la dosis correcta de insulina? ¿Por qué sí o no?  
+14. ¿Confía en que su médico puede ajustar correctamente su tratamiento basándose en los datos que se muestran en la app?  
+15. ¿Cómo se siente respecto a que parte del tratamiento sea automatizado por la tecnología del parche?  
+16. ¿Cree que la app le brinda suficiente transparencia y control sobre lo que ocurre con su tratamiento diario?  
+17. ¿Le gustaría recibir alertas o explicaciones más detalladas sobre las decisiones que toma el parche (por ejemplo, por qué administró cierta dosis)?
+
 
 ### 6.3.2. Registro de Entrevistas.
 
