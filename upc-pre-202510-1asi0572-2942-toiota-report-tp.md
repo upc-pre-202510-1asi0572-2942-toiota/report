@@ -4146,7 +4146,6 @@ En este sprint, el enfoque estará en desarrollar los servicios backend que perm
 
 
 
-
 #### 6.2.1.5. Testing Suite Evidence for Sprint Review.
 
 | Repository            | Branch            | Commit Id | Commit Message                  | Commit Message Body                                                                 | Committed on (Date) |
@@ -4181,6 +4180,16 @@ WEB APP:
 
 **Patient Medical Record: Graphics & Evolution**
 ![lading](images/capMRV2-4.png)
+
+
+### 🖼️ Imagen de la app embebida
+![EmbApp](images/embApp.png)
+
+### 📱 Otra vista de la app
+![EmbApp2](images/embApp2.png)
+
+### 💡 Circuito en Wokwi
+![Wokwi](images/wokwi.png)
 
 ---
 
