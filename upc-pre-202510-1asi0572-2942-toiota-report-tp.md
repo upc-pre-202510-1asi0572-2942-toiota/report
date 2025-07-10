@@ -4305,6 +4305,115 @@ Durante este sprint, enfocamos nuestros esfuerzos en completar el frontend y act
     <img src="./images/capturaInsightsSprint2Mobile.png">
 </div><br><br>
 
+
+### 6.2.3. Sprint 3
+
+#### 6.2.3.1. Sprint Planning 3
+
+#### En este sprint, el enfoque estará en el desarrollo de los servicios backend y frontend para la implementación y gestión de dispositivos IoT en la aplicación móvil "HormonalCare". Se desarrollarán los servicios necesarios para la integración con los dispositivos IoT, el backend gestionará la interacción con estos dispositivos y el frontend mostrará la información recolectada de los dispositivos en tiempo real. Los servicios serán diseñados para ser escalables y eficientes, empleando buenas prácticas de desarrollo como **Clean Architecture** y **Domain-Driven Design**.
+
+| Sprint #                        | Sprint 3                                                                                                                                                                                                                                                                                                                                     |
+| ------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint Planning Background**  |                                                                                                                                                                                                                                                                                                                                              |
+| Date                            | 15-07-2025                                                                                                                                                                                                                                                                                                                                   |
+| Time                            | 10:00 p.m.                                                                                                                                                                                                                                                                                                                                   |
+| Location                        | Reunión realizada mediante Discord                                                                                                                                                                                                                                                                                                           |
+| Prepared By                     | La Torre Soto, Andre Sebastián                                                                                                                                                                                                                                                                                                               |
+| Attendees (to planning meeting) | Chinchihualpa Saldarriaga, Luis Sebastián / La Torre Soto, Andre Sebastián / Lostaunau Pereira, Estefano Sebastián / Pecan Pariona, Sergio Joel / Quispesivana Torres, Claudio Sandro                                                                                                                                                        |
+| **Sprint Goal & User Stories**  |                                                                                                                                                                                                                                                                                                                                              |
+| Sprint 3 Goal                   | Implementar y probar la interacción de los dispositivos IoT con el backend y el frontend de la aplicación móvil "HormonalCare", asegurando que los datos recolectados por los dispositivos se visualicen correctamente en el frontend, y que el backend gestione las conexiones, almacenamiento y procesamiento de los datos en tiempo real. |
+| Sprint 3 Velocity               | 80 Story Points                                                                                                                                                                                                                                                                                                                              |
+| Sum of Story Points             | 80 Story Points                                                                                                                                                                                                                                                                                                                              |
+#### 6.2.3.2. Aspect Leaders and Collaborators
+
+| Aspecto                    | Líder                           | Colaboradores                                                                  |
+| -------------------------- | ------------------------------- | ------------------------------------------------------------------------------ |
+| **Backend Development**    | Quispesivana Torres, Claudio    | La Torre Soto, Andre                                                           |
+| **Frontend Development**   | Pecan Pariona, Sergio           | Pecan Pariona, Sergio / La Torre Soto, Andre / Chinchihualpa Saldarriaga, Luis |
+| **Mobile Development**     | Pecan Pariona, Sergio           | Quispesivana Torres, Claudio                                                   |
+| **Database Design**        | Chinchihualpa Saldarriaga, Luis | Lostaunau Pereira, Estéfano                                                    |
+| **IoT Integration**        | Quispesivana Torres, Claudio    | La Torre Soto, Andre                                                           |
+| **API Integration**        | Pecan Pariona, Sergio           | Quispesivana Torres, Claudio                                                   |
+| **UI/UX Design**           | La Torre Soto, Andre            | Quispesivana Torres, Claudio                                                   |
+| **Testing and Validation** | Pecan Pariona, Sergio           | La Torre Soto, Andre                                                           |
+| **Deployment and CI/CD**   | Quispesivana Torres, Claudio    | Chinchihualpa Saldarriaga, Luis / Lostaunau Pereira, Estéfano                  |
+
+#### 6.2.3.3. Sprint Backlog 3
+
+En este sprint, el enfoque estará en implementar las funcionalidades relacionadas con la **gestión de dispositivos IoT** y su integración con el backend y el frontend, así como las interacciones entre la plataforma móvil y los dispositivos, garantizando la correcta recolección y visualización de datos en tiempo real. Además, se implementarán las funcionalidades necesarias para el manejo de las suscripciones, calendario, notificaciones y otros aspectos esenciales de la plataforma.
+
+| ID   | User Story                                  | Work-Item / Task                                    | Description                                                                                                                 | Estimation (Hours) | Assigned To | Status |
+| ---- | ------------------------------------------- | --------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- | ------------------ | ----------- | ------ |
+| US59 | Medición continua de glucosa                | T01: Diseño de la interfaz de medición de glucosa   | Diseñar la interfaz donde el paciente podrá visualizar los valores de glucosa.                                              | 4                  | Sergio      | Todo   |
+|      |                                             | T02: Implementación de medición continua            | Implementar la funcionalidad para la medición continua de glucosa en el parche y la sincronización con la app.              | 4                  | Andre       | Todo   |
+|      |                                             | T03: Pruebas de medición continua de glucosa        | Realizar pruebas para verificar que la medición continua de glucosa funcione correctamente.                                 | 3                  | Estefano    | Todo   |
+| US60 | Medición de temperatura y ritmo cardíaco    | T01: Diseño de interfaz de signos vitales           | Diseñar la interfaz para mostrar la temperatura y ritmo cardíaco en tiempo real.                                            | 4                  | Luis        | Todo   |
+|      |                                             | T02: Implementación de medición de signos vitales   | Implementar la medición de temperatura y ritmo cardíaco y su visualización en la app móvil.                                 | 4                  | Andre       | Todo   |
+|      |                                             | T03: Pruebas de medición de signos vitales          | Realizar pruebas para asegurarse de que los signos vitales se miden y muestran correctamente.                               | 3                  | Estefano    | Todo   |
+| US61 | Registro automático para seguimiento médico | T01: Diseño de panel de informes                    | Diseñar la sección del panel para que los médicos accedan al informe detallado de los pacientes.                            | 4                  | Sergio      | Todo   |
+|      |                                             | T02: Implementación de registro automático          | Implementar la funcionalidad para que los datos del paciente se registren automáticamente y sean accesibles para el médico. | 4                  | Luis        | Todo   |
+|      |                                             | T03: Pruebas de registro automático                 | Realizar pruebas para asegurar que el registro automático funcione y se presente correctamente.                             | 3                  | Andre       | Todo   |
+| US62 | Cálculo automático de insulina              | T01: Diseño de calculadora de insulina              | Diseñar la interfaz para mostrar el cálculo automático de insulina en la app del paciente.                                  | 4                  | Sergio      | Todo   |
+|      |                                             | T02: Implementación del cálculo automático          | Implementar la funcionalidad para que el sistema calcule la dosis de insulina según los niveles de glucosa.                 | 4                  | Andre       | Todo   |
+|      |                                             | T03: Pruebas de cálculo de insulina                 | Realizar pruebas para validar que el cálculo automático de insulina se realice correctamente.                               | 3                  | Estefano    | Todo   |
+| US63 | Validación clínica del cálculo              | T01: Diseño de panel de validación médica           | Diseñar el panel donde el médico podrá auditar y validar los cálculos de insulina.                                          | 4                  | Luis        | Todo   |
+|      |                                             | T02: Implementación de validación clínica           | Implementar el sistema para que el médico valide los cálculos automáticos de insulina según parámetros clínicos.            | 6                  | Sergio      | Todo   |
+|      |                                             | T03: Pruebas de validación clínica                  | Realizar pruebas para verificar que la validación clínica del cálculo de insulina sea correcta.                             | 3                  | Andre       | Todo   |
+| US64 | Administración automática de insulina       | T01: Diseño de interfaz de administración           | Diseñar la interfaz de administración automática de insulina en la app del paciente.                                        | 4                  | Estefano    | Todo   |
+|      |                                             | T02: Implementación de administración automática    | Implementar la funcionalidad para la administración automática de insulina cuando se detecten niveles altos de glucosa.     | 6                  | Luis        | Todo   |
+|      |                                             | T03: Pruebas de administración automática           | Realizar pruebas para asegurar que la administración automática de insulina funcione correctamente.                         | 3                  | Andre       | Todo   |
+| US65 | Notificación previa a administración        | T01: Diseño de notificación previa                  | Diseñar la notificación previa a la administración de insulina para que el paciente pueda aceptarla o cancelarla.           | 2                  | Sergio      | Todo   |
+|      |                                             | T02: Implementación de notificación previa          | Implementar la notificación previa a la administración automática de insulina con opciones de aceptar o cancelar.           | 3                  | Andre       | Todo   |
+|      |                                             | T03: Pruebas de notificación previa                 | Realizar pruebas para verificar que la notificación previa se emita correctamente y que la cancelación funcione.            | 3                  | Estefano    | Todo   |
+| US66 | Historial de administración                 | T01: Diseño del historial de administración         | Diseñar la sección del historial de administración de insulina donde los médicos puedan ver las dosis aplicadas.            | 4                  | Luis        | Todo   |
+|      |                                             | T02: Implementación de historial de administración  | Implementar la funcionalidad para que los médicos puedan acceder al historial detallado de administración de insulina.      | 6                  | Sergio      | Todo   |
+|      |                                             | T03: Pruebas de historial de administración         | Realizar pruebas para asegurarse de que el historial de administración se visualice correctamente en la app.                | 3                  | Andre       | Todo   |
+| US67 | Visualización de datos en app móvil         | T01: Diseño de interfaz para visualización de datos | Diseñar la interfaz de la app donde se visualicen los datos de glucosa, temperatura y ritmo cardíaco en tiempo real.        | 4                  | Estefano    | Todo   |
+|      |                                             | T02: Implementación de visualización de datos       | Implementar la visualización de datos en tiempo real desde el parche hacia la app móvil del paciente.                       | 6                  | Luis        | Todo   |
+|      |                                             | T03: Pruebas de visualización de datos              | Realizar pruebas para asegurarse de que los datos se visualicen correctamente y se actualicen en tiempo real.               | 3                  | Andre       | Todo   |
+| US68 | Monitoreo remoto del médico                 | T01: Diseño del panel de monitoreo médico           | Diseñar la interfaz web para que los médicos puedan visualizar los datos de los pacientes en tiempo real.                   | 4                  | Sergio      | Todo   |
+|      |                                             | T02: Implementación de monitoreo remoto             | Implementar la funcionalidad de monitoreo remoto de los pacientes desde el panel de control web del médico.                 | 6                  | Andre       | Todo   |
+|      |                                             | T03: Pruebas de monitoreo remoto                    | Realizar pruebas para verificar que los datos de los pacientes se visualicen correctamente en el panel web del médico.      | 3                  | Estefano    | Todo   |
+
+
+
+
+#### 6.2.3.4. Development Evidence for Sprint Review.
+
+
+Below are the commits made during Sprint 3 for the development progress:
+
+| Repository              | Branch  | Commit Id | Commit Message                     | Commit Message Body                                                                       | Committed on (Date) |
+| ----------------------- | ------- | --------- | ---------------------------------- | ----------------------------------------------------------------------------------------- | ------------------- |
+| hormonal\_care\_backend | develop | 267dd57   | Merge branch 'develop'             | Merged changes from the develop branch into the current branch to keep it up-to-date.     | 2025-06-17          |
+| hormonal\_care\_backend | develop | 8e59207   | feat: get all patients query added | Added a query to fetch all patient records from the database for the medical platform.    | 2025-06-17          |
+| hormonal\_care\_backend | develop | 96a6e3f   | feat: configuration heroku deploy  | Configured Heroku for deployment, ensuring the application is ready for cloud deployment. | 2025-05-15          |
+| hormonal\_care\_backend | develop | 3c31358   | feat: configuration heroku deploy  | Finalized configuration for deploying the backend on Heroku.                              | 2025-05-15          |
+| hormonal\_care\_backend | develop | 67cfa85   | feat: configuration heroku deploy  | Refined the Heroku deployment configuration for better performance and scaling.           | 2025-05-15          |
+| hormonal\_care\_backend | develop | c79adf9   | fix: database connections          | Fixed database connection issues ensuring stable and consistent connections.              | 2025-05-15          |
+
+
+
+
+#### 6.2.3.5. Testing Suite Evidence for Sprint Review.
+
+| Repository            | Branch            | Commit Id | Commit Message                  | Commit Message Body                                                                 | Committed on (Date) |
+|-----------------------|-------------------|-----------|---------------------------------|-------------------------------------------------------------------------------------|---------------------|
+| hormonal_care_backend | feature/tests     | a1b2c3d   | test: add unit tests for service | Added unit tests for the patient service, validating business logic and exceptions. | 2025-06-13          |
+| hormonal_care_backend | feature/tests     | e4f5g6h   | test: add integration tests      | Implemented integration tests for the appointment module endpoints.                | 2025-06-15          |
+| hormonal_care_backend | feature/tests     | i7j8k9l   | test: improve coverage           | Improved test coverage in the user repository, including edge cases.               | 2025-06-10          |
+| hormonal_care_backend | feature/tests     | m0n1o2p   | test: refactor test structure    | Refactored the test structure to improve readability and maintainability.          | 2025-06-5          |
+
+#### 6.2.3.6. Execution Evidence for Sprint Review.
+
+
+#### 6.2.3.7. Services Documentation for Sprint Review.
+
+#### 6.2.3.8. Software Deployment for Sprint Review.
+
+#### 6.2.3.9. Team Collaboration Insights during Sprint.
+
+
 ## 6.3. Validation Interviews.
 
 ### 6.3.1. Diseño de Entrevistas.
