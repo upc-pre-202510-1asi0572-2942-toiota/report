@@ -5004,12 +5004,18 @@ Video de exposicion tb1: [upc-pre-202510-1asi0572-2942-toiota-expo-tb1](https://
 
 Video de exposicion tp: [upc-pre-202510-1asi0572-2942-toiota-expo-tp](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215099_upc_edu_pe/EfDc-Q-pb0pGgUYhivEGva0B-REPGQGtF0Q5oOTS0shLPw?e=iyLNAf&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
+Video de exposicion tf: [upc-pre-202510-1asi0572-2942-toiota-expo-tf](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215099_upc_edu_pe/EQ45qGHhxmhMjDwjmyuAEW4BENhi8rTUWXuR4W1WCqDRYA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=UDMdnz)
 
 LandingPage: https://hormonalcarelanding.netlify.app/
 
-WebApp: https://hormonalcare-frontend.onrender.com/
+WebApp: https://hormonalcarefrontend.netlify.app/login
 
 Abouth the team: 
 https://www.youtube.com/embed/jHqsW2_zkxw
 
 https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215099_upc_edu_pe/EcefcPPL_jNJiThbS46lUhsBc_ljDhLCy4iZN95UJ1jc9A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=tc8l2u
+
+wokwi simulator: https://wokwi.com/projects/435957355999985665
+
+blynk: https://blynk.cloud/external/api/get?token=zDuTwhyWD7FuoT58DQXcYrOI0UYvPr4Q&v1&v2
+
