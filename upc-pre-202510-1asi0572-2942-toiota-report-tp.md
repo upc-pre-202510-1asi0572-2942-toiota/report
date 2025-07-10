@@ -4498,15 +4498,27 @@ En este sprint, el enfoque estará en implementar las funcionalidades relacionad
 
 
 Below are the commits made during Sprint 3 for the development progress:
-
-| Repository              | Branch  | Commit Id | Commit Message                     | Commit Message Body                                                                       | Committed on (Date) |
-| ----------------------- | ------- | --------- | ---------------------------------- | ----------------------------------------------------------------------------------------- | ------------------- |
-| hormonal\_care\_backend | develop | 267dd57   | Merge branch 'develop'             | Merged changes from the develop branch into the current branch to keep it up-to-date.     | 2025-06-17          |
-| hormonal\_care\_backend | develop | 8e59207   | feat: get all patients query added | Added a query to fetch all patient records from the database for the medical platform.    | 2025-06-17          |
-| hormonal\_care\_backend | develop | 96a6e3f   | feat: configuration heroku deploy  | Configured Heroku for deployment, ensuring the application is ready for cloud deployment. | 2025-05-15          |
-| hormonal\_care\_backend | develop | 3c31358   | feat: configuration heroku deploy  | Finalized configuration for deploying the backend on Heroku.                              | 2025-05-15          |
-| hormonal\_care\_backend | develop | 67cfa85   | feat: configuration heroku deploy  | Refined the Heroku deployment configuration for better performance and scaling.           | 2025-05-15          |
-| hormonal\_care\_backend | develop | c79adf9   | fix: database connections          | Fixed database connection issues ensuring stable and consistent connections.              | 2025-05-15          |
+| Repository              | Branch  | Commit Id                               | Commit Message                                  | Commit Message Body                                                                                  | Committed on (Date) |
+| ----------------------- | ------- | --------------------------------------- | ----------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ------------------- |
+| hormonal_care_backend   | develop | 267dd57                                 | Merge branch 'develop'                          | Merged changes from the develop branch into the current branch to keep it up-to-date.                | 2025-06-17          |
+| hormonal_care_backend   | develop | 8e59207                                 | feat: get all patients query added              | Added a query to fetch all patient records from the database for the medical platform.               | 2025-06-17          |
+| hormonal_care_backend   | develop | 96a6e3f                                 | feat: configuration heroku deploy               | Configured Heroku for deployment, ensuring the application is ready for cloud deployment.            | 2025-05-15          |
+| hormonal_care_backend   | develop | 3c31358                                 | feat: configuration heroku deploy               | Finalized configuration for deploying the backend on Heroku.                                         | 2025-05-15          |
+| hormonal_care_backend   | develop | 67cfa85                                 | feat: configuration heroku deploy               | Refined the Heroku deployment configuration for better performance and scaling.                      | 2025-05-15          |
+| hormonal_care_backend   | develop | c79adf9                                 | fix: database connections                       | Fixed database connection issues ensuring stable and consistent connections.                         | 2025-05-15          |
+| hormonal_care_backend   | develop | e3fbe34                                 | refactor: code                                   | General code refactoring to improve maintainability and readability.                                 | 2025-06-20          |
+| hormonal_care_backend   | develop | 5e1882a                                 | refactor: interfaces refactored                 | Refactored interfaces for better structure and clearer contracts between components.                 | 2025-06-20          |
+| hormonal_care_backend   | develop | 526e8f2                                 | refactor: domain refactored                     | Refactored domain layer to align with new business requirements.                                     | 2025-06-20          |
+| hormonal_care_backend   | develop | 0aca04b                                 | refactor: infrastructur refactored              | Refactored infrastructure layer for cleaner architecture and better separation of concerns.          | 2025-06-20          |
+| hormonal_care_backend   | develop | cbfcdea                                 | refactor: controllers refactored                | Controllers refactored for consistency and maintainability.                                          | 2025-06-20          |
+| hormonal_care_backend   | develop | 58f9e9b                                 | feat: get patient by user id added and refactor | Added endpoint to get patient by user ID and performed general refactoring.                          | 2025-06-20          |
+| hormonal_care_backend   | develop | 1d82295                                 | refactor: patient controller                    | Refactored patient controller for better performance and readability.                                | 2025-06-20          |
+| hormonal_care_backend   | develop | 5de7235                                 | refactor: profile controller changed            | Updated profile controller to align with new data model changes.                                     | 2025-06-20          |
+| hormonal_care_backend   | develop | a6b2b43                                 | refactor: doctor and patient controllers fixed  | Fixed bugs in doctor and patient controllers ensuring correct data flow.                             | 2025-06-20          |
+| hormonal_care_backend   | develop | 87fe2ac                                 | feat: fix get doctor by user id and fix ac dc in doctor query service | Fixed get doctor by user ID and resolved access control issues in the doctor query service. | 2025-06-20          |
+| hormonal_care_backend   | develop | 009ae61                                 | feat: patient with profile in get all patients added | Enhanced get all patients query to include patient profile details.                                  | 2025-06-20          |
+| hormonal_care_backend   | develop | 4ff40e5 | feat: search only patients added                | Added search functionality to filter and return only patient records.                                | 2025-06-19          |
+| hormonal_care_backend   | develop | 0e42928 | feat: search profile by name added              | Added functionality to search profiles by name, enhancing user search capabilities.                  | 2025-06-19          |
 
 
 
