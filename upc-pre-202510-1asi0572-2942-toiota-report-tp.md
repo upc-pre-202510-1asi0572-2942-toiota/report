@@ -4564,6 +4564,23 @@ En esta sección se muestran las capturas de pantalla de la aplicación móvil d
 
 ---
 
+## Capturas de Wokwi
+
+En esta sección se presentan las capturas de pantalla del simulador **Wokwi**, utilizadas durante el desarrollo de prototipos y pruebas de hardware para el Sprint 3. Las imágenes muestran la conexión y simulación de componentes electrónicos, evidenciando la correcta implementación del diseño y su funcionamiento virtual.
+
+<img src="Resources/Chapter-VI/Sprint3/wokwi_sprint3/wokwi1.png" alt="wokwi1">
+
+<img src="Resources/Chapter-VI/Sprint3/wokwi_sprint3/wokwi2.png" alt="wokwi2">
+
+<img src="Resources/Chapter-VI/Sprint3/wokwi_sprint3/wokwi3.png" alt="wokwi3">
+
+
+<img src="Resources/Chapter-VI/Sprint3/wokwi_sprint3/wokwi3.png" alt="wokwi3">
+
+
+
+---
+
 Finalmente, se incluyen las evidencias de la interfaz web integrada al sistema. Las capturas reflejan la implementación y funcionamiento de las vistas principales, la conexión con el backend, y la presentación coherente del flujo de usuario, cumpliendo con los requerimientos funcionales del Sprint 3.
 
 <img src="Resources/Chapter-VI/Sprint3/web_sprint3/web1.png" alt="web1">  
@@ -4622,8 +4639,47 @@ Despliegue de la Landing Page en Netlify
 4. Se verificó que la build fuera exitosa (usando configuración predeterminada de React/Vite/HTML).
 5. Se generó el dominio automático y se validó que la landing esté publicada y funcional.
 
+Landing Page:
+
+
+<img src="Resources/Chapter-VI/deploy/deploy landing 1.png" alt="landing1">
+<img src="Resources/Chapter-VI/deploy/deploy landing 2.png" alt="landing2">
+
+
+Frontend:
+
+<img src="Resources/Chapter-VI/deploy/deploy web 1.png" alt="landing1">
+<img src="Resources/Chapter-VI/deploy/deploy web 2.png" alt="landing2">
+
+
+Backend:
+
+
+![lading](images/evidenceBackenddesplegado.jpeg)
+
+
+Edgelayer:
+<img src="Resources/Chapter-VI/deploy/deploy blynk.png" alt="blynk">
+
+
 #### 6.2.3.9. Team Collaboration Insights during Integration
 Durante este sprint, enfocamos nuestros esfuerzos en completar el frontend y actualizar el landing de nuestro proyecto, además de nuestra primera version del Wokwi. Completamos la implementación de los bounded context de manera parcial. Para proteger la rama “main”, creamos una rama “develop” de la cual cada integrante de nuestro grupo creó su propia sub-rama “feature” para subir un capítulo del reporte, siguiendo las convenciones establecidas (conventional commit y git flow). Asegurándonos durante todo el transcurso de contar con una integración fluida de los desarrollos individuales y mantener la coherencia en todo el proyecto.
+
+Landing Page:
+
+<img src="Resources/Chapter-VI/Sprint3/insights_sprint3/landingpageinsights.png" alt="landinginsight">  
+
+Frontend:
+
+<img src="Resources/Chapter-VI/Sprint3/insights_sprint3/frontendinsights.png" alt="frontendinsights">  
+
+Mobile:
+
+<img src="Resources/Chapter-VI/Sprint3/insights_sprint3/mobileinsights.png" alt="mobileinsights">  
+
+Backend: 
+
+<img src="Resources/Chapter-VI/Sprint3/insights_sprint3/backendinsights.png" alt="backendinsights"> 
 
 ## 6.3. Validation Interviews.
 
