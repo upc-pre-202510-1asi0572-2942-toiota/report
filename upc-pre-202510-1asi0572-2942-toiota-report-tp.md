@@ -50,7 +50,7 @@
 | TP  v.5   | 13/05/2025 | Claudio Quispesivana, Estefano Lostaunau | Para esta entrega se desarrollaron los capitulos IV: indice y contenido de Style Guidelines, Information Architecture y Landing Page UI Design. |
 | TP  v.56  | 13/05/2025 | Luis Chinchihualpa,  Sergio Pecan, Andre La Torre | Para esta entrega se desarrollaron los capitulos V y VI : todo referente a la parte codificacion del spring 1. |
 | TB2  v.6  | 13/05/2025 | Luis Chinchihualpa,  Sergio Pecan, Andre La Torre | Para esta entrega se desarrollaron los capitulos VI y VI : todo referente a la parte codificacion del spring 1. |
-
+| TF  v.7 | 13/06/2025 | Luis Chinchihualpa,  Sergio Pecan, Andre La Torre, Claudio Quispesivana | Para esta entrega se desarrollo el sprint 3 para el capitulo VI : todo referente a la parte codificacion del microcontrolador |
 </div>
 
 
@@ -93,6 +93,15 @@ A lo largo del Sprint 2, generamos evidencias claras: planificación, backlog, d
 Como evidencia de la participación activa, incluimos un gráfico de commits de GitHub que refleja el trabajo conjunto y el compromiso del equipo.
 
 <div align="center"><img src="images/insightsTB2V2.png"></div>
+
+
+TF: Para esta tercera entrega del Trabajo de Proyecto, continuamos trabajando de forma colaborativa y estructurada, empleando un repositorio compartido dentro de la organización de GitHub del equipo. Cada integrante contribuyó de manera activa, tanto en la documentación del avance como en la integración del sistema con el microcontrolador.
+
+Durante el Sprint 3 generamos evidencia concreta del proceso: planificación detallada, backlog actualizado, desarrollo de drivers, pruebas de comunicación, integración de hardware con software y documentación técnica. Además, se mantuvieron actualizados el Registro de Versiones, la sección de Colaboración del Proyecto y los Student Outcomes.
+
+Como prueba de la participación activa y coordinada del equipo, se presenta un gráfico de commits de GitHub que demuestra el trabajo colectivo realizado durante la fase de integración con el microcontrolador.
+
+<div align="center"><img src="images/.png"></div>
 
 </div>
 <div style="page-break-after: always;"></div>
@@ -251,6 +260,16 @@ Como evidencia de la participación activa, incluimos un gráfico de commits de 
       - [6.2.2.7. Services Documentation Evidence for Sprint Review](#6227-services-documentation-evidence-for-sprint-review)
       - [6.2.2.8. Software Deployment Evidence for Sprint Review](#6228-software-deployment-evidence-for-sprint-review)
       - [6.2.2.9. Team Collaboration Insights during Sprint](#6229-team-collaboration-insights-during-sprint)
+    - [6.2.3. Sprint 3](#623-sprint-3)
+      - [6.2.3.1. Sprint Planning 3](#6231-sprint-planning-3)
+      - [6.2.3.2. Aspect Leaders and Collaborators](#6232-aspect-leaders-and-collaborators)
+      - [6.2.3.3. Sprint Backlog 3](#6233-sprint-backlog-3)
+      - [6.2.3.4. Development Evidence for Microcontroller Integration](#6234-development-evidence-for-microcontroller-integration)
+      - [6.2.3.5. Hardware-Software Communication Testing Evidence](#6235-hardware-software-communication-testing-evidence)
+      - [6.2.3.6. Execution Evidence for Integrated System](#6236-execution-evidence-for-integrated-system)
+      - [6.2.3.7. Updated Services and Drivers Documentation](#6237-updated-services-and-drivers-documentation)
+      - [6.2.3.8. Software & Firmware Deployment Evidence](#6238-software--firmware-deployment-evidence)
+      - [6.2.3.9. Team Collaboration Insights during Integration](#6239-team-collaboration-insights-during-integration)
   - [6.3. Validation Interviews](#63-validation-interviews)
     - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
     - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
@@ -4378,7 +4397,7 @@ En este sprint, el enfoque estará en implementar las funcionalidades relacionad
 
 
 
-#### 6.2.3.4. Development Evidence for Sprint Review.
+#### 6.2.3.4. Development Evidence for Microcontroller Integration
 
 
 Below are the commits made during Sprint 3 for the development progress:
@@ -4395,7 +4414,7 @@ Below are the commits made during Sprint 3 for the development progress:
 
 
 
-#### 6.2.3.5. Testing Suite Evidence for Sprint Review.
+#### 6.2.3.5. Hardware-Software Communication Testing Evidence
 
 | Repository            | Branch            | Commit Id | Commit Message                  | Commit Message Body                                                                 | Committed on (Date) |
 |-----------------------|-------------------|-----------|---------------------------------|-------------------------------------------------------------------------------------|---------------------|
@@ -4404,10 +4423,10 @@ Below are the commits made during Sprint 3 for the development progress:
 | hormonal_care_backend | feature/tests     | i7j8k9l   | test: improve coverage           | Improved test coverage in the user repository, including edge cases.               | 2025-06-10          |
 | hormonal_care_backend | feature/tests     | m0n1o2p   | test: refactor test structure    | Refactored the test structure to improve readability and maintainability.          | 2025-06-5          |
 
-#### 6.2.3.6. Execution Evidence for Sprint Review.
+#### 6.2.3.6. Execution Evidence for Integrated System
 
 
-#### 6.2.3.7. Services Documentation for Sprint Review.
+#### 6.2.3.7. Updated Services and Drivers Documentation
 
 A continuación se muestran los endpoints usados e implementados para cumplir con el sprint backlog:
 
@@ -4430,7 +4449,7 @@ A continuación se muestran los endpoints usados e implementados para cumplir co
 | `/api/v1/monitoring/glucose`                | Obtener medición de glucosa (ficticio)       | GET         | `/api/v1/monitoring/glucose`                  | Query: `patientId`, `fecha`              | Datos de glucosa                   | [Ver Documento](#)      |
 | `/api/v1/insulin/auto-administration`       | Registrar administración de insulina (ficticio) | POST    | `/api/v1/insulin/auto-administration`         | Body JSON: datos de dosis                | Dosis registrada                   | [Ver Documento](#)      |
 
-#### 6.2.3.8. Software Deployment for Sprint Review.
+#### 6.2.3.8. Software & Firmware Deployment Evidence
 
 En esta sección se resume los procesos realizados en relación con Deployment durante este Sprint. Se realizaron las configuraciones necesarias para publicar y mantener activos tanto la **Landing Page** como el **Frontend estático** en la nube, usando **Netlify** como proveedor de despliegue. El proceso incluyó la creación de cuentas, vinculación con los repositorios Git y automatización del despliegue continuo.
 
@@ -4442,7 +4461,7 @@ Despliegue de la Landing Page en Netlify
 4. Se verificó que la build fuera exitosa (usando configuración predeterminada de React/Vite/HTML).
 5. Se generó el dominio automático y se validó que la landing esté publicada y funcional.
 
-#### 6.2.3.9. Team Collaboration Insights during Sprint.
+#### 6.2.3.9. Team Collaboration Insights during Integration
 Durante este sprint, enfocamos nuestros esfuerzos en completar el frontend y actualizar el landing de nuestro proyecto, además de nuestra primera version del Wokwi. Completamos la implementación de los bounded context de manera parcial. Para proteger la rama “main”, creamos una rama “develop” de la cual cada integrante de nuestro grupo creó su propia sub-rama “feature” para subir un capítulo del reporte, siguiendo las convenciones establecidas (conventional commit y git flow). Asegurándonos durante todo el transcurso de contar con una integración fluida de los desarrollos individuales y mantener la coherencia en todo el proyecto.
 
 ## 6.3. Validation Interviews.
