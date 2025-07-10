@@ -4409,10 +4409,41 @@ Below are the commits made during Sprint 3 for the development progress:
 
 #### 6.2.3.7. Services Documentation for Sprint Review.
 
+A continuación se muestran los endpoints usados e implementados para cumplir con el sprint backlog:
+
+| Endpoint                                     | Acción                                       | Método HTTP | Sintaxis de llamada                           | Parámetros                              | Respuesta clave                    | Documentación / WebLink |
+|---------------------------------------------|----------------------------------------------|-------------|-----------------------------------------------|------------------------------------------|------------------------------------|--------------------------|
+| `/api/v1/profile/{profileId}`               | Consultar perfil por ID                      | GET         | `/api/v1/profile/12345`                       | Path: `profileId` (int)                  | Objeto `ProfileResource`           | [Ver Documento](#)      |
+| `/api/v1/profile`                           | Crear perfil                                 | POST        | `/api/v1/profile`                             | Body JSON: datos del perfil              | Objeto `ProfileResource`           | [Ver Documento](#)      |
+| `/api/v1/profile/{profileId}`               | Actualizar perfil                             | PUT         | `/api/v1/profile/12345`                       | Path + Body JSON                         | Perfil actualizado                 | [Ver Documento](#)      |
+| `/api/v1/patient/{patientId}`               | Consultar paciente por ID                    | GET         | `/api/v1/patient/123`                         | Path: `patientId`                        | Objeto `PatientResource`           | [Ver Documento](#)      |
+| `/api/v1/patient`                           | Crear paciente                               | POST        | `/api/v1/patient`                             | Body JSON: datos del paciente            | Objeto `PatientResource`           | [Ver Documento](#)      |
+| `/api/v1/patient/{patientId}`               | Actualizar datos del paciente                | PUT         | `/api/v1/patient/123`                         | Path + Body JSON                         | Paciente actualizado               | [Ver Documento](#)      |
+| `/api/v1/patient/personal-history/{patientId}` | Actualizar historia personal                | PUT         | `/api/v1/patient/personal-history/123`        | Path + Body JSON                         | Historia personal actualizada      | [Ver Documento](#)      |
+| `/api/v1/patient/family-history/{patientId}` | Actualizar historia familiar                | PUT         | `/api/v1/patient/family-history/123`          | Path + Body JSON                         | Historia familiar actualizada      | [Ver Documento](#)      |
+| `/api/v1/medicalAppointment`                | Crear cita médica                            | POST        | `/api/v1/medicalAppointment`                  | Body JSON: datos de la cita              | Objeto `AppointmentResource`       | [Ver Documento](#)      |
+| `/api/v1/medicalAppointment/{medicalAppointmentId}` | Consultar cita médica                   | GET         | `/api/v1/medicalAppointment/789`              | Path: `medicalAppointmentId`             | Objeto `AppointmentResource`       | [Ver Documento](#)      |
+| `/api/v1/medical-record/treatments`         | Crear tratamiento                            | POST        | `/api/v1/medical-record/treatments`           | Body JSON: tratamiento                   | Objeto `TreatmentResource`         | [Ver Documento](#)      |
+| `/api/v1/medical-record/medications`        | Listar medicamentos                          | GET         | `/api/v1/medical-record/medications`          | Sin parámetros                           | Array de `MedicationResource`      | [Ver Documento](#)      |
+| `/api/v1/notification`                      | Crear notificación                           | POST        | `/api/v1/notification`                        | Body JSON: notificación                  | Objeto `NotificationResource`      | [Ver Documento](#)      |
+| `/api/v1/notification/{notificationId}`     | Consultar notificación                       | GET         | `/api/v1/notification/999`                    | Path: `notificationId`                   | Objeto `NotificationResource`      | [Ver Documento](#)      |
+| `/api/v1/monitoring/glucose`                | Obtener medición de glucosa (ficticio)       | GET         | `/api/v1/monitoring/glucose`                  | Query: `patientId`, `fecha`              | Datos de glucosa                   | [Ver Documento](#)      |
+| `/api/v1/insulin/auto-administration`       | Registrar administración de insulina (ficticio) | POST    | `/api/v1/insulin/auto-administration`         | Body JSON: datos de dosis                | Dosis registrada                   | [Ver Documento](#)      |
+
 #### 6.2.3.8. Software Deployment for Sprint Review.
 
-#### 6.2.3.9. Team Collaboration Insights during Sprint.
+En esta sección se resume los procesos realizados en relación con Deployment durante este Sprint. Se realizaron las configuraciones necesarias para publicar y mantener activos tanto la **Landing Page** como el **Frontend estático** en la nube, usando **Netlify** como proveedor de despliegue. El proceso incluyó la creación de cuentas, vinculación con los repositorios Git y automatización del despliegue continuo.
 
+Despliegue de la Landing Page en Netlify
+
+1. Se creó una cuenta en [Netlify](https://www.netlify.com/).
+2. Se vinculó el repositorio del proyecto de la Landing Page a Netlify.
+3. Se configuró la rama de despliegue (`main`) para activar el **CI/CD** automáticamente.
+4. Se verificó que la build fuera exitosa (usando configuración predeterminada de React/Vite/HTML).
+5. Se generó el dominio automático y se validó que la landing esté publicada y funcional.
+
+#### 6.2.3.9. Team Collaboration Insights during Sprint.
+Durante este sprint, enfocamos nuestros esfuerzos en completar el frontend y actualizar el landing de nuestro proyecto, además de nuestra primera version del Wokwi. Completamos la implementación de los bounded context de manera parcial. Para proteger la rama “main”, creamos una rama “develop” de la cual cada integrante de nuestro grupo creó su propia sub-rama “feature” para subir un capítulo del reporte, siguiendo las convenciones establecidas (conventional commit y git flow). Asegurándonos durante todo el transcurso de contar con una integración fluida de los desarrollos individuales y mantener la coherencia en todo el proyecto.
 
 ## 6.3. Validation Interviews.
 
