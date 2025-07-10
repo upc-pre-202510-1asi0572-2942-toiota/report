@@ -101,7 +101,7 @@ Durante el Sprint 3 generamos evidencia concreta del proceso: planificación det
 
 Como prueba de la participación activa y coordinada del equipo, se presenta un gráfico de commits de GitHub que demuestra el trabajo colectivo realizado durante la fase de integración con el microcontrolador.
 
-<div align="center"><img src="images/.png"></div>
+<div align="center"><img src="Resources/INSIGHTTT.png"></div>
 
 </div>
 <div style="page-break-after: always;"></div>
