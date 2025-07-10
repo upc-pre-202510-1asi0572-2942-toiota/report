@@ -4534,6 +4534,58 @@ Below are the commits made during Sprint 3 for the development progress:
 
 #### 6.2.3.6. Execution Evidence for Integrated System
 
+A continuación, se presentan las evidencias de ejecución correspondientes al backend del sistema desarrollado durante el Sprint 3. Estas capturas muestran la correcta integración de los microservicios, las respuestas a las solicitudes REST, así como la interacción con la base de datos y el despliegue funcional del backend.
+
+<img src="resources/Chapter-VI/Sprint3/backend_sprint3/back1.png" alt="back1">
+
+<img src="resources/Chapter-VI/Sprint3/backend_sprint3/back2.png" alt="back2">
+
+<img src="resources/Chapter-VI/Sprint3/backend_sprint3/back3.png" alt="back3">
+
+<img src="resources/Chapter-VI/Sprint3/backend_sprint3/back4.png" alt="back4">
+
+<img src="resources/Chapter-VI/Sprint3/backend_sprint3/back5.png" alt="back5">
+
+<img src="resources/Chapter-VI/Sprint3/backend_sprint3/back6.png" alt="back6">
+
+---
+
+En esta sección se muestran las capturas de pantalla de la aplicación móvil desarrollada para el Sprint 3. Las imágenes evidencian la correcta implementación de las funcionalidades clave en el entorno móvil, así como su integración con el backend y la navegación fluida entre vistas.
+
+<img src="resources/Chapter-VI/Sprint3/mobile_sprint3/mobile 5.png" alt="mobile 5">
+
+<img src="resources/Chapter-VI/Sprint3/mobile_sprint3/mobile1.png" alt="mobile1">
+
+<img src="resources/Chapter-VI/Sprint3/mobile_sprint3/mobile2.png" alt="mobile2">
+
+<img src="resources/Chapter-VI/Sprint3/mobile_sprint3/mobile3.png" alt="mobile3">
+
+<img src="resources/Chapter-VI/Sprint3/mobile_sprint3/mobile4.png" alt="mobile4">
+
+---
+
+Finalmente, se incluyen las evidencias de la interfaz web integrada al sistema. Las capturas reflejan la implementación y funcionamiento de las vistas principales, la conexión con el backend, y la presentación coherente del flujo de usuario, cumpliendo con los requerimientos funcionales del Sprint 3.
+
+<img src="resources/Chapter-VI/Sprint3/web_sprint3/web1.png" alt="web1">
+
+<img src="resources/Chapter-VI/Sprint3/web_sprint3/web2.png" alt="web2">
+
+<img src="resources/Chapter-VI/Sprint3/web_sprint3/web3.png" alt="web3">
+
+<img src="resources/Chapter-VI/Sprint3/web_sprint3/web4.png" alt="web4">
+
+<img src="resources/Chapter-VI/Sprint3/web_sprint3/web5.png" alt="web5">
+
+<img src="resources/Chapter-VI/Sprint3/web_sprint3/web6.png" alt="web6">
+
+<img src="resources/Chapter-VI/Sprint3/web_sprint3/web7.png" alt="web7">
+
+
+
+
+
+
+
 
 #### 6.2.3.7. Updated Services and Drivers Documentation
 
