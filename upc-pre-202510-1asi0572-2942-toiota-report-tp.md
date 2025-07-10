@@ -4536,7 +4536,7 @@ Below are the commits made during Sprint 3 for the development progress:
 
 A continuación, se presentan las evidencias de ejecución correspondientes al backend del sistema desarrollado durante el Sprint 3. Estas capturas muestran la correcta integración de los microservicios, las respuestas a las solicitudes REST, así como la interacción con la base de datos y el despliegue funcional del backend.
 
-<img src="resources/Chapter-VI/Sprint3/backend_sprint3/back1.png" alt="back1">
+<img src="Resources/Chapter-VI/Sprint3/backend_sprint3/back1.png" alt="back1">
 
 <img src="resources/Chapter-VI/Sprint3/backend_sprint3/back2.png" alt="back2">
 
