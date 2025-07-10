@@ -361,6 +361,8 @@ forma conjunta</td>
     <p>Durante el TP, el equipo asumió responsabilidades compartidas y ejerció liderazgo de manera conjunta en cada etapa del proyecto. Coordinamos la planificación del Sprint 1, organizamos reuniones para tomar decisiones técnicas y distribuir tareas, y promovimos un liderazgo horizontal, donde todos los integrantes aportaron en función de sus fortalezas. Esta forma de trabajo permitió avanzar de forma ordenada en la elaboración del informe, la implementación de la Landing Page y el despliegue de la primera versión del sistema.</p>
     <b>TB2</b>
     <p>Durante el Sprint 2, cada miembro del equipo asumió responsabilidades clave en el diseño, desarrollo y validación del sistema, permitiendo ejercer un liderazgo distribuido en función de nuestras fortalezas. Coordinamos la implementación de funcionalidades, compartimos criterios técnicos y organizamos sesiones de validación de manera conjunta, lo cual fortaleció la toma de decisiones colaborativa y el alineamiento con los objetivos estratégicos del proyecto HormonalCare.</p>
+	<b>TF</b>
+ 	<p>Durante este sprint, el equipo consolidó un entorno de trabajo inclusivo, donde cada miembro tuvo espacio para proponer ideas y asumir responsabilidades clave. Se establecieron metas claras en cada reunión de planificación, dividiendo las tareas de manera equitativa y respetando los tiempos de entrega. La colaboración se dio tanto en el plano técnico como en la validación funcional del sistema, desde las pruebas físicas con el ESP32 hasta la visualización de datos en la web y mobile. El compromiso colectivo permitió no solo cumplir con los objetivos del sprint, sino también fortalecer la dinámica de trabajo en equipo.</p>
     </tr>
     <tr>
       <td colspan="3">Crea un entorno colaborativo e
@@ -377,6 +379,8 @@ objetivos.</td>
 	</p> 
 	      <b>TB2</b>
 <p>Contribuí activamente a un entorno colaborativo al planificar y ejecutar el diseño de la interfaz de usuario de la aplicación web en Figma, definiendo con claridad los wireframes, flujos y mockups que guiarían la implementación visual del sistema. Junto con el equipo, estructuramos las metas del Sprint, distribuyendo tareas según nuestras fortalezas y sincronizando nuestros avances a través de reuniones periódicas. Además, participé en la elaboración de las entrevistas de validación, asegurando que todos los miembros comprendieran su propósito y pudieran aportar desde sus respectivos roles. Estas acciones permitieron mantener una dinámica de trabajo participativa y orientada al cumplimiento efectivo de los objetivos técnicos y de validación del Sprint.</p>
+	      <b>TF</b> 
+       	      <p>Durante este sprint contribuí activamente a construir un entorno colaborativo e inclusivo, facilitando espacios de diálogo para la toma de decisiones sobre la integración entre el prototipo IoT y la interfaz web. Me aseguré de que todos los miembros del equipo pudieran aportar ideas y coordinar esfuerzos de forma equilibrada. A partir de las metas definidas en las reuniones del equipo, me encargué de planificar las tareas relacionadas con el módulo de visualización de datos de glucosa e insulina en la web, cumpliendo con los entregables acordados dentro del plazo. Esta dinámica de trabajo permitió fortalecer la cohesión del equipo y asegurar el avance constante del proyecto.</p>
     <h3>La Torre Soto, Andre Sebastian</h3>
     <b>TB1</b>
     <p>Contribui a un entorno colaborativo e inclusivo, al trabajar junto a mi equipo para establecer metas claras y alcanzables, participando en la planificación de las integraciones entre los diferentes módulos del sistema para asegurar de que cada miembro comprendiera sus responsabilidades y los objetivos globales de nuestro proyecto.</p>
@@ -385,6 +389,8 @@ objetivos.</td>
  </p>      
 	<b>TB2</b> 
       <p>Promoví un entorno colaborativo definiendo objetivos claros con mi equipo para las evidencias del Sprint. Organizamos tareas, usamos herramientas compartidas y establecimos metas semanales que facilitaron cumplir los entregables de desarrollo, pruebas e investigación. Esta planificación conjunta aseguró la participación activa y el cumplimiento de los objetivos.
+	<b>TF</b>
+ 	<p>Desde el inicio del Sprint 3, me involucré en la planificación de tareas del prototipo físico, proponiendo soluciones técnicas para interpretar los valores del potenciómetro y vincularlos con la lógica del servomotor. Promoví la colaboración abierta durante las pruebas físicas del ESP32, asegurando que todos pudieran participar en los ajustes y verificaciones del circuito. El entorno de trabajo fue inclusivo, con una comunicación constante que nos permitió dividir las tareas de manera equilibrada. Cumplimos los objetivos trazados al validar que el prototipo funcionara de forma real y simulada, contribuyendo así al avance técnico y colaborativo del equipo.</p>
 	</p> 
     <h3>Lostaunau Pereira, Estefano Sebastian</h3>
     <b>TB1</b>
@@ -399,6 +405,8 @@ objetivos.</td>
     </p>
 	  <b>TB2</b>
     <p>Organicé sesiones de pair programming para implementar las funcionalidades críticas de seguridad, creando un ambiente donde todos los miembros del equipo podían contribuir y aprender. Establecí hitos semanales para el módulo de seguridad y monitoreé el progreso mediante tableros Kanban compartidos, facilitando la colaboración transversal entre los diferentes roles del proyecto y asegurando el cumplimiento de los objetivos en los plazos establecidos.</p>
+	  <b>TF</b>
+   	  <p>Fomenté un entorno colaborativo al coordinar con mis compañeros la integración del prototipo IoT con el backend mediante una conexión a internet. Me aseguré de que todos los miembros comprendieran la estructura de los datos enviados y cómo estos debían almacenarse en el sistema. A partir de nuestras metas compartidas, planifiqué y ejecuté tareas relacionadas con los endpoints de comunicación y la validación del flujo de datos JSON. El trabajo en equipo fue esencial para cumplir nuestros objetivos, especialmente en la sincronización de componentes entre hardware y software, lo que permitió un desarrollo fluido y eficiente.</p>
     <h3>Quispesivana Torres, Claudio Sandro</h3>
     <b>TB1</b>
     <p>Creé un entorno colaborativo e inclusivo al trabajar en equipo para definir metas claras, planificar tareas y describir adecuadamente los bounded contexts en la arquitectura de software, abarcando los niveles de Landscape, Context, Container y Deployment en el proyecto HormonalCare, asegurando el cumplimiento de los objetivos establecidos.</p>
@@ -407,6 +415,8 @@ objetivos.</td>
     </p>
     <b>TB2</b>
     <p>Durante el Sprint 2, asumí la responsabilidad del desarrollo del frontend de la aplicación web de HormonalCare. Diseñé y prototipé la interfaz de usuario en Figma, definiendo los flujos de navegación y la arquitectura visual. A partir de estos diseños, implementé la capa de presentación utilizando tecnologías web modernas, garantizando una integración eficiente con la API del backend y otros servicios del sistema. Desarrollé e integré el módulo de <i>Medical Record</i>, asegurando su correcto funcionamiento dentro del ecosistema de la plataforma. Adicionalmente, participé en la planificación y ejecución de sesiones de validación con usuarios, colaborando en la definición de criterios técnicos alineados con los objetivos de usabilidad y experiencia de usuario.</p>
+	<b>TF</b>
+ 	<p>Participé activamente en un entorno de trabajo inclusivo donde todas las ideas eran escuchadas y consideradas, especialmente en el desarrollo de las vistas mobile y web. Coordiné con mis compañeros para que los datos provenientes del parche inteligente se visualizaran correctamente en ambas plataformas. Ayudé a definir las tareas prioritarias en función de los objetivos establecidos para el sprint, y me aseguré de cumplir con las responsabilidades asignadas en el tiempo acordado. Esta forma de trabajo organizada y colaborativa fue clave para que el equipo alcanzara con éxito los objetivos del Sprint 3.</p>
       <td colspan="3">
     <b>TB1</b>
     <p>Como equipo, fomentamos un entorno colaborativo e inclusivo, estableciendo metas claras, planificando tareas estratégicamente y cumpliendo los objetivos propuestos en cada etapa del proyecto HormonalCare, asegurando la participación activa y el compromiso de todos los integrantes.</p>
@@ -414,7 +424,8 @@ objetivos.</td>
     <p>Desde el inicio del TP, creamos un entorno colaborativo e inclusivo a través de reuniones frecuentes y uso activo del repositorio de GitHub. Establecimos metas claras para cada fase del proyecto: desde la mejora de artefactos anteriores hasta la implementación técnica del producto. Planificamos y ejecutamos el Sprint 1 con tareas bien distribuidas, asegurando que todos participaran. Esto nos permitió cumplir con los entregables: desarrollo y despliegue de la Landing Page, frontend web, y documentación de evidencia técnica y colaborativa.</p>
     <b>TB2</b>
     <p>En el Sprint 2 consolidamos un entorno de trabajo colaborativo e inclusivo mediante la planificación conjunta de metas, distribución de tareas según fortalezas individuales y uso de herramientas compartidas. Esto nos permitió avanzar de forma sincronizada, cumplir con los objetivos técnicos del Sprint y reforzar la participación activa de todo el equipo, tanto en desarrollo como en validación del producto.</p>
-
+    <b>TF</b>
+    <p>Durante el Sprint 3, el equipo demostró una capacidad sólida para trabajar de manera efectiva y organizada. Cada integrante asumió roles de liderazgo en distintos momentos del desarrollo, desde la implementación del prototipo físico hasta la integración de los módulos en las plataformas web y mobile. Se promovió un trabajo colaborativo constante, con una comunicación clara que permitió tomar decisiones técnicas compartidas. Gracias a una planificación conjunta y al cumplimiento de las tareas asignadas, el equipo logró alcanzar los objetivos establecidos, integrando exitosamente los componentes de hardware y software del sistema.</p>
   </td>
     </tr>
   </tbody>
