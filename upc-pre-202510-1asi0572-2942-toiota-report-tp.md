@@ -1,43 +1,45 @@
 <div align="center">
-  
-<img src="./Resources/UPC_logo.png" alt="Logo-UPC" width="150">
+  <img src="./Resources/UPC_logo.png" alt="Logo-UPC" width="150">
 
 ## Universidad Peruana de Ciencias Aplicadas
 
 **Ingeniería de Software**
 
-**Ciclo:** Ciclo 2025-01
+**Ciclo:** 2025-10
 
 **Curso:** Desarrollo de Soluciones IOT (1ASI0572)
 
-**Sección(NRC):** 2942
+**Sección:** 2942
 
 **Profesor:** Marco Antonio Leon Baca
 
 ----
-## Informe del Trabajo TP
-### Nombre del Startup: Toiota
+## Informe del Trabajo Final
+### Nombre del Startup: toiota
 
 ### Nombre del Producto: HormonalCare
 #### Relación de integrantes 
+
 | Integrante                  | Código         |
 |---------------------------------|----------------|
-| Chinchihualpa Saldarriaga, Luis Sebastian         | u202212112     |
-| La Torre Soto, Andre Sebastian  | u202217772     |
-| Lostaunau Pereira, Estefano Sebastian           | u202211742     |
-| Pecan Pariona, Sergio Joel       | u20201a938     |
+| Chinchihualpa Saldarriaga, Luis Sebastian	         | u202212112     |
+| La Torre Soto, Andre Sebastian         | u202217772     |
+| Lostaunau Pereira, Estefano Sebastian      | u202211742     |
+| Pecan Pariona, Sergio Joel | u20201a938     |
 | Quispesivana Torres, Claudio Sandro | u202215099     |
-
-**Marzo 2025**
-
-[Github](https://github.com/upc-pre-202510-1asi0572-2942-toiota)
-
-
 
 </div>
 
 
-## Registro de versiones del informe
+<br><div align="center"><h3>Julio 2025</h3></div><br>
+
+
+
+<div align="justify">
+
+<div style="page-break-after: always;"></div>
+
+# Registro de versiones del informe
 
 <div align="center">
 
